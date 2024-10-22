@@ -33,6 +33,14 @@ jobs:
         distribution: 'adopt'
         java-version: '11'
 
+    - name: Install npm dependencies
+      run: |
+        npm install
+
+    - name: Get the cache
+      run: |
+        npm run getNewest
+
     - name: Build with Maven
       run: |
         cd runelite/cache
