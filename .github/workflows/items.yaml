@@ -53,4 +53,5 @@ jobs:
 
     - name: Run the jar file
       run: |
+        ls -l
         java -jar -cp cache.jar net.runelite.cache.Cache -cache ./cache
