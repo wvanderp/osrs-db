@@ -50,12 +50,12 @@ jobs:
       run: |
         find runelite/cache/target -name "*-jar-with-dependencies.jar" -exec cp {} ./cache.jar \;
 
-    - name: Run the jar file
-      run: |
-        java -jar -cp cache.jar net.runelite.cache.Cache -cache ./cache
-
     - name: Upload cache.jar
       uses: actions/upload-artifact@v4
       with:
         name: cache.jar
         path: cache.jar
+
+    - name: Run the jar file
+      run: |
+        java -jar -cp cache.jar net.runelite.cache.Cache -cache ./cache
