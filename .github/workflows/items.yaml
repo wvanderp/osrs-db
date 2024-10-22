@@ -54,8 +54,8 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: cache.jar
-        path: cache.jar
+        path: runelite/cache/target
 
     - name: Run the jar file
       run: |
-        java -jar -cp cache.jar net.runelite.cache.Cache -cache ./cache
+        java -jar cache.jar -c ./cache -items items.json
