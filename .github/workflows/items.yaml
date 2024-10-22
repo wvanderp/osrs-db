@@ -41,6 +41,12 @@ jobs:
       run: |
         npm run getNewest
 
+    - name: Patch the pom file
+      run: |
+        cp pom.patch runelite/cache
+        cd runelite/cache
+        git apply pom.patch
+
     - name: Build with Maven
       run: |
         cd runelite/cache
