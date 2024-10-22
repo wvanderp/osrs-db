@@ -58,10 +58,11 @@ jobs:
 
     - name: Run the jar file
       run: |
-        java -jar cache.jar -c ./cache -items items.json
+        mkdir -p data
+        java -jar cache.jar -c ./cache -items ./data/items.json
         
     - name: generated files
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: generated-files
-        path: items.json
+        path: data
