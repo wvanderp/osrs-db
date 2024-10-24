@@ -1,10 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 
-const dataDir = path.join(__dirname, '../data');
+const dataDir = path.join(__dirname, '../data/items');
 const outputFilePath = path.join(dataDir, 'items.json');
 
-const concatenateJsonFiles = async () => {
+async function concatenateJsonFiles() {
   const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json') && file !== 'items.json');
   const allItems: unknown[] = [];
 
@@ -16,13 +16,7 @@ const concatenateJsonFiles = async () => {
   }
 
   fs.writeFileSync(outputFilePath, JSON.stringify(allItems, null, 4));
-
-  // Remove all JSON files except the concatenated one
-  for (const file of files) {
-    const filePath = path.join(dataDir, file);
-    fs.unlinkSync(filePath);
-  }
-};
+}
 
 concatenateJsonFiles().then(() => {
   console.log('All JSON files have been concatenated into items.json');

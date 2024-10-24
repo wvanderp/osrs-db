@@ -56,17 +56,15 @@ jobs:
       run: |
         find runelite/cache/target -name "*-jar-with-dependencies.jar" -exec cp {} ./cache.jar \;
 
-    - name: Run the jar file
+    - name: Export items
       run: |
         mkdir -p data
-        java -jar cache.jar -c ./cache -items ./data/items.json
-
-    - name: Concatenate JSON files
-      run: |
+        java -jar cache.jar -c ./cache -items ./data/items
         npx tsx scripts/concatenateJsonFiles.ts
-        
+        rm ./data/items
+
     - name: generated files
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: generated-files
-        path: data/items.json
+        path: data
