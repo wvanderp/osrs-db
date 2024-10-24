@@ -60,9 +60,13 @@ jobs:
       run: |
         mkdir -p data
         java -jar cache.jar -c ./cache -items ./data/items.json
+
+    - name: Concatenate JSON files
+      run: |
+        npx tsx scripts/concatenateJsonFiles.ts
         
     - name: generated files
       uses: actions/upload-artifact@v3
       with:
         name: generated-files
-        path: data
+        path: data/items.json
