@@ -10,12 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-  
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
     
-
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
@@ -62,6 +60,20 @@ jobs:
         java -jar cache.jar -c ./cache -items ./data/items
         npx tsx scripts/concatenateJsonFiles.ts items
         rm -fr ./data/items
+
+    - name: Export npcs
+      run: |
+        mkdir -p data
+        java -jar cache.jar -c ./cache -npcs ./data/npcs
+        npx tsx scripts/concatenateJsonFiles.ts npcs
+        rm -fr ./data/npcs
+
+    - name: Export objects
+      run: |
+        mkdir -p data
+        java -jar cache.jar -c ./cache -objects ./data/objects
+        npx tsx scripts/concatenateJsonFiles.ts objects
+        rm -fr ./data/objects
 
     - name: generated files
       uses: actions/upload-artifact@v4
