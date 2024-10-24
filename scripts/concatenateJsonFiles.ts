@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { stringify } from 'querystring';
 
 const dataDir = path.join(__dirname, '../data/items');
 const outputFilePath = path.join(dataDir, 'items.json');
@@ -11,9 +12,12 @@ async function concatenateJsonFiles() {
   for (const file of files) {
     const filePath = path.join(dataDir, file);
     const fileContent = fs.readFileSync(filePath, 'utf-8');
-    const jsonData = JSON.parse(fileContent);
-    allItems.push(...jsonData);
+    const jsonData = JSON.parse(fileContent) as Record<string, string>;
+    allItems.push(jsonData);
   }
+
+  // @ts-expect-error
+  allItems.sort((a,b) => a.id - b.id)
 
   fs.writeFileSync(outputFilePath, JSON.stringify(allItems, null, 4));
 }
