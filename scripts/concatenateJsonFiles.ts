@@ -2,15 +2,16 @@ import fs from 'fs';
 import path from 'path';
 import { stringify } from 'querystring';
 
-const dataDir = path.join(__dirname, '../data/items');
+const dataDir = path.join(__dirname, '../data');
+const itemsDir = path.join(dataDir, './items')
 const outputFilePath = path.join(dataDir, 'items.json');
 
 async function concatenateJsonFiles() {
-  const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.json') && file !== 'items.json');
+  const files = fs.readdirSync(itemsDir).filter(file => file.endsWith('.json') && file !== 'items.json');
   const allItems: unknown[] = [];
 
   for (const file of files) {
-    const filePath = path.join(dataDir, file);
+    const filePath = path.join(itemsDir, file);
     const fileContent = fs.readFileSync(filePath, 'utf-8');
     const jsonData = JSON.parse(fileContent) as Record<string, string>;
     allItems.push(jsonData);
