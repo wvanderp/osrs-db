@@ -75,6 +75,11 @@ jobs:
         npx tsx scripts/concatenateJsonFiles.ts objects
         rm -fr ./data/objects
 
+    - name: Clean before commit
+      run: |
+        rm -fr runelite
+        rm cache.jar
+
     - name: Commit changes
       uses: EndBug/add-and-commit@v9 
       with:

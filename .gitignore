@@ -3,3 +3,6 @@ node_modules
 # parts of the cache
 cache.zip
 cache/
+
+runelite
+cache.jar
