@@ -2,6 +2,8 @@ import axios from 'axios';
 import fs from 'fs';
 import { JSDOM } from 'jsdom';
 
+const items = JSON.parse(fs.readFileSync("./data/items.json", "utf-8")) as {id: number, name: string}[];
+
 const slotPages : [string, string][] = [
     ["https://oldschool.runescape.wiki/w/Ammunition_slot_table", "Ammunition"],
     ["https://oldschool.runescape.wiki/w/Body_slot_table", "Body"],
@@ -18,6 +20,8 @@ const slotPages : [string, string][] = [
 ];
 
 interface SlotStats {
+    id: number | null;
+
     name: string;
     members: boolean;
     
@@ -62,6 +66,7 @@ const slotStats : SlotStats[] = [];
             throw new Error(`No table found for slot: ${slot}`);
         }
 
+
         // Skip the first row as it is the header
         const rows = [...table.children];
 
@@ -69,6 +74,14 @@ const slotStats : SlotStats[] = [];
             const columns = row.children;
 
             const name = columns[1].querySelector("a")?.textContent?.trim();
+
+            if (!name) {
+                throw new Error(`No name found for slot: ${row}`);
+            }
+
+            const id = findID(name);
+
+
             const members = columns[2].querySelector("img")?.getAttribute("alt") === "Members";
 
             const stabAttack = parseInt(columns[3].textContent.trim());
@@ -96,6 +109,7 @@ const slotStats : SlotStats[] = [];
             }
 
             slotStats.push({
+                id,
                 name,
                 members,
                 stabAttack,
@@ -122,4 +136,123 @@ const slotStats : SlotStats[] = [];
     console.log("Writing slot stats to file");
     fs.writeFileSync("./data/slotStats.json", JSON.stringify(slotStats, null, 4));
 })();
+
+/**
+ * 
+ * @param name find the id of the item with the given name
+ */
+function findID(name: string) : number | null {
+    name = rewriteName(name);
+
+    return items.find((item) => {
+        return item.name.toLowerCase() === name.toLowerCase();
+    })?.id ?? null;
+}
+
+/**
+ * rewrite from the wiki name to the item name
+ * 
+ * @param name the wiki name to rewrite
+ * @returns the rewritten name
+ */
+function rewriteName(name: string) : string {
+    // if it ends with #(p) or #(p+) or #(p++) then remove the #
+    name = name.replace(/#(\(p\+?\+?\))/, "$1");
+    name = name.replace(/#Poison(\+?\+?)/, " (p$1)");
+    name = name.replace("#(kp)", "(kp)");
+
+    // if it ends with #(unp) then remove the #(unp)
+    name = name.replace(/#\(unp\)/, "");
+    name = name.replace(/#Unpoisoned/, "");
+
+    // if it ends on a number remove the #
+    name = name.replace("#Undamaged", "");
+
+    // if it has #Normal then remove the #normal
+    name = name.replace("#Normal", "");
+
+    // if it has #locked then replace it with (l)
+    name = name.replace("(or)#Locked", "(l)(or)");
+    name = name.replace("#Locked", " (l)");
+
+    // if it has #Charged then remove the #Charged
+    name = name.replace("#Charged", "");
+
+    // if it has #uncharged then replace it with (uncharged)
+    name = name.replace("#Uncharged", " (uncharged)");
+
+    // if it has ##Active then remove it
+    name = name.replace("#Active", "");
+    name = name.replace("#Activated", "");
+
+    // if it has #Lit then replace it with (lit)
+    name = name.replace("#Lit", " (lit)");
+    // if it has #Unlit then remove it
+    name = name.replace("#Unlit", "");
+
+    // if it has #Broken then replace it with (broken)
+    name = name.replace("#Broken", " (broken)");
+
+
+    // specific item classes
+
+    name = name.replace(/Amulet of glory \(t\)#\(t(\d)\)/, "Amulet of glory (t$1)");
+    // (uncharged) is a artifact from some rewrite above, should be "Amulet of glory (t)#Uncharged"
+    name = name.replace("Amulet of glory (t) (uncharged)", "Amulet of glory (t)");
+
+    name = name.replace(/Ring of wealth \(i\)#\(i(\d)\)/, "Ring of wealth (i$1)");
+    // (uncharged) is a artifact from some rewrite above, should be "Amulet of glory (t)#Uncharged"
+    name = name.replace("Ring of wealth (i) (uncharged)", "Ring of wealth (i)");
+
+    // if the name shows the charges with name#1 or name#(1) then transform it to name(1)
+    const digitReplaces = [
+        ["Games necklace", ""],
+        ["Ring of dueling", ""],
+        ["Amulet of glory", ""],
+        ["Ring of returning", ""],
+        ["Ring of wealth", " "],
+        ["Slayer ring", " "],
+        ["Enchanted lyre", ""],
+        ["Abyssal bracelet", ""],
+        ["Castle wars bracelet", ""],
+        ["Combat bracelet", ""],
+        ["Burning amulet", ""],
+        ["Digsite pendant", " "],
+        ["Necklace of passage", ""],
+        ["Skills necklace", ""],
+        ["Void seal", ""],
+    ];
+
+    for(const replace of digitReplaces) {
+        if(name.includes(replace[0])) {
+            console.log(name);
+            name = name.replace(/#\(?(\d)\)?/, replace[1] + "($1)");
+            name = name.replace(" (uncharged)", "");
+            console.log(name);
+        }
+    }
+
+    // the barrows items have a different naming scheme
+    const barrowsBrothers = [
+        "Ahrim's", "Dharok's", "Guthan's", "Karil's", "Torag's", "Verac's"
+    ];
+
+    for(const brother of barrowsBrothers) {
+        if(name.includes(brother)) {
+            name = name.replace(/#(\d+)/, " $1");
+        }
+    }
+
+
+
+    if(name.includes("Abyssal lantern")) {
+        name = name.replace(/Abyssal lantern#(.+)/, "Abyssal lantern ($1 logs)");
+    }
+
+    if(name.includes("javelin (")) {
+        name = name.replace("javelin (", "javelin(");
+    }
+
+    return name;
+}
 
