@@ -84,27 +84,43 @@ const slotStats : SlotStats[] = [];
 
             const members = columns[2].querySelector("img")?.getAttribute("alt") === "Members";
 
+            // @ts-expect-error
             const stabAttack = parseInt(columns[3].textContent.trim());
+            // @ts-expect-error
             const slashAttack = parseInt(columns[4].textContent.trim());
+            // @ts-expect-error
             const crushAttack = parseInt(columns[5].textContent.trim());
+            // @ts-expect-error
             const magicAttack = parseInt(columns[6].textContent.trim());
+            // @ts-expect-error
             const rangedAttack = parseInt(columns[7].textContent.trim());
 
+            // @ts-expect-error
             const stabDefence = parseInt(columns[8].textContent.trim());
+            // @ts-expect-error
             const slashDefence = parseInt(columns[9].textContent.trim());
+            // @ts-expect-error
             const crushDefence = parseInt(columns[10].textContent.trim());
+            // @ts-expect-error
             const magicDefence = parseInt(columns[11].textContent.trim());
+            // @ts-expect-error
             const rangedDefence = parseInt(columns[12].textContent.trim());
 
+            // @ts-expect-error
             const strengthBonus = parseInt(columns[13].textContent.trim());
+            // @ts-expect-error
             const rangedStrength = parseInt(columns[14].textContent.trim());
+            // @ts-expect-error
             const magicDamage = parseInt(columns[15].textContent.trim());
 
+            // @ts-expect-error
             const prayerBonus = parseInt(columns[16].textContent.trim());
+            // @ts-expect-error
             const weight = parseFloat(columns[17].textContent.trim());
 
             let speed: number | undefined = undefined;
             if(slot === "Weapon" || slot === "Two-handed") {
+                // @ts-expect-error
                 speed = parseFloat(columns[18]?.textContent?.trim());
             }
 
@@ -159,13 +175,14 @@ function findID(name: string) : number | null {
 
     const id = lookupID ?? decorativeID ?? idFromTitle;
 
+
     // If the id is already found but stored in the titleToID.json then remove it
-    if(id !== undefined && idFromTitle !== undefined) {
+    if((lookupID || decorativeID) && idFromTitle !== undefined) {
         delete titleToID[name];
     }
 
     // write a null if the id is not found
-    if(id === undefined && idFromTitle === undefined) {
+    if(!id && !idFromTitle) {
         titleToID[name] = null;
     }
 
@@ -200,7 +217,11 @@ function findIDDecorative (name: string) : number | null {
         "Rune kiteshield",
         "Rune platebody",
         "Adamant kiteshield",
-        "Banner"
+        "Banner",
+        "Rune heraldic helm",
+        "Steel heraldic helm",
+        "Steel kiteshield",
+        "Damaged book"
     ].map((name) => name.toLowerCase());
 
     if(!eligibleItems.some((item) => name.toLowerCase().includes(item))) {
@@ -214,13 +235,9 @@ function findIDDecorative (name: string) : number | null {
         return null;
     }
 
-    console.log(`Decorative: ${name} -> ${namePart} - ${decoration}`);
-
     const id = items.find((item) => {
-        return item.name.toLowerCase() === namePart.toLowerCase() && item.examine.includes(decoration);
+        return item.name.toLowerCase() === namePart.toLowerCase() && item.examine.toLowerCase().includes(decoration.toLowerCase());
     })?.id;
-
-    console.log(`Decorative ID: ${id}`);
 
     return id ?? null;
 }

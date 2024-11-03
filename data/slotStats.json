@@ -4704,7 +4704,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29978,
         "name": "Alchemist labcoat#Apron_off",
         "members": true,
         "stabAttack": 0,
@@ -4725,7 +4725,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29980,
         "name": "Alchemist labcoat#Apron_on",
         "members": true,
         "stabAttack": 0,
@@ -7623,7 +7623,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29004,
         "name": "Eclipse moon chestplate#New",
         "members": true,
         "stabAttack": 0,
@@ -7644,7 +7644,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29031,
         "name": "Eclipse moon chestplate#Used",
         "members": true,
         "stabAttack": 0,
@@ -9471,7 +9471,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26172,
         "name": "Hardcore group ironman platebody#II",
         "members": false,
         "stabAttack": 0,
@@ -9492,7 +9492,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26174,
         "name": "Hardcore group ironman platebody#III",
         "members": false,
         "stabAttack": 0,
@@ -9513,7 +9513,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26176,
         "name": "Hardcore group ironman platebody#IV",
         "members": false,
         "stabAttack": 0,
@@ -9534,7 +9534,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26178,
         "name": "Hardcore group ironman platebody#V",
         "members": false,
         "stabAttack": 0,
@@ -11781,7 +11781,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26872,
         "name": "Robe top of the eye#Blue",
         "members": true,
         "stabAttack": 0,
@@ -11802,7 +11802,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26866,
         "name": "Robe top of the eye#Green",
         "members": true,
         "stabAttack": 0,
@@ -11823,7 +11823,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26860,
         "name": "Robe top of the eye#Red",
         "members": true,
         "stabAttack": 0,
@@ -11844,7 +11844,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26852,
         "name": "Robe top of the eye#Regular",
         "members": true,
         "stabAttack": 0,
@@ -14532,7 +14532,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 5028,
         "name": "Woven top (blue)",
         "members": true,
         "stabAttack": 0,
@@ -14553,7 +14553,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 5024,
         "name": "Woven top (brown)",
         "members": true,
         "stabAttack": 0,
@@ -14574,7 +14574,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 5026,
         "name": "Woven top (yellow)",
         "members": true,
         "stabAttack": 0,
@@ -14616,7 +14616,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 10822,
         "name": "Yak-hide armour (top)",
         "members": true,
         "stabAttack": 0,
@@ -14931,7 +14931,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13069,
         "name": "Achievement diary cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -15813,7 +15813,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25712,
         "name": "Clan cloak#Black",
         "members": false,
         "stabAttack": 0,
@@ -15834,7 +15834,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25715,
         "name": "Clan cloak#Blue",
         "members": false,
         "stabAttack": 0,
@@ -15855,7 +15855,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25717,
         "name": "Clan cloak#Green",
         "members": false,
         "stabAttack": 0,
@@ -15876,7 +15876,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25719,
         "name": "Clan cloak#Light_blue",
         "members": false,
         "stabAttack": 0,
@@ -15897,7 +15897,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25714,
         "name": "Clan cloak#Orange",
         "members": false,
         "stabAttack": 0,
@@ -15918,7 +15918,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25720,
         "name": "Clan cloak#Purple",
         "members": false,
         "stabAttack": 0,
@@ -15939,7 +15939,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25716,
         "name": "Clan cloak#Red",
         "members": false,
         "stabAttack": 0,
@@ -15960,7 +15960,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25718,
         "name": "Clan cloak#Yellow",
         "members": false,
         "stabAttack": 0,
@@ -19698,7 +19698,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 27558,
         "name": "Sack of coal#Event",
         "members": false,
         "stabAttack": 0,
@@ -19719,7 +19719,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 27570,
         "name": "Sack of coal#Reward",
         "members": false,
         "stabAttack": 0,
@@ -21567,7 +21567,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9808,
         "name": "Woodcutting cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -21798,7 +21798,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 24863,
         "name": "Zombie monkey (item)",
         "members": true,
         "stabAttack": 0,
@@ -23604,7 +23604,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 25086,
         "name": "Graceful boots (Trailblazer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -24318,7 +24318,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 27578,
         "name": "Nutcracker boots#Festive",
         "members": false,
         "stabAttack": 0,
@@ -24339,7 +24339,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 27585,
         "name": "Nutcracker boots#Sweet",
         "members": false,
         "stabAttack": 0,
@@ -25746,7 +25746,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 27162,
         "name": "Wizard boots (Last Man Standing)",
         "members": false,
         "stabAttack": 0,
@@ -30051,7 +30051,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22165,
         "name": "Adamant heraldic helm (Dragon)",
         "members": true,
         "stabAttack": 0,
@@ -30072,7 +30072,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22167,
         "name": "Adamant heraldic helm (Fairy)",
         "members": true,
         "stabAttack": 0,
@@ -30135,7 +30135,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22173,
         "name": "Adamant heraldic helm (Horse)",
         "members": true,
         "stabAttack": 0,
@@ -30219,7 +30219,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22181,
         "name": "Adamant heraldic helm (Money)",
         "members": true,
         "stabAttack": 0,
@@ -30261,7 +30261,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22185,
         "name": "Adamant heraldic helm (Skull)",
         "members": true,
         "stabAttack": 0,
@@ -30786,7 +30786,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29822,
         "name": "Araxyte slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -30807,7 +30807,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29818,
         "name": "Araxyte slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -30828,7 +30828,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29820,
         "name": "Araxyte slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -34818,7 +34818,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27777,
         "name": "Crystal helm (Amlodd)#Active",
         "members": true,
         "stabAttack": 0,
@@ -34839,7 +34839,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27779,
         "name": "Crystal helm (Amlodd)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -38514,7 +38514,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27497,
         "name": "Halloween wig#Style_1",
         "members": false,
         "stabAttack": 0,
@@ -38535,7 +38535,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27499,
         "name": "Halloween wig#Style_2",
         "members": false,
         "stabAttack": 0,
@@ -38556,7 +38556,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27501,
         "name": "Halloween wig#Style_3",
         "members": false,
         "stabAttack": 0,
@@ -38577,7 +38577,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27503,
         "name": "Halloween wig#Style_4",
         "members": false,
         "stabAttack": 0,
@@ -38598,7 +38598,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27505,
         "name": "Halloween wig#Style_5",
         "members": false,
         "stabAttack": 0,
@@ -38619,7 +38619,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27507,
         "name": "Halloween wig#Style_6",
         "members": false,
         "stabAttack": 0,
@@ -38745,7 +38745,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26870,
         "name": "Hat of the eye#Blue",
         "members": true,
         "stabAttack": 0,
@@ -38766,7 +38766,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26864,
         "name": "Hat of the eye#Green",
         "members": true,
         "stabAttack": 0,
@@ -38787,7 +38787,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26858,
         "name": "Hat of the eye#Red",
         "members": true,
         "stabAttack": 0,
@@ -38808,7 +38808,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26850,
         "name": "Hat of the eye#Regular",
         "members": true,
         "stabAttack": 0,
@@ -42903,7 +42903,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30278,
         "name": "Red pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -42924,7 +42924,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30279,
         "name": "Red pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -42945,7 +42945,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30275,
         "name": "Red pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -42966,7 +42966,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30277,
         "name": "Red pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -42987,7 +42987,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30282,
         "name": "Red pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -43008,7 +43008,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30283,
         "name": "Red pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -43029,7 +43029,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30281,
         "name": "Red pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -43050,7 +43050,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30280,
         "name": "Red pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -43071,7 +43071,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30276,
         "name": "Red pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -43554,7 +43554,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8464,
         "name": "Rune heraldic helm (Arrav)",
         "members": true,
         "stabAttack": 0,
@@ -43575,7 +43575,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8466,
         "name": "Rune heraldic helm (Asgarnia)",
         "members": true,
         "stabAttack": 0,
@@ -43596,7 +43596,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8468,
         "name": "Rune heraldic helm (Dorgeshuun)",
         "members": true,
         "stabAttack": 0,
@@ -43617,7 +43617,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8470,
         "name": "Rune heraldic helm (Dragon)",
         "members": true,
         "stabAttack": 0,
@@ -43638,7 +43638,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8472,
         "name": "Rune heraldic helm (Fairy)",
         "members": true,
         "stabAttack": 0,
@@ -43659,7 +43659,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8474,
         "name": "Rune heraldic helm (Guthix)",
         "members": true,
         "stabAttack": 0,
@@ -43680,7 +43680,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8476,
         "name": "Rune heraldic helm (HAM)",
         "members": true,
         "stabAttack": 0,
@@ -43701,7 +43701,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8478,
         "name": "Rune heraldic helm (Horse)",
         "members": true,
         "stabAttack": 0,
@@ -43722,7 +43722,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8480,
         "name": "Rune heraldic helm (Jogre)",
         "members": true,
         "stabAttack": 0,
@@ -43743,7 +43743,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8482,
         "name": "Rune heraldic helm (Kandarin)",
         "members": true,
         "stabAttack": 0,
@@ -43764,7 +43764,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8484,
         "name": "Rune heraldic helm (Misthalin)",
         "members": true,
         "stabAttack": 0,
@@ -43785,7 +43785,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8486,
         "name": "Rune heraldic helm (Money)",
         "members": true,
         "stabAttack": 0,
@@ -43806,7 +43806,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8488,
         "name": "Rune heraldic helm (Saradomin)",
         "members": true,
         "stabAttack": 0,
@@ -43827,7 +43827,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8490,
         "name": "Rune heraldic helm (Skull)",
         "members": true,
         "stabAttack": 0,
@@ -43848,7 +43848,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8492,
         "name": "Rune heraldic helm (Varrock)",
         "members": true,
         "stabAttack": 0,
@@ -43869,7 +43869,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8494,
         "name": "Rune heraldic helm (Zamorak)",
         "members": true,
         "stabAttack": 0,
@@ -45255,7 +45255,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8682,
         "name": "Steel heraldic helm (Arrav)",
         "members": true,
         "stabAttack": 0,
@@ -45276,7 +45276,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8684,
         "name": "Steel heraldic helm (Asgarnia)",
         "members": true,
         "stabAttack": 0,
@@ -45297,7 +45297,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8686,
         "name": "Steel heraldic helm (Dorgeshuun)",
         "members": true,
         "stabAttack": 0,
@@ -45318,7 +45318,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8688,
         "name": "Steel heraldic helm (Dragon)",
         "members": true,
         "stabAttack": 0,
@@ -45339,7 +45339,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8690,
         "name": "Steel heraldic helm (Fairy)",
         "members": true,
         "stabAttack": 0,
@@ -45360,7 +45360,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8692,
         "name": "Steel heraldic helm (Guthix)",
         "members": true,
         "stabAttack": 0,
@@ -45381,7 +45381,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8694,
         "name": "Steel heraldic helm (HAM)",
         "members": true,
         "stabAttack": 0,
@@ -45402,7 +45402,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8696,
         "name": "Steel heraldic helm (Horse)",
         "members": true,
         "stabAttack": 0,
@@ -45423,7 +45423,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8698,
         "name": "Steel heraldic helm (Jogre)",
         "members": true,
         "stabAttack": 0,
@@ -45444,7 +45444,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8700,
         "name": "Steel heraldic helm (Kandarin)",
         "members": true,
         "stabAttack": 0,
@@ -45465,7 +45465,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8702,
         "name": "Steel heraldic helm (Misthalin)",
         "members": true,
         "stabAttack": 0,
@@ -45486,7 +45486,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8704,
         "name": "Steel heraldic helm (Money)",
         "members": true,
         "stabAttack": 0,
@@ -45507,7 +45507,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8706,
         "name": "Steel heraldic helm (Saradomin)",
         "members": true,
         "stabAttack": 0,
@@ -45528,7 +45528,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8708,
         "name": "Steel heraldic helm (Skull)",
         "members": true,
         "stabAttack": 0,
@@ -45549,7 +45549,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8710,
         "name": "Steel heraldic helm (Varrock)",
         "members": true,
         "stabAttack": 0,
@@ -45570,7 +45570,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8712,
         "name": "Steel heraldic helm (Zamorak)",
         "members": true,
         "stabAttack": 0,
@@ -46578,7 +46578,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26684,
         "name": "Tzkal slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -46599,7 +46599,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25912,
         "name": "Tzkal slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -46620,7 +46620,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25914,
         "name": "Tzkal slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -46662,7 +46662,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26682,
         "name": "Tztok slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -46683,7 +46683,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25900,
         "name": "Tztok slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -46704,7 +46704,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25902,
         "name": "Tztok slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -47586,7 +47586,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30251,
         "name": "White pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -47607,7 +47607,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30252,
         "name": "White pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -47628,7 +47628,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30248,
         "name": "White pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -47649,7 +47649,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30250,
         "name": "White pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -47670,7 +47670,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30255,
         "name": "White pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -47691,7 +47691,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30256,
         "name": "White pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -47712,7 +47712,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30254,
         "name": "White pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -47733,7 +47733,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30253,
         "name": "White pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -47754,7 +47754,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30249,
         "name": "White pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -47880,7 +47880,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29930,
         "name": "Wolf mask (Death on the Isle)",
         "members": true,
         "stabAttack": 0,
@@ -48027,7 +48027,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30260,
         "name": "Yellow pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -48048,7 +48048,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30261,
         "name": "Yellow pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -48069,7 +48069,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30257,
         "name": "Yellow pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -48090,7 +48090,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30259,
         "name": "Yellow pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -48111,7 +48111,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30264,
         "name": "Yellow pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -48132,7 +48132,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30265,
         "name": "Yellow pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -48153,7 +48153,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30263,
         "name": "Yellow pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -48174,7 +48174,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30262,
         "name": "Yellow pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -48195,7 +48195,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30258,
         "name": "Yellow pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -48867,7 +48867,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 29982,
         "name": "Alchemist pants#Apron_off",
         "members": true,
         "stabAttack": 0,
@@ -48888,7 +48888,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 29984,
         "name": "Alchemist pants#Apron_on",
         "members": true,
         "stabAttack": 0,
@@ -49098,7 +49098,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13288,
         "name": "Anti-panties#Reward",
         "members": false,
         "stabAttack": 0,
@@ -52458,7 +52458,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27455,
         "name": "Graceful legs (Adventurer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -57981,7 +57981,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 10824,
         "name": "Yak-hide armour (legs)",
         "members": true,
         "stabAttack": 0,
@@ -58275,7 +58275,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 29988,
         "name": "Alchemist's amulet#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -58968,7 +58968,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 12851,
         "name": "Amulet of the damned#Full",
         "members": true,
         "stabAttack": 10,
@@ -58989,7 +58989,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 12853,
         "name": "Amulet of the damned#Used",
         "members": true,
         "stabAttack": 10,
@@ -59010,7 +59010,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 26994,
         "name": "Amulet of the eye#Blue",
         "members": true,
         "stabAttack": 0,
@@ -59031,7 +59031,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 26992,
         "name": "Amulet of the eye#Green",
         "members": true,
         "stabAttack": 0,
@@ -59052,7 +59052,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 26990,
         "name": "Amulet of the eye#Red",
         "members": true,
         "stabAttack": 0,
@@ -59073,7 +59073,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 26914,
         "name": "Amulet of the eye#Regular",
         "members": true,
         "stabAttack": 0,
@@ -62265,7 +62265,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 13392,
         "name": "Xeric's talisman#Inert",
         "members": true,
         "stabAttack": 0,
@@ -64638,7 +64638,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 26766,
         "name": "Treasonous ring (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 8,
@@ -64659,7 +64659,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 12692,
         "name": "Treasonous ring (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 8,
@@ -64680,7 +64680,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 25256,
         "name": "Treasonous ring (i)#Soul_Wars",
         "members": true,
         "stabAttack": 8,
@@ -65415,7 +65415,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22133,
         "name": "Adamant kiteshield (Dragon)",
         "members": true,
         "stabAttack": 0,
@@ -65436,7 +65436,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22135,
         "name": "Adamant kiteshield (Fairy)",
         "members": true,
         "stabAttack": 0,
@@ -65499,7 +65499,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22141,
         "name": "Adamant kiteshield (Horse)",
         "members": true,
         "stabAttack": 0,
@@ -65583,7 +65583,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22149,
         "name": "Adamant kiteshield (Money)",
         "members": true,
         "stabAttack": 0,
@@ -65625,7 +65625,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22153,
         "name": "Adamant kiteshield (Skull)",
         "members": true,
         "stabAttack": 0,
@@ -65940,7 +65940,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 21634,
         "name": "Ancient wyvern shield#Uncharged",
         "members": true,
         "stabAttack": -10,
@@ -67830,7 +67830,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 12611,
         "name": "Damaged book (Ancient)",
         "members": true,
         "stabAttack": 0,
@@ -67851,7 +67851,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 12609,
         "name": "Damaged book (Armadyl)",
         "members": true,
         "stabAttack": 0,
@@ -67872,7 +67872,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 12607,
         "name": "Damaged book (Bandos)",
         "members": true,
         "stabAttack": 0,
@@ -67893,7 +67893,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 3843,
         "name": "Damaged book (Guthix)",
         "members": true,
         "stabAttack": 0,
@@ -67914,7 +67914,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 3839,
         "name": "Damaged book (Saradomin)",
         "members": true,
         "stabAttack": 0,
@@ -67935,7 +67935,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 3841,
         "name": "Damaged book (Zamorak)",
         "members": true,
         "stabAttack": 0,
@@ -68082,7 +68082,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27008,
         "name": "Dragon defender (t)#Locked",
         "members": true,
         "stabAttack": 25,
@@ -69804,7 +69804,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27185,
         "name": "Rune defender (Last Man Standing)",
         "members": false,
         "stabAttack": 20,
@@ -69825,7 +69825,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27009,
         "name": "Rune defender (t)#Locked",
         "members": true,
         "stabAttack": 20,
@@ -70014,7 +70014,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8720,
         "name": "Rune kiteshield (Dragon)",
         "members": true,
         "stabAttack": 0,
@@ -70035,7 +70035,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8722,
         "name": "Rune kiteshield (Fairy)",
         "members": true,
         "stabAttack": 0,
@@ -70098,7 +70098,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8728,
         "name": "Rune kiteshield (Horse)",
         "members": true,
         "stabAttack": 0,
@@ -70182,7 +70182,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8736,
         "name": "Rune kiteshield (Money)",
         "members": true,
         "stabAttack": 0,
@@ -70224,7 +70224,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8740,
         "name": "Rune kiteshield (Skull)",
         "members": true,
         "stabAttack": 0,
@@ -70875,7 +70875,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8746,
         "name": "Steel kiteshield (Arrav)",
         "members": true,
         "stabAttack": 0,
@@ -70896,7 +70896,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8748,
         "name": "Steel kiteshield (Asgarnia)",
         "members": true,
         "stabAttack": 0,
@@ -70917,7 +70917,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8750,
         "name": "Steel kiteshield (Dorgeshuun)",
         "members": true,
         "stabAttack": 0,
@@ -70938,7 +70938,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8752,
         "name": "Steel kiteshield (Dragon)",
         "members": true,
         "stabAttack": 0,
@@ -70959,7 +70959,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8754,
         "name": "Steel kiteshield (Fairy)",
         "members": true,
         "stabAttack": 0,
@@ -70980,7 +70980,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8756,
         "name": "Steel kiteshield (Guthix)",
         "members": true,
         "stabAttack": 0,
@@ -71001,7 +71001,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8758,
         "name": "Steel kiteshield (HAM)",
         "members": true,
         "stabAttack": 0,
@@ -71022,7 +71022,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8760,
         "name": "Steel kiteshield (Horse)",
         "members": true,
         "stabAttack": 0,
@@ -71043,7 +71043,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8762,
         "name": "Steel kiteshield (Jogre)",
         "members": true,
         "stabAttack": 0,
@@ -71064,7 +71064,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8764,
         "name": "Steel kiteshield (Kandarin)",
         "members": true,
         "stabAttack": 0,
@@ -71085,7 +71085,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8766,
         "name": "Steel kiteshield (Misthalin)",
         "members": true,
         "stabAttack": 0,
@@ -71106,7 +71106,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8768,
         "name": "Steel kiteshield (Money)",
         "members": true,
         "stabAttack": 0,
@@ -71127,7 +71127,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8770,
         "name": "Steel kiteshield (Saradomin)",
         "members": true,
         "stabAttack": 0,
@@ -71148,7 +71148,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8772,
         "name": "Steel kiteshield (Skull)",
         "members": true,
         "stabAttack": 0,
@@ -71169,7 +71169,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8774,
         "name": "Steel kiteshield (Varrock)",
         "members": true,
         "stabAttack": 0,
@@ -71190,7 +71190,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8776,
         "name": "Steel kiteshield (Zamorak)",
         "members": true,
         "stabAttack": 0,
@@ -71337,7 +71337,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 30066,
         "name": "Tome of earth#Empty",
         "members": true,
         "stabAttack": 0,
@@ -71358,7 +71358,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27358,
         "name": "Tome of fire (Last Man Standing)",
         "members": false,
         "stabAttack": 0,
@@ -71400,7 +71400,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 20716,
         "name": "Tome of fire#Empty",
         "members": true,
         "stabAttack": 0,
@@ -71442,7 +71442,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 25576,
         "name": "Tome of water#Empty",
         "members": true,
         "stabAttack": 0,
@@ -71652,7 +71652,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27463,
         "name": "Treat cauldron#Style_1",
         "members": false,
         "stabAttack": 0,
@@ -71673,7 +71673,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27465,
         "name": "Treat cauldron#Style_2",
         "members": false,
         "stabAttack": 0,
@@ -71694,7 +71694,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27467,
         "name": "Treat cauldron#Style_3",
         "members": false,
         "stabAttack": 0,
@@ -71715,7 +71715,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27469,
         "name": "Treat cauldron#Style_4",
         "members": false,
         "stabAttack": 0,
@@ -71736,7 +71736,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27471,
         "name": "Treat cauldron#Style_5",
         "members": false,
         "stabAttack": 0,
@@ -72051,7 +72051,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 7676,
         "name": "Wooden shield (Weapons rack)",
         "members": true,
         "stabAttack": 0,
@@ -72442,7 +72442,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 27184,
         "name": "Ancient godsword (Last Man Standing)",
         "members": false,
         "stabAttack": 0,
@@ -73498,7 +73498,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25721,
         "name": "Clan vexillum#Black",
         "members": false,
         "stabAttack": 0,
@@ -73520,7 +73520,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25724,
         "name": "Clan vexillum#Blue",
         "members": false,
         "stabAttack": 0,
@@ -73542,7 +73542,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25726,
         "name": "Clan vexillum#Green",
         "members": false,
         "stabAttack": 0,
@@ -73564,7 +73564,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25728,
         "name": "Clan vexillum#Light_blue",
         "members": false,
         "stabAttack": 0,
@@ -73586,7 +73586,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25723,
         "name": "Clan vexillum#Orange",
         "members": false,
         "stabAttack": 0,
@@ -73608,7 +73608,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25729,
         "name": "Clan vexillum#Purple",
         "members": false,
         "stabAttack": 0,
@@ -73630,7 +73630,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25725,
         "name": "Clan vexillum#Red",
         "members": false,
         "stabAttack": 0,
@@ -73652,7 +73652,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25727,
         "name": "Clan vexillum#Yellow",
         "members": false,
         "stabAttack": 0,
@@ -73784,7 +73784,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 22547,
         "name": "Craw's bow#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -73982,7 +73982,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 12766,
         "name": "Dark bow#Blue",
         "members": true,
         "stabAttack": 0,
@@ -74004,7 +74004,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 12765,
         "name": "Dark bow#Green",
         "members": true,
         "stabAttack": 0,
@@ -74026,7 +74026,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 11235,
         "name": "Dark bow#Regular",
         "members": true,
         "stabAttack": 0,
@@ -74048,7 +74048,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 12768,
         "name": "Dark bow#White",
         "members": true,
         "stabAttack": 0,
@@ -74070,7 +74070,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 12767,
         "name": "Dark bow#Yellow",
         "members": true,
         "stabAttack": 0,
@@ -74444,7 +74444,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 28043,
         "name": "Dragon spear (cr)#(p)",
         "members": true,
         "stabAttack": 55,
@@ -74466,7 +74466,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 28045,
         "name": "Dragon spear (cr)#(p+)",
         "members": true,
         "stabAttack": 55,
@@ -74488,7 +74488,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 28047,
         "name": "Dragon spear (cr)#(p++)",
         "members": true,
         "stabAttack": 55,
@@ -79284,7 +79284,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 27676,
         "name": "Accursed sceptre (a)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -79328,7 +79328,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 27662,
         "name": "Accursed sceptre#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -80516,7 +80516,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 30305,
         "name": "Arclight#Inactive",
         "members": true,
         "stabAttack": 10,
@@ -80692,7 +80692,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8656,
         "name": "Banner (Dragon)",
         "members": true,
         "stabAttack": 0,
@@ -80714,7 +80714,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8658,
         "name": "Banner (Fairy)",
         "members": true,
         "stabAttack": 0,
@@ -80780,7 +80780,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8664,
         "name": "Banner (Horse)",
         "members": true,
         "stabAttack": 0,
@@ -80868,7 +80868,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8672,
         "name": "Banner (Money)",
         "members": true,
         "stabAttack": 0,
@@ -80912,7 +80912,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8676,
         "name": "Banner (Skull)",
         "members": true,
         "stabAttack": 0,
@@ -81726,7 +81726,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25870,
         "name": "Blade of saeldor (c) (Ithell)",
         "members": true,
         "stabAttack": 55,
@@ -83134,7 +83134,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 23675,
         "name": "Crystal axe#Inactive",
         "members": true,
         "stabAttack": -2,
@@ -83706,7 +83706,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 28021,
         "name": "Dragon dagger (cr)#(p)",
         "members": true,
         "stabAttack": 40,
@@ -83728,7 +83728,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 28023,
         "name": "Dragon dagger (cr)#(p+)",
         "members": true,
         "stabAttack": 40,
@@ -83750,7 +83750,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 28025,
         "name": "Dragon dagger (cr)#(p++)",
         "members": true,
         "stabAttack": 40,
@@ -84498,7 +84498,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25376,
         "name": "Dragon pickaxe (or) (Trailblazer)",
         "members": true,
         "stabAttack": 38,
@@ -84520,7 +84520,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 12797,
         "name": "Dragon pickaxe (upgraded)",
         "members": true,
         "stabAttack": 38,
@@ -87468,7 +87468,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 21198,
         "name": "Lava battlestaff (or)",
         "members": true,
         "stabAttack": 7,
@@ -88942,7 +88942,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 12796,
         "name": "Mystic steam staff (or)",
         "members": true,
         "stabAttack": 7,
@@ -90570,7 +90570,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 23330,
         "name": "Rune scimitar (guthix)",
         "members": false,
         "stabAttack": 7,
@@ -90592,7 +90592,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 23332,
         "name": "Rune scimitar (saradomin)",
         "members": false,
         "stabAttack": 7,
@@ -90614,7 +90614,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 23334,
         "name": "Rune scimitar (zamorak)",
         "members": false,
         "stabAttack": 7,
@@ -93914,7 +93914,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 4039,
         "name": "Zamorak banner#Minigame",
         "members": false,
         "stabAttack": 0,
@@ -93936,7 +93936,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 11892,
         "name": "Zamorak banner#Reward",
         "members": false,
         "stabAttack": 0,
@@ -94068,7 +94068,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 19912,
         "name": "Zombie head (Treasure Trails)",
         "members": true,
         "stabAttack": -4,
@@ -94090,7 +94090,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 4030,
         "name": "Zombie monkey greegree (big)",
         "members": true,
         "stabAttack": 0,
@@ -94112,7 +94112,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 4029,
         "name": "Zombie monkey greegree (small)",
         "members": true,
         "stabAttack": 0,
