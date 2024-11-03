@@ -170,14 +170,16 @@ function findID(name: string) : number | null {
     // the lookup the ID with a decorative kit
     const decorativeID = findIDDecorative(rewrittenName);
 
+
     // find the id from the titleToID.json
     const idFromTitle = titleToID[name];
 
-    const id = lookupID ?? decorativeID ?? idFromTitle;
+    const idWithFile =  lookupID ?? decorativeID;
+    const id = idWithFile ?? idFromTitle;
 
 
     // If the id is already found but stored in the titleToID.json then remove it
-    if((lookupID || decorativeID) && idFromTitle !== undefined) {
+    if((idWithFile) && idFromTitle !== undefined) {
         delete titleToID[name];
     }
 
@@ -210,6 +212,8 @@ function writeTitleToID(titleToID: Record<string, number|null>) {
  * - Adamant kiteshield (HAM)
  * 
  * @param name find the id of the item with the given name
+ * @returns the id of the item
+ * @returns null if the item is not found
  */
 function findIDDecorative (name: string) : number | null {
     const eligibleItems = [
@@ -221,7 +225,9 @@ function findIDDecorative (name: string) : number | null {
         "Rune heraldic helm",
         "Steel heraldic helm",
         "Steel kiteshield",
-        "Damaged book"
+        "Damaged book",
+
+        "Chompy bird hat",
     ].map((name) => name.toLowerCase());
 
     if(!eligibleItems.some((item) => name.toLowerCase().includes(item))) {
@@ -350,6 +356,27 @@ function rewriteName(name: string) : string {
 
     // Abyssal dagger has a space between the name and the (p++) which is not present in the items.json
     name = name.replace("Abyssal dagger(", "Abyssal dagger (");
+    // same with the Bone dagger
+    name = name.replace("Bone dagger(", "Bone dagger (");
+
+    // A special case for pumpkins with emotions
+    const emotions = [
+        "Angry", "Depressed", "Disgusted", "Evil", "Happy", "Laughing", "Sad", "Shocked", "Silly"
+    ];
+
+    for(const emotion of emotions) {
+        if(name.includes(emotion)) {
+            name = name.replace(`#${emotion}`, ` (${emotion.toLowerCase()})`);
+        }
+    }
+
+    // Black mask (i)#7 -> Black mask (7)(i)
+    // watch out it has been partially rewritten before (Black mask (i) (5))
+    name = name.replace(/Black mask \(i\) \((\d+)\)/, "Black mask ($1) (i)");
+
+    if(name.includes("Black mask")) {
+        console.log(name);
+    }
 
     return name;
 }

@@ -2919,7 +2919,7 @@
         "slot": "Ammunition"
     },
     {
-        "id": null,
+        "id": 27192,
         "name": "Opal dragon bolts (e) (Last Man Standing)",
         "members": false,
         "stabAttack": 0,
@@ -7014,7 +7014,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 20485,
         "name": "Decorative armour (gold platebody)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -7035,7 +7035,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24158,
         "name": "Decorative armour (gold platebody)#Locked",
         "members": false,
         "stabAttack": 0,
@@ -7056,7 +7056,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 4509,
         "name": "Decorative armour (gold platebody)#Normal",
         "members": false,
         "stabAttack": 0,
@@ -14091,7 +14091,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24826,
         "name": "Vyre noble blazer (grey)",
         "members": true,
         "stabAttack": 0,
@@ -19383,7 +19383,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 29493,
         "name": "Rainbow cape#Asexual",
         "members": false,
         "stabAttack": 0,
@@ -19404,7 +19404,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 29491,
         "name": "Rainbow cape#Bisexual",
         "members": false,
         "stabAttack": 0,
@@ -19425,7 +19425,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 29505,
         "name": "Rainbow cape#Gay",
         "members": false,
         "stabAttack": 0,
@@ -19446,7 +19446,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 29501,
         "name": "Rainbow cape#Genderqueer",
         "members": false,
         "stabAttack": 0,
@@ -19467,7 +19467,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 29503,
         "name": "Rainbow cape#Lesbian",
         "members": false,
         "stabAttack": 0,
@@ -19488,7 +19488,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 29499,
         "name": "Rainbow cape#Non-binary",
         "members": false,
         "stabAttack": 0,
@@ -19509,7 +19509,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 29497,
         "name": "Rainbow cape#Pansexual",
         "members": false,
         "stabAttack": 0,
@@ -19530,7 +19530,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 29489,
         "name": "Rainbow cape#Pride",
         "members": false,
         "stabAttack": 0,
@@ -19551,7 +19551,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 29495,
         "name": "Rainbow cape#Transgender",
         "members": false,
         "stabAttack": 0,
@@ -22281,7 +22281,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 88,
         "name": "Boots of lightness#Worn",
         "members": true,
         "stabAttack": 0,
@@ -28371,7 +28371,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 10554,
         "name": "Penance gloves#Worn",
         "members": true,
         "stabAttack": 0,
@@ -31080,7 +31080,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8926,
         "name": "Bandana eyepatch (blue)",
         "members": true,
         "stabAttack": 0,
@@ -31101,7 +31101,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8927,
         "name": "Bandana eyepatch (brown)",
         "members": true,
         "stabAttack": 0,
@@ -31122,7 +31122,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8925,
         "name": "Bandana eyepatch (red)",
         "members": true,
         "stabAttack": 0,
@@ -31143,7 +31143,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8924,
         "name": "Bandana eyepatch (white)",
         "members": true,
         "stabAttack": 0,
@@ -31353,7 +31353,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30172,
         "name": "Beige pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -31374,7 +31374,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30173,
         "name": "Beige pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -31395,7 +31395,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30169,
         "name": "Beige pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -31416,7 +31416,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30171,
         "name": "Beige pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -31437,7 +31437,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30176,
         "name": "Beige pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -31458,7 +31458,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30177,
         "name": "Beige pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -31479,7 +31479,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30175,
         "name": "Beige pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -31500,7 +31500,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30174,
         "name": "Beige pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -31521,7 +31521,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30170,
         "name": "Beige pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -31962,7 +31962,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11783,
         "name": "Black mask (i)#(1)",
         "members": true,
         "stabAttack": 0,
@@ -31983,7 +31983,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11774,
         "name": "Black mask (i)#(10)",
         "members": true,
         "stabAttack": 0,
@@ -32004,7 +32004,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11782,
         "name": "Black mask (i)#(2)",
         "members": true,
         "stabAttack": 0,
@@ -32025,7 +32025,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11781,
         "name": "Black mask (i)#(3)",
         "members": true,
         "stabAttack": 0,
@@ -32046,7 +32046,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11780,
         "name": "Black mask (i)#(4)",
         "members": true,
         "stabAttack": 0,
@@ -32067,7 +32067,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11779,
         "name": "Black mask (i)#(5)",
         "members": true,
         "stabAttack": 0,
@@ -32088,7 +32088,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11778,
         "name": "Black mask (i)#(6)",
         "members": true,
         "stabAttack": 0,
@@ -32109,7 +32109,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11777,
         "name": "Black mask (i)#(7)",
         "members": true,
         "stabAttack": 0,
@@ -32130,7 +32130,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11776,
         "name": "Black mask (i)#(8)",
         "members": true,
         "stabAttack": 0,
@@ -32151,7 +32151,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11775,
         "name": "Black mask (i)#(9)",
         "members": true,
         "stabAttack": 0,
@@ -32508,7 +32508,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26675,
         "name": "Black slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -32529,7 +32529,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 19641,
         "name": "Black slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -32550,7 +32550,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25179,
         "name": "Black slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -33495,7 +33495,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 3343,
         "name": "Bruise blue snelm (pointed)",
         "members": true,
         "stabAttack": 0,
@@ -33516,7 +33516,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 3333,
         "name": "Bruise blue snelm (round)",
         "members": true,
         "stabAttack": 0,
@@ -33936,7 +33936,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2978,
         "name": "Chompy bird hat (bowman)",
         "members": true,
         "stabAttack": 0,
@@ -33957,7 +33957,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2988,
         "name": "Chompy bird hat (bowmaster)",
         "members": true,
         "stabAttack": 0,
@@ -33978,7 +33978,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2992,
         "name": "Chompy bird hat (dragon archer)",
         "members": true,
         "stabAttack": 0,
@@ -33999,7 +33999,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2995,
         "name": "Chompy bird hat (expert dragon archer)",
         "members": true,
         "stabAttack": 0,
@@ -34020,7 +34020,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2994,
         "name": "Chompy bird hat (expert ogre dragon archer)",
         "members": true,
         "stabAttack": 0,
@@ -34041,7 +34041,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2990,
         "name": "Chompy bird hat (expert)",
         "members": true,
         "stabAttack": 0,
@@ -34062,7 +34062,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2986,
         "name": "Chompy bird hat (forester)",
         "members": true,
         "stabAttack": 0,
@@ -34083,7 +34083,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2982,
         "name": "Chompy bird hat (marksman)",
         "members": true,
         "stabAttack": 0,
@@ -34104,7 +34104,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2978,
         "name": "Chompy bird hat (ogre bowman)",
         "members": true,
         "stabAttack": 0,
@@ -34125,7 +34125,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2988,
         "name": "Chompy bird hat (ogre bowmaster)",
         "members": true,
         "stabAttack": 0,
@@ -34146,7 +34146,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2992,
         "name": "Chompy bird hat (ogre dragon archer)",
         "members": true,
         "stabAttack": 0,
@@ -34167,7 +34167,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2990,
         "name": "Chompy bird hat (ogre expert)",
         "members": true,
         "stabAttack": 0,
@@ -34188,7 +34188,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2986,
         "name": "Chompy bird hat (ogre forester)",
         "members": true,
         "stabAttack": 0,
@@ -34209,7 +34209,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2982,
         "name": "Chompy bird hat (ogre marksman)",
         "members": true,
         "stabAttack": 0,
@@ -34230,7 +34230,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2984,
         "name": "Chompy bird hat (ogre woodsman)",
         "members": true,
         "stabAttack": 0,
@@ -34251,7 +34251,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2980,
         "name": "Chompy bird hat (ogre yeoman)",
         "members": true,
         "stabAttack": 0,
@@ -34272,7 +34272,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2984,
         "name": "Chompy bird hat (woodsman)",
         "members": true,
         "stabAttack": 0,
@@ -34293,7 +34293,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 2980,
         "name": "Chompy bird hat (yeoman)",
         "members": true,
         "stabAttack": 0,
@@ -35217,7 +35217,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30217,
         "name": "Dark green pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -35238,7 +35238,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30218,
         "name": "Dark green pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -35259,7 +35259,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30214,
         "name": "Dark green pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -35280,7 +35280,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30216,
         "name": "Dark green pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -35301,7 +35301,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30221,
         "name": "Dark green pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -35322,7 +35322,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30222,
         "name": "Dark green pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -35343,7 +35343,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30220,
         "name": "Dark green pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -35364,7 +35364,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30219,
         "name": "Dark green pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -35385,7 +35385,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30215,
         "name": "Dark green pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -41454,7 +41454,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30199,
         "name": "Orange pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -41475,7 +41475,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30200,
         "name": "Orange pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -41496,7 +41496,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30196,
         "name": "Orange pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -41517,7 +41517,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30198,
         "name": "Orange pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -41538,7 +41538,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30203,
         "name": "Orange pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -41559,7 +41559,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30204,
         "name": "Orange pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -41580,7 +41580,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30202,
         "name": "Orange pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -41601,7 +41601,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30201,
         "name": "Orange pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -41622,7 +41622,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30197,
         "name": "Orange pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -42000,7 +42000,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30226,
         "name": "Powder grey pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -42021,7 +42021,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30227,
         "name": "Powder grey pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -42042,7 +42042,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30223,
         "name": "Powder grey pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -42063,7 +42063,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30225,
         "name": "Powder grey pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -42084,7 +42084,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30230,
         "name": "Powder grey pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -42105,7 +42105,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30231,
         "name": "Powder grey pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -42126,7 +42126,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30229,
         "name": "Powder grey pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -42147,7 +42147,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30228,
         "name": "Powder grey pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -42168,7 +42168,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30224,
         "name": "Powder grey pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -42903,7 +42903,7 @@
         "slot": "Head"
     },
     {
-        "id": 30278,
+        "id": 30208,
         "name": "Red pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -42924,7 +42924,7 @@
         "slot": "Head"
     },
     {
-        "id": 30279,
+        "id": 30209,
         "name": "Red pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -42945,7 +42945,7 @@
         "slot": "Head"
     },
     {
-        "id": 30275,
+        "id": 30205,
         "name": "Red pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -42966,7 +42966,7 @@
         "slot": "Head"
     },
     {
-        "id": 30277,
+        "id": 30207,
         "name": "Red pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -42987,7 +42987,7 @@
         "slot": "Head"
     },
     {
-        "id": 30282,
+        "id": 30212,
         "name": "Red pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -43008,7 +43008,7 @@
         "slot": "Head"
     },
     {
-        "id": 30283,
+        "id": 30213,
         "name": "Red pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -43029,7 +43029,7 @@
         "slot": "Head"
     },
     {
-        "id": 30281,
+        "id": 30211,
         "name": "Red pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -43050,7 +43050,7 @@
         "slot": "Head"
     },
     {
-        "id": 30280,
+        "id": 30210,
         "name": "Red pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -43071,7 +43071,7 @@
         "slot": "Head"
     },
     {
-        "id": 30276,
+        "id": 30206,
         "name": "Red pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -47586,7 +47586,7 @@
         "slot": "Head"
     },
     {
-        "id": 30251,
+        "id": 30181,
         "name": "White pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -47607,7 +47607,7 @@
         "slot": "Head"
     },
     {
-        "id": 30252,
+        "id": 30182,
         "name": "White pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -47628,7 +47628,7 @@
         "slot": "Head"
     },
     {
-        "id": 30248,
+        "id": 30178,
         "name": "White pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -47649,7 +47649,7 @@
         "slot": "Head"
     },
     {
-        "id": 30250,
+        "id": 30180,
         "name": "White pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -47670,7 +47670,7 @@
         "slot": "Head"
     },
     {
-        "id": 30255,
+        "id": 30185,
         "name": "White pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -47691,7 +47691,7 @@
         "slot": "Head"
     },
     {
-        "id": 30256,
+        "id": 30186,
         "name": "White pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -47712,7 +47712,7 @@
         "slot": "Head"
     },
     {
-        "id": 30254,
+        "id": 30184,
         "name": "White pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -47733,7 +47733,7 @@
         "slot": "Head"
     },
     {
-        "id": 30253,
+        "id": 30183,
         "name": "White pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -47754,7 +47754,7 @@
         "slot": "Head"
     },
     {
-        "id": 30249,
+        "id": 30179,
         "name": "White pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -48027,7 +48027,7 @@
         "slot": "Head"
     },
     {
-        "id": 30260,
+        "id": 30190,
         "name": "Yellow pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -48048,7 +48048,7 @@
         "slot": "Head"
     },
     {
-        "id": 30261,
+        "id": 30191,
         "name": "Yellow pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -48069,7 +48069,7 @@
         "slot": "Head"
     },
     {
-        "id": 30257,
+        "id": 30187,
         "name": "Yellow pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -48090,7 +48090,7 @@
         "slot": "Head"
     },
     {
-        "id": 30259,
+        "id": 30189,
         "name": "Yellow pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -48111,7 +48111,7 @@
         "slot": "Head"
     },
     {
-        "id": 30264,
+        "id": 30194,
         "name": "Yellow pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -48132,7 +48132,7 @@
         "slot": "Head"
     },
     {
-        "id": 30265,
+        "id": 30195,
         "name": "Yellow pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -48153,7 +48153,7 @@
         "slot": "Head"
     },
     {
-        "id": 30263,
+        "id": 30193,
         "name": "Yellow pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -48174,7 +48174,7 @@
         "slot": "Head"
     },
     {
-        "id": 30262,
+        "id": 30192,
         "name": "Yellow pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -48195,7 +48195,7 @@
         "slot": "Head"
     },
     {
-        "id": 30258,
+        "id": 30188,
         "name": "Yellow pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -61026,7 +61026,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 29892,
         "name": "Pendant of ates#Inert",
         "members": true,
         "stabAttack": 0,
@@ -62412,7 +62412,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 26768,
         "name": "Archers ring (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -62433,7 +62433,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 11771,
         "name": "Archers ring (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -62454,7 +62454,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 25260,
         "name": "Archers ring (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -67788,7 +67788,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 23993,
         "name": "Crystal shield#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -67809,7 +67809,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 24127,
         "name": "Crystal shield#New",
         "members": true,
         "stabAttack": 0,
@@ -72618,7 +72618,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 10888,
         "name": "Barrelchest anchor#Broken",
         "members": true,
         "stabAttack": -2,
@@ -72640,7 +72640,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 10887,
         "name": "Barrelchest anchor#Fixed",
         "members": true,
         "stabAttack": -2,
@@ -72970,7 +72970,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 28687,
         "name": "Blazing blowpipe#Empty",
         "members": true,
         "stabAttack": 0,
@@ -73036,7 +73036,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25896,
         "name": "Bow of faerdhinen (c) (Amlodd)",
         "members": true,
         "stabAttack": 0,
@@ -77084,7 +77084,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 12809,
         "name": "Saradomin's blessed sword#Partially_charged",
         "members": true,
         "stabAttack": 0,
@@ -82012,7 +82012,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8874,
         "name": "Bone dagger#(p)",
         "members": true,
         "stabAttack": 5,
@@ -82034,7 +82034,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8876,
         "name": "Bone dagger#(p+)",
         "members": true,
         "stabAttack": 5,
@@ -82056,7 +82056,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8878,
         "name": "Bone dagger#(p++)",
         "members": true,
         "stabAttack": 5,
@@ -83244,7 +83244,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 23682,
         "name": "Crystal pickaxe#Inactive",
         "members": true,
         "stabAttack": 38,
@@ -90768,7 +90768,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 4037,
         "name": "Saradomin banner#Minigame",
         "members": false,
         "stabAttack": 0,
@@ -90790,7 +90790,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 11891,
         "name": "Saradomin banner#Reward",
         "members": false,
         "stabAttack": 0,
