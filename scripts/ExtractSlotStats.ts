@@ -2,7 +2,7 @@ import axios from 'axios';
 import fs from 'fs';
 import { JSDOM } from 'jsdom';
 
-const items = JSON.parse(fs.readFileSync("./data/items.json", "utf-8")) as {id: number, name: string}[];
+const items = JSON.parse(fs.readFileSync("./data/items.json", "utf-8")) as {id: number, name: string, examine: string}[];
 
 const slotPages : [string, string][] = [
     ["https://oldschool.runescape.wiki/w/Ammunition_slot_table", "Ammunition"],
@@ -142,11 +142,87 @@ const slotStats : SlotStats[] = [];
  * @param name find the id of the item with the given name
  */
 function findID(name: string) : number | null {
-    name = rewriteName(name);
+    const titleToID = JSON.parse(fs.readFileSync("./scripts/titleToID.json", "utf-8")) as Record<string, number|null>;
 
-    return items.find((item) => {
-        return item.name.toLowerCase() === name.toLowerCase();
-    })?.id ?? null;
+    const rewrittenName = rewriteName(name);
+
+    // the normal lookup
+    const lookupID = items.find((item) => {
+        return item.name.toLowerCase() === rewrittenName.toLowerCase();
+    })?.id;
+
+    // the lookup the ID with a decorative kit
+    const decorativeID = findIDDecorative(rewrittenName);
+
+    // find the id from the titleToID.json
+    const idFromTitle = titleToID[name];
+
+    const id = lookupID ?? decorativeID ?? idFromTitle;
+
+    // If the id is already found but stored in the titleToID.json then remove it
+    if(id !== undefined && idFromTitle !== undefined) {
+        delete titleToID[name];
+    }
+
+    // write a null if the id is not found
+    if(id === undefined && idFromTitle === undefined) {
+        titleToID[name] = null;
+    }
+
+    writeTitleToID(titleToID);
+    return id ?? decorativeID ?? idFromTitle ?? null;
+}
+
+function writeTitleToID(titleToID: Record<string, number|null>) {
+    // sort the object by key
+    const sorted = Object.keys(titleToID).sort().reduce((acc, key) => {
+        acc[key] = titleToID[key];
+        return acc;
+    }, {} as Record<string, number|null>);
+
+    fs.writeFileSync("./scripts/titleToID.json", JSON.stringify(sorted, null, 4));
+}
+
+/**
+ * some of the items have a decorative kit, named after a god or hero
+ * 
+ * example of the names:
+ * - Adamant heraldic helm (Saradomin)
+ * - Rune kiteshield (Arrav)
+ * - Rune platebody (Guthix)
+ * - Adamant kiteshield (HAM)
+ * 
+ * @param name find the id of the item with the given name
+ */
+function findIDDecorative (name: string) : number | null {
+    const eligibleItems = [
+        "Adamant heraldic helm",
+        "Rune kiteshield",
+        "Rune platebody",
+        "Adamant kiteshield",
+        "Banner"
+    ].map((name) => name.toLowerCase());
+
+    if(!eligibleItems.some((item) => name.toLowerCase().includes(item))) {
+        return null;
+    }
+
+    // find name and decoration aka Rune kiteshield (Arrav) -> Rune kiteshield, Arrav
+    const [namePart, decoration] = name.match(/(.*) \((.*)\)/)?.slice(1) ?? [];
+
+    if(!decoration || !namePart) {
+        return null;
+    }
+
+    console.log(`Decorative: ${name} -> ${namePart} - ${decoration}`);
+
+    const id = items.find((item) => {
+        return item.name.toLowerCase() === namePart.toLowerCase() && item.examine.includes(decoration);
+    })?.id;
+
+    console.log(`Decorative ID: ${id}`);
+
+    return id ?? null;
 }
 
 /**
@@ -160,6 +236,7 @@ function rewriteName(name: string) : string {
     name = name.replace(/#(\(p\+?\+?\))/, "$1");
     name = name.replace(/#Poison(\+?\+?)/, " (p$1)");
     name = name.replace("#(kp)", "(kp)");
+
 
     // if it ends with #(unp) then remove the #(unp)
     name = name.replace(/#\(unp\)/, "");
@@ -193,6 +270,9 @@ function rewriteName(name: string) : string {
     // if it has #Broken then replace it with (broken)
     name = name.replace("#Broken", " (broken)");
 
+    // if a cape is trimmed then add (t) to the name
+    name = name.replace("#Trimmed", "(t)");
+    name = name.replace("#Untrimmed", "");
 
     // specific item classes
 
@@ -221,14 +301,14 @@ function rewriteName(name: string) : string {
         ["Necklace of passage", ""],
         ["Skills necklace", ""],
         ["Void seal", ""],
+        ["Rod of ivandis", " "],
+        ["Black mask", " "],
     ];
 
     for(const replace of digitReplaces) {
         if(name.includes(replace[0])) {
-            console.log(name);
-            name = name.replace(/#\(?(\d)\)?/, replace[1] + "($1)");
+            name = name.replace(/#\(?(\d+)\)?/, replace[1] + "($1)");
             name = name.replace(" (uncharged)", "");
-            console.log(name);
         }
     }
 
@@ -243,8 +323,6 @@ function rewriteName(name: string) : string {
         }
     }
 
-
-
     if(name.includes("Abyssal lantern")) {
         name = name.replace(/Abyssal lantern#(.+)/, "Abyssal lantern ($1 logs)");
     }
@@ -252,6 +330,9 @@ function rewriteName(name: string) : string {
     if(name.includes("javelin (")) {
         name = name.replace("javelin (", "javelin(");
     }
+
+    // Abyssal dagger has a space between the name and the (p++) which is not present in the items.json
+    name = name.replace("Abyssal dagger(", "Abyssal dagger (");
 
     return name;
 }

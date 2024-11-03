@@ -2919,6 +2919,27 @@
         "slot": "Ammunition"
     },
     {
+        "id": null,
+        "name": "Opal dragon bolts (e) (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 122,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "slot": "Ammunition"
+    },
+    {
         "id": 20226,
         "name": "Peaceful blessing",
         "members": true,
@@ -14931,7 +14952,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 19476,
         "name": "Achievement diary cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -14973,7 +14994,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9772,
         "name": "Agility cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -14994,7 +15015,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9771,
         "name": "Agility cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -15225,7 +15246,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9748,
         "name": "Attack cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -15246,7 +15267,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9747,
         "name": "Attack cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -16044,7 +16065,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9790,
         "name": "Construct. cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -16065,7 +16086,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9789,
         "name": "Construct. cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -16086,7 +16107,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9802,
         "name": "Cooking cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -16107,7 +16128,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9801,
         "name": "Cooking cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -16128,7 +16149,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9781,
         "name": "Crafting cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -16149,7 +16170,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9780,
         "name": "Crafting cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -16233,7 +16254,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9754,
         "name": "Defence cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -16254,7 +16275,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9753,
         "name": "Defence cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -16506,7 +16527,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9811,
         "name": "Farming cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -16527,7 +16548,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9810,
         "name": "Farming cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -16674,7 +16695,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9805,
         "name": "Firemaking cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -16695,7 +16716,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9804,
         "name": "Firemaking cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -16779,7 +16800,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9799,
         "name": "Fishing cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -16800,7 +16821,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9798,
         "name": "Fishing cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -16821,7 +16842,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9784,
         "name": "Fletching cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -16842,7 +16863,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9783,
         "name": "Fletching cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -17619,7 +17640,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9775,
         "name": "Herblore cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -17640,7 +17661,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9774,
         "name": "Herblore cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -17661,7 +17682,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9769,
         "name": "Hitpoints cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -17682,7 +17703,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9768,
         "name": "Hitpoints cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -17745,7 +17766,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9949,
         "name": "Hunter cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -17766,7 +17787,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9948,
         "name": "Hunter cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -18690,7 +18711,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9763,
         "name": "Magic cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -18711,7 +18732,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9762,
         "name": "Magic cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -18900,7 +18921,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9793,
         "name": "Mining cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -18921,7 +18942,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9792,
         "name": "Mining cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -19026,7 +19047,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13222,
         "name": "Music cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -19047,7 +19068,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13221,
         "name": "Music cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -19236,7 +19257,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9760,
         "name": "Prayer cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -19257,7 +19278,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9759,
         "name": "Prayer cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -19341,7 +19362,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9813,
         "name": "Quest point cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -19551,7 +19572,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9757,
         "name": "Ranging cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -19572,7 +19593,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9756,
         "name": "Ranging cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -19635,7 +19656,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9766,
         "name": "Runecraft cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -19656,7 +19677,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9765,
         "name": "Runecraft cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -20034,7 +20055,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9787,
         "name": "Slayer cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -20055,7 +20076,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9786,
         "name": "Slayer cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -20076,7 +20097,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9796,
         "name": "Smithing cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -20097,7 +20118,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9795,
         "name": "Smithing cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -20265,7 +20286,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9751,
         "name": "Strength cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -20286,7 +20307,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9750,
         "name": "Strength cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -21441,7 +21462,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9778,
         "name": "Thieving cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -21462,7 +21483,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9777,
         "name": "Thieving cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -21567,7 +21588,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 9807,
         "name": "Woodcutting cape#Untrimmed",
         "members": true,
         "stabAttack": 0,
@@ -23877,6 +23898,27 @@
         "slot": "Feet"
     },
     {
+        "id": null,
+        "name": "Infinity boots (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 5,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 5,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.453,
+        "slot": "Feet"
+    },
+    {
         "id": 7159,
         "name": "Insulated boots",
         "members": true,
@@ -25116,6 +25158,27 @@
         "slot": "Feet"
     },
     {
+        "id": null,
+        "name": "Spiked manacles (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -3,
+        "rangedAttack": -1,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": -4,
+        "rangedDefence": 0,
+        "strengthBonus": 4,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 3,
+        "slot": "Feet"
+    },
+    {
         "id": 6143,
         "name": "Spined boots",
         "members": true,
@@ -25665,6 +25728,27 @@
         "id": 2579,
         "name": "Wizard boots",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 4,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 4,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.283,
+        "slot": "Feet"
+    },
+    {
+        "id": null,
+        "name": "Wizard boots (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -28035,6 +28119,27 @@
         "slot": "Hands"
     },
     {
+        "id": null,
+        "name": "Mithril gloves (Last Man Standing)",
+        "members": false,
+        "stabAttack": 6,
+        "slashAttack": 6,
+        "crushAttack": 6,
+        "magicAttack": 3,
+        "rangedAttack": 6,
+        "stabDefence": 6,
+        "slashDefence": 6,
+        "crushDefence": 6,
+        "magicDefence": 3,
+        "rangedDefence": 6,
+        "strengthBonus": 6,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.226,
+        "slot": "Hands"
+    },
+    {
         "id": 9072,
         "name": "Moonclan gloves",
         "members": true,
@@ -29127,6 +29232,27 @@
         "slot": "Hands"
     },
     {
+        "id": null,
+        "name": "Tormented bracelet (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 10,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 5,
+        "prayerBonus": 2,
+        "weight": 0.25,
+        "slot": "Hands"
+    },
+    {
         "id": 23444,
         "name": "Tormented bracelet (or)",
         "members": true,
@@ -29862,7 +29988,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22159,
         "name": "Adamant heraldic helm (Arrav)",
         "members": true,
         "stabAttack": 0,
@@ -29883,7 +30009,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22161,
         "name": "Adamant heraldic helm (Asgarnia)",
         "members": true,
         "stabAttack": 0,
@@ -29904,7 +30030,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22163,
         "name": "Adamant heraldic helm (Dorgeshuun)",
         "members": true,
         "stabAttack": 0,
@@ -29967,7 +30093,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22169,
         "name": "Adamant heraldic helm (Guthix)",
         "members": true,
         "stabAttack": 0,
@@ -29988,7 +30114,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22171,
         "name": "Adamant heraldic helm (HAM)",
         "members": true,
         "stabAttack": 0,
@@ -30030,7 +30156,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22175,
         "name": "Adamant heraldic helm (Jogre)",
         "members": true,
         "stabAttack": 0,
@@ -30051,7 +30177,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22177,
         "name": "Adamant heraldic helm (Kandarin)",
         "members": true,
         "stabAttack": 0,
@@ -30072,7 +30198,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22179,
         "name": "Adamant heraldic helm (Misthalin)",
         "members": true,
         "stabAttack": 0,
@@ -30114,7 +30240,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22183,
         "name": "Adamant heraldic helm (Saradomin)",
         "members": true,
         "stabAttack": 0,
@@ -30156,7 +30282,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22187,
         "name": "Adamant heraldic helm (Varrock)",
         "members": true,
         "stabAttack": 0,
@@ -30177,7 +30303,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 22189,
         "name": "Adamant heraldic helm (Zamorak)",
         "members": true,
         "stabAttack": 0,
@@ -32046,7 +32172,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11784,
         "name": "Black mask (i)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -32067,7 +32193,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8919,
         "name": "Black mask#(1)",
         "members": true,
         "stabAttack": 0,
@@ -32088,7 +32214,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8901,
         "name": "Black mask#(10)",
         "members": true,
         "stabAttack": 0,
@@ -32109,7 +32235,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8917,
         "name": "Black mask#(2)",
         "members": true,
         "stabAttack": 0,
@@ -32130,7 +32256,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8915,
         "name": "Black mask#(3)",
         "members": true,
         "stabAttack": 0,
@@ -32151,7 +32277,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8913,
         "name": "Black mask#(4)",
         "members": true,
         "stabAttack": 0,
@@ -32172,7 +32298,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8911,
         "name": "Black mask#(5)",
         "members": true,
         "stabAttack": 0,
@@ -32193,7 +32319,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8909,
         "name": "Black mask#(6)",
         "members": true,
         "stabAttack": 0,
@@ -32214,7 +32340,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8907,
         "name": "Black mask#(7)",
         "members": true,
         "stabAttack": 0,
@@ -32235,7 +32361,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8905,
         "name": "Black mask#(8)",
         "members": true,
         "stabAttack": 0,
@@ -32256,7 +32382,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8903,
         "name": "Black mask#(9)",
         "members": true,
         "stabAttack": 0,
@@ -32277,7 +32403,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8921,
         "name": "Black mask#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -65226,7 +65352,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22127,
         "name": "Adamant kiteshield (Arrav)",
         "members": true,
         "stabAttack": 0,
@@ -65247,7 +65373,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22129,
         "name": "Adamant kiteshield (Asgarnia)",
         "members": true,
         "stabAttack": 0,
@@ -65268,7 +65394,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22131,
         "name": "Adamant kiteshield (Dorgeshuun)",
         "members": true,
         "stabAttack": 0,
@@ -65331,7 +65457,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22137,
         "name": "Adamant kiteshield (Guthix)",
         "members": true,
         "stabAttack": 0,
@@ -65352,7 +65478,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22139,
         "name": "Adamant kiteshield (HAM)",
         "members": true,
         "stabAttack": 0,
@@ -65394,7 +65520,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22143,
         "name": "Adamant kiteshield (Jogre)",
         "members": true,
         "stabAttack": 0,
@@ -65415,7 +65541,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22145,
         "name": "Adamant kiteshield (Kandarin)",
         "members": true,
         "stabAttack": 0,
@@ -65436,7 +65562,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22147,
         "name": "Adamant kiteshield (Misthalin)",
         "members": true,
         "stabAttack": 0,
@@ -65478,7 +65604,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22151,
         "name": "Adamant kiteshield (Saradomin)",
         "members": true,
         "stabAttack": 0,
@@ -65520,7 +65646,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22155,
         "name": "Adamant kiteshield (Varrock)",
         "members": true,
         "stabAttack": 0,
@@ -65541,7 +65667,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22157,
         "name": "Adamant kiteshield (Zamorak)",
         "members": true,
         "stabAttack": 0,
@@ -69679,6 +69805,27 @@
     },
     {
         "id": null,
+        "name": "Rune defender (Last Man Standing)",
+        "members": false,
+        "stabAttack": 20,
+        "slashAttack": 19,
+        "crushAttack": 18,
+        "magicAttack": -3,
+        "rangedAttack": -2,
+        "stabDefence": 20,
+        "slashDefence": 19,
+        "crushDefence": 18,
+        "magicDefence": -3,
+        "rangedDefence": -2,
+        "strengthBonus": 5,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.453,
+        "slot": "Shield"
+    },
+    {
+        "id": null,
         "name": "Rune defender (t)#Locked",
         "members": true,
         "stabAttack": 20,
@@ -69804,7 +69951,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8714,
         "name": "Rune kiteshield (Arrav)",
         "members": true,
         "stabAttack": 0,
@@ -69825,7 +69972,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8716,
         "name": "Rune kiteshield (Asgarnia)",
         "members": true,
         "stabAttack": 0,
@@ -69846,7 +69993,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8718,
         "name": "Rune kiteshield (Dorgeshuun)",
         "members": true,
         "stabAttack": 0,
@@ -69909,7 +70056,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8724,
         "name": "Rune kiteshield (Guthix)",
         "members": true,
         "stabAttack": 0,
@@ -69930,7 +70077,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8726,
         "name": "Rune kiteshield (HAM)",
         "members": true,
         "stabAttack": 0,
@@ -69972,7 +70119,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8730,
         "name": "Rune kiteshield (Jogre)",
         "members": true,
         "stabAttack": 0,
@@ -69993,7 +70140,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8732,
         "name": "Rune kiteshield (Kandarin)",
         "members": true,
         "stabAttack": 0,
@@ -70014,7 +70161,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8734,
         "name": "Rune kiteshield (Misthalin)",
         "members": true,
         "stabAttack": 0,
@@ -70056,7 +70203,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8738,
         "name": "Rune kiteshield (Saradomin)",
         "members": true,
         "stabAttack": 0,
@@ -70098,7 +70245,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8742,
         "name": "Rune kiteshield (Varrock)",
         "members": true,
         "stabAttack": 0,
@@ -70119,7 +70266,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 8744,
         "name": "Rune kiteshield (Zamorak)",
         "members": true,
         "stabAttack": 0,
@@ -71211,6 +71358,27 @@
         "slot": "Shield"
     },
     {
+        "id": null,
+        "name": "Tome of fire (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 8,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 8,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1,
+        "slot": "Shield"
+    },
+    {
         "id": 20714,
         "name": "Tome of fire#Charged",
         "members": true,
@@ -71697,6 +71865,27 @@
         "id": 3842,
         "name": "Unholy book",
         "members": true,
+        "stabAttack": 8,
+        "slashAttack": 8,
+        "crushAttack": 8,
+        "magicAttack": 8,
+        "rangedAttack": 8,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 5,
+        "weight": 1,
+        "slot": "Shield"
+    },
+    {
+        "id": null,
+        "name": "Unholy book (Last Man Standing)",
+        "members": false,
         "stabAttack": 8,
         "slashAttack": 8,
         "crushAttack": 8,
@@ -72234,6 +72423,28 @@
         "id": 26233,
         "name": "Ancient godsword",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 132,
+        "crushAttack": 80,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 132,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 8,
+        "weight": 10,
+        "speed": 6,
+        "slot": "Two-handed"
+    },
+    {
+        "id": null,
+        "name": "Ancient godsword (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 132,
         "crushAttack": 80,
@@ -78875,7 +79086,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 13267,
         "name": "Abyssal dagger#(p)",
         "members": true,
         "stabAttack": 75,
@@ -78897,7 +79108,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 13269,
         "name": "Abyssal dagger#(p+)",
         "members": true,
         "stabAttack": 75,
@@ -78919,7 +79130,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 13271,
         "name": "Abyssal dagger#(p++)",
         "members": true,
         "stabAttack": 75,
@@ -80415,7 +80626,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8650,
         "name": "Banner (Arrav)",
         "members": true,
         "stabAttack": 0,
@@ -80437,7 +80648,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8652,
         "name": "Banner (Asgarnia)",
         "members": true,
         "stabAttack": 0,
@@ -80459,7 +80670,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8654,
         "name": "Banner (Dorgeshuun)",
         "members": true,
         "stabAttack": 0,
@@ -80525,7 +80736,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8660,
         "name": "Banner (Guthix)",
         "members": true,
         "stabAttack": 0,
@@ -80547,7 +80758,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8662,
         "name": "Banner (HAM)",
         "members": true,
         "stabAttack": 0,
@@ -80591,7 +80802,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8666,
         "name": "Banner (Jogre)",
         "members": true,
         "stabAttack": 0,
@@ -80613,7 +80824,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8668,
         "name": "Banner (Kandarin)",
         "members": true,
         "stabAttack": 0,
@@ -80635,7 +80846,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8670,
         "name": "Banner (Misthalin)",
         "members": true,
         "stabAttack": 0,
@@ -80679,7 +80890,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8674,
         "name": "Banner (Saradomin)",
         "members": true,
         "stabAttack": 0,
@@ -80723,7 +80934,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8678,
         "name": "Banner (Varrock)",
         "members": true,
         "stabAttack": 0,
@@ -80745,7 +80956,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 8680,
         "name": "Banner (Zamorak)",
         "members": true,
         "stabAttack": 0,
@@ -89457,7 +89668,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7648,
         "name": "Rod of ivandis#(1)",
         "members": true,
         "stabAttack": 0,
@@ -89479,7 +89690,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7639,
         "name": "Rod of ivandis#(10)",
         "members": true,
         "stabAttack": 0,
@@ -89501,7 +89712,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7647,
         "name": "Rod of ivandis#(2)",
         "members": true,
         "stabAttack": 0,
@@ -89523,7 +89734,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7646,
         "name": "Rod of ivandis#(3)",
         "members": true,
         "stabAttack": 0,
@@ -89545,7 +89756,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7645,
         "name": "Rod of ivandis#(4)",
         "members": true,
         "stabAttack": 0,
@@ -89567,7 +89778,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7644,
         "name": "Rod of ivandis#(5)",
         "members": true,
         "stabAttack": 0,
@@ -89589,7 +89800,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7643,
         "name": "Rod of ivandis#(6)",
         "members": true,
         "stabAttack": 0,
@@ -89611,7 +89822,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7642,
         "name": "Rod of ivandis#(7)",
         "members": true,
         "stabAttack": 0,
@@ -89633,7 +89844,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7641,
         "name": "Rod of ivandis#(8)",
         "members": true,
         "stabAttack": 0,
@@ -89655,7 +89866,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 7640,
         "name": "Rod of ivandis#(9)",
         "members": true,
         "stabAttack": 0,
