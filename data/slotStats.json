@@ -4305,9 +4305,51 @@
         "slot": "Body"
     },
     {
+        "id": 27199,
+        "name": "3rd age range top (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -15,
+        "rangedAttack": 30,
+        "stabDefence": 55,
+        "slashDefence": 47,
+        "crushDefence": 60,
+        "magicDefence": 60,
+        "rangedDefence": 55,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 4,
+        "slot": "Body"
+    },
+    {
         "id": 10338,
         "name": "3rd age robe top",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 24,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 24,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 1,
+        "prayerBonus": 0,
+        "weight": 2.7,
+        "slot": "Body"
+    },
+    {
+        "id": 20576,
+        "name": "3rd age robe top (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -4749,6 +4791,27 @@
         "id": 21021,
         "name": "Ancestral robe top",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 35,
+        "rangedAttack": -8,
+        "stabDefence": 42,
+        "slashDefence": 31,
+        "crushDefence": 51,
+        "magicDefence": 28,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 3,
+        "prayerBonus": 0,
+        "weight": 2.721,
+        "slot": "Body"
+    },
+    {
+        "id": 27193,
+        "name": "Ancestral robe top (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -5565,7 +5628,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29022,
         "name": "Blood moon chestplate#New",
         "members": true,
         "stabAttack": 0,
@@ -5586,7 +5649,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29043,
         "name": "Blood moon chestplate#Used",
         "members": true,
         "stabAttack": 0,
@@ -5775,7 +5838,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29013,
         "name": "Blue moon chestplate#New",
         "members": true,
         "stabAttack": 0,
@@ -5796,7 +5859,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29037,
         "name": "Blue moon chestplate#Used",
         "members": true,
         "stabAttack": 0,
@@ -6384,7 +6447,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 22695,
         "name": "Clown gown#Reward",
         "members": false,
         "stabAttack": 0,
@@ -6594,7 +6657,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27769,
         "name": "Crystal body (Amlodd)#Active",
         "members": true,
         "stabAttack": 0,
@@ -6615,7 +6678,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27771,
         "name": "Crystal body (Amlodd)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -6636,7 +6699,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27745,
         "name": "Crystal body (Cadarn)#Active",
         "members": true,
         "stabAttack": 0,
@@ -6657,7 +6720,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27747,
         "name": "Crystal body (Cadarn)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -6678,7 +6741,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27757,
         "name": "Crystal body (Crwys)#Active",
         "members": true,
         "stabAttack": 0,
@@ -6699,7 +6762,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27759,
         "name": "Crystal body (Crwys)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -6720,7 +6783,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27697,
         "name": "Crystal body (Hefin)#Active",
         "members": true,
         "stabAttack": 0,
@@ -6741,7 +6804,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27699,
         "name": "Crystal body (Hefin)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -6762,7 +6825,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27721,
         "name": "Crystal body (Iorwerth)#Active",
         "members": true,
         "stabAttack": 0,
@@ -6783,7 +6846,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27723,
         "name": "Crystal body (Iorwerth)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -6804,7 +6867,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27709,
         "name": "Crystal body (Ithell)#Active",
         "members": true,
         "stabAttack": 0,
@@ -6825,7 +6888,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27711,
         "name": "Crystal body (Ithell)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -6846,7 +6909,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27711,
         "name": "Crystal body (Trahaearn)#Active",
         "members": true,
         "stabAttack": 0,
@@ -6867,7 +6930,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27735,
         "name": "Crystal body (Trahaearn)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -6909,7 +6972,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 23977,
         "name": "Crystal body#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -7077,7 +7140,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 20495,
         "name": "Decorative armour (magic top)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -7098,7 +7161,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24163,
         "name": "Decorative armour (magic top)#Locked",
         "members": true,
         "stabAttack": 0,
@@ -7119,7 +7182,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 11896,
         "name": "Decorative armour (magic top)#Normal",
         "members": true,
         "stabAttack": 0,
@@ -7728,6 +7791,27 @@
         "slot": "Body"
     },
     {
+        "id": 27174,
+        "name": "Elder chaos top (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 10,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 8,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 1,
+        "prayerBonus": 0,
+        "weight": 0.2,
+        "slot": "Body"
+    },
+    {
         "id": 27115,
         "name": "Elder chaos top (or)",
         "members": true,
@@ -7875,7 +7959,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24027,
         "name": "Elven top (white vest)",
         "members": false,
         "stabAttack": 0,
@@ -7896,7 +7980,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24015,
         "name": "Elven top (white)",
         "members": false,
         "stabAttack": 0,
@@ -7917,7 +8001,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24021,
         "name": "Elven top (yellow vest)",
         "members": false,
         "stabAttack": 0,
@@ -7938,7 +8022,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24009,
         "name": "Elven top (yellow)",
         "members": false,
         "stabAttack": 0,
@@ -8337,9 +8421,30 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 6107,
         "name": "Ghostly robe (top)",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 5,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 5,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.001,
+        "slot": "Body"
+    },
+    {
+        "id": 27167,
+        "name": "Ghostly robe (top) (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -8778,7 +8883,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 11855,
         "name": "Graceful top#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8841,7 +8946,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 13284,
         "name": "Gravedigger top#Reward",
         "members": false,
         "stabAttack": 0,
@@ -9072,7 +9177,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27048,
         "name": "Group ironman platebody (unranked)#II",
         "members": false,
         "stabAttack": 0,
@@ -9093,7 +9198,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27050,
         "name": "Group ironman platebody (unranked)#III",
         "members": false,
         "stabAttack": 0,
@@ -9114,7 +9219,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27052,
         "name": "Group ironman platebody (unranked)#IV",
         "members": false,
         "stabAttack": 0,
@@ -9135,7 +9240,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27054,
         "name": "Group ironman platebody (unranked)#V",
         "members": false,
         "stabAttack": 0,
@@ -9156,7 +9261,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26158,
         "name": "Group ironman platebody#II",
         "members": false,
         "stabAttack": 0,
@@ -9177,7 +9282,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26160,
         "name": "Group ironman platebody#III",
         "members": false,
         "stabAttack": 0,
@@ -9198,7 +9303,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26162,
         "name": "Group ironman platebody#IV",
         "members": false,
         "stabAttack": 0,
@@ -9219,7 +9324,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26164,
         "name": "Group ironman platebody#V",
         "members": false,
         "stabAttack": 0,
@@ -9684,6 +9789,27 @@
         "id": 24420,
         "name": "Inquisitor's hauberk",
         "members": true,
+        "stabAttack": -3,
+        "slashAttack": -3,
+        "crushAttack": 12,
+        "magicAttack": -11,
+        "rangedAttack": -10,
+        "stabDefence": 67,
+        "slashDefence": 55,
+        "crushDefence": 71,
+        "magicDefence": 0,
+        "rangedDefence": 35,
+        "strengthBonus": 4,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 2,
+        "weight": 9.979,
+        "slot": "Body"
+    },
+    {
+        "id": 27196,
+        "name": "Inquisitor's hauberk (Last Man Standing)",
+        "members": false,
         "stabAttack": -3,
         "slashAttack": -3,
         "crushAttack": 12,
@@ -10626,6 +10752,27 @@
         "slot": "Body"
     },
     {
+        "id": 27158,
+        "name": "Mystic robe top (dark) (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 20,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 20,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 2.721,
+        "slot": "Body"
+    },
+    {
         "id": 23050,
         "name": "Mystic robe top (dusk)",
         "members": true,
@@ -10650,6 +10797,27 @@
         "id": 4111,
         "name": "Mystic robe top (light)",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 20,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 20,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 2.721,
+        "slot": "Body"
+    },
+    {
+        "id": 27160,
+        "name": "Mystic robe top (light) (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -10962,7 +11130,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 426,
         "name": "Priest gown (top)",
         "members": false,
         "stabAttack": 0,
@@ -11151,7 +11319,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29510,
         "name": "Rainbow crown shirt#Asexual",
         "members": false,
         "stabAttack": 0,
@@ -11172,7 +11340,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29509,
         "name": "Rainbow crown shirt#Bisexual",
         "members": false,
         "stabAttack": 0,
@@ -11193,7 +11361,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29516,
         "name": "Rainbow crown shirt#Gay",
         "members": false,
         "stabAttack": 0,
@@ -11214,7 +11382,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29514,
         "name": "Rainbow crown shirt#Genderqueer",
         "members": false,
         "stabAttack": 0,
@@ -11235,7 +11403,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29515,
         "name": "Rainbow crown shirt#Lesbian",
         "members": false,
         "stabAttack": 0,
@@ -11256,7 +11424,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29513,
         "name": "Rainbow crown shirt#Non-binary",
         "members": false,
         "stabAttack": 0,
@@ -11277,7 +11445,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29512,
         "name": "Rainbow crown shirt#Pansexual",
         "members": false,
         "stabAttack": 0,
@@ -11298,7 +11466,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29507,
         "name": "Rainbow crown shirt#Pride",
         "members": false,
         "stabAttack": 0,
@@ -11319,7 +11487,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 29511,
         "name": "Rainbow crown shirt#Transgender",
         "members": false,
         "stabAttack": 0,
@@ -11340,7 +11508,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 28119,
         "name": "Rainbow jumper#Asexual",
         "members": false,
         "stabAttack": 0,
@@ -11361,7 +11529,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 28118,
         "name": "Rainbow jumper#Bisexual",
         "members": false,
         "stabAttack": 0,
@@ -11382,7 +11550,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 28125,
         "name": "Rainbow jumper#Gay",
         "members": false,
         "stabAttack": 0,
@@ -11403,7 +11571,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 28123,
         "name": "Rainbow jumper#Genderqueer",
         "members": false,
         "stabAttack": 0,
@@ -11424,7 +11592,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 28124,
         "name": "Rainbow jumper#Lesbian",
         "members": false,
         "stabAttack": 0,
@@ -11445,7 +11613,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 28122,
         "name": "Rainbow jumper#Non-binary",
         "members": false,
         "stabAttack": 0,
@@ -11466,7 +11634,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 28121,
         "name": "Rainbow jumper#Pansexual",
         "members": false,
         "stabAttack": 0,
@@ -11487,7 +11655,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 28116,
         "name": "Rainbow jumper#Pride",
         "members": false,
         "stabAttack": 0,
@@ -11508,7 +11676,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 28120,
         "name": "Rainbow jumper#Transgender",
         "members": false,
         "stabAttack": 0,
@@ -11532,6 +11700,27 @@
         "id": 12596,
         "name": "Rangers' tunic",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -15,
+        "rangedAttack": 15,
+        "stabDefence": 6,
+        "slashDefence": 9,
+        "crushDefence": 12,
+        "magicDefence": 6,
+        "rangedDefence": 6,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 3,
+        "slot": "Body"
+    },
+    {
+        "id": 27179,
+        "name": "Rangers' tunic (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -11718,7 +11907,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 6786,
         "name": "Robe of elidinis (top)",
         "members": true,
         "stabAttack": 0,
@@ -12516,7 +12705,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 5030,
         "name": "Shirt (brown)",
         "members": true,
         "stabAttack": 0,
@@ -12537,7 +12726,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 5034,
         "name": "Shirt (lilac)",
         "members": true,
         "stabAttack": 0,
@@ -12558,7 +12747,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 5032,
         "name": "Shirt (yellow)",
         "members": true,
         "stabAttack": 0,
@@ -12726,7 +12915,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 21849,
         "name": "Snow imp costume body#Reward",
         "members": false,
         "stabAttack": 0,
@@ -12831,7 +13020,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24307,
         "name": "Spooky robe#Reward",
         "members": false,
         "stabAttack": 0,
@@ -12957,7 +13146,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 7110,
         "name": "Stripy pirate shirt (beige)",
         "members": true,
         "stabAttack": 0,
@@ -12978,7 +13167,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 7128,
         "name": "Stripy pirate shirt (blue)",
         "members": true,
         "stabAttack": 0,
@@ -12999,7 +13188,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 7134,
         "name": "Stripy pirate shirt (brown)",
         "members": true,
         "stabAttack": 0,
@@ -13020,7 +13209,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 7122,
         "name": "Stripy pirate shirt (red)",
         "members": true,
         "stabAttack": 0,
@@ -13314,7 +13503,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26384,
         "name": "Torva platebody#Restored",
         "members": true,
         "stabAttack": 0,
@@ -13482,7 +13671,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 6351,
         "name": "Tribal top (blue)",
         "members": true,
         "stabAttack": 0,
@@ -13503,7 +13692,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 6341,
         "name": "Tribal top (brown)",
         "members": true,
         "stabAttack": 0,
@@ -13524,7 +13713,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 6371,
         "name": "Tribal top (pink)",
         "members": true,
         "stabAttack": 0,
@@ -13545,7 +13734,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 6361,
         "name": "Tribal top (yellow)",
         "members": true,
         "stabAttack": 0,
@@ -14112,7 +14301,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24810,
         "name": "Vyre noble blazer (purple)",
         "members": true,
         "stabAttack": 0,
@@ -14133,7 +14322,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24794,
         "name": "Vyre noble blazer (red)",
         "members": true,
         "stabAttack": 0,
@@ -14154,7 +14343,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24834,
         "name": "Vyre noble corset (grey)",
         "members": true,
         "stabAttack": 0,
@@ -14175,7 +14364,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24818,
         "name": "Vyre noble corset (purple)",
         "members": true,
         "stabAttack": 0,
@@ -14196,7 +14385,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24802,
         "name": "Vyre noble corset (red)",
         "members": true,
         "stabAttack": 0,
@@ -14217,7 +14406,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24838,
         "name": "Vyre noble dress top (grey)",
         "members": true,
         "stabAttack": 0,
@@ -14238,7 +14427,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24822,
         "name": "Vyre noble dress top (purple)",
         "members": true,
         "stabAttack": 0,
@@ -14259,7 +14448,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24806,
         "name": "Vyre noble dress top (red)",
         "members": true,
         "stabAttack": 0,
@@ -14301,7 +14490,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24830,
         "name": "Vyre noble vest (grey)",
         "members": true,
         "stabAttack": 0,
@@ -14322,7 +14511,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24814,
         "name": "Vyre noble vest (purple)",
         "members": true,
         "stabAttack": 0,
@@ -14343,7 +14532,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24798,
         "name": "Vyre noble vest (red)",
         "members": true,
         "stabAttack": 0,
@@ -15456,7 +15645,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25463,
         "name": "Black coffin#Closed",
         "members": true,
         "stabAttack": 0,
@@ -15477,7 +15666,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25471,
         "name": "Black coffin#Open",
         "members": true,
         "stabAttack": 0,
@@ -15582,7 +15771,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25208,
         "name": "Blue cape (Soul Wars)#Minigame",
         "members": true,
         "stabAttack": 0,
@@ -15603,7 +15792,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25195,
         "name": "Blue cape (Soul Wars)#Tutorial",
         "members": true,
         "stabAttack": 0,
@@ -15645,7 +15834,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25459,
         "name": "Bronze coffin#Closed",
         "members": true,
         "stabAttack": 0,
@@ -15666,7 +15855,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25469,
         "name": "Bronze coffin#Open",
         "members": true,
         "stabAttack": 0,
@@ -15750,7 +15939,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 4514,
         "name": "Castlewars cloak (Saradomin)",
         "members": false,
         "stabAttack": 0,
@@ -15771,7 +15960,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 4516,
         "name": "Castlewars cloak (Zamorak)",
         "members": false,
         "stabAttack": 0,
@@ -16002,7 +16191,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 10595,
         "name": "Clockwork suit#Unwound",
         "members": true,
         "stabAttack": 0,
@@ -16422,7 +16611,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 28953,
         "name": "Dizana's quiver#Charged_+_Locked",
         "members": true,
         "stabAttack": 0,
@@ -16464,7 +16653,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 28949,
         "name": "Dizana's quiver#Uncharged_+_Locked",
         "members": true,
         "stabAttack": 0,
@@ -16758,7 +16947,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25585,
         "name": "Fish sack barrel#Closed",
         "members": true,
         "stabAttack": 0,
@@ -16779,7 +16968,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25587,
         "name": "Fish sack barrel#Open",
         "members": true,
         "stabAttack": 0,
@@ -16884,7 +17073,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 28143,
         "name": "Forestry basket#Closed",
         "members": true,
         "stabAttack": 0,
@@ -16905,7 +17094,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 28145,
         "name": "Forestry basket#Open",
         "members": true,
         "stabAttack": 0,
@@ -17220,7 +17409,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25467,
         "name": "Gold coffin#Closed",
         "members": true,
         "stabAttack": 0,
@@ -17241,7 +17430,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25473,
         "name": "Gold coffin#Open",
         "members": true,
         "stabAttack": 0,
@@ -17262,7 +17451,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 27449,
         "name": "Graceful cape (Adventurer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17514,7 +17703,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 5607,
         "name": "Grain (Recruitment Drive)",
         "members": true,
         "stabAttack": 0,
@@ -17724,7 +17913,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 4041,
         "name": "Hooded cloak#Saradomin",
         "members": true,
         "stabAttack": 0,
@@ -17745,7 +17934,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 4042,
         "name": "Hooded cloak#Zamorak",
         "members": true,
         "stabAttack": 0,
@@ -19341,7 +19530,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13068,
         "name": "Quest point cape#Trimmed",
         "members": true,
         "stabAttack": 0,
@@ -19635,7 +19824,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25207,
         "name": "Red cape (Soul Wars)",
         "members": true,
         "stabAttack": 0,
@@ -19887,7 +20076,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25465,
         "name": "Silver coffin#Closed",
         "members": true,
         "stabAttack": 0,
@@ -19908,7 +20097,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25472,
         "name": "Silver coffin#Open",
         "members": true,
         "stabAttack": 0,
@@ -20034,7 +20223,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 24865,
         "name": "Skeleton monkey (item)",
         "members": true,
         "stabAttack": 0,
@@ -20139,7 +20328,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 21853,
         "name": "Snow imp costume tail#Reward",
         "members": false,
         "stabAttack": 0,
@@ -20160,7 +20349,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25346,
         "name": "Soul cape#Blue",
         "members": true,
         "stabAttack": 0,
@@ -20181,7 +20370,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25344,
         "name": "Soul cape#Red",
         "members": true,
         "stabAttack": 0,
@@ -20202,7 +20391,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 10073,
         "name": "Spotted cape#Worn",
         "members": true,
         "stabAttack": 0,
@@ -20223,7 +20412,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 10074,
         "name": "Spottier cape#Worn",
         "members": true,
         "stabAttack": 0,
@@ -20244,7 +20433,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25461,
         "name": "Steel coffin#Closed",
         "members": true,
         "stabAttack": 0,
@@ -20265,7 +20454,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25470,
         "name": "Steel coffin#Open",
         "members": true,
         "stabAttack": 0,
@@ -22533,7 +22722,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 22701,
         "name": "Clown shoes#Reward",
         "members": false,
         "stabAttack": 0,
@@ -23058,7 +23247,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 13645,
         "name": "Farmer's boots#Female",
         "members": true,
         "stabAttack": 0,
@@ -23079,7 +23268,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 13644,
         "name": "Farmer's boots#Male",
         "members": true,
         "stabAttack": 0,
@@ -23415,7 +23604,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 27461,
         "name": "Graceful boots (Adventurer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23436,7 +23625,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 21078,
         "name": "Graceful boots (Agility Arena)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23457,7 +23646,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 13590,
         "name": "Graceful boots (Arceuus)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23478,7 +23667,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 24760,
         "name": "Graceful boots (Hallowed)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23499,7 +23688,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 13638,
         "name": "Graceful boots (Hosidius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23520,7 +23709,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 13678,
         "name": "Graceful boots (Kourend)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23541,7 +23730,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 13614,
         "name": "Graceful boots (Lovakengj)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23562,7 +23751,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 13602,
         "name": "Graceful boots (Piscarilius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23583,7 +23772,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 13626,
         "name": "Graceful boots (Shayzien)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23625,7 +23814,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 30062,
         "name": "Graceful boots (Varlamore)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23646,7 +23835,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 11861,
         "name": "Graceful boots#Worn",
         "members": true,
         "stabAttack": 0,
@@ -23709,7 +23898,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 13286,
         "name": "Gravedigger boots#Reward",
         "members": false,
         "stabAttack": 0,
@@ -25074,7 +25263,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 21857,
         "name": "Snow imp costume feet#Reward",
         "members": false,
         "stabAttack": 0,
@@ -25158,7 +25347,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 27178,
         "name": "Spiked manacles (Last Man Standing)",
         "members": false,
         "stabAttack": 0,
@@ -25263,7 +25452,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 24313,
         "name": "Spooky boots#Reward",
         "members": false,
         "stabAttack": 0,
@@ -25557,7 +25746,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 6357,
         "name": "Villager sandals (blue)",
         "members": true,
         "stabAttack": 0,
@@ -25578,7 +25767,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 6349,
         "name": "Villager sandals (brown)",
         "members": true,
         "stabAttack": 0,
@@ -25599,7 +25788,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 6377,
         "name": "Villager sandals (pink)",
         "members": true,
         "stabAttack": 0,
@@ -25620,7 +25809,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 6367,
         "name": "Villager sandals (yellow)",
         "members": true,
         "stabAttack": 0,
@@ -27510,7 +27699,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 13287,
         "name": "Gravedigger gloves#Reward",
         "members": false,
         "stabAttack": 0,
@@ -28959,7 +29148,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 21855,
         "name": "Snow imp costume gloves#Reward",
         "members": false,
         "stabAttack": 0,
@@ -29064,7 +29253,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 24311,
         "name": "Spooky gloves#Reward",
         "members": false,
         "stabAttack": 0,
@@ -29232,7 +29421,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 27171,
         "name": "Tormented bracelet (Last Man Standing)",
         "members": false,
         "stabAttack": 0,
@@ -29295,7 +29484,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 6359,
         "name": "Villager armband (blue)",
         "members": true,
         "stabAttack": 0,
@@ -29316,7 +29505,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 6347,
         "name": "Villager armband (brown)",
         "members": true,
         "stabAttack": 0,
@@ -29337,7 +29526,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 6379,
         "name": "Villager armband (pink)",
         "members": true,
         "stabAttack": 0,
@@ -29358,7 +29547,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 6369,
         "name": "Villager armband (yellow)",
         "members": true,
         "stabAttack": 0,
@@ -29694,9 +29883,51 @@
         "slot": "Head"
     },
     {
+        "id": 27183,
+        "name": "3rd age mage hat (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 8,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 8,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 1,
+        "prayerBonus": 0,
+        "weight": 0.4,
+        "slot": "Head"
+    },
+    {
         "id": 10334,
         "name": "3rd age range coif",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -2,
+        "rangedAttack": 9,
+        "stabDefence": 4,
+        "slashDefence": 7,
+        "crushDefence": 10,
+        "magicDefence": 5,
+        "rangedDefence": 8,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1,
+        "slot": "Head"
+    },
+    {
+        "id": 27201,
+        "name": "3rd age range coif (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -31290,7 +31521,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 4285,
         "name": "Bedsheet#Ectoplasm",
         "members": true,
         "stabAttack": 0,
@@ -31311,7 +31542,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 4284,
         "name": "Bedsheet#Regular",
         "members": true,
         "stabAttack": 0,
@@ -31566,6 +31797,27 @@
         "id": 3751,
         "name": "Berserker helm",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -5,
+        "rangedAttack": -5,
+        "stabDefence": 31,
+        "slashDefence": 29,
+        "crushDefence": 33,
+        "magicDefence": 0,
+        "rangedDefence": 30,
+        "strengthBonus": 3,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 2.721,
+        "slot": "Head"
+    },
+    {
+        "id": 27169,
+        "name": "Berserker helm (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -32697,7 +32949,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29028,
         "name": "Blood moon helm#New",
         "members": true,
         "stabAttack": 0,
@@ -32718,7 +32970,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29047,
         "name": "Blood moon helm#Used",
         "members": true,
         "stabAttack": 0,
@@ -32760,28 +33012,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
-        "name": "Blood'n'tar snelm (pointed)",
-        "members": true,
-        "stabAttack": 0,
-        "slashAttack": 0,
-        "crushAttack": 0,
-        "magicAttack": -3,
-        "rangedAttack": -1,
-        "stabDefence": 7,
-        "slashDefence": 8,
-        "crushDefence": 6,
-        "magicDefence": -1,
-        "rangedDefence": 7,
-        "strengthBonus": 0,
-        "rangedStrength": 0,
-        "magicDamage": 0,
-        "prayerBonus": 0,
-        "weight": 2,
-        "slot": "Head"
-    },
-    {
-        "id": null,
+        "id": 3329,
         "name": "Blood'n'tar snelm (round)",
         "members": true,
         "stabAttack": 0,
@@ -32970,7 +33201,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29019,
         "name": "Blue moon helm#New",
         "members": true,
         "stabAttack": 0,
@@ -32991,7 +33222,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29041,
         "name": "Blue moon helm#Used",
         "members": true,
         "stabAttack": 0,
@@ -33495,27 +33726,6 @@
         "slot": "Head"
     },
     {
-        "id": 3343,
-        "name": "Bruise blue snelm (pointed)",
-        "members": true,
-        "stabAttack": 0,
-        "slashAttack": 0,
-        "crushAttack": 0,
-        "magicAttack": -3,
-        "rangedAttack": -1,
-        "stabDefence": 7,
-        "slashDefence": 8,
-        "crushDefence": 6,
-        "magicDefence": -1,
-        "rangedDefence": 7,
-        "strengthBonus": 0,
-        "rangedStrength": 0,
-        "magicDamage": 0,
-        "prayerBonus": 0,
-        "weight": 2,
-        "slot": "Head"
-    },
-    {
         "id": 3333,
         "name": "Bruise blue snelm (round)",
         "members": true,
@@ -33726,7 +33936,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 4513,
         "name": "Castlewars hood (Saradomin)",
         "members": false,
         "stabAttack": 0,
@@ -33747,7 +33957,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 4515,
         "name": "Castlewars hood (Zamorak)",
         "members": false,
         "stabAttack": 0,
@@ -33789,7 +33999,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 24525,
         "name": "Cat ears#Reward",
         "members": false,
         "stabAttack": 0,
@@ -34650,7 +34860,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23925,
         "name": "Crystal crown (Amlodd)",
         "members": true,
         "stabAttack": 0,
@@ -34671,7 +34881,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23917,
         "name": "Crystal crown (Cadarn)",
         "members": true,
         "stabAttack": 0,
@@ -34692,7 +34902,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23919,
         "name": "Crystal crown (Crwys)",
         "members": true,
         "stabAttack": 0,
@@ -34713,7 +34923,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23923,
         "name": "Crystal crown (Hefin)",
         "members": true,
         "stabAttack": 0,
@@ -34734,7 +34944,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23913,
         "name": "Crystal crown (Iorwerth)",
         "members": true,
         "stabAttack": 0,
@@ -34755,7 +34965,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23911,
         "name": "Crystal crown (Ithell)",
         "members": true,
         "stabAttack": 0,
@@ -34776,7 +34986,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23921,
         "name": "Crystal crown (Meilyr)",
         "members": true,
         "stabAttack": 0,
@@ -34797,7 +35007,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23915,
         "name": "Crystal crown (Trahaearn)",
         "members": true,
         "stabAttack": 0,
@@ -34860,7 +35070,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27753,
         "name": "Crystal helm (Cadarn)#Active",
         "members": true,
         "stabAttack": 0,
@@ -34881,7 +35091,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27755,
         "name": "Crystal helm (Cadarn)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -34902,7 +35112,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27765,
         "name": "Crystal helm (Crwys)#Active",
         "members": true,
         "stabAttack": 0,
@@ -34923,7 +35133,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27767,
         "name": "Crystal helm (Crwys)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -34944,7 +35154,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27705,
         "name": "Crystal helm (Hefin)#Active",
         "members": true,
         "stabAttack": 0,
@@ -34965,7 +35175,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27707,
         "name": "Crystal helm (Hefin)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -34986,7 +35196,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27729,
         "name": "Crystal helm (Iorwerth)#Active",
         "members": true,
         "stabAttack": 0,
@@ -35007,7 +35217,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27731,
         "name": "Crystal helm (Iorwerth)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -35028,7 +35238,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27717,
         "name": "Crystal helm (Ithell)#Active",
         "members": true,
         "stabAttack": 0,
@@ -35049,7 +35259,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27719,
         "name": "Crystal helm (Ithell)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -35070,7 +35280,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27741,
         "name": "Crystal helm (Trahaearn)#Active",
         "members": true,
         "stabAttack": 0,
@@ -35091,7 +35301,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27743,
         "name": "Crystal helm (Trahaearn)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -35133,7 +35343,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23973,
         "name": "Crystal helm#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -35469,7 +35679,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 20499,
         "name": "Decorative armour (magic hat)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -35490,7 +35700,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 24165,
         "name": "Decorative armour (magic hat)#Locked",
         "members": true,
         "stabAttack": 0,
@@ -35511,7 +35721,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11898,
         "name": "Decorative armour (magic hat)#Normal",
         "members": true,
         "stabAttack": 0,
@@ -36246,7 +36456,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29010,
         "name": "Eclipse moon helm#New",
         "members": true,
         "stabAttack": 0,
@@ -36267,7 +36477,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29035,
         "name": "Eclipse moon helm#Used",
         "members": true,
         "stabAttack": 0,
@@ -36312,6 +36522,27 @@
         "id": 20595,
         "name": "Elder chaos hood",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 5,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 4,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 1,
+        "prayerBonus": 0,
+        "weight": 0.18,
+        "slot": "Head"
+    },
+    {
+        "id": 27176,
+        "name": "Elder chaos hood (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -36540,7 +36771,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 13647,
         "name": "Farmer's strawhat#Female",
         "members": true,
         "stabAttack": 0,
@@ -36561,7 +36792,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 13646,
         "name": "Farmer's strawhat#Male",
         "members": true,
         "stabAttack": 0,
@@ -36918,7 +37149,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27143,
         "name": "Flower crown#Asexual",
         "members": false,
         "stabAttack": 0,
@@ -36939,7 +37170,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27141,
         "name": "Flower crown#Bisexual",
         "members": false,
         "stabAttack": 0,
@@ -36960,7 +37191,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27155,
         "name": "Flower crown#Gay",
         "members": false,
         "stabAttack": 0,
@@ -36981,7 +37212,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27151,
         "name": "Flower crown#Genderqueer",
         "members": false,
         "stabAttack": 0,
@@ -37002,7 +37233,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27153,
         "name": "Flower crown#Lesbian",
         "members": false,
         "stabAttack": 0,
@@ -37023,7 +37254,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27149,
         "name": "Flower crown#Non-binary",
         "members": false,
         "stabAttack": 0,
@@ -37044,7 +37275,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27147,
         "name": "Flower crown#Pansexual",
         "members": false,
         "stabAttack": 0,
@@ -37065,7 +37296,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27035,
         "name": "Flower crown#Pride",
         "members": false,
         "stabAttack": 0,
@@ -37086,7 +37317,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27145,
         "name": "Flower crown#Transgender",
         "members": false,
         "stabAttack": 0,
@@ -37236,6 +37467,27 @@
         "id": 6109,
         "name": "Ghostly hood",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 3,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 3,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.001,
+        "slot": "Head"
+    },
+    {
+        "id": 27166,
+        "name": "Ghostly hood (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -38010,7 +38262,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26676,
         "name": "Green slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -38031,7 +38283,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 19645,
         "name": "Green slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -38052,7 +38304,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25181,
         "name": "Green slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -38385,6 +38637,27 @@
         "magicDamage": 0,
         "prayerBonus": 1,
         "weight": 2.721,
+        "slot": "Head"
+    },
+    {
+        "id": 27163,
+        "name": "Guthix halo (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 11,
+        "slashDefence": 12,
+        "crushDefence": 10,
+        "magicDefence": 11,
+        "rangedDefence": -1,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 3,
+        "weight": 0.3,
         "slot": "Head"
     },
     {
@@ -39249,7 +39522,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26680,
         "name": "Hydra slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -39270,7 +39543,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 23075,
         "name": "Hydra slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -39291,7 +39564,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25189,
         "name": "Hydra slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -39483,6 +39756,27 @@
         "id": 24419,
         "name": "Inquisitor's great helm",
         "members": true,
+        "stabAttack": -2,
+        "slashAttack": -2,
+        "crushAttack": 8,
+        "magicAttack": -5,
+        "rangedAttack": -5,
+        "stabDefence": 19,
+        "slashDefence": 10,
+        "crushDefence": 21,
+        "magicDefence": 0,
+        "rangedDefence": 12,
+        "strengthBonus": 4,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 1,
+        "weight": 2.721,
+        "slot": "Head"
+    },
+    {
+        "id": 27195,
+        "name": "Inquisitor's great helm (Last Man Standing)",
+        "members": false,
         "stabAttack": -2,
         "slashAttack": -2,
         "crushAttack": 8,
@@ -40950,28 +41244,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
-        "name": "Myre snelm (pointed)",
-        "members": true,
-        "stabAttack": 0,
-        "slashAttack": 0,
-        "crushAttack": 0,
-        "magicAttack": -3,
-        "rangedAttack": -1,
-        "stabDefence": 7,
-        "slashDefence": 8,
-        "crushDefence": 6,
-        "magicDefence": -1,
-        "rangedDefence": 7,
-        "strengthBonus": 0,
-        "rangedStrength": 0,
-        "magicDamage": 0,
-        "prayerBonus": 0,
-        "weight": 2,
-        "slot": "Head"
-    },
-    {
-        "id": null,
+        "id": 3327,
         "name": "Myre snelm (round)",
         "members": true,
         "stabAttack": 0,
@@ -41325,27 +41598,6 @@
         "magicDamage": 0,
         "prayerBonus": 0,
         "weight": 3.628,
-        "slot": "Head"
-    },
-    {
-        "id": null,
-        "name": "Ochre snelm (pointed)",
-        "members": true,
-        "stabAttack": 0,
-        "slashAttack": 0,
-        "crushAttack": 0,
-        "magicAttack": -3,
-        "rangedAttack": -1,
-        "stabDefence": 7,
-        "slashDefence": 8,
-        "crushDefence": 6,
-        "magicDefence": -1,
-        "rangedDefence": 7,
-        "strengthBonus": 0,
-        "rangedStrength": 0,
-        "magicDamage": 0,
-        "prayerBonus": 0,
-        "weight": 2,
         "slot": "Head"
     },
     {
@@ -41790,7 +42042,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 8949,
         "name": "Pirate bandana (Trouble Brewing)",
         "members": true,
         "stabAttack": 0,
@@ -41811,7 +42063,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 7130,
         "name": "Pirate bandana (blue)",
         "members": true,
         "stabAttack": 0,
@@ -41832,7 +42084,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 7136,
         "name": "Pirate bandana (brown)",
         "members": true,
         "stabAttack": 0,
@@ -41853,7 +42105,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 7124,
         "name": "Pirate bandana (red)",
         "members": true,
         "stabAttack": 0,
@@ -41874,7 +42126,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 7112,
         "name": "Pirate bandana (white)",
         "members": true,
         "stabAttack": 0,
@@ -41997,6 +42249,90 @@
         "magicDamage": 0,
         "prayerBonus": 0,
         "weight": 0.06,
+        "slot": "Head"
+    },
+    {
+        "id": 3339,
+        "name": "Pointed blood'n'tar snelm",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -3,
+        "rangedAttack": -1,
+        "stabDefence": 7,
+        "slashDefence": 8,
+        "crushDefence": 6,
+        "magicDefence": -1,
+        "rangedDefence": 7,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 2,
+        "slot": "Head"
+    },
+    {
+        "id": 3343,
+        "name": "Pointed bruise blue snelm",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -3,
+        "rangedAttack": -1,
+        "stabDefence": 7,
+        "slashDefence": 8,
+        "crushDefence": 6,
+        "magicDefence": -1,
+        "rangedDefence": 7,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 2,
+        "slot": "Head"
+    },
+    {
+        "id": 3337,
+        "name": "Pointed myre snelm",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -3,
+        "rangedAttack": -1,
+        "stabDefence": 7,
+        "slashDefence": 8,
+        "crushDefence": 6,
+        "magicDefence": -1,
+        "rangedDefence": 7,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 2,
+        "slot": "Head"
+    },
+    {
+        "id": 3341,
+        "name": "Pointed ochre snelm",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -3,
+        "rangedAttack": -1,
+        "stabDefence": 7,
+        "slashDefence": 8,
+        "crushDefence": 6,
+        "magicDefence": -1,
+        "rangedDefence": 7,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 2,
         "slot": "Head"
     },
     {
@@ -42210,7 +42546,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29976,
         "name": "Prescription goggles#Focused",
         "members": true,
         "stabAttack": 0,
@@ -42231,7 +42567,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 29974,
         "name": "Prescription goggles#Unfocused",
         "members": true,
         "stabAttack": 0,
@@ -42252,7 +42588,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6885,
         "name": "Progress hat#Dull",
         "members": true,
         "stabAttack": 0,
@@ -42273,7 +42609,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6886,
         "name": "Progress hat#Energised",
         "members": true,
         "stabAttack": 0,
@@ -42294,7 +42630,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6887,
         "name": "Progress hat#Full",
         "members": true,
         "stabAttack": 0,
@@ -42462,7 +42798,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26678,
         "name": "Purple slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -42483,7 +42819,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 21266,
         "name": "Purple slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -42504,7 +42840,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25185,
         "name": "Purple slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -44163,6 +44499,27 @@
         "slot": "Head"
     },
     {
+        "id": 27165,
+        "name": "Saradomin halo (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 11,
+        "slashDefence": 12,
+        "crushDefence": 10,
+        "magicDefence": 11,
+        "rangedDefence": -1,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 3,
+        "weight": 0.3,
+        "slot": "Head"
+    },
+    {
         "id": 20537,
         "name": "Saradomin halo#Broken",
         "members": true,
@@ -44646,7 +45003,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26674,
         "name": "Slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -44667,7 +45024,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11865,
         "name": "Slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -44688,7 +45045,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25177,
         "name": "Slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -44856,7 +45213,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 21847,
         "name": "Snow imp costume head#Reward",
         "members": false,
         "stabAttack": 0,
@@ -44898,7 +45255,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 28603,
         "name": "Spider hat#Common",
         "members": false,
         "stabAttack": 0,
@@ -44919,7 +45276,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 28611,
         "name": "Spider hat#Old",
         "members": false,
         "stabAttack": 0,
@@ -44940,7 +45297,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 28609,
         "name": "Spider hat#Sarachnis",
         "members": false,
         "stabAttack": 0,
@@ -44961,7 +45318,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 28605,
         "name": "Spider hat#Venenatis",
         "members": false,
         "stabAttack": 0,
@@ -44982,7 +45339,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 28607,
         "name": "Spider hat#Verzik",
         "members": false,
         "stabAttack": 0,
@@ -45108,7 +45465,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 24305,
         "name": "Spooky hood#Reward",
         "members": false,
         "stabAttack": 0,
@@ -46011,7 +46368,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26382,
         "name": "Torva full helm#Restored",
         "members": true,
         "stabAttack": 0,
@@ -46179,7 +46536,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6339,
         "name": "Tribal mask (combat)",
         "members": true,
         "stabAttack": 0,
@@ -46200,7 +46557,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6337,
         "name": "Tribal mask (disease)",
         "members": true,
         "stabAttack": 0,
@@ -46221,7 +46578,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6335,
         "name": "Tribal mask (poison)",
         "members": true,
         "stabAttack": 0,
@@ -46284,7 +46641,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26679,
         "name": "Turquoise slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -46305,7 +46662,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 21890,
         "name": "Turquoise slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -46326,7 +46683,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25187,
         "name": "Turquoise slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -46452,7 +46809,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26681,
         "name": "Twisted slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -46473,7 +46830,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 24444,
         "name": "Twisted slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -46494,7 +46851,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25191,
         "name": "Twisted slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -46788,7 +47145,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26683,
         "name": "Vampyric slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -46809,7 +47166,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25906,
         "name": "Vampyric slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -46830,7 +47187,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25908,
         "name": "Vampyric slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -46977,7 +47334,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6355,
         "name": "Villager hat (blue)",
         "members": true,
         "stabAttack": 0,
@@ -46998,7 +47355,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6345,
         "name": "Villager hat (brown)",
         "members": true,
         "stabAttack": 0,
@@ -47019,7 +47376,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6375,
         "name": "Villager hat (pink)",
         "members": true,
         "stabAttack": 0,
@@ -47040,7 +47397,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 6365,
         "name": "Villager hat (yellow)",
         "members": true,
         "stabAttack": 0,
@@ -48258,6 +48615,27 @@
         "slot": "Head"
     },
     {
+        "id": 27164,
+        "name": "Zamorak halo (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 11,
+        "slashDefence": 12,
+        "crushDefence": 10,
+        "magicDefence": 11,
+        "rangedDefence": -1,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 3,
+        "weight": 0.3,
+        "slot": "Head"
+    },
+    {
         "id": 20539,
         "name": "Zamorak halo#Broken",
         "members": true,
@@ -48381,6 +48759,27 @@
         "magicDamage": 0,
         "prayerBonus": 1,
         "weight": 2.267,
+        "slot": "Head"
+    },
+    {
+        "id": 30321,
+        "name": "Zombie helmet",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 8,
+        "magicAttack": -4,
+        "rangedAttack": -2,
+        "stabDefence": 30,
+        "slashDefence": 32,
+        "crushDefence": 38,
+        "magicDefence": 0,
+        "rangedDefence": 30,
+        "strengthBonus": 2,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 2.721,
         "slot": "Head"
     },
     {
@@ -48531,9 +48930,51 @@
         "slot": "Legs"
     },
     {
+        "id": 27200,
+        "name": "3rd age range legs (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -10,
+        "rangedAttack": 17,
+        "stabDefence": 31,
+        "slashDefence": 25,
+        "crushDefence": 33,
+        "magicDefence": 30,
+        "rangedDefence": 31,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 3,
+        "slot": "Legs"
+    },
+    {
         "id": 10340,
         "name": "3rd age robe",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 19,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 19,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 1,
+        "prayerBonus": 0,
+        "weight": 1.8,
+        "slot": "Legs"
+    },
+    {
+        "id": 20577,
+        "name": "3rd age robe (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -49434,6 +49875,27 @@
         "slot": "Legs"
     },
     {
+        "id": 20424,
+        "name": "Black d'hide chaps (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -10,
+        "rangedAttack": 17,
+        "stabDefence": 18,
+        "slashDefence": 20,
+        "crushDefence": 26,
+        "magicDefence": 23,
+        "rangedDefence": 26,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 5.443,
+        "slot": "Legs"
+    },
+    {
         "id": 12383,
         "name": "Black d'hide chaps (g)",
         "members": true,
@@ -49749,7 +50211,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 29025,
         "name": "Blood moon tassets#New",
         "members": true,
         "stabAttack": 0,
@@ -49770,7 +50232,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 29045,
         "name": "Blood moon tassets#Used",
         "members": true,
         "stabAttack": 0,
@@ -49938,7 +50400,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 29016,
         "name": "Blue moon tassets#New",
         "members": true,
         "stabAttack": 0,
@@ -49959,7 +50421,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 29039,
         "name": "Blue moon tassets#Used",
         "members": true,
         "stabAttack": 0,
@@ -50400,7 +50862,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 22698,
         "name": "Clown trousers#Reward",
         "members": false,
         "stabAttack": 0,
@@ -50610,7 +51072,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27773,
         "name": "Crystal legs (Amlodd)#Active",
         "members": true,
         "stabAttack": 0,
@@ -50631,7 +51093,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27775,
         "name": "Crystal legs (Amlodd)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -50652,7 +51114,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27749,
         "name": "Crystal legs (Cadarn)#Active",
         "members": true,
         "stabAttack": 0,
@@ -50673,7 +51135,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27751,
         "name": "Crystal legs (Cadarn)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -50694,7 +51156,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27761,
         "name": "Crystal legs (Crwys)#Active",
         "members": true,
         "stabAttack": 0,
@@ -50715,7 +51177,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27763,
         "name": "Crystal legs (Crwys)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -50736,7 +51198,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27701,
         "name": "Crystal legs (Hefin)#Active",
         "members": true,
         "stabAttack": 0,
@@ -50757,7 +51219,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27703,
         "name": "Crystal legs (Hefin)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -50778,7 +51240,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27725,
         "name": "Crystal legs (Iorwerth)#Active",
         "members": true,
         "stabAttack": 0,
@@ -50799,7 +51261,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27727,
         "name": "Crystal legs (Iorwerth)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -50820,7 +51282,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27713,
         "name": "Crystal legs (Ithell)#Active",
         "members": true,
         "stabAttack": 0,
@@ -50841,7 +51303,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27715,
         "name": "Crystal legs (Ithell)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -50862,7 +51324,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27737,
         "name": "Crystal legs (Trahaearn)#Active",
         "members": true,
         "stabAttack": 0,
@@ -50883,7 +51345,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27739,
         "name": "Crystal legs (Trahaearn)#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -50925,7 +51387,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 23981,
         "name": "Crystal legs#Inactive",
         "members": true,
         "stabAttack": 0,
@@ -51030,7 +51492,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 20487,
         "name": "Decorative armour (gold platelegs)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -51051,7 +51513,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24159,
         "name": "Decorative armour (gold platelegs)#Locked",
         "members": false,
         "stabAttack": 0,
@@ -51072,7 +51534,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 4510,
         "name": "Decorative armour (gold platelegs)#Normal",
         "members": false,
         "stabAttack": 0,
@@ -51093,7 +51555,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 20493,
         "name": "Decorative armour (gold plateskirt)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -51114,7 +51576,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24162,
         "name": "Decorative armour (gold plateskirt)#Locked",
         "members": false,
         "stabAttack": 0,
@@ -51135,7 +51597,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 11895,
         "name": "Decorative armour (gold plateskirt)#Normal",
         "members": false,
         "stabAttack": 0,
@@ -51156,7 +51618,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 20497,
         "name": "Decorative armour (magic legs)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -51177,7 +51639,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24164,
         "name": "Decorative armour (magic legs)#Locked",
         "members": true,
         "stabAttack": 0,
@@ -51198,7 +51660,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 11897,
         "name": "Decorative armour (magic legs)#Normal",
         "members": true,
         "stabAttack": 0,
@@ -51765,7 +52227,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 29007,
         "name": "Eclipse moon tassets#New",
         "members": true,
         "stabAttack": 0,
@@ -51786,7 +52248,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 29033,
         "name": "Eclipse moon tassets#Used",
         "members": true,
         "stabAttack": 0,
@@ -51852,6 +52314,27 @@
         "id": 20520,
         "name": "Elder chaos robe",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 6,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 6,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 1,
+        "prayerBonus": 0,
+        "weight": 0.18,
+        "slot": "Legs"
+    },
+    {
+        "id": 27175,
+        "name": "Elder chaos robe (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -52038,7 +52521,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24018,
         "name": "Elven skirt (white)",
         "members": false,
         "stabAttack": 0,
@@ -52059,7 +52542,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24012,
         "name": "Elven skirt (yellow)",
         "members": false,
         "stabAttack": 0,
@@ -52143,7 +52626,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13641,
         "name": "Farmer's boro trousers#Female",
         "members": true,
         "stabAttack": 0,
@@ -52164,7 +52647,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13640,
         "name": "Farmer's boro trousers#Male",
         "members": true,
         "stabAttack": 0,
@@ -52248,6 +52731,27 @@
         "slot": "Legs"
     },
     {
+        "id": 27177,
+        "name": "Fremennik kilt (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -21,
+        "rangedAttack": -7,
+        "stabDefence": 11,
+        "slashDefence": 10,
+        "crushDefence": 10,
+        "magicDefence": -4,
+        "rangedDefence": 10,
+        "strengthBonus": 1,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 3,
+        "slot": "Legs"
+    },
+    {
         "id": 3795,
         "name": "Fremennik skirt",
         "members": true,
@@ -52290,9 +52794,30 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 6108,
         "name": "Ghostly robe (bottom)",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 4,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 4,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.001,
+        "slot": "Legs"
+    },
+    {
+        "id": 27168,
+        "name": "Ghostly robe (bottom) (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -52752,7 +53277,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13285,
         "name": "Gravedigger leggings#Reward",
         "members": false,
         "stabAttack": 0,
@@ -53172,6 +53697,27 @@
         "slot": "Legs"
     },
     {
+        "id": 27180,
+        "name": "Guthix chaps (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -10,
+        "rangedAttack": 17,
+        "stabDefence": 31,
+        "slashDefence": 25,
+        "crushDefence": 33,
+        "magicDefence": 28,
+        "rangedDefence": 31,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 1,
+        "weight": 5,
+        "slot": "Legs"
+    },
+    {
         "id": 2671,
         "name": "Guthix platelegs",
         "members": false,
@@ -53364,6 +53910,27 @@
         "id": 24421,
         "name": "Inquisitor's plateskirt",
         "members": true,
+        "stabAttack": -3,
+        "slashAttack": -3,
+        "crushAttack": 12,
+        "magicAttack": -9,
+        "rangedAttack": -5,
+        "stabDefence": 42,
+        "slashDefence": 30,
+        "crushDefence": 49,
+        "magicDefence": 0,
+        "rangedDefence": 22,
+        "strengthBonus": 2,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 2,
+        "weight": 9.071,
+        "slot": "Legs"
+    },
+    {
+        "id": 27197,
+        "name": "Inquisitor's plateskirt (Last Man Standing)",
+        "members": false,
         "stabAttack": -3,
         "slashAttack": -3,
         "crushAttack": 12,
@@ -54474,6 +55041,27 @@
         "slot": "Legs"
     },
     {
+        "id": 27159,
+        "name": "Mystic robe bottom (dark) (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 15,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 15,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1.814,
+        "slot": "Legs"
+    },
+    {
         "id": 23053,
         "name": "Mystic robe bottom (dusk)",
         "members": true,
@@ -54498,6 +55086,27 @@
         "id": 4113,
         "name": "Mystic robe bottom (light)",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 15,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 15,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1.814,
+        "slot": "Legs"
+    },
+    {
+        "id": 27161,
+        "name": "Mystic robe bottom (light) (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -54810,7 +55419,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 7116,
         "name": "Pirate leggings (beige)",
         "members": true,
         "stabAttack": 0,
@@ -54831,7 +55440,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 7132,
         "name": "Pirate leggings (blue)",
         "members": true,
         "stabAttack": 0,
@@ -54852,7 +55461,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 7138,
         "name": "Pirate leggings (brown)",
         "members": true,
         "stabAttack": 0,
@@ -54873,7 +55482,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 7126,
         "name": "Pirate leggings (red)",
         "members": true,
         "stabAttack": 0,
@@ -54936,7 +55545,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 428,
         "name": "Priest gown (bottom)",
         "members": false,
         "stabAttack": 0,
@@ -55335,7 +55944,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 26874,
         "name": "Robe bottoms of the eye#Blue",
         "members": true,
         "stabAttack": 0,
@@ -55356,7 +55965,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 26868,
         "name": "Robe bottoms of the eye#Green",
         "members": true,
         "stabAttack": 0,
@@ -55377,7 +55986,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 26862,
         "name": "Robe bottoms of the eye#Red",
         "members": true,
         "stabAttack": 0,
@@ -55398,7 +56007,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 26854,
         "name": "Robe bottoms of the eye#Regular",
         "members": true,
         "stabAttack": 0,
@@ -55419,7 +56028,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 6787,
         "name": "Robe of elidinis (bottom)",
         "members": true,
         "stabAttack": 0,
@@ -55776,6 +56385,27 @@
         "slot": "Legs"
     },
     {
+        "id": 27182,
+        "name": "Saradomin chaps (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -10,
+        "rangedAttack": 17,
+        "stabDefence": 31,
+        "slashDefence": 25,
+        "crushDefence": 33,
+        "magicDefence": 28,
+        "rangedDefence": 31,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 1,
+        "weight": 5,
+        "slot": "Legs"
+    },
+    {
         "id": 2663,
         "name": "Saradomin platelegs",
         "members": false,
@@ -56028,7 +56658,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 5046,
         "name": "Shorts (blue)",
         "members": true,
         "stabAttack": 0,
@@ -56049,7 +56679,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 5042,
         "name": "Shorts (brown)",
         "members": true,
         "stabAttack": 0,
@@ -56070,7 +56700,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 5044,
         "name": "Shorts (yellow)",
         "members": true,
         "stabAttack": 0,
@@ -56154,7 +56784,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 5048,
         "name": "Skirt (blue)",
         "members": true,
         "stabAttack": 0,
@@ -56175,7 +56805,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 5052,
         "name": "Skirt (brown)",
         "members": true,
         "stabAttack": 0,
@@ -56196,7 +56826,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 5050,
         "name": "Skirt (lilac)",
         "members": true,
         "stabAttack": 0,
@@ -56406,7 +57036,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24309,
         "name": "Spooky skirt#Reward",
         "members": false,
         "stabAttack": 0,
@@ -56847,7 +57477,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 26386,
         "name": "Torva platelegs#Restored",
         "members": true,
         "stabAttack": 0,
@@ -57015,7 +57645,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 5040,
         "name": "Trousers (blue)",
         "members": true,
         "stabAttack": 0,
@@ -57036,7 +57666,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 5036,
         "name": "Trousers (brown)",
         "members": true,
         "stabAttack": 0,
@@ -57057,7 +57687,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 5038,
         "name": "Trousers (lilac)",
         "members": true,
         "stabAttack": 0,
@@ -57351,7 +57981,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 6353,
         "name": "Villager robe (blue)",
         "members": true,
         "stabAttack": 0,
@@ -57372,7 +58002,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 6343,
         "name": "Villager robe (brown)",
         "members": true,
         "stabAttack": 0,
@@ -57393,7 +58023,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 6373,
         "name": "Villager robe (pink)",
         "members": true,
         "stabAttack": 0,
@@ -57414,7 +58044,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 6363,
         "name": "Villager robe (yellow)",
         "members": true,
         "stabAttack": 0,
@@ -57561,7 +58191,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24828,
         "name": "Vyre noble coat tails (grey)",
         "members": true,
         "stabAttack": 0,
@@ -57582,7 +58212,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24812,
         "name": "Vyre noble coat tails (purple)",
         "members": true,
         "stabAttack": 0,
@@ -57603,7 +58233,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24796,
         "name": "Vyre noble coat tails (red)",
         "members": true,
         "stabAttack": 0,
@@ -57624,7 +58254,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24840,
         "name": "Vyre noble dress bottom (grey)",
         "members": true,
         "stabAttack": 0,
@@ -57645,7 +58275,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24824,
         "name": "Vyre noble dress bottom (purple)",
         "members": true,
         "stabAttack": 0,
@@ -57666,7 +58296,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24808,
         "name": "Vyre noble dress bottom (red)",
         "members": true,
         "stabAttack": 0,
@@ -57708,7 +58338,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24832,
         "name": "Vyre noble pants (grey)",
         "members": true,
         "stabAttack": 0,
@@ -57729,7 +58359,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24816,
         "name": "Vyre noble pants (purple)",
         "members": true,
         "stabAttack": 0,
@@ -57750,7 +58380,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24800,
         "name": "Vyre noble pants (red)",
         "members": true,
         "stabAttack": 0,
@@ -57771,7 +58401,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24836,
         "name": "Vyre noble skirt (grey)",
         "members": true,
         "stabAttack": 0,
@@ -57792,7 +58422,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24820,
         "name": "Vyre noble skirt (purple)",
         "members": true,
         "stabAttack": 0,
@@ -57813,7 +58443,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24804,
         "name": "Vyre noble skirt (red)",
         "members": true,
         "stabAttack": 0,
@@ -58026,6 +58656,27 @@
         "id": 10372,
         "name": "Zamorak chaps",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": -10,
+        "rangedAttack": 17,
+        "stabDefence": 31,
+        "slashDefence": 25,
+        "crushDefence": 33,
+        "magicDefence": 28,
+        "rangedDefence": 31,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 1,
+        "weight": 5,
+        "slot": "Legs"
+    },
+    {
+        "id": 27181,
+        "name": "Zamorak chaps (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -59115,6 +59766,27 @@
         "slot": "Neck"
     },
     {
+        "id": 27173,
+        "name": "Amulet of torture (Last Man Standing)",
+        "members": false,
+        "stabAttack": 15,
+        "slashAttack": 15,
+        "crushAttack": 15,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 10,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 2,
+        "weight": 0.01,
+        "slot": "Neck"
+    },
+    {
         "id": 20366,
         "name": "Amulet of torture (or)",
         "members": true,
@@ -59619,7 +60291,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 22692,
         "name": "Clown bow tie#Reward",
         "members": false,
         "stabAttack": 0,
@@ -60291,7 +60963,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 4250,
         "name": "Ghostspeak amulet#Enchanted",
         "members": true,
         "stabAttack": 0,
@@ -60732,6 +61404,27 @@
         "slot": "Neck"
     },
     {
+        "id": 27172,
+        "name": "Necklace of anguish (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 15,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 5,
+        "magicDamage": 0,
+        "prayerBonus": 2,
+        "weight": 0.01,
+        "slot": "Neck"
+    },
+    {
         "id": 22249,
         "name": "Necklace of anguish (or)",
         "members": true,
@@ -61152,7 +61845,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 28109,
         "name": "Rainbow scarf#Asexual",
         "members": false,
         "stabAttack": 0,
@@ -61173,7 +61866,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 28108,
         "name": "Rainbow scarf#Bisexual",
         "members": false,
         "stabAttack": 0,
@@ -61194,7 +61887,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 28115,
         "name": "Rainbow scarf#Gay",
         "members": false,
         "stabAttack": 0,
@@ -61215,7 +61908,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 28113,
         "name": "Rainbow scarf#Genderqueer",
         "members": false,
         "stabAttack": 0,
@@ -61236,7 +61929,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 28114,
         "name": "Rainbow scarf#Lesbian",
         "members": false,
         "stabAttack": 0,
@@ -61257,7 +61950,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 28112,
         "name": "Rainbow scarf#Non-binary",
         "members": false,
         "stabAttack": 0,
@@ -61278,7 +61971,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 28111,
         "name": "Rainbow scarf#Pansexual",
         "members": false,
         "stabAttack": 0,
@@ -61299,7 +61992,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 21314,
         "name": "Rainbow scarf#Pride",
         "members": false,
         "stabAttack": 0,
@@ -61320,7 +62013,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 28110,
         "name": "Rainbow scarf#Transgender",
         "members": false,
         "stabAttack": 0,
@@ -61425,7 +62118,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 26782,
         "name": "Salve amulet(ei)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -61446,7 +62139,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 12018,
         "name": "Salve amulet(ei)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -61467,7 +62160,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 25278,
         "name": "Salve amulet(ei)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -61488,7 +62181,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 26763,
         "name": "Salve amulet(i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -61509,7 +62202,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 12017,
         "name": "Salve amulet(i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -61530,7 +62223,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 25250,
         "name": "Salve amulet(i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -61656,7 +62349,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": 1796,
         "name": "Silver necklace#Dusted",
         "members": true,
         "stabAttack": 0,
@@ -62538,7 +63231,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 26770,
         "name": "Berserker ring (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -62559,7 +63252,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 11773,
         "name": "Berserker ring (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -62580,7 +63273,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 25264,
         "name": "Berserker ring (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -63000,7 +63693,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 26685,
         "name": "Granite ring (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -63021,7 +63714,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 21752,
         "name": "Granite ring (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -63042,7 +63735,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 25193,
         "name": "Granite ring (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -63819,7 +64512,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 19550,
         "name": "Ring of suffering#Recoil",
         "members": true,
         "stabAttack": 0,
@@ -63840,7 +64533,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 19550,
         "name": "Ring of suffering#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -63882,7 +64575,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 26815,
         "name": "Ring of the elements#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -63924,7 +64617,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 26764,
         "name": "Ring of the gods (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -63945,7 +64638,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 13202,
         "name": "Ring of the gods (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -63966,7 +64659,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 25252,
         "name": "Ring of the gods (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -64323,7 +65016,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 26767,
         "name": "Seers ring (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -64344,7 +65037,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 11770,
         "name": "Seers ring (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -64365,7 +65058,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 25258,
         "name": "Seers ring (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -64722,7 +65415,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 26765,
         "name": "Tyrannical ring (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -64743,7 +65436,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 12691,
         "name": "Tyrannical ring (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -64764,7 +65457,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 25254,
         "name": "Tyrannical ring (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -64848,7 +65541,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 26769,
         "name": "Warrior ring (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -64869,7 +65562,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 11772,
         "name": "Warrior ring (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -64890,7 +65583,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": 25262,
         "name": "Warrior ring (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -66906,7 +67599,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6277,
         "name": "Broodoo shield (combat)#(1)",
         "members": true,
         "stabAttack": 0,
@@ -66927,7 +67620,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6259,
         "name": "Broodoo shield (combat)#(10)",
         "members": true,
         "stabAttack": 0,
@@ -66948,7 +67641,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6275,
         "name": "Broodoo shield (combat)#(2)",
         "members": true,
         "stabAttack": 0,
@@ -66969,7 +67662,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6273,
         "name": "Broodoo shield (combat)#(3)",
         "members": true,
         "stabAttack": 0,
@@ -66990,7 +67683,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6271,
         "name": "Broodoo shield (combat)#(4)",
         "members": true,
         "stabAttack": 0,
@@ -67011,7 +67704,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6269,
         "name": "Broodoo shield (combat)#(5)",
         "members": true,
         "stabAttack": 0,
@@ -67032,7 +67725,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6267,
         "name": "Broodoo shield (combat)#(6)",
         "members": true,
         "stabAttack": 0,
@@ -67053,7 +67746,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6265,
         "name": "Broodoo shield (combat)#(7)",
         "members": true,
         "stabAttack": 0,
@@ -67074,7 +67767,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6263,
         "name": "Broodoo shield (combat)#(8)",
         "members": true,
         "stabAttack": 0,
@@ -67095,7 +67788,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6261,
         "name": "Broodoo shield (combat)#(9)",
         "members": true,
         "stabAttack": 0,
@@ -67116,7 +67809,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6279,
         "name": "Broodoo shield (combat)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -67137,7 +67830,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6255,
         "name": "Broodoo shield (disease)#(1)",
         "members": true,
         "stabAttack": 0,
@@ -67158,7 +67851,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6237,
         "name": "Broodoo shield (disease)#(10)",
         "members": true,
         "stabAttack": 0,
@@ -67179,7 +67872,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6253,
         "name": "Broodoo shield (disease)#(2)",
         "members": true,
         "stabAttack": 0,
@@ -67200,7 +67893,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6251,
         "name": "Broodoo shield (disease)#(3)",
         "members": true,
         "stabAttack": 0,
@@ -67221,7 +67914,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6249,
         "name": "Broodoo shield (disease)#(4)",
         "members": true,
         "stabAttack": 0,
@@ -67242,7 +67935,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6247,
         "name": "Broodoo shield (disease)#(5)",
         "members": true,
         "stabAttack": 0,
@@ -67263,7 +67956,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6245,
         "name": "Broodoo shield (disease)#(6)",
         "members": true,
         "stabAttack": 0,
@@ -67284,7 +67977,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6243,
         "name": "Broodoo shield (disease)#(7)",
         "members": true,
         "stabAttack": 0,
@@ -67305,7 +67998,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6241,
         "name": "Broodoo shield (disease)#(8)",
         "members": true,
         "stabAttack": 0,
@@ -67326,7 +68019,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6239,
         "name": "Broodoo shield (disease)#(9)",
         "members": true,
         "stabAttack": 0,
@@ -67347,7 +68040,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6257,
         "name": "Broodoo shield (disease)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -67368,7 +68061,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6233,
         "name": "Broodoo shield (poison)#(1)",
         "members": true,
         "stabAttack": 0,
@@ -67389,7 +68082,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6215,
         "name": "Broodoo shield (poison)#(10)",
         "members": true,
         "stabAttack": 0,
@@ -67410,7 +68103,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6231,
         "name": "Broodoo shield (poison)#(2)",
         "members": true,
         "stabAttack": 0,
@@ -67431,7 +68124,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6229,
         "name": "Broodoo shield (poison)#(3)",
         "members": true,
         "stabAttack": 0,
@@ -67452,7 +68145,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6227,
         "name": "Broodoo shield (poison)#(4)",
         "members": true,
         "stabAttack": 0,
@@ -67473,7 +68166,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6225,
         "name": "Broodoo shield (poison)#(5)",
         "members": true,
         "stabAttack": 0,
@@ -67494,7 +68187,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6223,
         "name": "Broodoo shield (poison)#(6)",
         "members": true,
         "stabAttack": 0,
@@ -67515,7 +68208,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6221,
         "name": "Broodoo shield (poison)#(7)",
         "members": true,
         "stabAttack": 0,
@@ -67536,7 +68229,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6219,
         "name": "Broodoo shield (poison)#(8)",
         "members": true,
         "stabAttack": 0,
@@ -67557,7 +68250,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6217,
         "name": "Broodoo shield (poison)#(9)",
         "members": true,
         "stabAttack": 0,
@@ -67578,7 +68271,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 6235,
         "name": "Broodoo shield (poison)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -67620,7 +68313,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 7053,
         "name": "Bug lantern#Lit",
         "members": true,
         "stabAttack": 0,
@@ -67641,7 +68334,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 7051,
         "name": "Bug lantern#Unlit",
         "members": true,
         "stabAttack": 0,
@@ -67683,7 +68376,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 5609,
         "name": "Chicken (Recruitment Drive)",
         "members": true,
         "stabAttack": 0,
@@ -68313,7 +69006,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 11284,
         "name": "Dragonfire shield#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -68355,7 +69048,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 22002,
         "name": "Dragonfire ward#Uncharged",
         "members": true,
         "stabAttack": -10,
@@ -70539,7 +71232,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 26322,
         "name": "Secret santa present#Black",
         "members": false,
         "stabAttack": 0,
@@ -70560,7 +71253,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 26318,
         "name": "Secret santa present#Blue",
         "members": false,
         "stabAttack": 0,
@@ -70581,7 +71274,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 26324,
         "name": "Secret santa present#Gold",
         "members": false,
         "stabAttack": 0,
@@ -70602,7 +71295,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 26320,
         "name": "Secret santa present#Green",
         "members": false,
         "stabAttack": 0,
@@ -70623,7 +71316,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 26316,
         "name": "Secret santa present#Red",
         "members": false,
         "stabAttack": 0,
@@ -71883,7 +72576,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 27191,
         "name": "Unholy book (Last Man Standing)",
         "members": false,
         "stabAttack": 8,
@@ -71925,7 +72618,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 24266,
         "name": "V's shield#Equipable",
         "members": true,
         "stabAttack": 0,
@@ -71946,7 +72639,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 24265,
         "name": "V's shield#The_Fremennik_Exiles",
         "members": true,
         "stabAttack": 0,
@@ -72662,7 +73355,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 11706,
         "name": "Beach boxing gloves#Pink",
         "members": false,
         "stabAttack": 0,
@@ -72684,7 +73377,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 11705,
         "name": "Beach boxing gloves#Yellow",
         "members": false,
         "stabAttack": 0,
@@ -73058,7 +73751,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25890,
         "name": "Bow of faerdhinen (c) (Cadarn)",
         "members": true,
         "stabAttack": 0,
@@ -73080,7 +73773,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25892,
         "name": "Bow of faerdhinen (c) (Crwys)",
         "members": true,
         "stabAttack": 0,
@@ -73102,7 +73795,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25886,
         "name": "Bow of faerdhinen (c) (Iorwerth)",
         "members": true,
         "stabAttack": 0,
@@ -73124,7 +73817,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25884,
         "name": "Bow of faerdhinen (c) (Ithell)",
         "members": true,
         "stabAttack": 0,
@@ -73146,7 +73839,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25894,
         "name": "Bow of faerdhinen (c) (Meilyr)",
         "members": true,
         "stabAttack": 0,
@@ -73168,7 +73861,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25888,
         "name": "Bow of faerdhinen (c) (Trahaearn)",
         "members": true,
         "stabAttack": 0,
@@ -73190,7 +73883,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 7671,
         "name": "Boxing gloves#Blue",
         "members": true,
         "stabAttack": 0,
@@ -73212,7 +73905,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 7673,
         "name": "Boxing gloves#Red",
         "members": true,
         "stabAttack": 0,
@@ -73850,7 +74543,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 28223,
         "name": "Crystal felling axe#Inactive",
         "members": true,
         "stabAttack": -3,
@@ -75038,7 +75731,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 24227,
         "name": "Granite maul (ornate handle)#Clamp",
         "members": true,
         "stabAttack": 0,
@@ -75060,7 +75753,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 24225,
         "name": "Granite maul (ornate handle)#Normal",
         "members": true,
         "stabAttack": 0,
@@ -75082,7 +75775,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 12848,
         "name": "Granite maul#Clamp",
         "members": true,
         "stabAttack": 0,
@@ -76556,7 +77249,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 6773,
         "name": "Rat pole#Empty",
         "members": true,
         "stabAttack": 0,
@@ -76578,7 +77271,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 6778,
         "name": "Rat pole#Five_rats",
         "members": true,
         "stabAttack": 0,
@@ -76600,7 +77293,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 6777,
         "name": "Rat pole#Four_rats",
         "members": true,
         "stabAttack": 0,
@@ -76622,7 +77315,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 6774,
         "name": "Rat pole#One_rat",
         "members": true,
         "stabAttack": 0,
@@ -76644,7 +77337,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 6779,
         "name": "Rat pole#Six_rats",
         "members": true,
         "stabAttack": 0,
@@ -76666,7 +77359,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 6776,
         "name": "Rat pole#Three_rats",
         "members": true,
         "stabAttack": 0,
@@ -76688,7 +77381,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 6775,
         "name": "Rat pole#Two_rats",
         "members": true,
         "stabAttack": 0,
@@ -77414,7 +78107,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 25282,
         "name": "Sled (2020 Christmas event)",
         "members": false,
         "stabAttack": 0,
@@ -77436,7 +78129,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 4083,
         "name": "Sled#Unwaxed",
         "members": true,
         "stabAttack": 0,
@@ -77458,7 +78151,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 4084,
         "name": "Sled#Waxed",
         "members": true,
         "stabAttack": 0,
@@ -77964,7 +78657,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 12924,
         "name": "Toxic blowpipe#Empty",
         "members": true,
         "stabAttack": 0,
@@ -78536,7 +79229,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": 27652,
         "name": "Webweaver bow#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -80384,6 +81077,28 @@
         "slot": "Weapon"
     },
     {
+        "id": 20431,
+        "name": "Ancient staff (Last Man Standing)",
+        "members": false,
+        "stabAttack": 10,
+        "slashAttack": -1,
+        "crushAttack": 40,
+        "magicAttack": 15,
+        "rangedAttack": 0,
+        "stabDefence": 2,
+        "slashDefence": 3,
+        "crushDefence": 1,
+        "magicDefence": 15,
+        "rangedDefence": 0,
+        "strengthBonus": 50,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": -1,
+        "weight": 2.267,
+        "speed": 4,
+        "slot": "Weapon"
+    },
+    {
         "id": 7807,
         "name": "Anger battleaxe",
         "members": true,
@@ -81638,7 +82353,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25882,
         "name": "Blade of saeldor (c) (Amlodd)",
         "members": true,
         "stabAttack": 55,
@@ -81660,7 +82375,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25876,
         "name": "Blade of saeldor (c) (Cadarn)",
         "members": true,
         "stabAttack": 55,
@@ -81682,7 +82397,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25878,
         "name": "Blade of saeldor (c) (Crwys)",
         "members": true,
         "stabAttack": 55,
@@ -81704,7 +82419,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25872,
         "name": "Blade of saeldor (c) (Iorwerth)",
         "members": true,
         "stabAttack": 55,
@@ -81748,7 +82463,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25880,
         "name": "Blade of saeldor (c) (Meilyr)",
         "members": true,
         "stabAttack": 55,
@@ -81770,7 +82485,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25874,
         "name": "Blade of saeldor (c) (Trahaearn)",
         "members": true,
         "stabAttack": 55,
@@ -83024,7 +83739,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 22817,
         "name": "Cormorant's glove#Bird",
         "members": true,
         "stabAttack": 0,
@@ -83046,7 +83761,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 22816,
         "name": "Cormorant's glove#No_bird",
         "members": true,
         "stabAttack": 0,
@@ -83200,7 +83915,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 23762,
         "name": "Crystal harpoon#Inactive",
         "members": true,
         "stabAttack": 38,
@@ -84234,6 +84949,28 @@
         "slot": "Weapon"
     },
     {
+        "id": 27157,
+        "name": "Dragon knife (Last Man Standing)",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 28,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 30,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "speed": 3,
+        "slot": "Weapon"
+    },
+    {
         "id": 22806,
         "name": "Dragon knife#(p)",
         "members": true,
@@ -84564,6 +85301,28 @@
         "slot": "Weapon"
     },
     {
+        "id": 20406,
+        "name": "Dragon scimitar (Last Man Standing)",
+        "members": false,
+        "stabAttack": 8,
+        "slashAttack": 67,
+        "crushAttack": -2,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 1,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 66,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1.814,
+        "speed": 4,
+        "slot": "Weapon"
+    },
+    {
         "id": 28031,
         "name": "Dragon scimitar (cr)",
         "members": true,
@@ -84806,7 +85565,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 22684,
         "name": "Eek#Reward",
         "members": false,
         "stabAttack": -100,
@@ -85136,7 +85895,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 10023,
         "name": "Falconer's glove#No_Falcon",
         "members": true,
         "stabAttack": 0,
@@ -85158,7 +85917,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 10024,
         "name": "Falconer's glove#With_Falcon",
         "members": true,
         "stabAttack": 0,
@@ -85202,7 +85961,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 5608,
         "name": "Fox (Recruitment Drive)",
         "members": true,
         "stabAttack": 0,
@@ -86016,7 +86775,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 1410,
         "name": "Iban's staff#Broken",
         "members": true,
         "stabAttack": 10,
@@ -86038,7 +86797,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 1409,
         "name": "Iban's staff#Regular",
         "members": true,
         "stabAttack": 10,
@@ -86148,7 +86907,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25644,
         "name": "Imcando hammer#Repaired",
         "members": false,
         "stabAttack": 0,
@@ -86437,6 +87196,28 @@
         "id": 24417,
         "name": "Inquisitor's mace",
         "members": true,
+        "stabAttack": 52,
+        "slashAttack": -4,
+        "crushAttack": 95,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 89,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 2,
+        "weight": 1.814,
+        "speed": 4,
+        "slot": "Weapon"
+    },
+    {
+        "id": 27198,
+        "name": "Inquisitor's mace (Last Man Standing)",
+        "members": false,
         "stabAttack": 52,
         "slashAttack": -4,
         "crushAttack": 95,
@@ -88832,7 +89613,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 21200,
         "name": "Mystic lava staff (or)",
         "members": true,
         "stabAttack": 10,
@@ -89514,7 +90295,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 29911,
         "name": "Prop sword (Death on the Isle)",
         "members": true,
         "stabAttack": 0,
@@ -91054,7 +91835,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 6745,
         "name": "Silverlight#Dyed",
         "members": true,
         "stabAttack": 9,
@@ -91604,7 +92385,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 12795,
         "name": "Steam battlestaff (or)",
         "members": true,
         "stabAttack": 7,
@@ -92264,7 +93045,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 27785,
         "name": "Thammaron's sceptre (a)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -92308,7 +93089,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 22552,
         "name": "Thammaron's sceptre#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -92462,7 +93243,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 12902,
         "name": "Toxic staff of the dead#Uncharged",
         "members": true,
         "stabAttack": 55,
@@ -92638,7 +93419,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 22290,
         "name": "Trident of the seas (e)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -92682,7 +93463,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 11907,
         "name": "Trident of the seas#Partially_charged",
         "members": true,
         "stabAttack": 0,
@@ -92704,7 +93485,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 11908,
         "name": "Trident of the seas#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -92748,7 +93529,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 22294,
         "name": "Trident of the swamp (e)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -92792,7 +93573,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 12900,
         "name": "Trident of the swamp#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -92946,7 +93727,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 27657,
         "name": "Ursine chainmace#Uncharged",
         "members": true,
         "stabAttack": 53,
@@ -92990,7 +93771,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 24619,
         "name": "Vesta's blighted longsword#Inactive",
         "members": true,
         "stabAttack": 106,
@@ -93056,7 +93837,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 22542,
         "name": "Viggora's chainmace#Uncharged",
         "members": true,
         "stabAttack": 53,
@@ -94027,6 +94808,28 @@
         "id": 26374,
         "name": "Zaryte crossbow",
         "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 110,
+        "stabDefence": 14,
+        "slashDefence": 14,
+        "crushDefence": 12,
+        "magicDefence": 15,
+        "rangedDefence": 16,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 1,
+        "weight": 6.001,
+        "speed": 6,
+        "slot": "Weapon"
+    },
+    {
+        "id": 27186,
+        "name": "Zaryte crossbow (Last Man Standing)",
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,

@@ -226,8 +226,11 @@ function findIDDecorative (name: string) : number | null {
         "Steel heraldic helm",
         "Steel kiteshield",
         "Damaged book",
+        "Priest gown",
 
         "Chompy bird hat",
+
+        "Rat pole",
     ].map((name) => name.toLowerCase());
 
     if(!eligibleItems.some((item) => name.toLowerCase().includes(item))) {
@@ -235,11 +238,15 @@ function findIDDecorative (name: string) : number | null {
     }
 
     // find name and decoration aka Rune kiteshield (Arrav) -> Rune kiteshield, Arrav
-    const [namePart, decoration] = name.match(/(.*) \((.*)\)/)?.slice(1) ?? [];
+    let [namePart, decoration, hashtag] = name.match(/(.+)(?:(?: \((.*)\))|(?:#(.*)))/)?.slice(1) ?? [];
+
+    decoration = decoration ?? hashtag;
 
     if(!decoration || !namePart) {
         return null;
     }
+
+    decoration = decoration.replaceAll("_", " ")
 
     const id = items.find((item) => {
         return item.name.toLowerCase() === namePart.toLowerCase() && item.examine.toLowerCase().includes(decoration.toLowerCase());
@@ -354,10 +361,16 @@ function rewriteName(name: string) : string {
         name = name.replace("javelin (", "javelin(");
     }
 
-    // Abyssal dagger has a space between the name and the (p++) which is not present in the items.json
-    name = name.replace("Abyssal dagger(", "Abyssal dagger (");
-    // same with the Bone dagger
-    name = name.replace("Bone dagger(", "Bone dagger (");
+    // Things that just need a little space beween the name and the ()
+    const spaceNeeders = [
+        "Abyssal dagger",
+        "Bone dagger",
+        "Viggora's chainmace"
+    ]
+
+    for(const spaceNeeder of spaceNeeders){
+        name = name.replace(`${spaceNeeder}(`, `${spaceNeeder} (`);
+    }
 
     // A special case for pumpkins with emotions
     const emotions = [
@@ -373,10 +386,6 @@ function rewriteName(name: string) : string {
     // Black mask (i)#7 -> Black mask (7)(i)
     // watch out it has been partially rewritten before (Black mask (i) (5))
     name = name.replace(/Black mask \(i\) \((\d+)\)/, "Black mask ($1) (i)");
-
-    if(name.includes("Black mask")) {
-        console.log(name);
-    }
 
     return name;
 }
