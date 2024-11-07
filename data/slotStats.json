@@ -4620,7 +4620,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Ahrim's robetop#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -6279,7 +6279,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "has two IDs on the wiki (29914 and 29916)",
         "name": "Butler's uniform (top)",
         "members": true,
         "stabAttack": 0,
@@ -6426,7 +6426,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist22694)",
         "name": "Clown gown#During_event",
         "members": false,
         "stabAttack": 0,
@@ -6909,7 +6909,7 @@
         "slot": "Body"
     },
     {
-        "id": 27711,
+        "id": 27733,
         "name": "Crystal body (Trahaearn)#Active",
         "members": true,
         "stabAttack": 0,
@@ -7392,7 +7392,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Dharok's platebody#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -8925,7 +8925,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist13290)",
         "name": "Gravedigger top#During_event",
         "members": false,
         "stabAttack": 0,
@@ -9366,7 +9366,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Guthan's platebody#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -9975,7 +9975,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Karil's leathertop#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -12894,7 +12894,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 21842,
         "name": "Snow imp costume body#During_event",
         "members": false,
         "stabAttack": 0,
@@ -13356,7 +13356,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Torag's platebody#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -13482,7 +13482,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "unobtainable item",
         "name": "Torva platebody (unobtainable item)",
         "members": true,
         "stabAttack": 0,
@@ -13860,7 +13860,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26256,
         "name": "Ugly halloween jumper#Black",
         "members": false,
         "stabAttack": 0,
@@ -13881,7 +13881,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 26258,
         "name": "Ugly halloween jumper#Orange",
         "members": false,
         "stabAttack": 0,
@@ -14007,7 +14007,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Verac's brassard#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -22701,7 +22701,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist22700)",
         "name": "Clown shoes#During_event",
         "members": false,
         "stabAttack": 0,
@@ -23877,7 +23877,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist13292)",
         "name": "Gravedigger boots#During_event",
         "members": false,
         "stabAttack": 0,
@@ -25242,7 +25242,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 21846,
         "name": "Snow imp costume feet#During_event",
         "members": false,
         "stabAttack": 0,
@@ -27678,7 +27678,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist13293)",
         "name": "Gravedigger gloves#During_event",
         "members": false,
         "stabAttack": 0,
@@ -29127,7 +29127,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 21845,
         "name": "Snow imp costume gloves#During_event",
         "members": false,
         "stabAttack": 0,
@@ -30681,7 +30681,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Ahrim's hood#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -33978,7 +33978,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist24522)",
         "name": "Cat ears#During_event",
         "members": false,
         "stabAttack": 0,
@@ -34146,7 +34146,7 @@
         "slot": "Head"
     },
     {
-        "id": 2978,
+        "id": 2979,
         "name": "Chompy bird hat (bowman)",
         "members": true,
         "stabAttack": 0,
@@ -34167,7 +34167,7 @@
         "slot": "Head"
     },
     {
-        "id": 2988,
+        "id": 2989,
         "name": "Chompy bird hat (bowmaster)",
         "members": true,
         "stabAttack": 0,
@@ -34188,7 +34188,7 @@
         "slot": "Head"
     },
     {
-        "id": 2992,
+        "id": 2993,
         "name": "Chompy bird hat (dragon archer)",
         "members": true,
         "stabAttack": 0,
@@ -34251,7 +34251,7 @@
         "slot": "Head"
     },
     {
-        "id": 2990,
+        "id": 2991,
         "name": "Chompy bird hat (expert)",
         "members": true,
         "stabAttack": 0,
@@ -34272,7 +34272,7 @@
         "slot": "Head"
     },
     {
-        "id": 2986,
+        "id": 2987,
         "name": "Chompy bird hat (forester)",
         "members": true,
         "stabAttack": 0,
@@ -34293,7 +34293,7 @@
         "slot": "Head"
     },
     {
-        "id": 2982,
+        "id": 2983,
         "name": "Chompy bird hat (marksman)",
         "members": true,
         "stabAttack": 0,
@@ -34482,7 +34482,7 @@
         "slot": "Head"
     },
     {
-        "id": 2984,
+        "id": 2985,
         "name": "Chompy bird hat (woodsman)",
         "members": true,
         "stabAttack": 0,
@@ -34503,7 +34503,7 @@
         "slot": "Head"
     },
     {
-        "id": 2980,
+        "id": 2981,
         "name": "Chompy bird hat (yeoman)",
         "members": true,
         "stabAttack": 0,
@@ -36015,7 +36015,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Dharok's helm#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -38472,7 +38472,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Guthan's helm#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -40173,7 +40173,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Karil's coif#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -40929,7 +40929,7 @@
         "slot": "Head"
     },
     {
-        "id": 5013,
+        "id": 5014,
         "name": "Mining helmet#Unlit",
         "members": true,
         "stabAttack": 0,
@@ -43449,7 +43449,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 26677,
         "name": "Red slayer helmet (i)#Emir's_Arena",
         "members": true,
         "stabAttack": 0,
@@ -43470,7 +43470,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 19649,
         "name": "Red slayer helmet (i)#Nightmare_Zone",
         "members": true,
         "stabAttack": 0,
@@ -43491,7 +43491,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25183,
         "name": "Red slayer helmet (i)#Soul_Wars",
         "members": true,
         "stabAttack": 0,
@@ -45192,7 +45192,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 21841,
         "name": "Snow imp costume head#During_event",
         "members": false,
         "stabAttack": 0,
@@ -46221,7 +46221,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Torag's helm#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -46347,7 +46347,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": "unobtainable item",
         "name": "Torva full helm (unobtainable item)",
         "members": true,
         "stabAttack": 0,
@@ -47208,7 +47208,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Verac's helm#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -49182,7 +49182,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Ahrim's robeskirt#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -49518,7 +49518,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist13294)",
         "name": "Anti-panties#During_event",
         "members": false,
         "stabAttack": 0,
@@ -50736,7 +50736,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "has two IDs on the wiki (29915 and 29918)",
         "name": "Butler's uniform (bottom)",
         "members": true,
         "stabAttack": 0,
@@ -50841,7 +50841,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist22697)",
         "name": "Clown trousers#During_event",
         "members": false,
         "stabAttack": 0,
@@ -51912,7 +51912,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Dharok's platelegs#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -53256,7 +53256,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist13291)",
         "name": "Gravedigger leggings#During_event",
         "members": false,
         "stabAttack": 0,
@@ -53550,7 +53550,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Guthan's chainskirt#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -54138,7 +54138,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Karil's leatherskirt#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -56910,7 +56910,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 21843,
         "name": "Snow imp costume legs#During_event",
         "members": false,
         "stabAttack": 0,
@@ -56931,7 +56931,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 21851,
         "name": "Snow imp costume legs#Reward",
         "members": false,
         "stabAttack": 0,
@@ -57330,7 +57330,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Torag's platelegs#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -57456,7 +57456,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "unobtainable item",
         "name": "Torva platelegs (unobtainable item)",
         "members": true,
         "stabAttack": 0,
@@ -57834,7 +57834,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Verac's plateskirt#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -58905,7 +58905,7 @@
         "slot": "Neck"
     },
     {
-        "id": 29988,
+        "id": 29990,
         "name": "Alchemist's amulet#Charged",
         "members": true,
         "stabAttack": 0,
@@ -60270,7 +60270,7 @@
         "slot": "Neck"
     },
     {
-        "id": null,
+        "id": "removed from the game (hist22691)",
         "name": "Clown bow tie#During_event",
         "members": false,
         "stabAttack": 0,
@@ -62349,7 +62349,7 @@
         "slot": "Neck"
     },
     {
-        "id": 1796,
+        "id": 1797,
         "name": "Silver necklace#Dusted",
         "members": true,
         "stabAttack": 0,
@@ -63924,7 +63924,7 @@
         "slot": "Ring"
     },
     {
-        "id": 4202,
+        "id": 6465,
         "name": "Ring of charos#Activated",
         "members": true,
         "stabAttack": 0,
@@ -64470,7 +64470,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": "cant figgue out what the ID of this item is",
         "name": "Ring of suffering (i)#Recoil",
         "members": true,
         "stabAttack": 0,
@@ -64491,7 +64491,7 @@
         "slot": "Ring"
     },
     {
-        "id": null,
+        "id": "cant figgue out what the ID of this item is",
         "name": "Ring of suffering (i)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -64512,7 +64512,7 @@
         "slot": "Ring"
     },
     {
-        "id": 19550,
+        "id": 20655,
         "name": "Ring of suffering#Recoil",
         "members": true,
         "stabAttack": 0,
@@ -64554,7 +64554,7 @@
         "slot": "Ring"
     },
     {
-        "id": 26815,
+        "id": 26818,
         "name": "Ring of the elements#Charged",
         "members": true,
         "stabAttack": 0,
@@ -65772,7 +65772,7 @@
         "slot": "Shield"
     },
     {
-        "id": 26822,
+        "id": 26824,
         "name": "Abyssal lantern#Normal",
         "members": true,
         "stabAttack": 0,
@@ -69048,7 +69048,7 @@
         "slot": "Shield"
     },
     {
-        "id": 22002,
+        "id": 22003,
         "name": "Dragonfire ward#Uncharged",
         "members": true,
         "stabAttack": -10,
@@ -74785,7 +74785,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Dharok's greataxe#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -75841,7 +75841,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Guthan's warspear#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -76325,7 +76325,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Karil's crossbow#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -77755,7 +77755,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": 12809,
+        "id": 12808,
         "name": "Saradomin's blessed sword#Charged",
         "members": true,
         "stabAttack": 0,
@@ -78503,7 +78503,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Torag's hammers#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -79053,7 +79053,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Verac's flail#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -80659,7 +80659,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": "broken is not a valid item state",
         "name": "Ahrim's staff#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -83915,7 +83915,7 @@
         "slot": "Weapon"
     },
     {
-        "id": 23762,
+        "id": 23764,
         "name": "Crystal harpoon#Inactive",
         "members": true,
         "stabAttack": 38,
@@ -87127,7 +87127,7 @@
         "slot": "Weapon"
     },
     {
-        "id": 13243,
+        "id": 25369,
         "name": "Infernal pickaxe (or)#Uncharged",
         "members": true,
         "stabAttack": 38,
@@ -93441,7 +93441,7 @@
         "slot": "Weapon"
     },
     {
-        "id": 11907,
+        "id": 11905,
         "name": "Trident of the seas#Charged",
         "members": true,
         "stabAttack": 0,
@@ -93683,7 +93683,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 10487,
         "name": "Undead chicken (item)",
         "members": true,
         "stabAttack": -100,

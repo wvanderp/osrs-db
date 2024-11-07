@@ -153,6 +153,17 @@ const slotStats : SlotStats[] = [];
     fs.writeFileSync("./data/slotStats.json", JSON.stringify(slotStats, null, 4));
 })();
 
+// items that should not be found automatically because they find the wrong item
+const manualItemsSubstring = [
+    "Mining helmet",
+    "Alchemist's amulet",
+    "Silver necklace",
+    "Ring of charos",
+    "Ring of the elements",
+    "Abyssal lantern#Normal",
+    "Saradomin's blessed sword",
+    "Trident of the seas"
+];
 /**
  * 
  * @param name find the id of the item with the given name
@@ -172,11 +183,16 @@ function findID(name: string) : number | null {
 
 
     // find the id from the titleToID.json
-    const idFromTitle = titleToID[name];
+    let idFromTitle = titleToID[name]
 
-    const idWithFile =  lookupID ?? decorativeID;
-    const id = idWithFile ?? idFromTitle;
+    let idWithFile =  lookupID ?? decorativeID;
+    let id = idWithFile ?? (typeof idFromTitle === "number" ? idFromTitle : null);
 
+    // if the item is in the manualItemsSubstring then remove the id
+    if(manualItemsSubstring.some((item) => name.includes(item))) {
+        idWithFile = null;
+        id = null;
+    }
 
     // If the id is already found but stored in the titleToID.json then remove it
     if((idWithFile) && idFromTitle !== undefined) {
@@ -228,12 +244,18 @@ function findIDDecorative (name: string) : number | null {
         "Damaged book",
         "Priest gown",
 
-        "Chompy bird hat",
-
         "Rat pole",
     ].map((name) => name.toLowerCase());
 
     if(!eligibleItems.some((item) => name.toLowerCase().includes(item))) {
+        return null;
+    }
+
+    // some items choose the wrong name so we are going to exclude them
+    const excludeSubstrings = [
+    ];
+
+    if(excludeSubstrings.some((item) => name.toLowerCase().includes(item))) {
         return null;
     }
 
