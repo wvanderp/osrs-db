@@ -7203,7 +7203,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 20501,
         "name": "Decorative armour (ranged top)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -7224,7 +7224,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24166,
         "name": "Decorative armour (ranged top)#Locked",
         "members": true,
         "stabAttack": 0,
@@ -7245,7 +7245,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 11899,
         "name": "Decorative armour (ranged top)#Normal",
         "members": true,
         "stabAttack": 0,
@@ -7266,7 +7266,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 4069,
         "name": "Decorative armour (red platebody)",
         "members": false,
         "stabAttack": 0,
@@ -7287,7 +7287,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 4504,
         "name": "Decorative armour (white platebody)",
         "members": false,
         "stabAttack": 0,
@@ -7371,7 +7371,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 6388,
         "name": "Desert top (overcoat)",
         "members": true,
         "stabAttack": 0,
@@ -8652,7 +8652,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27452,
         "name": "Graceful top (Adventurer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8673,7 +8673,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 21069,
         "name": "Graceful top (Agility Arena)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8694,7 +8694,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 13584,
         "name": "Graceful top (Arceuus)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8715,7 +8715,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 24749,
         "name": "Graceful top (Hallowed)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8736,7 +8736,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 13632,
         "name": "Graceful top (Hosidius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8757,7 +8757,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 13672,
         "name": "Graceful top (Kourend)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8778,7 +8778,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 13608,
         "name": "Graceful top (Lovakengj)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8799,7 +8799,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 13596,
         "name": "Graceful top (Piscarilius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8820,7 +8820,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 13620,
         "name": "Graceful top (Shayzien)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8841,7 +8841,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 25077,
         "name": "Graceful top (Trailblazer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -8862,7 +8862,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 30053,
         "name": "Graceful top (Varlamore)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -10857,7 +10857,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27572,
         "name": "Nutcracker top#Festive",
         "members": false,
         "stabAttack": 0,
@@ -10878,7 +10878,7 @@
         "slot": "Body"
     },
     {
-        "id": null,
+        "id": 27582,
         "name": "Nutcracker top#Sweet",
         "members": false,
         "stabAttack": 0,
@@ -16380,7 +16380,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 20505,
         "name": "Decorative armour (quiver)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -16401,7 +16401,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 24168,
         "name": "Decorative armour (quiver)#Locked",
         "members": true,
         "stabAttack": 0,
@@ -16422,7 +16422,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 11901,
         "name": "Decorative armour (quiver)#Normal",
         "members": true,
         "stabAttack": 0,
@@ -17472,7 +17472,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 21066,
         "name": "Graceful cape (Agility Arena)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17493,7 +17493,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13582,
         "name": "Graceful cape (Arceuus)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17514,7 +17514,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 24748,
         "name": "Graceful cape (Hallowed)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17535,7 +17535,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13630,
         "name": "Graceful cape (Hosidius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17556,7 +17556,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13670,
         "name": "Graceful cape (Kourend)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17577,7 +17577,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13606,
         "name": "Graceful cape (Lovakengj)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17598,7 +17598,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13594,
         "name": "Graceful cape (Piscarilius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17619,7 +17619,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13618,
         "name": "Graceful cape (Shayzien)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17640,7 +17640,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 25074,
         "name": "Graceful cape (Trailblazer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17661,7 +17661,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 30050,
         "name": "Graceful cape (Varlamore)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -17682,7 +17682,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 11853,
         "name": "Graceful cape#Worn",
         "members": true,
         "stabAttack": 0,
@@ -18711,7 +18711,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 24862,
         "name": "Karamjan monkey (item)",
         "members": true,
         "stabAttack": 0,
@@ -18753,7 +18753,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 28140,
         "name": "Log basket#Closed",
         "members": true,
         "stabAttack": 0,
@@ -18774,7 +18774,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 28142,
         "name": "Log basket#Open",
         "members": true,
         "stabAttack": 0,
@@ -18795,7 +18795,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 26988,
         "name": "Lost bag#Blue",
         "members": true,
         "stabAttack": 0,
@@ -18816,7 +18816,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 26986,
         "name": "Lost bag#Green",
         "members": true,
         "stabAttack": 0,
@@ -18837,7 +18837,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 26984,
         "name": "Lost bag#Red",
         "members": true,
         "stabAttack": 0,
@@ -18858,7 +18858,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 26912,
         "name": "Lost bag#Regular",
         "members": true,
         "stabAttack": 0,
@@ -18942,7 +18942,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 24864,
         "name": "Maniacal monkey (item)",
         "members": true,
         "stabAttack": 0,
@@ -19089,7 +19089,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 13342,
         "name": "Max cape#Worn",
         "members": true,
         "stabAttack": 0,
@@ -19173,7 +19173,7 @@
         "slot": "Cape"
     },
     {
-        "id": null,
+        "id": 19556,
         "name": "Monkey (Monkey Madness II)",
         "members": true,
         "stabAttack": 0,
@@ -22848,7 +22848,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 25155,
         "name": "Decorative boots (gold)#Broken",
         "members": false,
         "stabAttack": 0,
@@ -22869,7 +22869,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 25173,
         "name": "Decorative boots (gold)#Locked",
         "members": false,
         "stabAttack": 0,
@@ -22890,7 +22890,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 25171,
         "name": "Decorative boots (gold)#Normal",
         "members": false,
         "stabAttack": 0,
@@ -22911,7 +22911,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 25163,
         "name": "Decorative boots (red)",
         "members": false,
         "stabAttack": 0,
@@ -22932,7 +22932,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 25167,
         "name": "Decorative boots (white)",
         "members": false,
         "stabAttack": 0,
@@ -24087,7 +24087,7 @@
         "slot": "Feet"
     },
     {
-        "id": null,
+        "id": 27170,
         "name": "Infinity boots (Last Man Standing)",
         "members": false,
         "stabAttack": 0,
@@ -27405,7 +27405,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 27458,
         "name": "Graceful gloves (Adventurer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27426,7 +27426,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 21075,
         "name": "Graceful gloves (Agility Arena)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27447,7 +27447,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 13588,
         "name": "Graceful gloves (Arceuus)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27468,7 +27468,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 24757,
         "name": "Graceful gloves (Hallowed)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27489,7 +27489,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 13636,
         "name": "Graceful gloves (Hosidius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27510,7 +27510,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 13676,
         "name": "Graceful gloves (Kourend)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27531,7 +27531,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 13612,
         "name": "Graceful gloves (Lovakengj)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27552,7 +27552,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 13600,
         "name": "Graceful gloves (Piscarilius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27573,7 +27573,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 13624,
         "name": "Graceful gloves (Shayzien)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27594,7 +27594,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 25083,
         "name": "Graceful gloves (Trailblazer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27615,7 +27615,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 30059,
         "name": "Graceful gloves (Varlamore)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -27636,7 +27636,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 11859,
         "name": "Graceful gloves#Worn",
         "members": true,
         "stabAttack": 0,
@@ -28308,7 +28308,7 @@
         "slot": "Hands"
     },
     {
-        "id": null,
+        "id": 20581,
         "name": "Mithril gloves (Last Man Standing)",
         "members": false,
         "stabAttack": 6,
@@ -33013,7 +33013,7 @@
     },
     {
         "id": 3329,
-        "name": "Blood'n'tar snelm (round)",
+        "name": "Blood'n'tar snelm",
         "members": true,
         "stabAttack": 0,
         "slashAttack": 0,
@@ -33727,7 +33727,7 @@
     },
     {
         "id": 3333,
-        "name": "Bruise blue snelm (round)",
+        "name": "Bruise blue snelm",
         "members": true,
         "stabAttack": 0,
         "slashAttack": 0,
@@ -35742,7 +35742,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25157,
         "name": "Decorative full helm (gold)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -35763,7 +35763,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25176,
         "name": "Decorative full helm (gold)#Locked",
         "members": false,
         "stabAttack": 0,
@@ -35784,7 +35784,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25174,
         "name": "Decorative full helm (gold)#Normal",
         "members": false,
         "stabAttack": 0,
@@ -35805,7 +35805,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25165,
         "name": "Decorative full helm (red)",
         "members": false,
         "stabAttack": 0,
@@ -35826,7 +35826,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25169,
         "name": "Decorative full helm (white)",
         "members": false,
         "stabAttack": 0,
@@ -35847,7 +35847,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 20489,
         "name": "Decorative helm (gold)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -35868,7 +35868,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 24160,
         "name": "Decorative helm (gold)#Locked",
         "members": false,
         "stabAttack": 0,
@@ -35889,7 +35889,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 4511,
         "name": "Decorative helm (gold)#Normal",
         "members": false,
         "stabAttack": 0,
@@ -35910,7 +35910,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 4071,
         "name": "Decorative helm (red)",
         "members": false,
         "stabAttack": 0,
@@ -35931,7 +35931,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 4506,
         "name": "Decorative helm (white)",
         "members": false,
         "stabAttack": 0,
@@ -37800,7 +37800,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27446,
         "name": "Graceful hood (Adventurer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -37821,7 +37821,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 21063,
         "name": "Graceful hood (Agility Arena)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -37842,7 +37842,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 13580,
         "name": "Graceful hood (Arceuus)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -37863,7 +37863,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 24745,
         "name": "Graceful hood (Hallowed)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -37884,7 +37884,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 13628,
         "name": "Graceful hood (Hosidius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -37905,7 +37905,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 13668,
         "name": "Graceful hood (Kourend)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -37926,7 +37926,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 13604,
         "name": "Graceful hood (Lovakengj)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -37947,7 +37947,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 13592,
         "name": "Graceful hood (Piscarilius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -37968,7 +37968,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 13616,
         "name": "Graceful hood (Shayzien)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -37989,7 +37989,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 25071,
         "name": "Graceful hood (Trailblazer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -38010,7 +38010,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 30047,
         "name": "Graceful hood (Varlamore)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -38031,7 +38031,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 11851,
         "name": "Graceful hood#Worn",
         "members": true,
         "stabAttack": 0,
@@ -40005,7 +40005,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 21719,
         "name": "Jonas mask#During_event",
         "members": false,
         "stabAttack": 0,
@@ -40026,7 +40026,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 21720,
         "name": "Jonas mask#Reward",
         "members": false,
         "stabAttack": 0,
@@ -40908,7 +40908,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 5013,
         "name": "Mining helmet#Lit",
         "members": true,
         "stabAttack": 0,
@@ -41245,7 +41245,7 @@
     },
     {
         "id": 3327,
-        "name": "Myre snelm (round)",
+        "name": "Myre snelm",
         "members": true,
         "stabAttack": 0,
         "slashAttack": 0,
@@ -41454,7 +41454,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27877,
         "name": "Nest hat#Chick",
         "members": false,
         "stabAttack": 0,
@@ -41475,7 +41475,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27875,
         "name": "Nest hat#Easter_egg",
         "members": false,
         "stabAttack": 0,
@@ -41538,7 +41538,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27576,
         "name": "Nutcracker hat#Festive",
         "members": false,
         "stabAttack": 0,
@@ -41559,7 +41559,7 @@
         "slot": "Head"
     },
     {
-        "id": null,
+        "id": 27584,
         "name": "Nutcracker hat#Sweet",
         "members": false,
         "stabAttack": 0,
@@ -41601,8 +41601,8 @@
         "slot": "Head"
     },
     {
-        "id": null,
-        "name": "Ochre snelm (round)",
+        "id": 3331,
+        "name": "Ochre snelm",
         "members": true,
         "stabAttack": 0,
         "slashAttack": 0,
@@ -51681,7 +51681,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 20503,
         "name": "Decorative armour (ranged legs)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -51702,7 +51702,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24167,
         "name": "Decorative armour (ranged legs)#Locked",
         "members": true,
         "stabAttack": 0,
@@ -51723,7 +51723,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 11900,
         "name": "Decorative armour (ranged legs)#Normal",
         "members": true,
         "stabAttack": 0,
@@ -51744,7 +51744,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 4070,
         "name": "Decorative armour (red platelegs)",
         "members": false,
         "stabAttack": 0,
@@ -51765,7 +51765,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 11893,
         "name": "Decorative armour (red plateskirt)",
         "members": false,
         "stabAttack": 0,
@@ -51786,7 +51786,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 4505,
         "name": "Decorative armour (white platelegs)",
         "members": false,
         "stabAttack": 0,
@@ -51807,7 +51807,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 11894,
         "name": "Decorative armour (white plateskirt)",
         "members": false,
         "stabAttack": 0,
@@ -53004,7 +53004,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 21072,
         "name": "Graceful legs (Agility Arena)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53025,7 +53025,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13586,
         "name": "Graceful legs (Arceuus)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53046,7 +53046,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 24754,
         "name": "Graceful legs (Hallowed)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53067,7 +53067,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13634,
         "name": "Graceful legs (Hosidius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53088,7 +53088,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13674,
         "name": "Graceful legs (Kourend)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53109,7 +53109,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13610,
         "name": "Graceful legs (Lovakengj)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53130,7 +53130,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13598,
         "name": "Graceful legs (Piscarilius)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53151,7 +53151,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 13622,
         "name": "Graceful legs (Shayzien)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53172,7 +53172,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 25080,
         "name": "Graceful legs (Trailblazer)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53193,7 +53193,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 30056,
         "name": "Graceful legs (Varlamore)#Worn",
         "members": true,
         "stabAttack": 0,
@@ -53214,7 +53214,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 11857,
         "name": "Graceful legs#Worn",
         "members": true,
         "stabAttack": 0,
@@ -55146,7 +55146,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27574,
         "name": "Nutcracker trousers#Festive",
         "members": false,
         "stabAttack": 0,
@@ -55167,7 +55167,7 @@
         "slot": "Legs"
     },
     {
-        "id": null,
+        "id": 27583,
         "name": "Nutcracker trousers#Sweet",
         "members": false,
         "stabAttack": 0,
@@ -68649,7 +68649,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 20491,
         "name": "Decorative shield (gold)#Broken",
         "members": true,
         "stabAttack": 0,
@@ -68670,7 +68670,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 24161,
         "name": "Decorative shield (gold)#Locked",
         "members": false,
         "stabAttack": 0,
@@ -68691,7 +68691,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 4512,
         "name": "Decorative shield (gold)#Normal",
         "members": false,
         "stabAttack": 0,
@@ -68712,7 +68712,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 4072,
         "name": "Decorative shield (red)",
         "members": false,
         "stabAttack": 0,
@@ -68733,7 +68733,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 4507,
         "name": "Decorative shield (white)",
         "members": false,
         "stabAttack": 0,
@@ -70350,7 +70350,7 @@
         "slot": "Shield"
     },
     {
-        "id": null,
+        "id": 12807,
         "name": "Odium ward (or)",
         "members": true,
         "stabAttack": -12,
@@ -84113,7 +84113,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 20483,
         "name": "Decorative sword (gold)#Broken",
         "members": true,
         "stabAttack": 20,
@@ -84135,7 +84135,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 24157,
         "name": "Decorative sword (gold)#Locked",
         "members": false,
         "stabAttack": 20,
@@ -84157,7 +84157,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 4508,
         "name": "Decorative sword (gold)#Normal",
         "members": false,
         "stabAttack": 20,
@@ -84179,7 +84179,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 4068,
         "name": "Decorative sword (red)",
         "members": false,
         "stabAttack": 13,
@@ -84201,7 +84201,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 4503,
         "name": "Decorative sword (white)",
         "members": false,
         "stabAttack": 15,
@@ -86951,7 +86951,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25371,
         "name": "Infernal axe (or)#Uncharged",
         "members": true,
         "stabAttack": -2,
@@ -87039,7 +87039,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 25367,
         "name": "Infernal harpoon (or)#Uncharged",
         "members": true,
         "stabAttack": 38,
@@ -87127,7 +87127,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 13243,
         "name": "Infernal pickaxe (or)#Uncharged",
         "members": true,
         "stabAttack": 38,
@@ -87391,7 +87391,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 813,
         "name": "Iron dart#(p)",
         "members": true,
         "stabAttack": 0,
@@ -88117,7 +88117,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 20781,
         "name": "Killer's knife#Halloween",
         "members": false,
         "stabAttack": 0,
@@ -88139,7 +88139,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 21059,
         "name": "Killer's knife#Quest",
         "members": false,
         "stabAttack": 0,
@@ -89393,7 +89393,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 27916,
         "name": "Morrigan's javelin (bh)#Activated",
         "members": true,
         "stabAttack": 0,
@@ -89789,7 +89789,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 4025,
         "name": "Ninja monkey greegree (medium)",
         "members": true,
         "stabAttack": 0,
@@ -89811,7 +89811,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 4024,
         "name": "Ninja monkey greegree (small)",
         "members": true,
         "stabAttack": 0,
@@ -89855,7 +89855,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 27580,
         "name": "Nutcracker staff#Festive",
         "members": false,
         "stabAttack": -100,
@@ -89877,7 +89877,7 @@
         "slot": "Weapon"
     },
     {
-        "id": null,
+        "id": 27586,
         "name": "Nutcracker staff#Sweet",
         "members": false,
         "stabAttack": -100,
