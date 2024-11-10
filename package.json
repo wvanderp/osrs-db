@@ -4,6 +4,7 @@
   "main": "index.js",
   "scripts": {
     "getNewest": "tsx scripts/getNewestCacheURL.ts",
+    "extractSlotStats": "tsx scripts/ExtractSlotStats.ts",
     "lintData": "tsx scripts/lintData.ts"
   },
   "author": "",

@@ -4620,7 +4620,7 @@
         "slot": "Body"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Ahrim's robetop#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -6279,7 +6279,7 @@
         "slot": "Body"
     },
     {
-        "id": "has two IDs on the wiki (29914 and 29916)",
+        "id": null,
         "name": "Butler's uniform (top)",
         "members": true,
         "stabAttack": 0,
@@ -6426,7 +6426,7 @@
         "slot": "Body"
     },
     {
-        "id": "removed from the game (hist22694)",
+        "id": null,
         "name": "Clown gown#During_event",
         "members": false,
         "stabAttack": 0,
@@ -7392,7 +7392,7 @@
         "slot": "Body"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Dharok's platebody#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -8925,7 +8925,7 @@
         "slot": "Body"
     },
     {
-        "id": "removed from the game (hist13290)",
+        "id": null,
         "name": "Gravedigger top#During_event",
         "members": false,
         "stabAttack": 0,
@@ -9366,7 +9366,7 @@
         "slot": "Body"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Guthan's platebody#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -9975,7 +9975,7 @@
         "slot": "Body"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Karil's leathertop#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -13356,7 +13356,7 @@
         "slot": "Body"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Torag's platebody#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -13482,7 +13482,7 @@
         "slot": "Body"
     },
     {
-        "id": "unobtainable item",
+        "id": null,
         "name": "Torva platebody (unobtainable item)",
         "members": true,
         "stabAttack": 0,
@@ -14007,7 +14007,7 @@
         "slot": "Body"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Verac's brassard#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -22701,7 +22701,7 @@
         "slot": "Feet"
     },
     {
-        "id": "removed from the game (hist22700)",
+        "id": null,
         "name": "Clown shoes#During_event",
         "members": false,
         "stabAttack": 0,
@@ -23877,7 +23877,7 @@
         "slot": "Feet"
     },
     {
-        "id": "removed from the game (hist13292)",
+        "id": null,
         "name": "Gravedigger boots#During_event",
         "members": false,
         "stabAttack": 0,
@@ -27678,7 +27678,7 @@
         "slot": "Hands"
     },
     {
-        "id": "removed from the game (hist13293)",
+        "id": null,
         "name": "Gravedigger gloves#During_event",
         "members": false,
         "stabAttack": 0,
@@ -30681,7 +30681,7 @@
         "slot": "Head"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Ahrim's hood#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -33978,7 +33978,7 @@
         "slot": "Head"
     },
     {
-        "id": "removed from the game (hist24522)",
+        "id": null,
         "name": "Cat ears#During_event",
         "members": false,
         "stabAttack": 0,
@@ -36015,7 +36015,7 @@
         "slot": "Head"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Dharok's helm#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -38472,7 +38472,7 @@
         "slot": "Head"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Guthan's helm#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -40173,7 +40173,7 @@
         "slot": "Head"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Karil's coif#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -46221,7 +46221,7 @@
         "slot": "Head"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Torag's helm#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -46347,7 +46347,7 @@
         "slot": "Head"
     },
     {
-        "id": "unobtainable item",
+        "id": null,
         "name": "Torva full helm (unobtainable item)",
         "members": true,
         "stabAttack": 0,
@@ -47208,7 +47208,7 @@
         "slot": "Head"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Verac's helm#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -49182,7 +49182,7 @@
         "slot": "Legs"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Ahrim's robeskirt#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -49518,7 +49518,7 @@
         "slot": "Legs"
     },
     {
-        "id": "removed from the game (hist13294)",
+        "id": null,
         "name": "Anti-panties#During_event",
         "members": false,
         "stabAttack": 0,
@@ -50736,7 +50736,7 @@
         "slot": "Legs"
     },
     {
-        "id": "has two IDs on the wiki (29915 and 29918)",
+        "id": null,
         "name": "Butler's uniform (bottom)",
         "members": true,
         "stabAttack": 0,
@@ -50841,7 +50841,7 @@
         "slot": "Legs"
     },
     {
-        "id": "removed from the game (hist22697)",
+        "id": null,
         "name": "Clown trousers#During_event",
         "members": false,
         "stabAttack": 0,
@@ -51912,7 +51912,7 @@
         "slot": "Legs"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Dharok's platelegs#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -53256,7 +53256,7 @@
         "slot": "Legs"
     },
     {
-        "id": "removed from the game (hist13291)",
+        "id": null,
         "name": "Gravedigger leggings#During_event",
         "members": false,
         "stabAttack": 0,
@@ -53550,7 +53550,7 @@
         "slot": "Legs"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Guthan's chainskirt#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -54138,7 +54138,7 @@
         "slot": "Legs"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Karil's leatherskirt#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -57330,7 +57330,7 @@
         "slot": "Legs"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Torag's platelegs#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -57456,7 +57456,7 @@
         "slot": "Legs"
     },
     {
-        "id": "unobtainable item",
+        "id": null,
         "name": "Torva platelegs (unobtainable item)",
         "members": true,
         "stabAttack": 0,
@@ -57834,7 +57834,7 @@
         "slot": "Legs"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Verac's plateskirt#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -60270,7 +60270,7 @@
         "slot": "Neck"
     },
     {
-        "id": "removed from the game (hist22691)",
+        "id": null,
         "name": "Clown bow tie#During_event",
         "members": false,
         "stabAttack": 0,
@@ -64470,7 +64470,7 @@
         "slot": "Ring"
     },
     {
-        "id": "cant figgue out what the ID of this item is",
+        "id": null,
         "name": "Ring of suffering (i)#Recoil",
         "members": true,
         "stabAttack": 0,
@@ -64491,7 +64491,7 @@
         "slot": "Ring"
     },
     {
-        "id": "cant figgue out what the ID of this item is",
+        "id": null,
         "name": "Ring of suffering (i)#Uncharged",
         "members": true,
         "stabAttack": 0,
@@ -74785,7 +74785,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Dharok's greataxe#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -75841,7 +75841,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Guthan's warspear#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -76325,7 +76325,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Karil's crossbow#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -78503,7 +78503,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Torag's hammers#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -79053,7 +79053,7 @@
         "slot": "Two-handed"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Verac's flail#(broken)",
         "members": true,
         "stabAttack": 0,
@@ -80659,7 +80659,7 @@
         "slot": "Weapon"
     },
     {
-        "id": "broken is not a valid item state",
+        "id": null,
         "name": "Ahrim's staff#(broken)",
         "members": true,
         "stabAttack": 0,

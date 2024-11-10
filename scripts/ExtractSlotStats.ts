@@ -185,17 +185,15 @@ function findID(name: string) : number | null {
     // find the id from the titleToID.json
     let idFromTitle = titleToID[name]
 
-    let idWithFile =  lookupID ?? decorativeID;
-    let id = idWithFile ?? (typeof idFromTitle === "number" ? idFromTitle : null);
+    let id =  lookupID ?? decorativeID;
 
     // if the item is in the manualItemsSubstring then remove the id
     if(manualItemsSubstring.some((item) => name.includes(item))) {
-        idWithFile = null;
         id = null;
     }
 
     // If the id is already found but stored in the titleToID.json then remove it
-    if((idWithFile) && idFromTitle !== undefined) {
+    if(id && (idFromTitle !== undefined)) {
         delete titleToID[name];
     }
 
@@ -205,6 +203,9 @@ function findID(name: string) : number | null {
     }
 
     writeTitleToID(titleToID);
+
+    // we needed the actual value before but now we can only use a number
+    idFromTitle = typeof idFromTitle === "number" ? idFromTitle : null
     return id ?? decorativeID ?? idFromTitle ?? null;
 }
 
