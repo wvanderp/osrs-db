@@ -1,0 +1,206 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "OSRS-DB/items.schema.json",
+    "title": "Items",
+    "description": "A schema for the raw JSON provided by the runelite extractor.",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "description": "The item's ID.",
+                "type": "integer"
+            },
+            "name": {
+                "description": "The item's name.",
+                "type": "string"
+            },
+            "examine": {
+                "description": "The text that appears when you examine the item.",
+                "type": "string"
+            },
+            "resizeX": {
+                "type": "integer"
+            },
+            "resizeY": {
+                "type": "integer"
+            },
+            "resizeZ": {
+                "type": "integer"
+            },
+            "xan2d": {
+                "type": "integer"
+            },
+            "yan2d": {
+                "type": "integer"
+            },
+            "zan2d": {
+                "type": "integer"
+            },
+            "cost": {
+                "type": "integer"
+            },
+            "isTradeable": {
+                "description": "Whether or not the item is tradeable.",
+                "type": "boolean"
+            },
+            "stackable": {
+                "description": "Whether or not the item is stackable.",
+                "type": "integer",
+                "enum": [0, 1]
+            },
+            "inventoryModel": {
+                "type": "integer"
+            },
+            "wearPos1": {
+                "type": "integer"
+            },
+            "wearPos2": {
+                "type": "integer"
+            },
+            "wearPos3": {
+                "type": "integer"
+            },
+            "members": {
+                "description": "Whether or not the item is members only.",
+                "type": "boolean"
+            },
+            "textureFind": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                }
+            },
+            "textureReplace": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                }
+            },
+            "colorFind": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                }
+            },
+            "colorReplace": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                }
+            },
+            "zoom2d": {
+                "type": "integer"
+            },
+            "xOffset2d": {
+                "type": "integer"
+            },
+            "yOffset2d": {
+                "type": "integer"
+            },
+            "ambient": {
+                "type": "integer"
+            },
+            "contrast": {
+                "type": "integer"
+            },
+            "countCo": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                }
+            },
+            "countObj": {
+                "type": "array",
+                "items": {
+                    "type": "integer"
+                }
+            },
+            "options": {
+                "type": "array",
+                "items": {
+                    "type": ["string", "null"]
+                }
+            },
+            "interfaceOptions": {
+                "type": "array",
+                "items": {
+                    "type": ["string", "null"]
+                }
+            },
+            "maleModel0": {
+                "type": "integer"
+            },
+            "maleModel1": {
+                "type": "integer"
+            },
+            "maleModel2": {
+                "type": "integer"
+            },
+            "maleOffset": {
+                "type": "integer"
+            },
+            "maleHeadModel": {
+                "type": "integer"
+            },
+            "maleHeadModel2": {
+                "type": "integer"
+            },
+            "femaleModel0": {
+                "type": "integer"
+            },
+            "femaleModel1": {
+                "type": "integer"
+            },
+            "femaleModel2": {
+                "type": "integer"
+            },
+            "femaleOffset": {
+                "type": "integer"
+            },
+            "femaleHeadModel": {
+                "type": "integer"
+            },
+            "femaleHeadModel2": {
+                "type": "integer"
+            },
+            "category": {
+                "type": "integer"
+            },
+            "notedID": {
+                "type": "integer"
+            },
+            "notedTemplate": {
+                "type": "integer"
+            },
+            "team": {
+                "type": "integer"
+            },
+            "weight": {
+                "type": "integer"
+            },
+            "shiftClickDropIndex": {
+                "type": "integer"
+            },
+            "boughtId": {
+                "type": "integer"
+            },
+            "boughtTemplateId": {
+                "type": "integer"
+            },
+            "placeholderId": {
+                "type": "integer"
+            },
+            "placeholderTemplateId": {
+                "type": "integer"
+            },
+            "params": {
+                "type": "object",
+                "additionalProperties": {
+                    "type": ["string", "integer"]
+                }
+            }
+        },
+        "additionalProperties": false
+    }
+}

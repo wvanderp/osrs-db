@@ -1,20 +1,45 @@
 {
     "cSpell.words": [
         "Amlodd",
+        "antipoison",
+        "armour",
+        "arrowtips",
         "Broodoo",
         "Cadarn",
         "chestplate",
         "Crwys",
+        "defence",
         "Defence",
+        "endregion",
         "faerdhinen",
+        "Gielinor",
+        "Glarial's",
         "Iorwerth",
         "Ithell",
+        "Khazard",
         "Meilyr",
+        "mithril",
+        "Mithril",
+        "multicannon",
         "oldschool",
         "Osrs",
         "runelite",
         "saeldor",
+        "shortbow",
         "snelm",
-        "Trahaearn"
+        "stackable",
+        "Superantipoison",
+        "Tarromin",
+        "Torstol",
+        "Trahaearn",
+        "Zamorak"
+    ],
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/data/items.json"
+            ],
+            "url": "/schemas/items.schema.json"
+        }
     ]
 }
