@@ -1176,6 +1176,27 @@
         "slot": "Ammunition"
     },
     {
+        "id": 30384,
+        "name": "Crystal blessing",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 5,
+        "weight": 0,
+        "slot": "Ammunition"
+    },
+    {
         "id": 9340,
         "name": "Diamond bolts",
         "members": true,
@@ -7079,7 +7100,7 @@
     {
         "id": 20485,
         "name": "Decorative armour (gold platebody)#Broken",
-        "members": true,
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -24864,6 +24885,27 @@
         "slot": "Feet"
     },
     {
+        "id": 28771,
+        "name": "Sage's greaves",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "slot": "Feet"
+    },
+    {
         "id": 20047,
         "name": "Samurai boots",
         "members": true,
@@ -27363,6 +27405,27 @@
         "slot": "Hands"
     },
     {
+        "id": 30380,
+        "name": "Gloves of the damned",
+        "members": true,
+        "stabAttack": 12,
+        "slashAttack": 12,
+        "crushAttack": 12,
+        "magicAttack": 6,
+        "rangedAttack": 12,
+        "stabDefence": 12,
+        "slashDefence": 12,
+        "crushDefence": 12,
+        "magicDefence": 6,
+        "rangedDefence": 12,
+        "strengthBonus": 12,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "slot": "Hands"
+    },
+    {
         "id": 11068,
         "name": "Gold bracelet",
         "members": true,
@@ -29313,6 +29376,27 @@
         "magicDamage": 0,
         "prayerBonus": 0,
         "weight": 0.226,
+        "slot": "Hands"
+    },
+    {
+        "id": 30386,
+        "name": "Sunlit bracers",
+        "members": true,
+        "stabAttack": 10,
+        "slashAttack": 10,
+        "crushAttack": 10,
+        "magicAttack": 6,
+        "rangedAttack": 18,
+        "stabDefence": 12,
+        "slashDefence": 12,
+        "crushDefence": 12,
+        "magicDefence": 6,
+        "rangedDefence": 12,
+        "strengthBonus": 8,
+        "rangedStrength": 4,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
         "slot": "Hands"
     },
     {
@@ -31584,7 +31668,7 @@
         "slot": "Head"
     },
     {
-        "id": 30172,
+        "id": 30242,
         "name": "Beige pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -31605,7 +31689,7 @@
         "slot": "Head"
     },
     {
-        "id": 30173,
+        "id": 30243,
         "name": "Beige pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -31626,7 +31710,7 @@
         "slot": "Head"
     },
     {
-        "id": 30169,
+        "id": 30237,
         "name": "Beige pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -31647,7 +31731,7 @@
         "slot": "Head"
     },
     {
-        "id": 30171,
+        "id": 30241,
         "name": "Beige pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -31668,7 +31752,7 @@
         "slot": "Head"
     },
     {
-        "id": 30176,
+        "id": 30246,
         "name": "Beige pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -31689,7 +31773,7 @@
         "slot": "Head"
     },
     {
-        "id": 30177,
+        "id": 30247,
         "name": "Beige pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -31710,7 +31794,7 @@
         "slot": "Head"
     },
     {
-        "id": 30175,
+        "id": 30245,
         "name": "Beige pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -31731,7 +31815,7 @@
         "slot": "Head"
     },
     {
-        "id": 30174,
+        "id": 30244,
         "name": "Beige pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -31752,7 +31836,7 @@
         "slot": "Head"
     },
     {
-        "id": 30170,
+        "id": 30239,
         "name": "Beige pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -35427,7 +35511,7 @@
         "slot": "Head"
     },
     {
-        "id": 30217,
+        "id": 30287,
         "name": "Dark green pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -35448,7 +35532,7 @@
         "slot": "Head"
     },
     {
-        "id": 30218,
+        "id": 30288,
         "name": "Dark green pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -35469,7 +35553,7 @@
         "slot": "Head"
     },
     {
-        "id": 30214,
+        "id": 30284,
         "name": "Dark green pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -35490,7 +35574,7 @@
         "slot": "Head"
     },
     {
-        "id": 30216,
+        "id": 30286,
         "name": "Dark green pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -35511,7 +35595,7 @@
         "slot": "Head"
     },
     {
-        "id": 30221,
+        "id": 30291,
         "name": "Dark green pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -35532,7 +35616,7 @@
         "slot": "Head"
     },
     {
-        "id": 30222,
+        "id": 30292,
         "name": "Dark green pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -35553,7 +35637,7 @@
         "slot": "Head"
     },
     {
-        "id": 30220,
+        "id": 30290,
         "name": "Dark green pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -35574,7 +35658,7 @@
         "slot": "Head"
     },
     {
-        "id": 30219,
+        "id": 30289,
         "name": "Dark green pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -35595,7 +35679,7 @@
         "slot": "Head"
     },
     {
-        "id": 30215,
+        "id": 30285,
         "name": "Dark green pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -35744,7 +35828,7 @@
     {
         "id": 25157,
         "name": "Decorative full helm (gold)#Broken",
-        "members": true,
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -35849,7 +35933,7 @@
     {
         "id": 20489,
         "name": "Decorative helm (gold)#Broken",
-        "members": true,
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -41706,7 +41790,7 @@
         "slot": "Head"
     },
     {
-        "id": 30199,
+        "id": 30269,
         "name": "Orange pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -41727,7 +41811,7 @@
         "slot": "Head"
     },
     {
-        "id": 30200,
+        "id": 30270,
         "name": "Orange pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -41748,7 +41832,7 @@
         "slot": "Head"
     },
     {
-        "id": 30196,
+        "id": 30266,
         "name": "Orange pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -41769,7 +41853,7 @@
         "slot": "Head"
     },
     {
-        "id": 30198,
+        "id": 30268,
         "name": "Orange pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -41790,7 +41874,7 @@
         "slot": "Head"
     },
     {
-        "id": 30203,
+        "id": 30273,
         "name": "Orange pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -41811,7 +41895,7 @@
         "slot": "Head"
     },
     {
-        "id": 30204,
+        "id": 30274,
         "name": "Orange pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -41832,7 +41916,7 @@
         "slot": "Head"
     },
     {
-        "id": 30202,
+        "id": 30272,
         "name": "Orange pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -41853,7 +41937,7 @@
         "slot": "Head"
     },
     {
-        "id": 30201,
+        "id": 30271,
         "name": "Orange pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -41874,7 +41958,7 @@
         "slot": "Head"
     },
     {
-        "id": 30197,
+        "id": 30267,
         "name": "Orange pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -42336,7 +42420,7 @@
         "slot": "Head"
     },
     {
-        "id": 30226,
+        "id": 30296,
         "name": "Powder grey pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -42357,7 +42441,7 @@
         "slot": "Head"
     },
     {
-        "id": 30227,
+        "id": 30297,
         "name": "Powder grey pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -42378,7 +42462,7 @@
         "slot": "Head"
     },
     {
-        "id": 30223,
+        "id": 30293,
         "name": "Powder grey pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -42399,7 +42483,7 @@
         "slot": "Head"
     },
     {
-        "id": 30225,
+        "id": 30295,
         "name": "Powder grey pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -42420,7 +42504,7 @@
         "slot": "Head"
     },
     {
-        "id": 30230,
+        "id": 30300,
         "name": "Powder grey pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -42441,7 +42525,7 @@
         "slot": "Head"
     },
     {
-        "id": 30231,
+        "id": 30301,
         "name": "Powder grey pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -42462,7 +42546,7 @@
         "slot": "Head"
     },
     {
-        "id": 30229,
+        "id": 30299,
         "name": "Powder grey pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -42483,7 +42567,7 @@
         "slot": "Head"
     },
     {
-        "id": 30228,
+        "id": 30298,
         "name": "Powder grey pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -42504,7 +42588,7 @@
         "slot": "Head"
     },
     {
-        "id": 30224,
+        "id": 30294,
         "name": "Powder grey pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -43239,7 +43323,7 @@
         "slot": "Head"
     },
     {
-        "id": 30208,
+        "id": 30278,
         "name": "Red pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -43260,7 +43344,7 @@
         "slot": "Head"
     },
     {
-        "id": 30209,
+        "id": 30279,
         "name": "Red pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -43281,7 +43365,7 @@
         "slot": "Head"
     },
     {
-        "id": 30205,
+        "id": 30275,
         "name": "Red pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -43302,7 +43386,7 @@
         "slot": "Head"
     },
     {
-        "id": 30207,
+        "id": 30277,
         "name": "Red pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -43323,7 +43407,7 @@
         "slot": "Head"
     },
     {
-        "id": 30212,
+        "id": 30282,
         "name": "Red pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -43344,7 +43428,7 @@
         "slot": "Head"
     },
     {
-        "id": 30213,
+        "id": 30283,
         "name": "Red pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -43365,7 +43449,7 @@
         "slot": "Head"
     },
     {
-        "id": 30211,
+        "id": 30281,
         "name": "Red pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -43386,7 +43470,7 @@
         "slot": "Head"
     },
     {
-        "id": 30210,
+        "id": 30280,
         "name": "Red pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -43407,7 +43491,7 @@
         "slot": "Head"
     },
     {
-        "id": 30206,
+        "id": 30276,
         "name": "Red pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -47943,7 +48027,7 @@
         "slot": "Head"
     },
     {
-        "id": 30181,
+        "id": 30251,
         "name": "White pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -47964,7 +48048,7 @@
         "slot": "Head"
     },
     {
-        "id": 30182,
+        "id": 30252,
         "name": "White pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -47985,7 +48069,7 @@
         "slot": "Head"
     },
     {
-        "id": 30178,
+        "id": 30248,
         "name": "White pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -48006,7 +48090,7 @@
         "slot": "Head"
     },
     {
-        "id": 30180,
+        "id": 30250,
         "name": "White pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -48027,7 +48111,7 @@
         "slot": "Head"
     },
     {
-        "id": 30185,
+        "id": 30255,
         "name": "White pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -48048,7 +48132,7 @@
         "slot": "Head"
     },
     {
-        "id": 30186,
+        "id": 30256,
         "name": "White pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -48069,7 +48153,7 @@
         "slot": "Head"
     },
     {
-        "id": 30184,
+        "id": 30254,
         "name": "White pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -48090,7 +48174,7 @@
         "slot": "Head"
     },
     {
-        "id": 30183,
+        "id": 30253,
         "name": "White pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -48111,7 +48195,7 @@
         "slot": "Head"
     },
     {
-        "id": 30179,
+        "id": 30249,
         "name": "White pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -48384,7 +48468,7 @@
         "slot": "Head"
     },
     {
-        "id": 30190,
+        "id": 30260,
         "name": "Yellow pumpkin#Angry",
         "members": false,
         "stabAttack": 0,
@@ -48405,7 +48489,7 @@
         "slot": "Head"
     },
     {
-        "id": 30191,
+        "id": 30261,
         "name": "Yellow pumpkin#Depressed",
         "members": false,
         "stabAttack": 0,
@@ -48426,7 +48510,7 @@
         "slot": "Head"
     },
     {
-        "id": 30187,
+        "id": 30257,
         "name": "Yellow pumpkin#Disgusted",
         "members": false,
         "stabAttack": 0,
@@ -48447,7 +48531,7 @@
         "slot": "Head"
     },
     {
-        "id": 30189,
+        "id": 30259,
         "name": "Yellow pumpkin#Evil",
         "members": false,
         "stabAttack": 0,
@@ -48468,7 +48552,7 @@
         "slot": "Head"
     },
     {
-        "id": 30194,
+        "id": 30264,
         "name": "Yellow pumpkin#Happy",
         "members": false,
         "stabAttack": 0,
@@ -48489,7 +48573,7 @@
         "slot": "Head"
     },
     {
-        "id": 30195,
+        "id": 30265,
         "name": "Yellow pumpkin#Laughing",
         "members": false,
         "stabAttack": 0,
@@ -48510,7 +48594,7 @@
         "slot": "Head"
     },
     {
-        "id": 30193,
+        "id": 30263,
         "name": "Yellow pumpkin#Sad",
         "members": false,
         "stabAttack": 0,
@@ -48531,7 +48615,7 @@
         "slot": "Head"
     },
     {
-        "id": 30192,
+        "id": 30262,
         "name": "Yellow pumpkin#Shocked",
         "members": false,
         "stabAttack": 0,
@@ -48552,7 +48636,7 @@
         "slot": "Head"
     },
     {
-        "id": 30188,
+        "id": 30258,
         "name": "Yellow pumpkin#Silly",
         "members": false,
         "stabAttack": 0,
@@ -51494,7 +51578,7 @@
     {
         "id": 20487,
         "name": "Decorative armour (gold platelegs)#Broken",
-        "members": true,
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -51557,7 +51641,7 @@
     {
         "id": 20493,
         "name": "Decorative armour (gold plateskirt)#Broken",
-        "members": true,
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -59745,6 +59829,27 @@
         "slot": "Neck"
     },
     {
+        "id": 30376,
+        "name": "Amulet of the monarchs",
+        "members": true,
+        "stabAttack": 30,
+        "slashAttack": 30,
+        "crushAttack": 30,
+        "magicAttack": 30,
+        "rangedAttack": 30,
+        "stabDefence": 30,
+        "slashDefence": 30,
+        "crushDefence": 30,
+        "magicDefence": 30,
+        "rangedDefence": 30,
+        "strengthBonus": 15,
+        "rangedStrength": 15,
+        "magicDamage": 10,
+        "prayerBonus": 10,
+        "weight": 0,
+        "slot": "Neck"
+    },
+    {
         "id": 19553,
         "name": "Amulet of torture",
         "members": true,
@@ -63546,6 +63651,27 @@
         "slot": "Ring"
     },
     {
+        "id": 30378,
+        "name": "Emperor ring",
+        "members": true,
+        "stabAttack": 30,
+        "slashAttack": 30,
+        "crushAttack": 30,
+        "magicAttack": 30,
+        "rangedAttack": 30,
+        "stabDefence": 30,
+        "slashDefence": 30,
+        "crushDefence": 30,
+        "magicDefence": 30,
+        "rangedDefence": 30,
+        "strengthBonus": 15,
+        "rangedStrength": 15,
+        "magicDamage": 5,
+        "prayerBonus": 10,
+        "weight": 0,
+        "slot": "Ring"
+    },
+    {
         "id": 22517,
         "name": "Escape crystal",
         "members": true,
@@ -66696,6 +66822,27 @@
         "slot": "Shield"
     },
     {
+        "id": 26551,
+        "name": "Arcane grimoire",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 6,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 3,
+        "weight": 0.3,
+        "slot": "Shield"
+    },
+    {
         "id": 12825,
         "name": "Arcane spirit shield",
         "members": true,
@@ -66861,6 +67008,27 @@
         "magicDamage": 0,
         "prayerBonus": 1,
         "weight": 5.443,
+        "slot": "Shield"
+    },
+    {
+        "id": 30361,
+        "name": "Banker's briefcase",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.05,
         "slot": "Shield"
     },
     {
@@ -68418,6 +68586,27 @@
         "slot": "Shield"
     },
     {
+        "id": null,
+        "name": "Clue compass (item)",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.05,
+        "slot": "Shield"
+    },
+    {
         "id": 20846,
         "name": "Corrupted kiteshield",
         "members": true,
@@ -68651,7 +68840,7 @@
     {
         "id": 20491,
         "name": "Decorative shield (gold)#Broken",
-        "members": true,
+        "members": false,
         "stabAttack": 0,
         "slashAttack": 0,
         "crushAttack": 0,
@@ -68772,6 +68961,27 @@
         "magicDamage": 0,
         "prayerBonus": 0,
         "weight": 3.628,
+        "slot": "Shield"
+    },
+    {
+        "id": 30371,
+        "name": "Devil's element",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 20,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 6,
+        "prayerBonus": 3,
+        "weight": 0.2,
         "slot": "Shield"
     },
     {
@@ -69174,6 +69384,27 @@
         "slot": "Shield"
     },
     {
+        "id": 25102,
+        "name": "Fairy mushroom",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0.002,
+        "slot": "Shield"
+    },
+    {
         "id": 13117,
         "name": "Falador shield 1",
         "members": true,
@@ -69255,6 +69486,27 @@
         "magicDamage": 0,
         "prayerBonus": 5,
         "weight": 5.443,
+        "slot": "Shield"
+    },
+    {
+        "id": 30357,
+        "name": "Forager's pouch",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1,
         "slot": "Shield"
     },
     {
@@ -70410,6 +70662,90 @@
         "magicDamage": 0,
         "prayerBonus": 0,
         "weight": 0.07,
+        "slot": "Shield"
+    },
+    {
+        "id": 30477,
+        "name": "Raging echoes bronze trophy",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1,
+        "slot": "Shield"
+    },
+    {
+        "id": 30475,
+        "name": "Raging echoes iron trophy",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1,
+        "slot": "Shield"
+    },
+    {
+        "id": 30471,
+        "name": "Raging echoes mithril trophy",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1,
+        "slot": "Shield"
+    },
+    {
+        "id": 30473,
+        "name": "Raging echoes steel trophy",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1,
         "slot": "Shield"
     },
     {
@@ -71985,6 +72321,27 @@
         "magicDamage": 0,
         "prayerBonus": 0,
         "weight": 0.001,
+        "slot": "Shield"
+    },
+    {
+        "id": 30382,
+        "name": "Thousand-dragon ward",
+        "members": true,
+        "stabAttack": 35,
+        "slashAttack": 35,
+        "crushAttack": 35,
+        "magicAttack": 15,
+        "rangedAttack": 25,
+        "stabDefence": 50,
+        "slashDefence": 55,
+        "crushDefence": 53,
+        "magicDefence": 40,
+        "rangedDefence": 52,
+        "strengthBonus": 12,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 6,
+        "weight": 7.257,
         "slot": "Shield"
     },
     {
@@ -75335,6 +75692,50 @@
         "slot": "Two-handed"
     },
     {
+        "id": null,
+        "name": "Drygore blowpipe#Loaded",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 50,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 10,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "speed": 3,
+        "slot": "Two-handed"
+    },
+    {
+        "id": null,
+        "name": "Drygore blowpipe#Unloaded",
+        "members": false,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 50,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "speed": 3,
+        "slot": "Two-handed"
+    },
+    {
         "id": 28997,
         "name": "Dual macuahuitl",
         "members": true,
@@ -76963,6 +77364,28 @@
         "slot": "Two-handed"
     },
     {
+        "id": 30390,
+        "name": "Nature's reprisal",
+        "members": true,
+        "stabAttack": 95,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 45,
+        "rangedAttack": 155,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 103,
+        "rangedStrength": 92,
+        "magicDamage": 12,
+        "prayerBonus": 0,
+        "weight": 0,
+        "speed": 5,
+        "slot": "Two-handed"
+    },
+    {
         "id": 29796,
         "name": "Noxious halberd",
         "members": true,
@@ -78437,6 +78860,28 @@
         "slot": "Two-handed"
     },
     {
+        "id": 30369,
+        "name": "Sunlight spear",
+        "members": true,
+        "stabAttack": 125,
+        "slashAttack": 75,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 70,
+        "slashDefence": 70,
+        "crushDefence": 70,
+        "magicDefence": 28,
+        "rangedDefence": 70,
+        "strengthBonus": 113,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "speed": 5,
+        "slot": "Two-handed"
+    },
+    {
         "id": 10149,
         "name": "Swamp lizard",
         "members": true,
@@ -78478,6 +78923,28 @@
         "prayerBonus": 0,
         "weight": 6,
         "speed": 5,
+        "slot": "Two-handed"
+    },
+    {
+        "id": 30367,
+        "name": "The dogsword",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 132,
+        "crushAttack": 80,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 132,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 8,
+        "weight": 0,
+        "speed": 6,
         "slot": "Two-handed"
     },
     {
@@ -84115,7 +84582,7 @@
     {
         "id": 20483,
         "name": "Decorative sword (gold)#Broken",
-        "members": true,
+        "members": false,
         "stabAttack": 20,
         "slashAttack": 29,
         "crushAttack": -2,
@@ -85565,6 +86032,72 @@
         "slot": "Weapon"
     },
     {
+        "id": 25110,
+        "name": "Echo axe",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "speed": 5,
+        "slot": "Weapon"
+    },
+    {
+        "id": 25114,
+        "name": "Echo harpoon",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "speed": 5,
+        "slot": "Weapon"
+    },
+    {
+        "id": 25112,
+        "name": "Echo pickaxe",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 0,
+        "speed": 5,
+        "slot": "Weapon"
+    },
+    {
         "id": 22684,
         "name": "Eek#Reward",
         "members": false,
@@ -85641,7 +86174,7 @@
         "rangedAttack": 0,
         "stabDefence": 0,
         "slashDefence": 3,
-        "crushDefence": 0,
+        "crushDefence": 2,
         "magicDefence": 5,
         "rangedDefence": 0,
         "strengthBonus": 13,
@@ -90361,6 +90894,50 @@
         "slot": "Weapon"
     },
     {
+        "id": 30430,
+        "name": "Raging echoes banner",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 2.267,
+        "speed": 4,
+        "slot": "Weapon"
+    },
+    {
+        "id": 30428,
+        "name": "Raging echoes cane",
+        "members": true,
+        "stabAttack": 0,
+        "slashAttack": 0,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 0,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1.814,
+        "speed": 4,
+        "slot": "Weapon"
+    },
+    {
         "id": 7142,
         "name": "Rapier",
         "members": true,
@@ -93107,6 +93684,28 @@
         "magicDamage": 0,
         "prayerBonus": 0,
         "weight": 0.198,
+        "speed": 4,
+        "slot": "Weapon"
+    },
+    {
+        "id": 30388,
+        "name": "Thunder khopesh",
+        "members": true,
+        "stabAttack": 65,
+        "slashAttack": 110,
+        "crushAttack": 0,
+        "magicAttack": 0,
+        "rangedAttack": 0,
+        "stabDefence": 0,
+        "slashDefence": 0,
+        "crushDefence": 0,
+        "magicDefence": 0,
+        "rangedDefence": 0,
+        "strengthBonus": 100,
+        "rangedStrength": 0,
+        "magicDamage": 0,
+        "prayerBonus": 0,
+        "weight": 1.36,
         "speed": 4,
         "slot": "Weapon"
     },
