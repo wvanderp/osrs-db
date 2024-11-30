@@ -10,11 +10,10 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-  },
   "devDependencies": {
-    "@types/node": "^22.10.1",
     "@types/jsdom": "^21.1.7",
+    "@types/jsoneditor": "^9.9.5",
+    "@types/node": "^22.10.1",
     "ajv": "^8.17.1",
     "axios": "^1.7.8",
     "jsdom": "^25.0.1",
