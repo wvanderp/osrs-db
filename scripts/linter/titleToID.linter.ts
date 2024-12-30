@@ -12,9 +12,9 @@ const schema = {
     type: "object",
     additionalProperties: {
         oneOf: [
-        { type: "number" },
-        { type: "string" },
-        { type: "null" }
+            { type: "number" },
+            { type: "string" },
+            { type: "null" }
         ]
     }
 };
