@@ -47,7 +47,10 @@
             "stackable": {
                 "description": "Whether or not the item is stackable.",
                 "type": "integer",
-                "enum": [0, 1]
+                "enum": [
+                    0,
+                    1
+                ]
             },
             "inventoryModel": {
                 "type": "integer"
@@ -119,13 +122,30 @@
             "options": {
                 "type": "array",
                 "items": {
-                    "type": ["string", "null"]
+                    "type": [
+                        "string",
+                        "null"
+                    ]
                 }
             },
             "interfaceOptions": {
+                "description": "Options for the item in the interface, such as 'Wear', 'Rub' or 'Drop', etc.",
                 "type": "array",
                 "items": {
-                    "type": ["string", "null"]
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "subops": {
+                "description": "Sub-options for each of the interface options.",
+                "type": "array",
+                "items": {
+                    "type": [
+                        "array",
+                        "null"
+                    ]
                 }
             },
             "maleModel0": {
@@ -197,7 +217,10 @@
             "params": {
                 "type": "object",
                 "additionalProperties": {
-                    "type": ["string", "integer"]
+                    "type": [
+                        "string",
+                        "integer"
+                    ]
                 }
             }
         },
