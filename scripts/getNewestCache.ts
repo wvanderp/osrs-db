@@ -29,15 +29,14 @@ export interface OsrsCache {
 
 
 (async () => {
-
     console.log('Fetching cache URL...');
-    const response = await axios.get(url);
+    const response = await axios.get<OsrsCache[]>(url);
 
     if (response.status !== 200) {
         throw new Error(`Failed to fetch URL: ${response.statusText}`);
     }
 
-    const json = await response.data as OsrsCache[];
+    const json = response.data;
 
     const newest = json
         .filter((cache) => cache.game === 'oldschool')
@@ -62,7 +61,7 @@ export interface OsrsCache {
     console.log('Unzipping cache...');
 
     if (fs.existsSync('cache')) {
-        fs.rmdirSync('cache', {recursive: true});
+        fs.rmSync('cache', {recursive: true});
     }
 
     fs.mkdirSync('cache');
@@ -85,4 +84,17 @@ export interface OsrsCache {
             }
         });
     });
+
+    // Download the keys.json file
+    const keysURL = `https://archive.openrs2.org/caches/runescape/${newest.id}/keys.json`;
+    console.log(`Downloading keys.json from ${keysURL}...`);
+    const keysResponse = await axios.get(keysURL, {
+        responseType: 'json'
+    });
+
+    if (keysResponse.status !== 200) {
+        throw new Error(`Failed to fetch keys.json: ${keysResponse.statusText}`);
+    }
+    
+    fs.writeFileSync('keys.json', JSON.stringify(keysResponse.data, null, 2));
 })();

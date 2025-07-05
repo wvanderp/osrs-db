@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "getNewest": "tsx scripts/getNewestCacheURL.ts",
+    "getNewestCache": "tsx scripts/getNewestCache.ts",
     "lintData": "tsx scripts/lintData.ts",
     "extractSlotStats": "tsx scripts/ExtractSlotStats.ts"
   },

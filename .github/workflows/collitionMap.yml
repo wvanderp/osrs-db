@@ -38,6 +38,18 @@ jobs:
         run: |
           npm run getNewestCache
 
+      - name: Patch Runelite
+        run: |
+          cd runelite/cache/src/main/java/net/runelite/cache
+          curl -o CollisionMapDumper.java https://raw.githubusercontent.com/Skretzo/runelite/refs/heads/shortest-path-collision-map-dumper/cache/src/main/java/net/runelite/cache/CollisionMapDumper.java
+
+      # replace the following in the key file
+      # Replace the words "mapsquares" with "regions" and "key" with "keys" in the keys.json file
+      - name: Patch the key file
+        run: |
+          sed -i 's/mapsquares/regions/g' keys.json
+          sed -i 's/key/keys/g' keys.json
+
       - name: Patch Runelite with pom file
         run: |
           cp pom.patch runelite/cache
@@ -53,34 +65,18 @@ jobs:
         run: |
           find runelite/cache/target -name "*-jar-with-dependencies.jar" -exec cp {} ./cache.jar \;
 
-      - name: Export items
+      - name: Export collision map
         run: |
           mkdir -p data
-          java -jar cache.jar -c ./cache -items ./data/items
-          npx tsx scripts/concatenateJsonFiles.ts items
-          rm -fr ./data/items
-
-      - name: Export npcs
-        run: |
-          mkdir -p data
-          java -jar cache.jar -c ./cache -npcs ./data/npcs
-          npx tsx scripts/concatenateJsonFiles.ts npcs
-          rm -fr ./data/npcs
-
-      - name: Export objects
-        run: |
-          mkdir -p data
-          java -jar cache.jar -c ./cache -objects ./data/objects
-          npx tsx scripts/concatenateJsonFiles.ts objects
-          rm -fr ./data/objects
+          java -jar cache.jar -c ./cache --xteapath ./keys.json --outputdir "output"
 
       - name: Clean before commit
         run: |
           rm -fr runelite
           rm cache.jar
 
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v9
-        with:
-          default_author: github_actions
-          message: Extracted json from the cache file
+      # - name: Commit changes
+      #   uses: EndBug/add-and-commit@v9
+      #   with:
+      #     default_author: github_actions
+      #     message: Extracted json from the cache file
