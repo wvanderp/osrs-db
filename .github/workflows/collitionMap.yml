@@ -44,10 +44,10 @@ jobs:
           curl -o CollisionMapDumper.java https://raw.githubusercontent.com/Skretzo/runelite/refs/heads/shortest-path-collision-map-dumper/cache/src/main/java/net/runelite/cache/CollisionMapDumper.java
 
       # replace the following in the key file
-      # Replace the words "mapsquares" with "regions" and "key" with "keys" in the keys.json file
+      # Replace the words "mapsquare" with "region" and "key" with "keys" in the keys.json file
       - name: Patch the key file
         run: |
-          sed -i 's/mapsquares/regions/g' keys.json
+          sed -i 's/mapsquare/region/g' keys.json
           sed -i 's/key/keys/g' keys.json
 
       - name: Patch Runelite with pom file
@@ -55,6 +55,7 @@ jobs:
           cp pom.patch runelite/cache
           cd runelite/cache
           git apply pom.patch
+          sed -i 's/net.runelite.cache.Cache/net.runelite.cache.CollisionMapDumper/g' pom.xml
 
       - name: Build Runelite with Maven
         run: |
