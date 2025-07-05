@@ -1,9 +1,9 @@
-name: Extract JSON
+name: Extract Collision Map
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 15 * * 4" # Every Thursday at 1515 UTC
+    - cron: "20 15 * * 4" # Every Thursday at 1520 UTC
 
 jobs:
   build:
@@ -68,7 +68,7 @@ jobs:
       - name: Export collision map
         run: |
           mkdir -p data
-          java -jar cache.jar -c ./cache --xteapath ./keys.json --outputdir "output"
+          java -jar cache.jar net.runelite.cache.CollisionMapDumper --cachedir ./cache --xteapath ./keys.json --outputdir "output"
 
       - name: Clean before commit
         run: |
