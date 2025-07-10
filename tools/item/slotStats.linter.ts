@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 
 // load the file
-const filePath = path.join(__dirname, "../../data/slotStats.json");
+const filePath = path.join(__dirname, "../../data/slotStats.g.json");
 const file = JSON.parse(fs.readFileSync(filePath, "utf8")) as { [key: string]: number | string | null }[];
 
 // Record<string, number | string | null>
@@ -75,7 +75,7 @@ const schema = {
 }
 
 export default function slotStats() {
-    console.log("Linting slotStats.json");
+    console.log("Linting slotStats.g.json");
     // #region schema
     const ajv = new Ajv();
     const validate = ajv.compile(schema);
@@ -97,5 +97,5 @@ export default function slotStats() {
     // #endregion
 
 
-    console.log("slotStats.json is valid");
+    console.log("slotStats.g.json is valid");
 }

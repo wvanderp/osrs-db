@@ -2,7 +2,7 @@ import axios from 'axios';
 import fs from 'fs';
 import { JSDOM } from 'jsdom';
 
-const items = JSON.parse(fs.readFileSync("./data/items.json", "utf-8")) as {id: number, name: string, examine: string}[];
+const items = JSON.parse(fs.readFileSync("./data/items.g.json", "utf-8")) as {id: number, name: string, examine: string}[];
 
 const slotPages : [string, string][] = [
     ["https://oldschool.runescape.wiki/w/Ammunition_slot_table", "Ammunition"],
@@ -150,7 +150,7 @@ const slotStats : SlotStats[] = [];
     }
 
     console.log("Writing slot stats to file");
-    fs.writeFileSync("./data/slotStats.json", JSON.stringify(slotStats, null, 4));
+    fs.writeFileSync("./data/slotStats.g.json", JSON.stringify(slotStats, null, 4));
 })();
 
 // items that should not be found automatically because they find the wrong item

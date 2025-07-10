@@ -4,7 +4,7 @@ import path from 'path';
 async function concatenateJsonFiles(name: string) {
   const dataDir = path.join(__dirname, '../data');
   const targetDir = path.join(dataDir, `./${name}`);
-  const outputFilePath = path.join(dataDir, `${name}.json`);
+  const outputFilePath = path.join(dataDir, `${name}.g.json`);
 
   const files = fs.readdirSync(targetDir).filter(file => file.endsWith('.json') && file !== `${name}.json`);
   const allItems: unknown[] = [];
