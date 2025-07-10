@@ -1,7 +1,11 @@
 import Ajv from "ajv";
 import fs from "fs";
 import path from "path";
-import findDupes from './utils/findDupes';
+
+function findDupes<T>(arr: T[]): T[] {
+    return arr.filter((value, index, self) => self.indexOf(value) !== index);
+}
+
 
 // load the file
 const filePath = path.join(__dirname, "../titleToID.json");

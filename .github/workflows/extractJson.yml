@@ -13,71 +13,31 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Checkout runelite
-        uses: actions/checkout@v4
-        with:
-          repository: runelite/runelite
-          path: runelite
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "22"
 
-      - name: Set up JDK 11
-        uses: actions/setup-java@v4
-        with:
-          distribution: "adopt"
-          java-version: "11"
-
       - name: Install npm dependencies
-        run: |
-          npm install
+        run: scripts/installDependencies.sh
 
-      - name: Get the cache
-        run: |
-          npm run getNewestCache
+      - name: Build Runelite and download cache
+        run: scripts/buildRuneliteAndDownloadCache.sh
 
-      - name: Patch Runelite with pom file
-        run: |
-          cp pom.patch runelite/cache
-          cd runelite/cache
-          git apply pom.patch
-
-      - name: Build Runelite with Maven
-        run: |
-          cd runelite/cache
-          mvn -B package --file pom.xml -DskipTests
-
-      - name: Copy jar file to the root directory
-        run: |
-          find runelite/cache/target -name "*-jar-with-dependencies.jar" -exec cp {} ./cache.jar \;
+      - name: Download cache.jar
+        run: scripts/downloadCacheJar.sh
 
       - name: Export items
-        run: |
-          mkdir -p data
-          java -jar cache.jar -c ./cache -items ./data/items
-          npx tsx scripts/concatenateJsonFiles.ts items
-          rm -fr ./data/items
+        run: tools/item/exportItems.sh
 
       - name: Export npcs
-        run: |
-          mkdir -p data
-          java -jar cache.jar -c ./cache -npcs ./data/npcs
-          npx tsx scripts/concatenateJsonFiles.ts npcs
-          rm -fr ./data/npcs
+        run: tools/npc/exportNpcs.sh
 
       - name: Export objects
-        run: |
-          mkdir -p data
-          java -jar cache.jar -c ./cache -objects ./data/objects
-          npx tsx scripts/concatenateJsonFiles.ts objects
-          rm -fr ./data/objects
+        run: tools/objects/exportObjects.sh
 
       - name: Clean before commit
-        run: |
-          rm -fr runelite
-          rm cache.jar
+        run: scripts/cleanBeforeCommit.sh
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v9

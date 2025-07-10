@@ -1,0 +1,79 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "array",
+    "items": {
+        "oneOf": [
+            {
+                "description": "A level requirement for an item",
+                "type": "object",
+                "required": ["itemID", "type", "skill", "level"],
+                "properties": {
+                    "itemID": {
+                        "type": "integer",
+                        "description": "The unique identifier of the item"
+                    },
+                    "type": {
+                        "type": "string",
+                        "const": "level",
+                        "description": "Level requirement type"
+                    },
+                    "skill": {
+                        "type": "string",
+                        "enum": ["attack", "defence", "strength", "ranged", "magic", "prayer"],
+                        "description": "The skill required"
+                    },
+                    "level": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 99,
+                        "description": "The required level in the specified skill"
+                    }
+                },
+                "additionalProperties": false
+            },
+            {
+                "description": "A quest requirement for an item",
+                "type": "object",
+                "required": ["itemID", "type", "quest"],
+                "properties": {
+                    "itemID": {
+                        "type": "integer",
+                        "description": "The unique identifier of the item"
+                    },
+                    "type": {
+                        "type": "string",
+                        "const": "quest",
+                        "description": "Quest requirement type"
+                    },
+                    "quest": {
+                        "$ref": "./parts/questlist.schema.json",
+                        "description": "The quest required"
+                    }
+                },
+                "additionalProperties": false
+            },
+            {
+                "description": "A game mode requirement for an item",
+                "type": "object",
+                "required": ["itemID", "type", "gameMode"],
+                "properties": {
+                    "itemID": {
+                        "type": "integer",
+                        "description": "The unique identifier of the item"
+                    },
+                    "type": {
+                        "type": "string",
+                        "const": "gameMode",
+                        "description": "Game mode requirement type"
+                    },
+                    "gameMode": {
+                        "type": "string",
+                        "enum": ["Leagues"],
+                        "description": "The game mode required"
+                    }
+                },
+                "additionalProperties": false
+            }
+        ]
+    }
+}
