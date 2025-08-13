@@ -52,5 +52,6 @@
             "url": "/schemas/wearRequirements.schema.json"
         }
     ],
-    "github.copilot.chat.codeGeneration.useInstructionFiles": true
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+    "editor.formatOnSave": true
 }

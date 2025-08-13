@@ -7,16 +7,20 @@ export const ObjectsTool: Tool = {
   version: "1.0.0",
   needs: [],
   async run() {
+    console.log("[ObjectsTool] Starting exportObjects.sh script...");
     exec("bash tools/Objects/exportObjects.sh", (error, stdout, stderr) => {
       if (error) {
-        console.error(`Error executing script: ${error.message}`);
+        console.error(`[ObjectsTool] Error executing script: ${error.message}`);
+        if (stderr) {
+          console.error(`[ObjectsTool] Script error output: ${stderr}`);
+        }
         return;
       }
       if (stderr) {
-        console.error(`Script error output: ${stderr}`);
-        return;
+        console.warn(`[ObjectsTool] Script stderr: ${stderr}`);
       }
-      console.log(`Script output: ${stdout}`);
+      console.log(`[ObjectsTool] Script output: ${stdout}`);
+      console.log("[ObjectsTool] exportObjects.sh script completed successfully.");
     });
   },
 };
