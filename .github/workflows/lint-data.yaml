@@ -2,7 +2,7 @@ name: lint data
 
 on:
   workflow_run:
-    workflows: ["Collect"]
+    workflows: ["Collect Data"]
     types:
       - completed
 
