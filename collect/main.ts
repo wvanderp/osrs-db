@@ -74,12 +74,29 @@ function lintToolNeeds(tools: Tool[]) {
 async function runToolsInOrder() {
   lintToolNeeds(tools);
   const sortedTools = sortToolsByNeeds(tools);
+  const errors: { name: string; error: any }[] = [];
   for (const tool of sortedTools) {
     if (typeof tool.run === "function") {
       // eslint-disable-next-line no-console
       console.log(`Running tool: ${tool.name}`);
-      await tool.run();
+      try {
+        await tool.run();
+      } catch (e) {
+        // eslint-disable-next-line no-console
+        console.error(`Tool failed: ${tool.name}`);
+        console.error(e);
+        errors.push({ name: tool.name, error: e });
+      }
     }
+  }
+  if (errors.length > 0) {
+    // eslint-disable-next-line no-console
+    console.error("\nSome tools failed:");
+    for (const err of errors) {
+      // eslint-disable-next-line no-console
+      console.error(`- ${err.name}:`, err.error);
+    }
+    throw new Error("One or more tools failed.");
   }
 }
 

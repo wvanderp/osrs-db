@@ -24,5 +24,8 @@ jobs:
       - name: Install dependencies
         run: npm i
 
+      - name: Make all scripts executable
+        run: chmod -R +x scripts tools/**/*.sh
+
       - name: Run all tools
         run: npm run collect
