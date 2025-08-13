@@ -1,5 +1,6 @@
 import { Tool } from "../../collect/Tool";
 import executeShellScript from '../../common/executeShellScript';
+import extractSlotStats from './ExtractSlotStats';
 
 export const ItemsTool: Tool = {
   name: "Items",
@@ -9,5 +10,7 @@ export const ItemsTool: Tool = {
   async run() {
     console.log("[ItemsTool] Starting exportItems.sh script...");
     await executeShellScript("bash tools/Items/exportItems.sh");
+
+    await extractSlotStats();
   },
 };

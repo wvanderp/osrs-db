@@ -1,24 +1,35 @@
 {
     "cSpell.words": [
+        "Ahrim's",
         "Amlodd",
         "antipoison",
         "armour",
+        "Arrav",
         "arrowtips",
         "Broodoo",
         "Cadarn",
+        "chainmace",
+        "charos",
         "chestplate",
         "Crwys",
         "defence",
         "Defence",
+        "Dharok's",
+        "Digsite",
         "endregion",
         "faerdhinen",
         "Gielinor",
         "github",
         "Glarial's",
+        "Guthan's",
+        "Guthix",
         "Iorwerth",
         "Ithell",
+        "ivandis",
         "jsoneditor",
+        "Karil's",
         "Khazard",
+        "kiteshield",
         "Meilyr",
         "mithril",
         "Mithril",
@@ -26,18 +37,28 @@
         "Npcs",
         "oldschool",
         "Osrs",
+        "platebody",
         "runelite",
         "saeldor",
+        "Saradomin",
+        "Saradomin's",
         "shortbow",
         "snelm",
         "stackable",
         "Superantipoison",
         "Tarromin",
         "temurin",
+        "Torag's",
         "Torstol",
         "Trahaearn",
+        "Unpoisoned",
+        "Verac's",
+        "Viggora's",
+        "wikitable",
         "Zamorak"
     ],
+    "editor.formatOnSave": true,
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
     "json.schemas": [
         {
             "fileMatch": [
@@ -51,7 +72,5 @@
             ],
             "url": "/schemas/wearRequirements.schema.json"
         }
-    ],
-    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
-    "editor.formatOnSave": true
+    ]
 }

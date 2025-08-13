@@ -40,3 +40,4 @@ You may use emojis to make the project more visually interesting and engaging. B
 ---
 
 If anything goes wrong while executing scripts, throw early and throw often. The philosophy is that everything should go as intended and if something was not foreseen then the code is wrong.
+So dont try to catch errors just let them crash the process.
