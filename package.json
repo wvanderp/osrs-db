@@ -5,7 +5,7 @@
   "scripts": {
     "collect": "tsx collect/main.ts",
     "lintData": "tsx collect/linters.ts",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit -p tsconfig.json"
   },
   "author": "",
   "license": "ISC",
