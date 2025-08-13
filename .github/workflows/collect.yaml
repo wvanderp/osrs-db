@@ -22,7 +22,7 @@ jobs:
           node-version: "24"
 
       - name: Install dependencies
-        run: npm ci
+        run: npm i
 
       - name: Run all tools
-        run: tsx collect/main.ts
+        run: npm run collect

@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "getNewestCache": "tsx scripts/getNewestCache.ts",
-    "lintData": "tsx scripts/lintData.ts",
-    "extractSlotStats": "tsx scripts/ExtractSlotStats.ts"
+    "collect": "tsx collect/main.ts"
   },
   "author": "",
   "license": "ISC",
