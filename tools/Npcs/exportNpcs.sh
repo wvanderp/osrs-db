@@ -32,10 +32,10 @@ fi
 # Download cache if not present
 if [ ! -d "cache" ]; then
 	echo "Downloading cache..."
-	./scripts/downloadCache.sh
+	./common/downloadCache.sh
 fi
 
 mkdir -p data
 java -jar cache.jar -c ./cache -npcs ./data/npcs
-npx tsx scripts/concatenateJsonFiles.ts npcs
+npx tsx common/concatenateJsonFiles.ts npcs
 rm -fr ./data/npcs
