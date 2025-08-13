@@ -2,14 +2,12 @@ import { CollisionMapTool } from "../tools/CollisionMap/CollisionMapTool";
 import { ItemsTool } from "../tools/Items/ItemsTool";
 import { NpcsTool } from "../tools/Npcs/NpcsTool";
 import { ObjectsTool } from "../tools/objects/ObjectsTool";
-import { QuestsTool } from "../tools/quests/QuestsTool";
 import { TransportsTool } from "../tools/Transports/TransportsTool";
 import { Tool } from "./Tool";
 
 const tools: Tool[] = [
   TransportsTool,
   NpcsTool,
-  QuestsTool,
   ObjectsTool,
   ItemsTool,
   CollisionMapTool,
