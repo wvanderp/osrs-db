@@ -1,6 +1,6 @@
 import { Tool } from "../../collect/Tool";
 
-const tool: Tool = {
+export const QuestsTool: Tool = {
   name: "Quests",
   description: "a tool exporting a quest list",
   version: "1.0.0",
@@ -9,5 +9,3 @@ const tool: Tool = {
     // Implement common tool logic here
   },
 };
-
-export default tool;

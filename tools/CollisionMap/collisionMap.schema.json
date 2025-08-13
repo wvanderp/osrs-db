@@ -1,0 +1,10 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CollisionMapRegion",
+  "type": "object",
+  "properties": {
+    "regionId": { "type": "integer" },
+    "collisionData": { "type": "object" }
+  },
+  "required": ["regionId", "collisionData"]
+}
