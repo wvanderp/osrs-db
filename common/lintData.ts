@@ -1,6 +1,6 @@
-import { execSync } from "child_process";
 import { globSync } from "glob";
 import path from "path";
+import executeShellScript from './executeShellScript';
 
 // Find all *.linter.ts files recursively from the repo root
 const repoRoot = path.resolve(__dirname, "..");
@@ -19,7 +19,7 @@ let failed = false;
 for (const linter of linterFiles) {
   console.log(`Running linter: ${path.relative(repoRoot, linter)}`);
   try {
-    execSync(`npx ts-node "${linter}"`, { stdio: "inherit" });
+    await executeShellScript(`npx ts-node "${linter}"`);
   } catch (err) {
     console.error(`Linter failed: ${linter}`, err);
     failed = true;

@@ -26,7 +26,7 @@ fi
 # Build cache.jar if not present
 if [ ! -f "cache.jar" ]; then
 	echo "cache.jar not found, building with buildRunelite.sh..."
-	./scripts/buildRunelite.sh
+	./common/buildRunelite.sh
 fi
 
 # Download cache if not present
