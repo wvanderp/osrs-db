@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+# This script builds the Runelite cache tools and copies the resulting jar file to the root directory as cache.jar.
+
 # Ensure Java, git, and Maven are installed
 for cmd in java git mvn; do
   if ! command -v $cmd >/dev/null 2>&1; then

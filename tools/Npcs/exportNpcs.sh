@@ -23,16 +23,16 @@ if ! command -v java >/dev/null 2>&1; then
 	exit 1
 fi
 
-# Download cache.jar if not present
+# Build cache.jar if not present
 if [ ! -f "cache.jar" ]; then
-	echo "Downloading cache.jar..."
-	./scripts/downloadCacheJar.sh
+	echo "cache.jar not found, building with buildRunelite.sh..."
+	./scripts/buildRunelite.sh
 fi
 
 # Download cache if not present
 if [ ! -d "cache" ]; then
 	echo "Downloading cache..."
-	./scripts/buildRuneliteAndDownloadCache.sh
+	./scripts/downloadCache.sh
 fi
 
 mkdir -p data

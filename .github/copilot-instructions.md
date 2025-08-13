@@ -25,3 +25,10 @@ You can use the work of previous tools, both explicitly by "needing" them in the
 You always need to check tough because maybe your tool runs first and then nothing is done.
 
 It also means you need to be respectful of the enviroment do not remove files after you are done. dont break the environment for the next tool. of course you are allowed to create and update files as needed.
+
+---
+
+make sure to add enough logging so that the tool can be debugged easily.
+use `[tool_name]` as a prefix for all log messages to make it clear which tool is generating the log message.
+
+---
