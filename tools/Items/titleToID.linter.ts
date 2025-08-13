@@ -42,7 +42,7 @@ const schema = {
 };
 
 
-export default function titleToID_linter() {
+export default function LintTitleToID() {
     console.log("[titleToID.linter] Linting titleToID.json");
 
     // Validate schema

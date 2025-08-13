@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "OSRS-DB/objects.schema.json",
+  "title": "Objects",
+  "description": "Schema for in-game objects exported data",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "name": { "type": "string" },
+      "examine": { "type": ["string", "null"] },
+      "interactions": {
+        "type": ["array", "null"],
+        "items": { "type": ["string", "null"] }
+      },
+      "x": { "type": ["integer", "null"] },
+      "y": { "type": ["integer", "null"] },
+      "plane": { "type": ["integer", "null"] },
+      "type": { "type": ["integer", "null"] },
+      "width": { "type": ["integer", "null"] },
+      "length": { "type": ["integer", "null"] },
+      "impenetrable": { "type": ["boolean", "null"] },
+      "clipType": { "type": ["integer", "null"] },
+      "offsetX": { "type": ["integer", "null"] },
+      "offsetY": { "type": ["integer", "null"] },
+      "offsetHeight": { "type": ["integer", "null"] },
+      "ambient": { "type": ["integer", "null"] },
+      "contrast": { "type": ["integer", "null"] },
+      "params": { "type": ["object", "null"], "additionalProperties": true }
+    },
+    "required": ["id", "name"],
+    "additionalProperties": true
+  }
+}

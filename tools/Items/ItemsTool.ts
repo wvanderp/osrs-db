@@ -1,6 +1,9 @@
-import { Tool } from "../../collect/Tool";
+import Tool from "../../collect/Tool";
 import executeShellScript from '../../common/executeShellScript';
 import extractSlotStats from './ExtractSlotStats';
+import LintItems from './items.linter';
+import lintSlotStats from './slotStats.linter';
+import LintTitleToID from './titleToID.linter';
 
 export const ItemsTool: Tool = {
   name: "Items",
@@ -12,5 +15,11 @@ export const ItemsTool: Tool = {
     await executeShellScript("bash tools/Items/exportItems.sh");
 
     await extractSlotStats();
+  },
+  async lint() {
+    console.log("[ItemsTool] Linting data");
+    lintSlotStats();
+    await LintTitleToID();
+    await LintItems();
   },
 };

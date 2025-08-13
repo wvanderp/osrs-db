@@ -74,7 +74,7 @@ const schema = {
     }
 }
 
-export default function slotStats() {
+export default function lintSlotStats() {
     console.log("Linting slotStats.g.json");
     // #region schema
     const ajv = new Ajv();

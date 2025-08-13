@@ -1,26 +1,39 @@
-import Ajv from "ajv";
 import fs from "fs";
 import path from "path";
+import lintWithSchema from "../../common/lintWithSchema";
 
-// load the file
-const filePath = path.join(__dirname, "../../data/items.g.json");
-const file = JSON.parse(fs.readFileSync(filePath, "utf8")) as { [key: string]: number | string | null }[];
+export default function LintItems() {
+    const prefix = "[Items]";
+    const filePath = path.join(__dirname, "../../data/items.g.json");
+    const schemaPath = path.join(__dirname, "items.schema.json");
 
-const schemaPath = path.join(__dirname, "../../schemas/items.schema.json");
-const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
+    console.log(`${prefix} Linting items.g.json`);
 
-export default function items() {
-    console.log("Linting items.g.json");
-    // #region schema
-    const ajv = new Ajv();
-    const validate = ajv.compile(schema);
+    let hasError = false;
+    try {
+        lintWithSchema(filePath, schemaPath, { prefix });
+    } catch (e) {
+        hasError = true;
+    }
 
-    const valid = validate(file);
+    const file = JSON.parse(fs.readFileSync(filePath, "utf8")) as { [key: string]: number | string | null }[];
 
-    if (!valid) {
-        console.log(validate.errors);
+    // #region no duplicate ids
+    const ids = file.map(item => item.id).filter(id => typeof id === "number") as number[];
+    const seen = new Set<number>();
+    const duplicates: number[] = [];
+    for (const id of ids) {
+        if (seen.has(id)) duplicates.push(id);
+        else seen.add(id);
+    }
+
+    if (duplicates.length > 0) {
+        console.error(`${prefix} Duplicate id values found:`, [...new Set(duplicates)].slice(0, 20));
+        hasError = true;
     }
     // #endregion
 
-    console.log("items.g.json is valid");
+    if (hasError) process.exit(1);
+
+    console.log(`${prefix} items.g.json is valid`);
 }

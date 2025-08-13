@@ -2,7 +2,7 @@
 // This tool assumes the workflow will generate the output in a known location (e.g., tools/CollisionMap/data/)
 import * as fs from "fs";
 import * as path from "path";
-import { Tool } from "../../collect/Tool";
+import Tool from "../../collect/Tool";
 
 export interface CollisionMapOutput {
   regionId: number;
@@ -15,9 +15,11 @@ export const CollisionMapTool: Tool = {
   version: "1.0.0",
   needs: [],
   async run(): Promise<void> {
-    // Implement the main logic for running the tool here if needed
-    // For now, this is a stub.
+    // Todo implement
     console.log("CollisionMapTool run() called");
+  },
+  async lint(): Promise<void> {
+    // TODO: implement linter
   },
 };
 

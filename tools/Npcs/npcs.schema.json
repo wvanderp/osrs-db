@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "OSRS-DB/npcs.schema.json",
+  "title": "NPCs",
+  "description": "Schema for NPCs exported data",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "name": { "type": "string" },
+      "examine": { "type": ["string", "null"] },
+      "size": { "type": ["integer", "null"] },
+      "combatLevel": { "type": ["integer", "null"] },
+      "attackSpeed": { "type": ["integer", "null"] },
+      "aggressive": { "type": ["boolean", "null"] },
+      "poisonous": { "type": ["boolean", "null"] },
+      "immuneToPoison": { "type": ["boolean", "null"] },
+      "immuneToVenom": { "type": ["boolean", "null"] },
+      "options": {
+        "type": ["array", "null"],
+        "items": { "type": ["string", "null"] }
+      },
+      "hitpoints": { "type": ["integer", "null"] },
+      "attributes": {
+        "type": ["object", "null"],
+        "additionalProperties": true
+      },
+      "animations": {
+        "type": ["object", "null"],
+        "additionalProperties": true
+      },
+      "params": { "type": ["object", "null"], "additionalProperties": true }
+    },
+    "required": ["id", "name"],
+    "additionalProperties": true
+  }
+}

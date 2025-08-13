@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "collect": "tsx collect/main.ts"
+    "collect": "tsx collect/main.ts",
+    "lintData": "tsx collect/linters.ts",
+    "lint": "tsc --noEmit"
   },
   "author": "",
   "license": "ISC",

@@ -1,4 +1,4 @@
-import { Tool } from "../../collect/Tool";
+import Tool from "../../collect/Tool";
 
 export const QuestsTool: Tool = {
   name: "Quests",
@@ -7,5 +7,10 @@ export const QuestsTool: Tool = {
   needs: [],
   run: async () => {
     // Implement common tool logic here
+  },
+  lint: async () => {
+    console.log("[QuestsTool] Linting data using common/lintData.ts...");
+    const { default: exec } = await import("../../common/executeShellScript");
+    await exec("npx tsx common/lintData.ts");
   },
 };

@@ -1,4 +1,4 @@
-import { Tool } from "../../collect/Tool";
+import Tool from "../../collect/Tool";
 import executeShellScript from '../../common/executeShellScript';
 
 export const NpcsTool: Tool = {
@@ -9,5 +9,9 @@ export const NpcsTool: Tool = {
   async run() {
     console.log("[NpcsTool] Starting exportNpcs.sh script...");
     await executeShellScript("bash tools/Npcs/exportNpcs.sh");
+  },
+  async lint() {
+    console.log("[NpcsTool] Linting data using schema...");
+    await executeShellScript("npx tsx tools/Npcs/Npcs.linter.ts");
   },
 };

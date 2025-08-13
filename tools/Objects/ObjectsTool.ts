@@ -1,4 +1,4 @@
-import { Tool } from "../../collect/Tool";
+import Tool from "../../collect/Tool";
 import executeShellScript from '../../common/executeShellScript';
 
 export const ObjectsTool: Tool = {
@@ -9,5 +9,9 @@ export const ObjectsTool: Tool = {
   async run() {
     console.log("[ObjectsTool] Starting exportObjects.sh script...");
     await executeShellScript("bash tools/Objects/exportObjects.sh");
+  },
+  async lint() {
+    console.log("[ObjectsTool] Linting data using schema...");
+    await executeShellScript("npx tsx tools/Objects/Objects.linter.ts");
   },
 };

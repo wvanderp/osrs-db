@@ -1,17 +1,5 @@
-import { CollisionMapTool } from "../tools/CollisionMap/CollisionMapTool";
-import { ItemsTool } from "../tools/Items/ItemsTool";
-import { NpcsTool } from "../tools/Npcs/NpcsTool";
-import { ObjectsTool } from "../tools/Objects/ObjectsTool";
-import { TransportsTool } from "../tools/Transports/TransportsTool";
-import { Tool } from "./Tool";
+import Tool, { tools } from "./Tool";
 
-const tools: Tool[] = [
-  TransportsTool,
-  NpcsTool,
-  ObjectsTool,
-  ItemsTool,
-  CollisionMapTool,
-];
 
 // Helper to get all needs for a tool (flattened)
 function getNeeds(tool: Tool): string[] {
