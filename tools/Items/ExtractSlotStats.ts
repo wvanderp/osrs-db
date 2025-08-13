@@ -4,6 +4,7 @@ import { JSDOM } from 'jsdom';
 import path from 'path';
 
 const itemsFilePath = path.resolve(__dirname, "../../data/items.g.json");
+const titleToIDFilePath = path.resolve(__dirname, "./data/titleToID.json");
 
 const items = JSON.parse(fs.readFileSync(itemsFilePath, "utf-8")) as { id: number, name: string, examine: string }[];
 
@@ -70,7 +71,7 @@ const manualItemsSubstring = [
  * @param name find the id of the item with the given name
  */
 function findID(name: string): number | null {
-    const titleToID = JSON.parse(fs.readFileSync("./data/titleToID.json", "utf-8")) as Record<string, number | null>;
+    const titleToID = JSON.parse(fs.readFileSync(titleToIDFilePath, "utf-8")) as Record<string, number | null>;
 
     const rewrittenName = rewriteName(name);
 
@@ -117,7 +118,7 @@ function writeTitleToID(titleToID: Record<string, number | null>) {
         return acc;
     }, {} as Record<string, number | null>);
 
-    fs.writeFileSync("./data/titleToID.json", JSON.stringify(sorted, null, 4));
+    fs.writeFileSync(titleToIDFilePath, JSON.stringify(sorted, null, 4));
 }
 
 /**

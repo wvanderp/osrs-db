@@ -19,7 +19,7 @@ let failed = false;
 for (const linter of linterFiles) {
   console.log(`Running linter: ${path.relative(repoRoot, linter)}`);
   try {
-    await executeShellScript(`npx ts-node "${linter}"`);
+    await executeShellScript(`npx tsx "${linter}"`);
   } catch (err) {
     console.error(`Linter failed: ${linter}`, err);
     failed = true;
