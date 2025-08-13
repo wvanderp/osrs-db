@@ -9,7 +9,6 @@ export interface CollisionMapOutput {
   collisionData: any;
 }
 
-
 export const CollisionMapTool: Tool = {
   name: "CollisionMap",
   description: "Extracts and processes collision map data from the OSRS cache.",

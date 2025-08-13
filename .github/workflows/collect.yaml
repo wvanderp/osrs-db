@@ -25,4 +25,4 @@ jobs:
         run: npm ci
 
       - name: Run all tools
-        run: npx ts-node collect/main.ts
+        run: tsx collect/main.ts
