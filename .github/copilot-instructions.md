@@ -1,4 +1,5 @@
-files with a `*.g.*` extensions are generated files and should not be edited directly.
+files with a `*.g.*` extensions are generated files and should not be edited directly because the changes will be overwritten by the generation process.
+any other files that are generated but changes are preserved during the generation process may not carry the `*.g.` extension.
 
 A tool is a set of all code and data required to create the outputs of a given type.
 A tool can generate one or more outputs.
