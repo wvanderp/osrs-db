@@ -3,6 +3,7 @@ export interface Tool {
   description: string;
   version: string;
 
+  // dependencies on other tools
   needs: string[];
 
   run: () => Promise<void>;

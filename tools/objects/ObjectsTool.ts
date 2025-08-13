@@ -1,5 +1,5 @@
 import { Tool } from "../../collect/Tool";
-import {exec} from "child_process";
+import { exec } from "child_process";
 
 export const ObjectsTool: Tool = {
   name: "Objects",
@@ -7,7 +7,7 @@ export const ObjectsTool: Tool = {
   version: "1.0.0",
   needs: [],
   async run() {
-    exec("bash exportObjects.sh", (error, stdout, stderr) => {
+    exec("bash tools/objects/exportObjects.sh", (error, stdout, stderr) => {
       if (error) {
         console.error(`Error executing script: ${error.message}`);
         return;
