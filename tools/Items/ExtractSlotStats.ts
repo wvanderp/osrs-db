@@ -1,8 +1,11 @@
 import axios from 'axios';
 import fs from 'fs';
 import { JSDOM } from 'jsdom';
+import path from 'path';
 
-const items = JSON.parse(fs.readFileSync("./data/items.g.json", "utf-8")) as { id: number, name: string, examine: string }[];
+const itemsFilePath = path.resolve(__dirname, "../../data/items.g.json");
+
+const items = JSON.parse(fs.readFileSync(itemsFilePath, "utf-8")) as { id: number, name: string, examine: string }[];
 
 const slotPages: [string, string][] = [
     ["https://oldschool.runescape.wiki/w/Ammunition_slot_table", "Ammunition"],
