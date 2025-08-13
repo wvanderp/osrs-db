@@ -1,4 +1,5 @@
 import { Tool } from "../../collect/Tool";
+import executeShellScript from '../../common/executeShellScript';
 
 export const NpcsTool: Tool = {
   name: "Npcs",
@@ -6,7 +7,7 @@ export const NpcsTool: Tool = {
   version: "1.0.0",
   needs: [],
   async run() {
-    // TODO: Implement NPC data processing logic here
-    console.log("Running NpcsTool...");
+    console.log("[NpcsTool] Starting exportNpcs.sh script...");
+    await executeShellScript("bash tools/Npcs/exportNpcs.sh");
   },
 };
