@@ -36,3 +36,7 @@ Use `[tool_name]` as a prefix for all log messages to make it clear which tool i
 ---
 
 You may use emojis to make the project more visually interesting and engaging. But be careful because this is a serious project, and the use of emojis may lead to whimsical texts.
+
+---
+
+If anything goes wrong while executing scripts, throw early and throw often. The philosophy is that everything should go as intended and if something was not foreseen then the code is wrong.

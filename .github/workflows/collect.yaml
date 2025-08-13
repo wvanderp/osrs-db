@@ -31,7 +31,7 @@ jobs:
         run: npm i
 
       - name: Make all scripts executable
-        run: chmod -R +x scripts tools/**/*.sh
+        run: chmod -R +x commons tools/**/*.sh
 
       - name: Run all tools
         run: npm run collect

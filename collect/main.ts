@@ -104,4 +104,5 @@ async function runToolsInOrder() {
 runToolsInOrder().catch((e) => {
   // eslint-disable-next-line no-console
   console.error("Error running tools:", e);
+  process.exit(1);
 });
