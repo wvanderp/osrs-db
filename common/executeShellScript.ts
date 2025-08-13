@@ -1,18 +1,37 @@
-import { execSync } from 'child_process';
+import { spawn } from 'child_process';
+import { basename } from 'path';
 
-// Utility function to execute a shell script.
+// Utility function to execute a shell script with real-time logging.
 // @param scriptPath - The path to the shell script to execute.
 // @param args - Optional arguments to pass to the script.
-// @returns The standard output from the script execution.
+// @returns A promise that resolves when the script execution completes.
 export default function executeShellScript(
     scriptPath: string,
     args: string[] = []
-): string {
-    try {
-        const command = `${scriptPath} ${args.join(" ")}`;
-        return execSync(command, { encoding: "utf-8" });
-    } catch (error) {
-        console.error(`Error executing script: ${scriptPath}`, error);
-        throw error;
-    }
+): Promise<void> {
+    return new Promise((resolve, reject) => {
+        const scriptName = basename(scriptPath);
+        const childProcess = spawn(scriptPath, args, { shell: true });
+
+        childProcess.stdout.on('data', (data) => {
+            console.log(`[${scriptName} stdout]: ${data}`);
+        });
+
+        childProcess.stderr.on('data', (data) => {
+            console.error(`[${scriptName} stderr]: ${data}`);
+        });
+
+        childProcess.on('close', (code) => {
+            if (code === 0) {
+                resolve();
+            } else {
+                reject(new Error(`Script exited with code ${code}`));
+            }
+        });
+
+        childProcess.on('error', (error) => {
+            console.error(`Error spawning script: ${scriptName}`, error);
+            reject(error);
+        });
+    });
 }
