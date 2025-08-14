@@ -16,9 +16,12 @@ Each rule should have the following files/functions:
 - `{tool_name}.changelog.md`: a markdown file to track changes and updates to the tool.
 - `data/`: a directory containing the data files used by the tool. This can include JSON files, CSV files, or any other format that the tool uses.
 
+- Ensure that generated data is placed in the root `data` folder.
+- The local `data` folder within a tool's directory is only for intermediate data used during generation.
+
 The tool can add all kinds of files, data, and configurations as needed to support its functionality.
 
-Make sure to update the `collect/main.ts` file to include the new tool.
+Make sure to update the `collect/tool.ts` file to include the new tool.
 
 ---
 
