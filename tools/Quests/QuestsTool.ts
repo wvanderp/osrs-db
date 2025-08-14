@@ -9,8 +9,6 @@ export const QuestsTool: Tool = {
     // Implement common tool logic here
   },
   lint: async () => {
-    console.log("[QuestsTool] Linting data using common/lintData.ts...");
-    const { default: exec } = await import("../../common/executeShellScript");
-    await exec("npx tsx common/lintData.ts");
+    console.log("[QuestsTool] Linting data not Yet Implemented");
   },
 };
