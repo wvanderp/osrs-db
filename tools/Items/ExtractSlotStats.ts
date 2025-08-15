@@ -277,6 +277,14 @@ function rewriteName(name: string): string {
         }
     }
 
+    // Echo ahrim's series of items instead of being broken they are at 0
+    // so `Echo ahrim's hood#(broken)` -> `Echo ahrim's hood 0`
+
+    if (name.includes("Echo ahrim's")) {
+        console.log(`Echo ahrim's item found: ${name}`);
+        name = name.replace(/\(broken\)/, "0");
+    }
+
     if (name.includes("Abyssal lantern")) {
         name = name.replace(/Abyssal lantern#(.+)/, "Abyssal lantern ($1 logs)");
     }
@@ -310,6 +318,13 @@ function rewriteName(name: string): string {
     // Black mask (i)#7 -> Black mask (7)(i)
     // watch out it has been partially rewritten before (Black mask (i) (5))
     name = name.replace(/Black mask \(i\) \((\d+)\)/, "Black mask ($1) (i)");
+
+    // for the greenman mask we need to put the wood type in brackets in lower case
+    // so `Greenman mask#Magic` -> `Greenman mask (magic)`
+    name = name.replace(/Greenman mask#(\w+)/, "Greenman mask ($1)");
+    name = name.replace('Greenman mask (default)', 'Greenman mask');
+
+
 
     return name;
 }

@@ -35,6 +35,7 @@ It also means you need to be respectful of the environment, and do not remove fi
 
 Make sure to add enough logging so that the tool can be debugged easily.
 Use `[tool_name]` as a prefix for all log messages to make it clear which tool is generating the log message.
+Use colors to indicate the severity of log messages (e.g., red for errors, yellow for warnings).
 
 ---
 
@@ -43,4 +44,4 @@ You may use emojis to make the project more visually interesting and engaging. B
 ---
 
 If anything goes wrong while executing scripts, throw early and throw often. The philosophy is that everything should go as intended and if something was not foreseen then the code is wrong.
-So dont try to catch errors just let them crash the process.
+So don't try to catch errors just let them crash the process.

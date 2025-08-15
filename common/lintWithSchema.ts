@@ -4,7 +4,11 @@ import Ajv, { ErrorObject } from "ajv";
 
 /**
  * Lint a JSON file against a JSON Schema and print all validation errors.
- * Throws an Error on failure. Prints using the provided prefix.
+ * Does not throw on failure, but instead prints all the errors
+ * @param dataPath - Path to the JSON data file
+ * @param schemaPath - Path to the JSON Schema file
+ * @param opts - Optional parameters
+ * @param opts.prefix - Prefix for log messages (default: "[SchemaLint]")
  */
 export function lintWithSchema(dataPath: string, schemaPath: string, opts?: { prefix?: string }) {
     const prefix = opts?.prefix ?? "[SchemaLint]";
@@ -14,10 +18,12 @@ export function lintWithSchema(dataPath: string, schemaPath: string, opts?: { pr
     console.log(`${prefix} Validating ${absData} against ${absSchema}...`);
 
     if (!fs.existsSync(absData)) {
-        throw new Error(`${prefix} Data file not found: ${absData}`);
+        console.error(`${prefix} Data file not found: ${absData}`);
+        return;
     }
     if (!fs.existsSync(absSchema)) {
-        throw new Error(`${prefix} Schema file not found: ${absSchema}`);
+        console.error(`${prefix} Schema file not found: ${absSchema}`);
+        return;
     }
 
     const dataRaw = fs.readFileSync(absData, "utf8");
@@ -28,7 +34,8 @@ export function lintWithSchema(dataPath: string, schemaPath: string, opts?: { pr
         data = JSON.parse(dataRaw);
     } catch (e) {
         const msg = e instanceof Error ? e.message : String(e);
-        throw new Error(`${prefix} Failed to parse data JSON: ${msg}`);
+        console.error(`${prefix} Failed to parse data JSON: ${msg}`);
+        return;
     }
 
     let schema: unknown;
@@ -36,7 +43,8 @@ export function lintWithSchema(dataPath: string, schemaPath: string, opts?: { pr
         schema = JSON.parse(schemaRaw);
     } catch (e) {
         const msg = e instanceof Error ? e.message : String(e);
-        throw new Error(`${prefix} Failed to parse schema JSON: ${msg}`);
+        console.error(`${prefix} Failed to parse schema JSON: ${msg}`);
+        return
     }
 
     const ajv = new Ajv({ allErrors: true, strict: false });
@@ -55,7 +63,8 @@ export function lintWithSchema(dataPath: string, schemaPath: string, opts?: { pr
                 } catch { }
             }
         }
-        throw new Error(`${prefix} Validation failed`);
+        console.error(`${prefix} Validation failed`);
+        return
     }
 
     console.log(`${prefix} OK: ${absData}`);
