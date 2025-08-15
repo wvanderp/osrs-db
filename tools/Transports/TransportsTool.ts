@@ -1,4 +1,5 @@
 import Tool from "../../collect/Tool";
+import lintTransports from "./Transports.linter";
 
 export const TransportsTool: Tool = {
   name: "Transports",
@@ -10,6 +11,7 @@ export const TransportsTool: Tool = {
     console.log("Running TransportsTool...");
   },
   async lint() {
-    console.log("[TransportsTool] Linting data not Yet Implemented");
+    console.log("[TransportsTool] Linting data using schema...");
+    lintTransports();
   },
 };

@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "OSRS-DB/transports.schema.json",
+  "title": "Transports",
+  "description": "Schema for transport interaction definitions (e.g., wilderness obelisks).",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "origin": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        },
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "destination": {
+        "oneOf": [
+          {
+            "type": "null"
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 3,
+            "maxItems": 3
+          }
+        ]
+      },
+      "menuOption": {
+        "type": "string"
+      },
+      "menuTarget": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "objectID": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "skills": {
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "items": {
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "quests": {
+        "type": [
+          "array",
+          "null"
+        ]
+      },
+      "duration": {
+        "type": [
+          "number",
+          "integer",
+          "null"
+        ]
+      },
+      "displayInfo": {
+        "type": [
+          "object",
+          "null"
+        ]
+      }
+    },
+    "required": [
+      "origin",
+      "menuOption"
+    ],
+    "additionalProperties": true
+  }
+}
