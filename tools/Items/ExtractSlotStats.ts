@@ -268,23 +268,13 @@ function rewriteName(name: string): string {
 
     // the barrows items have a different naming scheme
     const barrowsBrothers = [
-        "Ahrim's", "Dharok's", "Guthan's", "Karil's", "Torag's", "Verac's"
+        "Ahrim's", "Dharok's", "Guthan's", "Karil's", "Torag's", "Verac's", "Echo ahrim's"
     ];
 
     for (const brother of barrowsBrothers) {
         if (name.includes(brother)) {
             name = name.replace(/#(\d+)/, " $1");
         }
-    }
-
-    // Echo ahrim's series of items instead of being broken they are at 0
-    // so `Echo ahrim's hood#(broken)` -> `Echo ahrim's hood 0`
-
-    if (name.includes("Echo ahrim's")) {
-        console.log(`Echo ahrim's item found: ${name}`);
-        name = name.replace(/\(broken\)/, " 0");
-        name = name.replace(/#\(\d+\)/, " $1");
-        console.log(`after: ${name}`);
     }
 
     if (name.includes("Abyssal lantern")) {
