@@ -281,8 +281,9 @@ function rewriteName(name: string): string {
     // so `Echo ahrim's hood#(broken)` -> `Echo ahrim's hood 0`
 
     if (name.includes("Echo ahrim's")) {
-        console.log(`Echo ahrim's item found: ${name}`);
         name = name.replace(/\(broken\)/, "0");
+        name = name.replace(/#\(\d+\)/, " $1");
+        console.log(`Echo ahrim's item found: ${name}`);
     }
 
     if (name.includes("Abyssal lantern")) {
