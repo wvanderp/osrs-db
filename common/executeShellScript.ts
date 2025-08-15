@@ -1,5 +1,6 @@
 import { spawn } from 'child_process';
 import { basename } from 'path';
+import { cyan, yellow, red } from './colors';
 
 // Utility function to execute a shell script with real-time logging.
 // @param scriptPath - The path to the shell script to execute.
@@ -14,23 +15,24 @@ export default function executeShellScript(
         const childProcess = spawn(scriptPath, args, { shell: true });
 
         childProcess.stdout.on('data', (data) => {
-            console.log(`[${scriptName} stdout]: ${data}`);
+            console.log(cyan(`[${scriptName} stdout]: ${data}`));
         });
 
         childProcess.stderr.on('data', (data) => {
-            console.error(`[${scriptName} stderr]: ${data}`);
+            console.error(yellow(`[${scriptName} stderr]: ${data}`));
         });
 
         childProcess.on('close', (code) => {
             if (code === 0) {
                 resolve();
             } else {
+                console.error(red(`[${scriptName}] exited with code ${code}`));
                 reject(new Error(`Script exited with code ${code}`));
             }
         });
 
         childProcess.on('error', (error) => {
-            console.error(`Error spawning script: ${scriptName}`, error);
+            console.error(red(`Error spawning script: ${scriptName}`), error);
             reject(error);
         });
     });

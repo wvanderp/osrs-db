@@ -3,6 +3,7 @@ import path from "path";
 import axios from "axios";
 import Tool from "../../collect/Tool";
 import executeShellScript from "../../common/executeShellScript";
+import { cyan, green, yellow } from "../../common/colors";
 
 const QUEST_SOURCE_URL =
   "https://raw.githubusercontent.com/runelite/runelite/master/runelite-api/src/main/java/net/runelite/api/Quest.java";
@@ -46,17 +47,17 @@ export const QuestsTool: Tool = {
   version: "1.0.0",
   needs: [],
   run: async () => {
-    console.log("[Quests] Start");
+    console.log(`${cyan("[Quests]")} Start`);
     const quests = await fetchAndParseQuests();
 
     const outDir = path.join(__dirname, "..", "..", "data"); // Updated to root data folder
     const outFile = path.join(outDir, "quests.g.json");
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(outFile, JSON.stringify(quests, null, 4));
-    console.log(`[Quests] Wrote ${quests.length} quests to ${path.relative(process.cwd(), outFile)}`);
+    console.log(`${cyan("[Quests]")} Wrote ${green(String(quests.length))} quests to ${path.relative(process.cwd(), outFile)}`);
   },
   lint: async () => {
-    console.log("[Quests] Linting data using schema...");
+    console.log(`${cyan("[Quests]")} ${yellow("Linting data using schema...")}`);
     await executeShellScript("npx tsx tools/Quests/Quests.linter.ts");
   },
 };

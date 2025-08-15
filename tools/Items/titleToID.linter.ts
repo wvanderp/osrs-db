@@ -2,6 +2,7 @@
 import Ajv from "ajv";
 import fs from "fs";
 import path from "path";
+import { cyan, red, green, yellow } from "../../common/colors";
 
 
 function findDuplicates<T>(arr: T[]): T[] {
@@ -25,7 +26,7 @@ let file: Record<string, number | string | null> = {};
 try {
     file = JSON.parse(fs.readFileSync(filePath, "utf8"));
 } catch (err) {
-    console.error("[titleToID.linter] Failed to read or parse titleToID.json:", err);
+    console.error(cyan("[titleToID.linter]"), red("Failed to read or parse titleToID.json:"), err);
     process.exit(1);
 }
 
@@ -43,14 +44,14 @@ const schema = {
 
 
 export default function LintTitleToID() {
-    console.log("[titleToID.linter] Linting titleToID.json");
+    console.log(cyan("[titleToID.linter]"), "Linting titleToID.json");
 
     // Validate schema
     const ajv = new Ajv();
     const validate = ajv.compile(schema);
     const valid = validate(file);
     if (!valid) {
-        console.error("[titleToID.linter] Schema validation errors:", validate.errors);
+        console.error(cyan("[titleToID.linter]"), red("Schema validation errors:"), validate.errors);
         process.exitCode = 1;
     }
 
@@ -59,20 +60,20 @@ export default function LintTitleToID() {
     const numericValues = values.filter(v => typeof v === "number") as number[];
     const duplicates = findDuplicates(numericValues);
     if (duplicates.length > 0) {
-        console.error(`[titleToID.linter] Duplicate numeric values found:`, duplicates);
+        console.error(cyan("[titleToID.linter]"), red("Duplicate numeric values found:"), duplicates);
         process.exitCode = 1;
     }
 
     // Check for null values
     const nullKeys = Object.keys(file).filter(k => file[k] === null);
     if (nullKeys.length > 0) {
-        console.error(`[titleToID.linter] Null values found for keys:`, nullKeys);
+        console.error(cyan("[titleToID.linter]"), yellow("Null values found for keys:"), nullKeys);
         process.exitCode = 1;
     }
 
     if (process.exitCode === 1) {
-        console.error("[titleToID.linter] titleToID.json is INVALID");
+        console.error(cyan("[titleToID.linter]"), red("titleToID.json is INVALID"));
     } else {
-        console.log("[titleToID.linter] titleToID.json is valid");
+        console.log(cyan("[titleToID.linter]"), green("titleToID.json is valid"));
     }
 }

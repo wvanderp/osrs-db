@@ -2,11 +2,12 @@
 import * as fs from "fs";
 import * as path from "path";
 import lintWithSchema from "../../common/lintWithSchema";
+import { red, green, cyan } from "../../common/colors";
 
 function lintCollisionMapData() {
   const dataDir = path.join(__dirname, "data");
   if (!fs.existsSync(dataDir)) {
-    console.error("Data directory does not exist:", dataDir);
+    console.error(red("Data directory does not exist:"), dataDir);
     process.exit(1);
   }
   const files = fs.readdirSync(dataDir).filter((f) => f.endsWith(".json"));
@@ -19,7 +20,7 @@ function lintCollisionMapData() {
       JSON.parse(fs.readFileSync(filePath, "utf8"));
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
-      console.error(`Failed to parse ${file}:`, msg);
+      console.error(red(`Failed to parse ${file}:`), msg);
       hasError = true;
       continue;
     }
@@ -32,7 +33,7 @@ function lintCollisionMapData() {
     }
   }
   if (hasError) process.exit(1);
-  else console.log("All collision map files are valid.");
+  else console.log(green("All collision map files are valid."));
 }
 
 if (require.main === module) {

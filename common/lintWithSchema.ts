@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Ajv, { ErrorObject } from "ajv";
+import { cyan, green, red } from "./colors";
 
 /**
  * Lint a JSON file against a JSON Schema and print all validation errors.
@@ -11,18 +12,18 @@ import Ajv, { ErrorObject } from "ajv";
  * @param opts.prefix - Prefix for log messages (default: "[SchemaLint]")
  */
 export function lintWithSchema(dataPath: string, schemaPath: string, opts?: { prefix?: string }) {
-    const prefix = opts?.prefix ?? "[SchemaLint]";
+    const prefix = opts?.prefix ? cyan(opts.prefix) : cyan("[SchemaLint]");
     const absData = path.resolve(dataPath);
     const absSchema = path.resolve(schemaPath);
 
     console.log(`${prefix} Validating ${absData} against ${absSchema}...`);
 
     if (!fs.existsSync(absData)) {
-        console.error(`${prefix} Data file not found: ${absData}`);
+        console.error(`${prefix} `, red(`Data file not found: ${absData}`));
         return;
     }
     if (!fs.existsSync(absSchema)) {
-        console.error(`${prefix} Schema file not found: ${absSchema}`);
+        console.error(`${prefix} `, red(`Schema file not found: ${absSchema}`));
         return;
     }
 
@@ -34,7 +35,7 @@ export function lintWithSchema(dataPath: string, schemaPath: string, opts?: { pr
         data = JSON.parse(dataRaw);
     } catch (e) {
         const msg = e instanceof Error ? e.message : String(e);
-        console.error(`${prefix} Failed to parse data JSON: ${msg}`);
+        console.error(`${prefix} `, red(`Failed to parse data JSON: ${msg}`));
         return;
     }
 
@@ -43,8 +44,8 @@ export function lintWithSchema(dataPath: string, schemaPath: string, opts?: { pr
         schema = JSON.parse(schemaRaw);
     } catch (e) {
         const msg = e instanceof Error ? e.message : String(e);
-        console.error(`${prefix} Failed to parse schema JSON: ${msg}`);
-        return
+        console.error(`${prefix} `, red(`Failed to parse schema JSON: ${msg}`));
+        return;
     }
 
     const ajv = new Ajv({ allErrors: true, strict: false });
@@ -52,22 +53,22 @@ export function lintWithSchema(dataPath: string, schemaPath: string, opts?: { pr
     const valid = validate(data);
     if (!valid) {
         const errors: ErrorObject[] = validate.errors ?? [];
-        console.error(`${prefix} Validation failed with ${errors.length} error(s):`);
+        console.error(`${prefix}`, red(`Validation failed with ${errors.length} error(s):`));
         for (const err of errors) {
             const loc = err.instancePath || "/";
             const msg = err.message ?? "Validation error";
-            console.error(`${prefix} ${loc} ${msg}`);
+            console.error(`${prefix} `, red(`${loc} ${msg}`));
             if (err.params) {
                 try {
-                    console.error(`${prefix}  params: ${JSON.stringify(err.params)}`);
+                    console.error(`${prefix}   `, red(`params: ${JSON.stringify(err.params)}`));
                 } catch { }
             }
         }
-        console.error(`${prefix} Validation failed`);
-        return
+        console.error(`${prefix} `, red(`Validation failed`));
+        return;
     }
 
-    console.log(`${prefix} OK: ${absData}`);
+    console.log(`${prefix} `, green(`OK: ${absData}`));
 }
 
 export default lintWithSchema;

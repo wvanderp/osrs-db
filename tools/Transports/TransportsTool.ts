@@ -1,4 +1,5 @@
 import Tool from "../../collect/Tool";
+import { cyan } from "../../common/colors";
 import lintTransports from "./Transports.linter";
 
 export const TransportsTool: Tool = {
@@ -8,10 +9,10 @@ export const TransportsTool: Tool = {
   needs: [],
   async run() {
     // TODO: Implement transport data processing logic here
-    console.log("Running TransportsTool...");
+    console.log(cyan("[TransportsTool]"), "Not implemented");
   },
   async lint() {
-    console.log("[TransportsTool] Linting data using schema...");
+    console.log(cyan("[TransportsTool]"), "Linting data using schema...");
     lintTransports();
   },
 };

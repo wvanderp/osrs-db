@@ -1,6 +1,7 @@
 import Ajv from "ajv";
 import fs from "fs";
 import path from "path";
+import { cyan, red, green } from "../../common/colors";
 
 // load the file
 const filePath = path.join(__dirname, "../../data/slotStats.g.json");
@@ -75,7 +76,7 @@ const schema = {
 }
 
 export default function lintSlotStats() {
-    console.log("Linting slotStats.g.json");
+    console.log(cyan("Linting slotStats.g.json"));
     // #region schema
     const ajv = new Ajv();
     const validate = ajv.compile(schema);
@@ -83,7 +84,7 @@ export default function lintSlotStats() {
     const valid = validate(file);
 
     if (!valid) {
-        console.log(validate.errors);
+        console.error(cyan("[slotStats.linter]"), red("slotStats schema validation errors:"), validate.errors);
     }
     // #endregion
 
@@ -92,10 +93,10 @@ export default function lintSlotStats() {
     const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
 
     if (duplicates.length > 0) {
-        console.log("Duplicate values found:", duplicates);
+        console.error(cyan("[slotStats.linter]"), red("Duplicate values found:"), duplicates);
     }
     // #endregion
 
 
-    console.log("slotStats.g.json is valid");
+    console.log(cyan("[slotStats.linter]"), green("slotStats.g.json is valid"));
 }

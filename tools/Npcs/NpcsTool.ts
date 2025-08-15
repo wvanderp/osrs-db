@@ -1,4 +1,5 @@
 import Tool from "../../collect/Tool";
+import { cyan } from "../../common/colors";
 import executeShellScript from '../../common/executeShellScript';
 
 export const NpcsTool: Tool = {
@@ -7,11 +8,11 @@ export const NpcsTool: Tool = {
   version: "1.0.0",
   needs: [],
   async run() {
-    console.log("[NpcsTool] Starting exportNpcs.sh script...");
+    console.log(cyan("[NpcsTool]"), "Starting exportNpcs.sh script...");
     await executeShellScript("bash tools/Npcs/exportNpcs.sh");
   },
   async lint() {
-    console.log("[NpcsTool] Linting data using schema...");
+    console.log(cyan("[NpcsTool]"), "Linting data using schema...");
     await executeShellScript("npx tsx tools/Npcs/Npcs.linter.ts");
   },
 };

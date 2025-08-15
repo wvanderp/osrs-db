@@ -1,13 +1,14 @@
 import fs from "fs";
 import path from "path";
 import lintWithSchema from "../../common/lintWithSchema";
+import { cyan, red, green } from "../../common/colors";
 
 export default function LintItems() {
-    const prefix = "[Items]";
+    const prefix = cyan("[Items]");
     const filePath = path.join(__dirname, "../../data/items.g.json");
     const schemaPath = path.join(__dirname, "items.schema.json");
 
-    console.log(`${prefix} Linting items.g.json`);
+    console.log(`${prefix} ${cyan("Linting items.g.json")}`);
 
     let hasError = false;
     try {
@@ -28,12 +29,12 @@ export default function LintItems() {
     }
 
     if (duplicates.length > 0) {
-        console.error(`${prefix} Duplicate id values found:`, [...new Set(duplicates)].slice(0, 20));
+        console.error(red(`${prefix} Duplicate id values found:`), [...new Set(duplicates)].slice(0, 20));
         hasError = true;
     }
     // #endregion
 
     if (hasError) process.exit(1);
 
-    console.log(`${prefix} items.g.json is valid`);
+    console.log(green(`${prefix} items.g.json is valid`));
 }

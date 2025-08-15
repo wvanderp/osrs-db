@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { cyan } from './colors';
 
 /**
  * Dev linter: checks that each tool in tools/ adheres to the required file layout.
@@ -110,7 +111,7 @@ function run() {
 
     let failures = 0;
     for (const r of results) {
-        const prefix = `[dev-linter:${r.toolName}]`;
+        const prefix = cyan(`[dev-linter:${r.toolName}]`);
         if (r.errors.length === 0) {
             console.log(`${prefix} OK`);
         } else {

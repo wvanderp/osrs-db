@@ -1,4 +1,5 @@
 import Tool from "../../collect/Tool";
+import { cyan } from "../../common/colors";
 import executeShellScript from '../../common/executeShellScript';
 
 export const ObjectsTool: Tool = {
@@ -7,11 +8,11 @@ export const ObjectsTool: Tool = {
   version: "1.0.0",
   needs: [],
   async run() {
-    console.log("[ObjectsTool] Starting exportObjects.sh script...");
+    console.log(`${cyan("[ObjectsTool]")} Starting exportObjects.sh script...`);
     await executeShellScript("bash tools/Objects/exportObjects.sh");
   },
   async lint() {
-    console.log("[ObjectsTool] Linting data using schema...");
+    console.log(`${cyan("[ObjectsTool]")} Linting data using schema...`);
     await executeShellScript("npx tsx tools/Objects/Objects.linter.ts");
   },
 };

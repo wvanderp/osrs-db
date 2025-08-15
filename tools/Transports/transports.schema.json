@@ -77,10 +77,7 @@
         ]
       }
     },
-    "required": [
-      "origin",
-      "menuOption"
-    ],
+    "required": [],
     "additionalProperties": true
   }
 }
