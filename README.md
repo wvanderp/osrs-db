@@ -1,5 +1,7 @@
 # OSRS-db
 
+`A project for collecting machine readable data for OSRS`
+
 ## Standing on the shoulders of giants
 
 We can not maintain this database without the solid foundation laid by the following projects:

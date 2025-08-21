@@ -59,19 +59,5 @@
         "Zamorak"
     ],
     "editor.formatOnSave": true,
-    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
-    "json.schemas": [
-        {
-            "fileMatch": [
-                "/data/items.g.json"
-            ],
-            "url": "/schemas/items.schema.json"
-        },
-        {
-            "fileMatch": [
-                "/data/wearRequirements.json"
-            ],
-            "url": "/schemas/wearRequirements.schema.json"
-        }
-    ]
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true
 }

@@ -8,6 +8,10 @@ on:
   pull_request:
     branches:
       - main
+  # This workflow is triggered manually or on Wednesdays at 2320 UTC
+  # This should be after Jagex updates the cache
+  schedule:
+    - cron: '20 23 * * 3' # Every Wednesday at 23:20 UTC
 
 jobs:
   collect:
