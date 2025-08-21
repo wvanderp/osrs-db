@@ -1,4 +1,4 @@
-name: Collect Data
+name: Collect Data 🛠️📥
 
 on:
   workflow_dispatch:
@@ -11,39 +11,51 @@ on:
   # This workflow is triggered manually or on Wednesdays at 2320 UTC
   # This should be after Jagex updates the cache
   schedule:
-    - cron: '20 23 * * 3' # Every Wednesday at 23:20 UTC
+    - cron: "20 23 * * 3" # Every Wednesday at 23:20 UTC
 
 jobs:
   collect:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: 🧾🔁 Checkout repository
         uses: actions/checkout@v5
         with:
           lfs: true
 
-      - name: Set up Node.js
+      - name: ⚙️ Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "24"
 
-      - name: Set up Java 11
+      - name: ☕️ Set up Java 11
         uses: actions/setup-java@v4
         with:
           distribution: "temurin"
           java-version: "11"
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: npm install
-
-      - name: Make all scripts executable
+      - name: 🔧 Make scripts executable
         run: chmod -R +x common tools/**/*.sh
 
-      - name: Run all tools
+      - name: 🛠️ Run tools
         run: npm run collect
 
-      - name: 🚀✨ Commit & Push Data Changes ✨🚀
+      - name: 📊 Generate LFS diff report
+        run: |
+          git config diff.lfs.textconv "cat"
+          git diff > ./lfs-diff.patch
+
+      - name: 📤 Upload LFS diff artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lfs-diff-report
+          path: |
+            ./lfs-diff.patch
+          retention-days: 30
+
+      - name: 🚀✨ Commit & Push Data Changes
         uses: EndBug/add-and-commit@v9
         with:
           author_name: github_actions
-          message: "🔄 Auto-update: add new data 📦"
+          message: "📦✨ Auto-update: add new data"

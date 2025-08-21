@@ -8,3 +8,6 @@ runelite
 cache.jar
 
 keys.json
+
+# LFS diff reports and backups (these are generated in CI and uploaded as artifacts)
+lfs-diff.patch
