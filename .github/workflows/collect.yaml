@@ -39,8 +39,27 @@ jobs:
       - name: Make all scripts executable
         run: chmod -R +x common tools/**/*.sh
 
+      - name: 📦 Backup LFS files before collection
+        run: ./common/backupLfsFiles.sh /tmp/lfs-backup-before
+
       - name: Run all tools
         run: npm run collect
+
+      - name: 📊 Generate LFS diff report
+        run: |
+          npx tsx common/generateLfsDiffReport.ts /tmp/lfs-backup-before ./lfs-diff-report.json
+          echo "## 📋 LFS Files Change Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          cat ./lfs-diff-report.md >> $GITHUB_STEP_SUMMARY
+
+      - name: 📤 Upload LFS diff report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: lfs-diff-report
+          path: |
+            ./lfs-diff-report.json
+            ./lfs-diff-report.md
+          retention-days: 30
 
       - name: 🚀✨ Commit & Push Data Changes ✨🚀
         uses: EndBug/add-and-commit@v9
