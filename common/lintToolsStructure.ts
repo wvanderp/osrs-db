@@ -1,13 +1,12 @@
 import fs from 'fs';
 import path from 'path';
-import { cyan } from './colors';
+import { cyan, red, yellow, green } from './colors';
 
 /**
  * Dev linter: checks that each tool in tools/ adheres to the required file layout.
  * Rules (from repo guidelines):
  * - {tool}.Tool.ts
  * - {tool}.md
- * - {tool}.linter.ts
  * - One or more *.schema.json files (name can vary)
  * - {tool}.changelog.md
  * - data/ directory (for intermediate data; generated data goes to root /data)
@@ -38,55 +37,50 @@ function fileExists(p: string) {
     }
 }
 
-function dirExists(p: string) {
-    try {
-        return fs.existsSync(p) && fs.statSync(p).isDirectory();
-    } catch {
-        return false;
-    }
-}
-
 function checkTool(toolDirName: string, toolsRoot: string): ToolCheckResult {
     const toolPath = path.join(toolsRoot, toolDirName);
     const errors: string[] = [];
     const warnings: string[] = [];
 
-    const requiredFiles = {
-        toolTs: path.join(toolPath, `${toolDirName}Tool.ts`),
-        docMd: path.join(toolPath, `${toolDirName}.md`),
-        linterTs: path.join(toolPath, `${toolDirName}.linter.ts`),
-        changelogMd: path.join(toolPath, `${toolDirName}.changelog.md`),
-    } as const;
-
-    // Base checks
-    if (!fileExists(requiredFiles.toolTs)) {
-        errors.push(`Missing file: ${path.relative(process.cwd(), requiredFiles.toolTs)}`);
-    }
-    if (!fileExists(requiredFiles.docMd)) {
-        errors.push(`Missing file: ${path.relative(process.cwd(), requiredFiles.docMd)} (tool description)`);
-    }
-    if (!fileExists(requiredFiles.linterTs)) {
-        errors.push(`Missing file: ${path.relative(process.cwd(), requiredFiles.linterTs)} (tool linter)`);
-    }
-    if (!fileExists(requiredFiles.changelogMd)) {
-        errors.push(`Missing file: ${path.relative(process.cwd(), requiredFiles.changelogMd)} (tool changelog)`);
-    }
-
-    // Schema check (at least one *.schema.json)
     const entries = fs.readdirSync(toolPath, { withFileTypes: true });
-    const schemaFiles = entries
-        .filter(e => e.isFile())
-        .map(e => e.name)
-        .filter(name => /\.schema\.json$/i.test(name));
-    if (schemaFiles.length === 0) {
-        errors.push(`No schema files found (*.schema.json) in ${path.relative(process.cwd(), toolPath)}`);
+
+    // Definitions drive the checks. This makes the linter easy to extend.
+    type Def =
+        | { kind: 'file'; name: string; relPath: string; message?: string }
+        | { kind: 'atLeastOneFileMatch'; name: string; pattern: RegExp; message?: string };
+
+    const requiredDefs: Def[] = [
+        { kind: 'file', name: 'toolTs', relPath: `${toolDirName}Tool.ts` },
+        { kind: 'file', name: 'docMd', relPath: `${toolDirName}.md`, message: '(tool description)' },
+        { kind: 'file', name: 'changelogMd', relPath: `${toolDirName}.changelog.md`, message: '(tool changelog)' },
+        // At least one schema file required
+        { kind: 'atLeastOneFileMatch', name: 'schema', pattern: /\.schema\.json$/i, message: 'No schema files found (*.schema.json)' },
+    ];
+
+    for (const def of requiredDefs) {
+        if (def.kind === 'file') {
+            const abs = path.join(toolPath, def.relPath);
+            if (!fileExists(abs)) {
+                const msg = def.message ? ` ${def.message}` : '';
+                errors.push(`Missing file: ${path.relative(process.cwd(), abs)}${msg}`);
+            }
+        } else if (def.kind === 'atLeastOneFileMatch') {
+            const matches = entries
+                .filter(e => e.isFile())
+                .map(e => e.name)
+                .filter(name => def.pattern.test(name));
+            if (matches.length === 0) {
+                errors.push(`${def.message} in ${path.relative(process.cwd(), toolPath)}`);
+            }
+        }
     }
 
     // Friendly warnings: Look for README.md if {tool}.md missing
-    if (!fileExists(requiredFiles.docMd)) {
+    const expectedDoc = path.join(toolPath, `${toolDirName}.md`);
+    if (!fileExists(expectedDoc)) {
         const readme = path.join(toolPath, 'README.md');
         if (fileExists(readme)) {
-            warnings.push(`Found README.md; consider renaming to ${toolDirName}.md per conventions.`);
+            warnings.push(cyan(`[dev-linter:${toolDirName}]`) + yellow(` Found README.md; consider renaming to ${toolDirName}.md per conventions.`));
         }
     }
 
@@ -96,7 +90,7 @@ function checkTool(toolDirName: string, toolsRoot: string): ToolCheckResult {
 function run() {
     const toolsRoot = path.join(__dirname, '..', 'tools');
     if (!isDir(toolsRoot)) {
-        console.error('[dev-linter] tools/ directory not found.');
+        console.error(cyan('[dev-linter]') + red(' tools/ directory not found.'));
         process.exit(1);
     }
 
@@ -110,26 +104,27 @@ function run() {
     }
 
     let failures = 0;
+
     for (const r of results) {
         const prefix = cyan(`[dev-linter:${r.toolName}]`);
         if (r.errors.length === 0) {
-            console.log(`${prefix} OK`);
+            console.log(`${prefix} ${green('OK')}`);
         } else {
             failures += r.errors.length;
-            console.error(`${prefix} ${r.errors.length} error(s):`);
-            for (const e of r.errors) console.error(`  - ${e}`);
+            console.error(`${prefix} ${red(`${r.errors.length} error(s):`)}`);
+            for (const e of r.errors) console.error(red(`  - ${e}`));
         }
         for (const w of r.warnings) {
-            console.warn(`${prefix} WARN: ${w}`);
+            console.warn(`${prefix} ${yellow('WARN:')} ${yellow(w)}`);
         }
     }
 
     if (failures > 0) {
-        console.error(`\n[dev-linter] Failed with ${failures} error(s) across ${results.length} tool(s).`);
+        console.error(cyan(`[dev-linter]`) + red(`Failed with ${failures} error(s) across ${results.length} tool(s).`));
         process.exit(1);
     }
 
-    console.log(`[dev-linter] All ${results.length} tool(s) passed.`);
+    console.log(cyan(`[dev-linter]`) + green(` All ${results.length} tool(s) passed.`));
 }
 
 run();

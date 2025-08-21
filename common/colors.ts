@@ -12,7 +12,7 @@ export const colors = {
 
 export function colorize(prefix: string, color: keyof typeof colors = "cyan") {
     // pick color (fall back to cyan)
-    const c = colors[color as keyof typeof colors] ?? colors.cyan;
+    const c = colors[color] ?? colors.cyan;
     return `${c}${prefix}${colors.reset}`;
 }
 
@@ -20,3 +20,6 @@ export const red = (s: string) => `${colors.red}${s}${colors.reset}`;
 export const green = (s: string) => `${colors.green}${s}${colors.reset}`;
 export const yellow = (s: string) => `${colors.yellow}${s}${colors.reset}`;
 export const cyan = (s: string) => `${colors.cyan}${s}${colors.reset}`;
+export const blue = (s: string) => `${colors.blue}${s}${colors.reset}`;
+export const magenta = (s: string) => `${colors.magenta}${s}${colors.reset}`;
+export const bold = (s: string) => `${colors.bold}${s}${colors.reset}`;
