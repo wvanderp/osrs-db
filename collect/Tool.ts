@@ -4,6 +4,7 @@ import { NpcsTool } from "../tools/Npcs/NpcsTool";
 import { ObjectsTool } from "../tools/Objects/ObjectsTool";
 import { TransportsTool } from "../tools/Transports/TransportsTool";
 import { QuestsTool } from "../tools/Quests/QuestsTool";
+import { WorldMapTool } from "../tools/WorldMap/WorldMapTool";
 export default interface Tool {
   name: string;
   description: string;
@@ -26,5 +27,6 @@ export const tools: Tool[] = [
   ItemsTool,
   QuestsTool,
   CollisionMapTool,
+  WorldMapTool,
 ];
 
