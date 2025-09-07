@@ -16,4 +16,4 @@ Notes:
 
 \- Run structure linter: npm run lint:dev
 
-\- Run data linters: npm run lintData
+\- Run data linters: npm run lint:data

@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "OSRS-DB/object-locations.schema.json",
+  "title": "Object locations",
+  "description": "Generated locations for important world objects (banks, anvils, trees, etc.)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "name": { "type": "string" },
+      "type": { "type": "string" },
+      "x": { "type": "integer" },
+      "y": { "type": "integer" },
+      "plane": { "type": "integer" },
+      "sourceObjectId": { "type": ["integer", "null"] }
+    },
+    "required": ["name", "type", "x", "y", "plane"],
+    "additionalProperties": true
+  }
+}

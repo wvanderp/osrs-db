@@ -9,4 +9,4 @@ Extracts in-game object data and validates against schema.
 Usage:
 
 - Data export via `exportObjects.sh`
-- Validate with `npm run lintData`.
+- Validate with `npm run lint:data`.

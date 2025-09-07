@@ -9,4 +9,4 @@ Extracts and validates NPC data.
 Usage:
 
 - Run data collection with the tool runner.
-- Validate with `npm run lintData`.
+- Validate with `npm run lint:data`.

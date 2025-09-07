@@ -2,6 +2,7 @@ import { CollisionMapTool } from "../tools/CollisionMap/CollisionMapTool";
 import { ItemsTool } from "../tools/Items/ItemsTool";
 import { NpcsTool } from "../tools/Npcs/NpcsTool";
 import { ObjectsTool } from "../tools/Objects/ObjectsTool";
+import { ObjectLocationsTool } from "../tools/ObjectLocations/ObjectLocationsTool";
 import { TransportsTool } from "../tools/Transports/TransportsTool";
 import { QuestsTool } from "../tools/Quests/QuestsTool";
 import { WorldMapTool } from "../tools/WorldMap/WorldMapTool";
@@ -24,6 +25,7 @@ export const tools: Tool[] = [
   TransportsTool,
   NpcsTool,
   ObjectsTool,
+  ObjectLocationsTool,
   ItemsTool,
   QuestsTool,
   CollisionMapTool,

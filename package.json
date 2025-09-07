@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "collect": "tsx collect/main.ts",
-    "lintData": "tsx collect/linters.ts",
+    "lint:data": "tsx collect/linters.ts",
     "lint": "tsc --noEmit -p tsconfig.json",
     "lint:dev": "tsx common/lintToolsStructure.ts"
   },
