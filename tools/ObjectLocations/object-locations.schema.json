@@ -7,15 +7,38 @@
   "items": {
     "type": "object",
     "properties": {
-      "id": { "type": "integer" },
-      "name": { "type": "string" },
-      "type": { "type": "string" },
-      "x": { "type": "integer" },
-      "y": { "type": "integer" },
-      "plane": { "type": "integer" },
-      "sourceObjectId": { "type": ["integer", "null"] }
+      "id": {
+        "type": "integer"
+      },
+      "name": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "x": {
+        "type": "integer"
+      },
+      "y": {
+        "type": "integer"
+      },
+      "plane": {
+        "type": "integer"
+      },
+      "sourceObjectId": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      }
     },
-    "required": ["name", "type", "x", "y", "plane"],
+    "required": [
+      "name",
+      "type",
+      "x",
+      "y",
+      "plane"
+    ],
     "additionalProperties": true
   }
 }

@@ -27,7 +27,7 @@ export const ObjectLocationsTool: Tool = {
 
     // simple heuristics to identify object types
     const typeMatchers: { type: string; nameContains?: string[]; optionContains?: string[] }[] = [
-      { type: "bank", nameContains: ["bank", "bank chest", "bank booth"] , optionContains: ["bank"]},
+      { type: "bank", nameContains: ["bank", "bank chest", "bank booth"], optionContains: ["bank"] },
       { type: "anvil", nameContains: ["anvil"], optionContains: ["smith"] },
       { type: "tree", nameContains: ["tree"], optionContains: ["chop down"] },
       { type: "altar", nameContains: ["altar"], optionContains: ["pray"] },

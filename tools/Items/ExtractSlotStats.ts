@@ -403,6 +403,40 @@ export default async function extractSlotStats() {
         }
     }
 
+    // Deduplicate results: the wiki tables sometimes repeat rows; keep first occurrence
+    const byId = new Map<number, SlotStats>();
+    const byNameWhenNoId = new Map<string, SlotStats>(); // key: `${slot}::${name}`
+    const skipped: { reason: string; name: string; id: number | null; slot: string }[] = [];
+
+    for (const s of slotStats) {
+        if (typeof s.id === "number") {
+            if (!byId.has(s.id)) {
+                byId.set(s.id, s);
+            } else {
+                skipped.push({ reason: "duplicate-id", name: s.name, id: s.id, slot: s.slot });
+            }
+        } else {
+            const key = `${s.slot}::${s.name}`;
+            if (!byNameWhenNoId.has(key)) {
+                byNameWhenNoId.set(key, s);
+            } else {
+                skipped.push({ reason: "duplicate-name-slot", name: s.name, id: s.id, slot: s.slot });
+            }
+        }
+    }
+
+    const unique = [...byId.values(), ...byNameWhenNoId.values()];
+
+    if (skipped.length > 0) {
+        // keep log concise: show up to 10 examples
+        const examples = skipped.slice(0, 10)
+            .map(s => `${s.reason}:${s.slot}:${s.name}${s.id !== null ? ` [id=${s.id}]` : ""}`);
+        console.log(`Extracted ${slotStats.length} rows; removed ${skipped.length} duplicate rows; keeping ${unique.length}.`);
+        console.log(`Examples of skipped duplicates:`, examples);
+    } else {
+        console.log(`Extracted ${slotStats.length} rows; no duplicates detected.`);
+    }
+
     console.log("Writing slot stats to file");
-    fs.writeFileSync("./data/slotStats.g.json", JSON.stringify(slotStats, null, 4));
+    fs.writeFileSync("./data/slotStats.g.json", JSON.stringify(unique, null, 4));
 };
