@@ -54,7 +54,6 @@ function checkTool(toolDirName: string, toolsRoot: string): ToolCheckResult {
     const requiredFiles = {
         toolTs: path.join(toolPath, `${toolDirName}Tool.ts`),
         docMd: path.join(toolPath, `${toolDirName}.md`),
-        linterTs: path.join(toolPath, `${toolDirName}.linter.ts`),
         changelogMd: path.join(toolPath, `${toolDirName}.changelog.md`),
     } as const;
 
@@ -64,9 +63,6 @@ function checkTool(toolDirName: string, toolsRoot: string): ToolCheckResult {
     }
     if (!fileExists(requiredFiles.docMd)) {
         errors.push(`Missing file: ${path.relative(process.cwd(), requiredFiles.docMd)} (tool description)`);
-    }
-    if (!fileExists(requiredFiles.linterTs)) {
-        errors.push(`Missing file: ${path.relative(process.cwd(), requiredFiles.linterTs)} (tool linter)`);
     }
     if (!fileExists(requiredFiles.changelogMd)) {
         errors.push(`Missing file: ${path.relative(process.cwd(), requiredFiles.changelogMd)} (tool changelog)`);

@@ -6,6 +6,7 @@ import { ObjectLocationsTool } from "../tools/ObjectLocations/ObjectLocationsToo
 import { TransportsTool } from "../tools/Transports/TransportsTool";
 import { QuestsTool } from "../tools/Quests/QuestsTool";
 import { WorldMapTool } from "../tools/WorldMap/WorldMapTool";
+import { CacheNumberTool } from "../tools/CacheNumber/CacheNumberTool";
 export default interface Tool {
   name: string;
   description: string;
@@ -22,6 +23,7 @@ export default interface Tool {
 }
 
 export const tools: Tool[] = [
+  CacheNumberTool,
   TransportsTool,
   NpcsTool,
   ObjectsTool,
