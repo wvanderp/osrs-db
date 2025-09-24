@@ -14,10 +14,9 @@ Each rule should have the following files/functions:
 - `{tool_name}.linter.ts`: a linter to check the output of the tool. Output format is flexible, but the script must exit with a non-zero status code on failure.
 - Multiple `*.schema.json` files: JSON schema files to validate the output of the tool.
 - `{tool_name}.changelog.md`: a markdown file to track changes and updates to the tool.
-- `data/`: a directory containing the data files used by the tool. This can include JSON files, CSV files, or any other format that the tool uses.
+- `data/`: a directory containing the data files used by the tool. This can include JSON files, CSV files, or any other format that the tool uses. This path is only for data used during generation that should be edited by the developers. any generated data should be place in the root data folder.
 
 - Ensure that generated data is placed in the root `data` folder.
-- The local `data` folder within a tool's directory is only for intermediate data used during generation.
 
 The tool can add all kinds of files, data, and configurations as needed to support its functionality.
 

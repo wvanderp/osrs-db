@@ -4,24 +4,15 @@
     "description": "Schema for the cache-number.json produced by CacheNumberTool",
     "type": "object",
     "properties": {
-        "cacheNumber": {
-            "description": "Numeric cache id, or null if unknown",
+        "cacheID": {
+            "description": "Numeric cache id of the most recent ID",
             "type": [
-                "number",
-                "null"
-            ]
-        },
-        "source": {
-            "description": "The source filename used to obtain the cache number, or null",
-            "type": [
-                "string",
-                "null"
+                "number"
             ]
         }
     },
     "required": [
-        "cacheNumber",
-        "source"
+        "cacheID"
     ],
     "additionalProperties": false
 }

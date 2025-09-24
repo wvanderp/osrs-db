@@ -1,8 +1,10 @@
 import Tool from "../../collect/Tool";
-import { cyan, green } from "../../common/colors";
+import { cyan, green, red } from "../../common/colors";
 import fs from "fs";
 import path from "path";
-import lintCacheNumber from './cache-number.linter';
+import lintWithSchema from "../../common/lintWithSchema";
+import { dataPath } from "../../common/paths";
+import { getCacheID } from "../../common/getNewestCache";
 
 export const CacheNumberTool: Tool = {
     name: "CacheNumber",
@@ -11,42 +13,33 @@ export const CacheNumberTool: Tool = {
     needs: [],
     async run(): Promise<void> {
         const prefix = cyan("[CacheNumber]");
-        console.log(`${prefix} Writing cache number file`);
 
-        // Try to read keys.json produced by common/getNewestCache.ts or fallback to keys in repo root
-        const possiblePaths = [
-            path.join(process.cwd(), "keys.json"),
-            path.join(process.cwd(), "cache", "keys.json"),
-        ];
+        const cacheID = await getCacheID();
 
-        let keys: any = null;
-        for (const p of possiblePaths) {
-            if (fs.existsSync(p)) {
-                try {
-                    keys = JSON.parse(fs.readFileSync(p, "utf8"));
-                    break;
-                } catch (e) {
-                    // ignore
-                }
-            }
-        }
-
-        const outDir = path.join(__dirname, "data");
+        const outDir = dataPath;
         if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-
         const outPath = path.join(outDir, "cache-number.json");
 
-        const result = {
-            cacheNumber: keys && typeof keys.id === "number" ? keys.id : null,
-            source: keys ? "keys.json" : null,
-        };
-
+        const result = { cacheID };
         fs.writeFileSync(outPath, JSON.stringify(result, null, 2));
         console.log(green(`${prefix} Wrote ${outPath}`));
     },
     async lint(): Promise<void> {
         console.log(cyan("[CacheNumber]"), "Linting cache-number.json");
-        lintCacheNumber();
+        const prefix = cyan("[CacheNumber]");
+        const filePath = path.join(dataPath, "cache-number.json");
+        const schemaPath = path.join(__dirname, "cache-number.schema.json");
+
+        console.log(`${prefix} Linting cache-number.json`);
+
+        if (!fs.existsSync(filePath)) {
+            console.error(red(`${prefix} Data file not found: ${filePath}`));
+            process.exit(1);
+        }
+
+        lintWithSchema(filePath, schemaPath, { prefix });
+
+        console.log(green(`${prefix} cache-number.json validated`));
     },
 };
 

@@ -11,11 +11,11 @@ export interface OsrsCache {
   environment: string;
   language: string;
   builds?:
-    | ({
-        major: number;
-        minor?: number | null;
-      } | null)[]
-    | null;
+  | ({
+    major: number;
+    minor?: number | null;
+  } | null)[]
+  | null;
   timestamp?: string | null;
   sources?: (string | null)[] | null;
   valid_indexes: number;
@@ -29,7 +29,7 @@ export interface OsrsCache {
   disk_store_valid: boolean;
 }
 
-(async () => {
+export async function getCacheID() {
   console.log("Fetching cache URL...");
   const response = await axios.get<OsrsCache[]>(url);
 
@@ -49,12 +49,16 @@ export interface OsrsCache {
       );
     })[0];
 
+  return newest.id;
+}
+
+async function downloadCache(cacheID: number) {
   // get the newest cache and unzip it and stream it to file
-  console.log(`Downloading cache ${newest.id}...`);
+  console.log(`Downloading cache ${cacheID}...`);
   console.log(
-    `Cache URL: https://archive.openrs2.org/caches/runescape/${newest.id}`
+    `Cache URL: https://archive.openrs2.org/caches/runescape/${cacheID}`
   );
-  const cacheURL = `https://archive.openrs2.org/caches/runescape/${newest.id}/disk.zip`;
+  const cacheURL = `https://archive.openrs2.org/caches/runescape/${cacheID}/disk.zip`;
 
   const cache = await axios.get(cacheURL, {
     responseType: "arraybuffer",
@@ -113,4 +117,14 @@ export interface OsrsCache {
   }
 
   fs.writeFileSync("keys.json", JSON.stringify(keysResponse.data, null, 2));
-})();
+}
+
+async function main() {
+  const cacheID = await getCacheID();
+  await downloadCache(cacheID);
+}
+
+// if this file gets called directly then execute main
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main();
+}
