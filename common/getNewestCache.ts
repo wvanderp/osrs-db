@@ -106,7 +106,7 @@ async function downloadCache(cacheID: number) {
   );
 
   // Download the keys.json file
-  const keysURL = `https://archive.openrs2.org/caches/runescape/${newest.id}/keys.json`;
+  const keysURL = `https://archive.openrs2.org/caches/runescape/${cacheID}/keys.json`;
   console.log(`Downloading keys.json from ${keysURL}...`);
   const keysResponse = await axios.get(keysURL, {
     responseType: "json",
