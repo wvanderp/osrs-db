@@ -13,7 +13,7 @@
     "quests"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/wvanderp/osrs-db.git"
@@ -22,19 +22,14 @@
     "data/**/*.json"
   ],
   "exports": {
-    "./items": "./data/items.g.json",
-    "./npcs": "./data/npcs.g.json",
-    "./objects": "./data/objects.g.json",
-    "./quests": "./data/quests.g.json",
-    "./slotStats": "./data/slotStats.g.json",
-    "./cache-number": "./data/cache-number.json"
+    "./*": "./data/*"
   },
   "scripts": {
     "collect": "tsx collect/main.ts",
     "lint:data": "tsx collect/linters.ts",
     "lint": "tsc --noEmit -p tsconfig.json",
     "lint:dev": "tsx common/lintDev.ts",
-    "update-version": "node scripts/update-version.js"
+    "update-version": "node scripts/update-version.mjs"
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.7",

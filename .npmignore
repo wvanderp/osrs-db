@@ -1,29 +1,9 @@
-# Build and development files
-node_modules/
-.git/
-.github/
-.vscode/
+# Ignore everything by default
+*
 
-# Source code (not needed in published package)
-collect/
-common/
-tools/
-scripts/
-
-# Configuration files
-tsconfig.json
-.gitignore
-.gitattributes
-
-# Build artifacts
-cache/
-cache.zip
-cache.jar
-runelite/
-keys.json
-
-# Patch files
-pom.patch
-
-# Development scripts
-runLinters.ts
+# Then allow specific files/directories
+!data/
+!data/**/*.json
+!README.md
+!LICENSE
+!package.json

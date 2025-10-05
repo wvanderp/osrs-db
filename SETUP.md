@@ -37,8 +37,8 @@ Before publishing for the first time, you may need to claim the package name:
 
 After the initial setup, the package will be automatically published:
 
-1. The "Collect Data" workflow runs (automatically or manually)
-2. When it completes successfully, the "Publish to npm" workflow triggers
+1. Create a new GitHub release (manually or via automation)
+2. When the release is published, the "Publish to npm" workflow triggers
 3. The workflow:
    - Updates the version based on the cache number
    - Checks if the version is already published
@@ -63,7 +63,7 @@ After the first publish, verify it worked:
 2. Test installation: `npm install osrs-db`
 3. Test import in a Node.js project:
    ```javascript
-   const items = require('osrs-db/items');
+   const items = require('osrs-db/items.g.json');
    console.log(`Items: ${items.length}`);
    ```
 
