@@ -1,29 +1,52 @@
 {
   "name": "osrs-db",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.2317",
+  "description": "Machine-readable data for Old School RuneScape",
+  "keywords": [
+    "osrs",
+    "oldschool",
+    "runescape",
+    "database",
+    "items",
+    "npcs",
+    "objects",
+    "quests"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wvanderp/osrs-db.git"
+  },
+  "files": [
+    "data/**/*.json"
+  ],
+  "exports": {
+    "./items": "./data/items.g.json",
+    "./npcs": "./data/npcs.g.json",
+    "./objects": "./data/objects.g.json",
+    "./quests": "./data/quests.g.json",
+    "./slotStats": "./data/slotStats.g.json",
+    "./cache-number": "./data/cache-number.json"
+  },
   "scripts": {
     "collect": "tsx collect/main.ts",
     "lint:data": "tsx collect/linters.ts",
     "lint": "tsc --noEmit -p tsconfig.json",
-    "lint:dev": "tsx common/lintDev.ts"
+    "lint:dev": "tsx common/lintDev.ts",
+    "update-version": "node scripts/update-version.js"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/jsdom": "^21.1.7",
     "@types/jsoneditor": "^9.9.6",
     "@types/node": "^24.5.2",
     "@types/yauzl": "^2.10.3",
-    "typescript": "^5.9.2"
-  },
-  "dependencies": {
     "ajv": "^8.17.1",
     "axios": "^1.12.2",
     "glob": "^11.0.3",
     "jsdom": "^27.0.0",
     "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
     "yauzl": "^3.2.0"
   }
 }
