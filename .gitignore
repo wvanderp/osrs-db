@@ -8,3 +8,6 @@ runelite
 cache.jar
 
 keys.json
+
+# npm package tarballs
+*.tgz
