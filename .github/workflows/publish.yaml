@@ -2,20 +2,14 @@ name: Publish to npm
 
 on:
   workflow_dispatch:
-  # Automatically publish after data collection completes
-  workflow_run:
-    workflows: ["Collect Data"]
+  # Automatically publish when a new release is created
+  release:
     types:
-      - completed
-    branches:
-      - main
+      - published
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    # Only run if the previous workflow succeeded (for workflow_run trigger)
-    # or if manually triggered
-    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     permissions:
       contents: write
       id-token: write
@@ -38,7 +32,7 @@ jobs:
         run: npm install
 
       - name: 🔢 Update version from cache number
-        run: node scripts/update-version.js
+        run: node scripts/update-version.mjs
 
       - name: 📝 Get version for tagging
         id: get_version

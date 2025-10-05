@@ -6,8 +6,12 @@
  * where X is the code version and cacheNumber comes from data/cache-number.json
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const packageJsonPath = path.join(__dirname, '..', 'package.json');
 const cacheNumberPath = path.join(__dirname, '..', 'data', 'cache-number.json');

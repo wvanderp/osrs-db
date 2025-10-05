@@ -13,27 +13,29 @@ npm install osrs-db
 This package provides machine-readable JSON data for Old School RuneScape. You can import the data files directly in your JavaScript/TypeScript projects:
 
 ```javascript
-// Import specific data files
-import items from 'osrs-db/items';
-import npcs from 'osrs-db/npcs';
-import objects from 'osrs-db/objects';
-import quests from 'osrs-db/quests';
-import slotStats from 'osrs-db/slotStats';
-import cacheNumber from 'osrs-db/cache-number';
+// Import specific data files using the file names from the data directory
+import items from 'osrs-db/items.g.json';
+import npcs from 'osrs-db/npcs.g.json';
+import objects from 'osrs-db/objects.g.json';
+import quests from 'osrs-db/quests.g.json';
+import slotStats from 'osrs-db/slotStats.g.json';
+import cacheNumber from 'osrs-db/cache-number.json';
 
 // Now you can use the data
 console.log(`Items count: ${items.length}`);
 console.log(`Current cache ID: ${cacheNumber.cacheID}`);
 ```
 
-### Available Exports
+### Available Data Files
 
-- `osrs-db/items` - All items data
-- `osrs-db/npcs` - All NPCs data
-- `osrs-db/objects` - All game objects data
-- `osrs-db/quests` - All quests data
-- `osrs-db/slotStats` - Item slot statistics
-- `osrs-db/cache-number` - Current cache version information
+All files in the `data/` directory can be imported using the pattern `osrs-db/[filename]`:
+
+- `osrs-db/items.g.json` - All items data
+- `osrs-db/npcs.g.json` - All NPCs data
+- `osrs-db/objects.g.json` - All game objects data
+- `osrs-db/quests.g.json` - All quests data
+- `osrs-db/slotStats.g.json` - Item slot statistics
+- `osrs-db/cache-number.json` - Current cache version information
 
 ## Versioning
 
