@@ -47,19 +47,46 @@ jobs:
           echo "version=$VERSION" >> $GITHUB_OUTPUT
           echo "Version: $VERSION"
 
+      - name: 🔍 Check if version already published
+        id: check_version
+        run: |
+          PUBLISHED=$(npm view osrs-db@${{ steps.get_version.outputs.version }} version 2>/dev/null || echo "")
+          if [ -n "$PUBLISHED" ]; then
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "Version ${{ steps.get_version.outputs.version }} already published to npm"
+          else
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "Version ${{ steps.get_version.outputs.version }} not yet published"
+          fi
+
       - name: 🏷️ Create and push git tag
+        if: steps.check_version.outputs.skip != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git tag -a "v${{ steps.get_version.outputs.version }}" -m "Release version ${{ steps.get_version.outputs.version }}"
-          git push origin "v${{ steps.get_version.outputs.version }}"
+          TAG_NAME="v${{ steps.get_version.outputs.version }}"
+          if git rev-parse "$TAG_NAME" >/dev/null 2>&1; then
+            echo "Tag $TAG_NAME already exists, skipping tag creation"
+          else
+            git tag -a "$TAG_NAME" -m "Release version ${{ steps.get_version.outputs.version }}"
+            git push origin "$TAG_NAME"
+            echo "Created and pushed tag $TAG_NAME"
+          fi
 
       - name: 🚀 Publish to npm
+        if: steps.check_version.outputs.skip != 'true'
         run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: ✅ Publish complete
+        if: steps.check_version.outputs.skip != 'true'
         run: |
           echo "Successfully published version ${{ steps.get_version.outputs.version }} to npm"
           echo "Package: https://www.npmjs.com/package/osrs-db"
+
+      - name: ⏭️ Version already published
+        if: steps.check_version.outputs.skip == 'true'
+        run: |
+          echo "Version ${{ steps.get_version.outputs.version }} is already published to npm"
+          echo "Skipping publish step"
