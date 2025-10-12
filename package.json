@@ -20,20 +20,39 @@
   },
   "files": [
     "data/**/*.json",
+    "types/**/*.d.ts",
     "tools/**/*.schema.json",
-    "tools/**/*.schema.d.ts"
+    "tools/**/*.schema.d.ts",
+    "README.md",
+    "LICENSE"
   ],
   "exports": {
     "./*": "./data/*",
+    "./data/*.json": "./data/*.json",
+    "./data/**/*.json": "./data/**/*.json",
     "./schemas/*": "./tools/*/*.schema.json",
     "./types/*": "./tools/*/*.schema.d.ts"
   },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "types/index.d.ts"
+      ],
+      "data/*.json": [
+        "types/index.d.ts"
+      ],
+      "data/**/*.json": [
+        "types/index.d.ts"
+      ]
+    }
+  },
+  "sideEffects": false,
   "scripts": {
     "collect": "tsx collect/main.ts",
     "lint:data": "tsx collect/linters.ts",
     "lint": "tsc --noEmit -p tsconfig.json",
     "lint:dev": "tsx common/lintDev.ts",
-    "update-version": "node scripts/update-version.mjs",
+    "update-version": "tsx scripts/update-version.ts",
     "generate-types": "tsx scripts/generate-types.ts"
   },
   "devDependencies": {

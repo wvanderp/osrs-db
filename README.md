@@ -39,20 +39,48 @@ All files in the `data/` directory can be imported using the pattern `osrs-db/[f
 
 ### TypeScript Support
 
-This package includes TypeScript type definitions generated from JSON schemas. You can import both the schemas and types:
+This package includes comprehensive TypeScript support with automatic type inference for JSON imports. When you import data files, TypeScript will automatically provide type information based on the JSON schemas.
+
+**Requirements**: Add these options to your `tsconfig.json`:
+
+```json
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  }
+}
+```
+
+**Usage with automatic types**:
 
 ```typescript
-// Import types for compile-time type safety
-import type { Items } from 'osrs-db/types/Items/items.schema';
-import type { NPCs } from 'osrs-db/types/Npcs/npcs.schema';
-import type { Objects } from 'osrs-db/types/Objects/objects.schema';
-import type { Quests } from 'osrs-db/types/Quests/quests.schema';
+// Import data files - types are automatically inferred
+import items from 'osrs-db/data/items.g.json';
+import npcs from 'osrs-db/data/npcs.g.json';
+import quests from 'osrs-db/data/quests.g.json';
 
-// Import the data
-import items from 'osrs-db/items.g.json';
+// TypeScript knows the structure automatically!
+const firstItem = items[0];
+// firstItem.id, firstItem.name, etc. are all typed
 
-// Now items has proper TypeScript typing
-const firstItem: Items[0] = items[0];
+// You can also import the type definitions explicitly if needed
+import type { Items } from 'osrs-db/data/items.g.json';
+import type { Npcs } from 'osrs-db/data/npcs.g.json';
+import type { Quests } from 'osrs-db/data/quests.g.json';
+
+// Use the types for your own data structures
+function processItem(item: Items): void {
+  console.log(`Processing item: ${item.name} (ID: ${item.id})`);
+}
+```
+
+**How it works**: The package includes a `types/index.d.ts` file that provides TypeScript definitions for each JSON data file. These definitions are generated from the JSON schemas in the repository, ensuring type safety that matches the actual data structure.
+
+**Type Generation**: If you're contributing to this project, you can regenerate the types by running:
+
+```bash
+npm tsx scripts/generate-types.ts
 ```
 
 ### JSON Schemas

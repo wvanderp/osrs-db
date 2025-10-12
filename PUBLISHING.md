@@ -26,7 +26,7 @@ To increment the code version (the middle number), manually update the second nu
 The publishing workflow is triggered automatically when a new GitHub release is published. It:
 
 1. Checks out the latest code
-2. Runs `scripts/update-version.mjs` to update the version based on the current cache number
+2. Runs `npm run update-version` (which executes `scripts/update-version.ts`) to update the version based on the current cache number
 3. Creates a git tag with the new version (e.g., `v1.0.2317`)
 4. Publishes the package to npm
 5. Pushes the git tag to the repository
@@ -132,4 +132,4 @@ To resolve:
 ### Version Not Updating
 
 - Verify that `data/cache-number.json` exists and contains a valid `cacheID`
-- Check that the `scripts/update-version.mjs` script runs without errors
+- Check that `npm run update-version` runs without errors

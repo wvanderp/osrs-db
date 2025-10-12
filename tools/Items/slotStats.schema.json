@@ -1,0 +1,134 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "OSRS-DB/slotStats.schema.json",
+    "title": "SlotStats",
+    "description": "Schema for slot stats data extracted from OSRS items",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": [
+                    "integer",
+                    "null"
+                ],
+                "description": "The item's ID"
+            },
+            "name": {
+                "type": "string",
+                "description": "The item's name"
+            },
+            "members": {
+                "type": "boolean",
+                "description": "Whether the item is members-only"
+            },
+            "stabAttack": {
+                "type": "integer",
+                "description": "Stab attack bonus"
+            },
+            "slashAttack": {
+                "type": "integer",
+                "description": "Slash attack bonus"
+            },
+            "crushAttack": {
+                "type": "integer",
+                "description": "Crush attack bonus"
+            },
+            "magicAttack": {
+                "type": "integer",
+                "description": "Magic attack bonus"
+            },
+            "rangedAttack": {
+                "type": "integer",
+                "description": "Ranged attack bonus"
+            },
+            "stabDefence": {
+                "type": "integer",
+                "description": "Stab defence bonus"
+            },
+            "slashDefence": {
+                "type": "integer",
+                "description": "Slash defence bonus"
+            },
+            "crushDefence": {
+                "type": "integer",
+                "description": "Crush defence bonus"
+            },
+            "magicDefence": {
+                "type": "integer",
+                "description": "Magic defence bonus"
+            },
+            "rangedDefence": {
+                "type": "integer",
+                "description": "Ranged defence bonus"
+            },
+            "strengthBonus": {
+                "type": "integer",
+                "description": "Strength bonus"
+            },
+            "rangedStrength": {
+                "type": "integer",
+                "description": "Ranged strength bonus"
+            },
+            "magicDamage": {
+                "type": "integer",
+                "description": "Magic damage bonus"
+            },
+            "prayerBonus": {
+                "type": "integer",
+                "description": "Prayer bonus"
+            },
+            "weight": {
+                "type": "number",
+                "description": "Item weight in kg"
+            },
+            "speed": {
+                "type": [
+                    "number",
+                    "null"
+                ],
+                "description": "Attack speed (for weapons)"
+            },
+            "slot": {
+                "type": "string",
+                "description": "Equipment slot",
+                "enum": [
+                    "Ammunition",
+                    "Body",
+                    "Cape",
+                    "Feet",
+                    "Hands",
+                    "Head",
+                    "Legs",
+                    "Neck",
+                    "Ring",
+                    "Shield",
+                    "Weapon",
+                    "Two-handed"
+                ]
+            }
+        },
+        "required": [
+            "id",
+            "name",
+            "members",
+            "stabAttack",
+            "slashAttack",
+            "crushAttack",
+            "magicAttack",
+            "rangedAttack",
+            "stabDefence",
+            "slashDefence",
+            "crushDefence",
+            "magicDefence",
+            "rangedDefence",
+            "strengthBonus",
+            "rangedStrength",
+            "magicDamage",
+            "prayerBonus",
+            "weight",
+            "slot"
+        ],
+        "additionalProperties": false
+    }
+}

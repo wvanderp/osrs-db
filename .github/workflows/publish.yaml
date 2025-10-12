@@ -33,7 +33,7 @@ jobs:
         run: npm install
 
       - name: 🔢 Update version from cache number
-        run: node scripts/update-version.mjs
+        run: npm run update-version
 
       - name: 📝 Get version for tagging
         id: get_version

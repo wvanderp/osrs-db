@@ -43,3 +43,44 @@ You may use emojis to make the project more visually interesting and engaging. B
 
 If anything goes wrong while executing scripts, throw early and throw often. The philosophy is that everything should go as intended and if something was not foreseen then the code is wrong.
 So don't try to catch errors just let them crash the process.
+
+---
+
+## Changelog entry guidelines
+
+When you change code, data, or tooling, add a short, focused entry describing the change. Follow these rules so changelogs stay useful:
+
+- Where to add the entry
+  - For tool-specific changes, edit the tool's `{tool_name}.changelog.md` file in the tool's folder (for example `tools/Items/Items.changelog.md`).
+  - For repository-wide changes (release notes, breaking changes that affect many tools, packaging, CI), update the root `CHANGELOG.md`.
+
+- Format and minimum fields
+  - Each entry should include: date (YYYY-MM-DD), author (GitHub handle or name), a short category tag and a one-line summary. Optionally add 1-2 lines of extra context.
+  - Use these category tags: Added, Changed, Fixed, Deprecated, Removed, Security, Documentation.
+
+- Linking
+  - Reference the pull request or issue number (e.g. `(#123)`) in the entry. If relevant, link to external specs or data sources.
+
+- Placement
+  - Prefer adding new entries at the top of the changelog under an `Unreleased` or `Next` heading when working on an active branch.
+  - When cutting a release, move `Unreleased` entries into a dated section (YYYY-MM-DD) and add a short header line for the release.
+
+- Tone and length
+  - Keep each entry concise (one line plus optional short context). Avoid long narratives. The goal is a quick eye-scan of what changed.
+
+- Example entries
+  - Tool-specific (in `tools/Items/Items.changelog.md`):
+
+    2025-10-12 — @wvanderp — Added: exportItems script now includes wear requirements data. (#456)
+    - Export now includes `wearRequirements.json` in tool data; updates generator to map new schema fields.
+
+  - Root changelog (in `CHANGELOG.md`):
+
+    2025-10-12 — @wvanderp — Changed: update types build to emit separate `.g.json` files for generated data. (#459)
+
+- Small checklist before committing
+  - Did you add/update the appropriate `{tool_name}.changelog.md` or `CHANGELOG.md`?
+  - Did you include the date, author, category, and PR/issue reference?
+  - Is the entry concise and placed under `Unreleased` if not yet released?
+
+Following these simple rules keeps our history searchable and useful for reviewers and release notes.

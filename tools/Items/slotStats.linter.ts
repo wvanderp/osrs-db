@@ -7,73 +7,9 @@ import { cyan, red, green } from "../../common/colors";
 const filePath = path.join(__dirname, "../../data/slotStats.g.json");
 const file = JSON.parse(fs.readFileSync(filePath, "utf8")) as { [key: string]: number | string | null }[];
 
-// Record<string, number | string | null>
-const schema = {
-    "type": "array",
-    "items": {
-        "type": "object",
-        "properties": {
-            "id": { "type": ["integer", "null"] },
-            "name": { "type": "string" },
-            "members": { "type": "boolean" },
-            "stabAttack": { "type": "integer" },
-            "slashAttack": { "type": "integer" },
-            "crushAttack": { "type": "integer" },
-            "magicAttack": { "type": "integer" },
-            "rangedAttack": { "type": "integer" },
-            "stabDefence": { "type": "integer" },
-            "slashDefence": { "type": "integer" },
-            "crushDefence": { "type": "integer" },
-            "magicDefence": { "type": "integer" },
-            "rangedDefence": { "type": "integer" },
-            "strengthBonus": { "type": "integer" },
-            "rangedStrength": { "type": "integer" },
-            "magicDamage": { "type": "integer" },
-            "prayerBonus": { "type": "integer" },
-            "weight": { "type": "number" },
-            "speed": { "type": ["number", "null"] },
-            "slot": {
-                "type": "string",
-                "enum": [
-                    "Ammunition",
-                    "Body",
-                    "Cape",
-                    "Feet",
-                    "Hands",
-                    "Head",
-                    "Legs",
-                    "Neck",
-                    "Ring",
-                    "Shield",
-                    "Weapon",
-                    "Two-handed"
-                ]
-            }
-        },
-        "required": [
-            "id",
-            "name",
-            "members",
-            "stabAttack",
-            "slashAttack",
-            "crushAttack",
-            "magicAttack",
-            "rangedAttack",
-            "stabDefence",
-            "slashDefence",
-            "crushDefence",
-            "magicDefence",
-            "rangedDefence",
-            "strengthBonus",
-            "rangedStrength",
-            "magicDamage",
-            "prayerBonus",
-            "weight",
-            "slot"
-        ],
-        "additionalProperties": false
-    }
-}
+// load the schema
+const schemaPath = path.join(__dirname, "slotStats.schema.json");
+const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
 
 export default function lintSlotStats() {
     console.log(cyan("Linting slotStats.g.json"));

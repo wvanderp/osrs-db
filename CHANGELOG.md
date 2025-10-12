@@ -12,8 +12,6 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 - TypeScript type definitions automatically generated from JSON schemas
 - `generate-types` script to convert JSON schemas to TypeScript types
 - JSON schemas and TypeScript types now included in npm package
-- Package exports for schemas (`osrs-db/schemas/*`) and types (`osrs-db/types/*`)
-- Documentation for using schemas and types in README and PUBLISHING guide
 
 ### Dependencies
 
