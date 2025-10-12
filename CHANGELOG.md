@@ -9,6 +9,15 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 
 ### Changed
 
+2025-10-12 — @copilot — Changed: Rewrote `scripts/generate-types.ts` to generate TypeScript wrapper files instead of ambient type declarations.
+
+- Now generates individual `.ts` files (e.g., `items.g.ts`) in the package root, mirroring `data/` structure
+- Each wrapper imports the JSON file with ESM import assertions and re-exports typed data
+- Uses `json-schema-to-typescript` for robust type generation from JSON schemas
+- Script is zero-config: discovers data files, resolves schemas automatically, and mirrors folder structure
+- Implements idempotent generation: only writes files when content changes
+- Schema resolution order: co-located schemas → `schemas/` directory → `tools/{ToolName}` folders
+
 2025-10-12 — @wvanderp — Changed: Fixed TypeScript type configuration to require explicit `data/` folder in import paths. (#TBD)
 
 - Updated `exports` field from `./*` to `./data/*` to remove shortcuts

@@ -1,26 +1,45 @@
 #!/usr/bin/env tsx
 
 /**
- * 🎯 Generate a single types/index.d.ts for JSON subpath imports
+ * @generated FILE — Zero-config TypeScript wrapper generator for JSON data files
  * 
- * This script discovers JSON data files and their schemas, then emits one
- * types/index.d.ts containing explicit `declare module "pkg/subpath.json"` blocks
- * for each JSON file.
+ * This script discovers JSON data files and their schemas, then generates TypeScript
+ * wrapper files that import the JSON and export properly typed data.
+ * 
+ * Conventions:
+ * - DATA_DIR = "./data"
+ * - SCHEMA_DIR = "./schemas" and/or co-located schemas (*.schema.json)
+ * - OUT_DIR = "." (package root, mirrors data/ structure)
+ * 
+ * Schema resolution order:
+ * 1. data/<rel>.schema.json (same folder, same base name)
+ * 2. schemas/<rel>.schema.json (mirrors path under schemas/)
+ * 3. Check tools/{ToolName} for matching schema
+ * 
+ * Generated files:
+ * - data/items/item.g.json → ./items/item.g.ts
+ * - ESM imports with import assertions
+ * - Fully typed exports using json-schema-to-typescript
  */
 
 import { promises as fs } from 'node:fs';
-import path from 'path';
+import path from 'node:path';
+import { compile } from 'json-schema-to-typescript';
 import { glob } from 'glob';
 import { yellow, green, red, cyan } from '../common/colors.js';
 
-type JSONSchema = Record<string, any>;
+// Constants
+const DATA_DIR = './data';
+const SCHEMA_DIR = './schemas';
+const OUT_DIR = '.';
 
 interface DataFileEntry {
-    jsonRel: string;          // Relative path from repo root
-    jsonAbs: string;          // Absolute path
-    schemaAbs?: string;       // Absolute path to schema
-    typeName: string;         // PascalCase type name
-    moduleId: string;         // Full module identifier (e.g., "osrs-db/data/items.g.json")
+    jsonRelToRoot: string;      // Relative path from repo root (data/items/item.g.json)
+    jsonRelToData: string;      // Relative path from data/ (items/item.g.json)
+    jsonAbs: string;            // Absolute path
+    schemaAbs?: string;         // Absolute path to schema
+    typeName: string;           // PascalCase type name
+    outPath: string;            // Absolute output path for .ts file
 }
 
 /**
@@ -28,123 +47,114 @@ interface DataFileEntry {
  */
 async function main() {
     const repoRoot = process.cwd();
-    const pkgPath = path.join(repoRoot, 'package.json');
-    const pkg = JSON.parse(await fs.readFile(pkgPath, 'utf8'));
-    const packageName = pkg.name;
+    console.log(green('🔧 [generate-types] Starting TypeScript wrapper generation...'));
 
-    console.log(green('🔧 [generate-types] Starting type generation...'));
-    console.log(cyan(`📦 [generate-types] Package: ${packageName}`));
-
-    // 1) Discover data files
-    const dataFiles = await glob(
-        ['data/**/*.json', '!**/*.tmp.json', '!**/*.test.json', '!**/__snapshots__/**'],
-        { cwd: repoRoot, dot: false, absolute: false, posix: true }
+    // 1) Discover all JSON files in data/ (excluding schemas)
+    const jsonFiles = await glob(
+        'data/**/*.json',
+        {
+            cwd: repoRoot,
+            ignore: ['**/*.schema.json', '**/*.tmp.json', '**/*.test.json'],
+            posix: true
+        }
     );
-    dataFiles.sort((a, b) => a.localeCompare(b));
+    jsonFiles.sort();
 
-    console.log(cyan(`📋 [generate-types] Found ${dataFiles.length} data files`));
+    console.log(cyan(`📋 [generate-types] Found ${jsonFiles.length} data files`));
 
-    // 2) Map each data file to its schema and build entries
+    // 2) Build entries with schema resolution
     const entries: DataFileEntry[] = [];
-    let missingSchemaCount = 0;
+    let skippedCount = 0;
 
-    for (const rel of dataFiles) {
-        const jsonAbs = path.join(repoRoot, rel);
+    for (const jsonRel of jsonFiles) {
+        const jsonAbs = path.join(repoRoot, jsonRel);
         const schemaAbs = await findSchemaFor(jsonAbs, repoRoot);
 
         if (!schemaAbs) {
-            console.log(yellow(`⚠️  [generate-types] No schema found for ${rel}`));
-            missingSchemaCount++;
+            console.log(yellow(`⚠️  [generate-types] No schema found for ${jsonRel}, skipping`));
+            skippedCount++;
+            continue;
         }
 
-        const schemaTitle = schemaAbs ? await readSchemaTitle(schemaAbs) : undefined;
-        const typeName = guessTypeNameFrom(rel, schemaTitle);
-        const moduleId = `${packageName}/${rel.replace(/\\/g, '/')}`;
+        const jsonRelToData = path.relative('data', jsonRel);
+        const typeName = deriveTypeName(jsonRel);
+        const outPath = deriveOutputPath(jsonRelToData, repoRoot);
 
-        entries.push({ jsonRel: rel, jsonAbs, schemaAbs, typeName, moduleId });
+        entries.push({
+            jsonRelToRoot: jsonRel,
+            jsonRelToData,
+            jsonAbs,
+            schemaAbs,
+            typeName,
+            outPath
+        });
     }
 
-    // 3) Build module blocks
-    const blocks: string[] = [];
-    let unknownCount = 0;
+    console.log(cyan(`✅ [generate-types] Processing ${entries.length} files with schemas`));
+
+    // 3) Generate TypeScript wrapper for each entry
+    let generatedCount = 0;
+    let unchangedCount = 0;
 
     for (const entry of entries) {
-        const block = await buildModuleBlock(entry, repoRoot);
-        blocks.push(block);
-        if (!entry.schemaAbs) {
-            unknownCount++;
+        const generated = await generateWrapper(entry, repoRoot);
+        if (generated) {
+            generatedCount++;
+        } else {
+            unchangedCount++;
         }
     }
 
-    // 4) Assemble types/index.d.ts
-    const header = [
-        '// AUTO-GENERATED FILE. DO NOT EDIT.',
-        '// Generated by: npm tsx scripts/generate-types.ts',
-        '',
-        '// This file provides TypeScript definitions for JSON data imports.',
-        '// Consumers must have "resolveJsonModule": true in their tsconfig.json',
-        '',
-    ].join('\n');
-
-    const content = header + blocks.join('\n\n') + '\n';
-    const outPath = path.join(repoRoot, 'types', 'index.d.ts');
-
-    await fs.mkdir(path.dirname(outPath), { recursive: true });
-
-    // Only write if content changed
-    const prev = await fs.readFile(outPath, 'utf8').catch(() => '');
-    if (prev !== content) {
-        await fs.writeFile(outPath, content, 'utf8');
-        console.log(green(`✅ [generate-types] Updated ${path.relative(repoRoot, outPath)}`));
-    } else {
-        console.log(cyan(`✓  [generate-types] No changes to ${path.relative(repoRoot, outPath)}`));
-    }
-
-    // 5) Update package.json
-    await patchPackageJson(pkg, pkgPath, repoRoot);
-
-    // 6) Print summary
+    // 4) Print summary
     console.log('');
     console.log(green('✨ [generate-types] Type generation complete!'));
-    console.log(cyan(`   📄 Generated ${entries.length} module blocks`));
-    console.log(cyan(`   ✅ With schema: ${entries.length - unknownCount}`));
-    if (unknownCount > 0) {
-        console.log(yellow(`   ⚠️  Without schema (unknown): ${unknownCount}`));
+    console.log(cyan(`   � Generated: ${generatedCount}`));
+    console.log(cyan(`   ✓  Unchanged: ${unchangedCount}`));
+    if (skippedCount > 0) {
+        console.log(yellow(`   ⚠️  Skipped (no schema): ${skippedCount}`));
     }
 }
 
 /**
  * Find the schema file for a given JSON data file
  * 
- * Strategy:
- * 1. Check same directory for {basename}.schema.json
- * 2. Check parent tool directory for {tool}.schema.json
- * 3. Return undefined if not found
+ * Resolution order:
+ * 1. data/<rel>.schema.json (same folder)
+ * 2. schemas/<rel>.schema.json (mirror structure)
+ * 3. tools/{ToolName}/{basename}.schema.json (for data/*.g.json files)
  */
 async function findSchemaFor(jsonAbs: string, repoRoot: string): Promise<string | undefined> {
     const dir = path.dirname(jsonAbs);
     const basename = path.basename(jsonAbs, '.json');
+    const relativePath = path.relative(repoRoot, jsonAbs);
 
-    // Strategy 1: Same directory - {basename}.schema.json
-    const sameDir = path.join(dir, `${basename}.schema.json`);
-    if (await fileExists(sameDir)) {
-        return sameDir;
+    // Strategy 1: Co-located schema (data/<path>/<basename>.schema.json)
+    const colocated = path.join(dir, `${basename}.schema.json`);
+    if (await fileExists(colocated)) {
+        return colocated;
     }
 
-    // Strategy 2: Check if we're in tools/{ToolName}/data/ structure
-    // Look for tools/{ToolName}/{tool}.schema.json
-    const relativePath = path.relative(repoRoot, jsonAbs);
-    const parts = relativePath.split(path.sep);
+    // Strategy 2: Mirror structure in schemas/ directory
+    if (relativePath.startsWith('data' + path.sep)) {
+        const relToData = path.relative('data', relativePath);
+        const schemaPath = path.join(repoRoot, SCHEMA_DIR, relToData.replace(/\.json$/, '.schema.json'));
+        if (await fileExists(schemaPath)) {
+            return schemaPath;
+        }
+    }
 
-    // For data/*.g.json files, check tools/{ToolName}/{name}.schema.json
-    if (parts[0] === 'data') {
+    // Strategy 3: For data/*.g.json files, check tools/{ToolName}/{name}.schema.json
+    const parts = relativePath.split(path.sep);
+    if (parts[0] === 'data' && parts.length >= 2) {
         const name = basename.replace(/\.g$/, ''); // Remove .g suffix
 
-        // Try to find matching tool schema
         const toolsDir = path.join(repoRoot, 'tools');
         try {
             const tools = await fs.readdir(toolsDir);
             for (const tool of tools) {
+                const stat = await fs.stat(path.join(toolsDir, tool));
+                if (!stat.isDirectory()) continue;
+
                 const toolSchemaPath = path.join(toolsDir, tool, `${name}.schema.json`);
                 if (await fileExists(toolSchemaPath)) {
                     return toolSchemaPath;
@@ -152,25 +162,6 @@ async function findSchemaFor(jsonAbs: string, repoRoot: string): Promise<string 
             }
         } catch {
             // toolsDir doesn't exist or can't read
-        }
-    }
-
-    // For files in tools/{Tool}/data/*.json, look in parent
-    if (parts[0] === 'tools' && parts.length >= 3) {
-        const toolName = parts[1];
-        const toolDir = path.join(repoRoot, 'tools', toolName);
-
-        // Try exact match first
-        const schemaPath = path.join(toolDir, `${basename}.schema.json`);
-        if (await fileExists(schemaPath)) {
-            return schemaPath;
-        }
-
-        // Try lowercase tool name
-        const toolLower = toolName.toLowerCase();
-        const toolSchema = path.join(toolDir, `${toolLower}.schema.json`);
-        if (await fileExists(toolSchema)) {
-            return toolSchema;
         }
     }
 
@@ -190,28 +181,11 @@ async function fileExists(filePath: string): Promise<boolean> {
 }
 
 /**
- * Read the title from a JSON schema
+ * Derive a PascalCase type name from the JSON file path
  */
-async function readSchemaTitle(schemaPath: string): Promise<string | undefined> {
-    try {
-        const content = await fs.readFile(schemaPath, 'utf8');
-        const schema = JSON.parse(content);
-        return schema.title;
-    } catch {
-        return undefined;
-    }
-}
-
-/**
- * Guess a PascalCase type name from file path and schema title
- */
-function guessTypeNameFrom(jsonRel: string, schemaTitle?: string): string {
-    if (schemaTitle) {
-        return toPascal(schemaTitle);
-    }
-
-    const base = path.basename(jsonRel, '.json');
-    return toPascal(base);
+function deriveTypeName(jsonRel: string): string {
+    const basename = path.basename(jsonRel, '.json');
+    return toPascal(basename) || 'Exported';
 }
 
 /**
@@ -227,242 +201,96 @@ function toPascal(s: string): string {
 }
 
 /**
- * Build a module declaration block for a data file
+ * Derive the output .ts file path from the JSON relative path
+ * Mirrors data/ structure in package root
  */
-async function buildModuleBlock(entry: DataFileEntry, repoRoot: string): Promise<string> {
+function deriveOutputPath(jsonRelToData: string, repoRoot: string): string {
+    const tsRel = jsonRelToData.replace(/\.json$/, '.ts');
+    return path.join(repoRoot, OUT_DIR, tsRel);
+}
+
+/**
+ * Extract the actual type name from generated TypeScript declarations
+ * json-schema-to-typescript may use the schema title instead of our provided name
+ */
+function extractTypeName(typeDeclarations: string, fallbackName: string): string {
+    // Look for patterns: "export type TypeName", "export interface TypeName"
+    const typeMatch = typeDeclarations.match(/export\s+(?:type|interface)\s+(\w+)/);
+    if (typeMatch && typeMatch[1]) {
+        return typeMatch[1];
+    }
+    return fallbackName;
+}
+
+/**
+ * Generate a TypeScript wrapper file for a data file
+ * Returns true if file was written, false if unchanged
+ */
+async function generateWrapper(entry: DataFileEntry, repoRoot: string): Promise<boolean> {
+    // 1) Read and compile schema
+    const schemaContent = await fs.readFile(entry.schemaAbs!, 'utf8');
+    const schema = JSON.parse(schemaContent);
+
+    // 2) Generate TypeScript types using json-schema-to-typescript
+    const typeDeclarations = await compile(schema, entry.typeName, {
+        bannerComment: '',
+        style: {
+            singleQuote: true,
+            semi: true,
+            trailingComma: 'es5',
+        },
+        unreachableDefinitions: false,
+        unknownAny: false,
+    });
+
+    // 3) Extract the actual type name from generated declarations
+    // json-schema-to-typescript may use schema title instead of our provided name
+    const actualTypeName = extractTypeName(typeDeclarations, entry.typeName);
+
+    // 4) Calculate relative import path from output .ts to JSON file
+    const outDir = path.dirname(entry.outPath);
+    const jsonAbsNormalized = entry.jsonAbs.replace(/\\/g, '/');
+    const outDirNormalized = outDir.replace(/\\/g, '/');
+
+    let relativeImport = path.relative(outDir, entry.jsonAbs).replace(/\\/g, '/');
+    if (!relativeImport.startsWith('.')) {
+        relativeImport = './' + relativeImport;
+    }
+
+    // 5) Build wrapper content
     const lines: string[] = [];
+    lines.push('// @generated FILE — do not edit');
+    lines.push('// Generated by: scripts/generate-types.ts');
+    lines.push('');
 
-    lines.push(`declare module "${entry.moduleId}" {`);
+    // Import JSON with import assertion
+    lines.push(`import raw from '${relativeImport}' assert { type: 'json' };`);
+    lines.push('');
 
-    // Add JSDoc comment about schema
-    if (entry.schemaAbs) {
-        const schemaRel = path.relative(repoRoot, entry.schemaAbs).replace(/\\/g, '/');
-        lines.push(`  /** Generated from schema: ${schemaRel} */`);
-    } else {
-        lines.push(`  /** No schema found - type is unknown */`);
+    // Add generated types
+    lines.push(typeDeclarations.trim());
+    lines.push('');
+
+    // Export typed data
+    lines.push(`const data = raw as unknown as ${actualTypeName};`);
+    lines.push('export default data;');
+    lines.push('');
+    const content = lines.join('\n');
+
+    // 5) Only write if content changed
+    const existing = await fs.readFile(entry.outPath, 'utf8').catch(() => null);
+    if (existing === content) {
+        return false;
     }
 
-    if (entry.schemaAbs) {
-        try {
-            const schemaContent = await fs.readFile(entry.schemaAbs, 'utf8');
-            const schema: JSONSchema = JSON.parse(schemaContent);
+    // 6) Write file
+    await fs.mkdir(path.dirname(entry.outPath), { recursive: true });
+    await fs.writeFile(entry.outPath, content, 'utf8');
 
-            // Generate type from schema
-            const typeInfo = schemaToTsType(schema, entry.typeName);
+    const relOutput = path.relative(repoRoot, entry.outPath);
+    console.log(green(`  ✅ ${relOutput}`));
 
-            // Add the type alias
-            lines.push(`  ${typeInfo.typeDeclaration}`);
-            lines.push('');
-
-            // Add the default export
-            lines.push(`  ${typeInfo.exportDeclaration}`);
-
-        } catch (error) {
-            // Fallback to unknown on error
-            lines.push(`  export type ${entry.typeName} = unknown;`);
-            lines.push('');
-            lines.push(`  const data: unknown;`);
-        }
-    } else {
-        // No schema - use unknown
-        lines.push(`  export type ${entry.typeName} = unknown;`);
-        lines.push('');
-        lines.push(`  const data: unknown;`);
-    }
-
-    lines.push('  export default data;');
-    lines.push('}');
-
-    return lines.join('\n');
-}
-
-/**
- * Convert a JSON schema to TypeScript type declaration
- */
-function schemaToTsType(schema: JSONSchema, typeName: string): { typeDeclaration: string; exportDeclaration: string } {
-    const isArray = schema.type === 'array';
-    const isObject = schema.type === 'object' || (schema.properties && !schema.type);
-
-    if (isArray && schema.items) {
-        // Array type
-        const itemType = jsonSchemaTypeToTs(schema.items, `${typeName}Item`);
-        const typeDeclaration = `export type ${typeName} = ${itemType};`;
-        const exportDeclaration = `const data: ReadonlyArray<${typeName}>;`;
-        return { typeDeclaration, exportDeclaration };
-    } else if (isObject) {
-        // Object type
-        const objType = jsonSchemaTypeToTs(schema, typeName);
-        const typeDeclaration = `export type ${typeName} = ${objType};`;
-        const exportDeclaration = `const data: Readonly<${typeName}>;`;
-        return { typeDeclaration, exportDeclaration };
-    } else {
-        // Primitive or other
-        const tsType = jsonSchemaTypeToTs(schema, typeName);
-        const typeDeclaration = `export type ${typeName} = ${tsType};`;
-        const exportDeclaration = `const data: ${typeName};`;
-        return { typeDeclaration, exportDeclaration };
-    }
-}
-
-/**
- * Convert JSON schema type to TypeScript type string
- */
-function jsonSchemaTypeToTs(schema: JSONSchema, fallbackName: string): string {
-    // Handle $ref (basic support)
-    if (schema.$ref) {
-        return 'any'; // Simplified - proper $ref resolution would be more complex
-    }
-
-    // Handle const
-    if (schema.const !== undefined) {
-        return JSON.stringify(schema.const);
-    }
-
-    // Handle enum
-    if (schema.enum) {
-        return schema.enum.map((v: any) => JSON.stringify(v)).join(' | ');
-    }
-
-    // Handle oneOf/anyOf
-    if (schema.oneOf) {
-        return schema.oneOf.map((s: JSONSchema, i: number) =>
-            jsonSchemaTypeToTs(s, `${fallbackName}Option${i}`)
-        ).join(' | ');
-    }
-    if (schema.anyOf) {
-        return schema.anyOf.map((s: JSONSchema, i: number) =>
-            jsonSchemaTypeToTs(s, `${fallbackName}Option${i}`)
-        ).join(' | ');
-    }
-
-    // Handle allOf (intersection)
-    if (schema.allOf) {
-        return schema.allOf.map((s: JSONSchema, i: number) =>
-            `(${jsonSchemaTypeToTs(s, `${fallbackName}Part${i}`)})`
-        ).join(' & ');
-    }
-
-    // Handle type array (union of types)
-    if (Array.isArray(schema.type)) {
-        return schema.type.map(t => primitiveTypeToTs(t)).join(' | ');
-    }
-
-    // Handle single type
-    const type = schema.type as string;
-
-    if (type === 'array') {
-        const itemType = schema.items
-            ? jsonSchemaTypeToTs(schema.items, `${fallbackName}Item`)
-            : 'unknown';
-        return `ReadonlyArray<${itemType}>`;
-    }
-
-    if (type === 'object' || schema.properties) {
-        const props: string[] = [];
-        const required = new Set(schema.required || []);
-
-        if (schema.properties) {
-            for (const [key, propSchema] of Object.entries(schema.properties)) {
-                const propType = jsonSchemaTypeToTs(propSchema as JSONSchema, `${fallbackName}${toPascal(key)}`);
-                const optional = required.has(key) ? '' : '?';
-                const safeKey = /^[a-zA-Z_$][a-zA-Z0-9_$]*$/.test(key) ? key : `"${key}"`;
-                props.push(`readonly ${safeKey}${optional}: ${propType}`);
-            }
-        }
-
-        // Handle additionalProperties
-        if (schema.additionalProperties === true) {
-            props.push('readonly [key: string]: unknown');
-        } else if (schema.additionalProperties && typeof schema.additionalProperties === 'object') {
-            const addType = jsonSchemaTypeToTs(schema.additionalProperties, `${fallbackName}Additional`);
-            props.push(`readonly [key: string]: ${addType}`);
-        }
-
-        if (props.length === 0) {
-            return 'Record<string, never>';
-        }
-
-        return `{\n    ${props.join(';\n    ')};\n  }`;
-    }
-
-    return primitiveTypeToTs(type);
-}
-
-/**
- * Convert primitive JSON schema type to TypeScript
- */
-function primitiveTypeToTs(type: string): string {
-    switch (type) {
-        case 'string': return 'string';
-        case 'number': return 'number';
-        case 'integer': return 'number';
-        case 'boolean': return 'boolean';
-        case 'null': return 'null';
-        case 'array': return 'unknown[]';
-        case 'object': return 'Record<string, unknown>';
-        default: return 'unknown';
-    }
-}
-
-/**
- * Update package.json with typesVersions and ensure types/index.d.ts is in files
- */
-async function patchPackageJson(pkg: any, pkgPath: string, repoRoot: string): Promise<void> {
-    let modified = false;
-
-    // Ensure types/index.d.ts is in files array
-    if (!pkg.files) {
-        pkg.files = [];
-    }
-
-    const typesEntry = 'types/**/*.d.ts';
-    if (!pkg.files.includes(typesEntry)) {
-        pkg.files.push(typesEntry);
-        modified = true;
-        console.log(green(`✅ [generate-types] Added "${typesEntry}" to package.json files`));
-    }
-
-    // Update typesVersions
-    if (!pkg.typesVersions) {
-        pkg.typesVersions = {};
-    }
-
-    if (!pkg.typesVersions['*']) {
-        pkg.typesVersions['*'] = {};
-    }
-
-    const patterns = {
-        'data/*': ['types/index.d.ts']
-    };
-
-    for (const [pattern, value] of Object.entries(patterns)) {
-        const current = JSON.stringify(pkg.typesVersions['*'][pattern]);
-        const expected = JSON.stringify(value);
-
-        if (current !== expected) {
-            pkg.typesVersions['*'][pattern] = value;
-            modified = true;
-            console.log(green(`✅ [generate-types] Updated typesVersions["*"]["${pattern}"]`));
-        }
-    }
-
-    // Remove old patterns that are no longer needed
-    const oldPatterns = ['*', 'data/*.json', 'data/**/*.json'];
-    for (const pattern of oldPatterns) {
-        if (pkg.typesVersions['*'][pattern]) {
-            delete pkg.typesVersions['*'][pattern];
-            modified = true;
-            console.log(yellow(`🗑️  [generate-types] Removed old typesVersions pattern: "${pattern}"`));
-        }
-    }
-
-    // Write package.json if modified
-    if (modified) {
-        await fs.writeFile(pkgPath, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
-        console.log(green(`✅ [generate-types] Updated package.json`));
-    } else {
-        console.log(cyan(`✓  [generate-types] package.json already up to date`));
-    }
+    return true;
 }
 
 /**
