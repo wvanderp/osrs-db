@@ -432,8 +432,7 @@ async function patchPackageJson(pkg: any, pkgPath: string, repoRoot: string): Pr
     }
 
     const patterns = {
-        'data/*.json': ['types/index.d.ts'],
-        'data/**/*.json': ['types/index.d.ts']
+        'data/*': ['types/index.d.ts']
     };
 
     for (const [pattern, value] of Object.entries(patterns)) {
@@ -444,6 +443,16 @@ async function patchPackageJson(pkg: any, pkgPath: string, repoRoot: string): Pr
             pkg.typesVersions['*'][pattern] = value;
             modified = true;
             console.log(green(`✅ [generate-types] Updated typesVersions["*"]["${pattern}"]`));
+        }
+    }
+
+    // Remove old patterns that are no longer needed
+    const oldPatterns = ['*', 'data/*.json', 'data/**/*.json'];
+    for (const pattern of oldPatterns) {
+        if (pkg.typesVersions['*'][pattern]) {
+            delete pkg.typesVersions['*'][pattern];
+            modified = true;
+            console.log(yellow(`🗑️  [generate-types] Removed old typesVersions pattern: "${pattern}"`));
         }
     }
 

@@ -7,6 +7,15 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 
 ## [Unreleased]
 
+### Changed
+
+2025-10-12 — @wvanderp — Changed: Fixed TypeScript type configuration to require explicit `data/` folder in import paths. (#TBD)
+
+- Updated `exports` field from `./*` to `./data/*` to remove shortcuts
+- Updated `typesVersions` to use single `data/*` pattern for clarity
+- Modified `generate-types` script to automatically clean up old patterns
+- All imports now require full path: `osrs-db/data/items.g.json` (no shortcuts allowed)
+
 ### Added
 
 - TypeScript type definitions automatically generated from JSON schemas

@@ -143,6 +143,14 @@ declare module "osrs-db/data/quests.g.json" {
   export default data;
 }
 
+declare module "osrs-db/data/skills.g.json" {
+  /** Generated from schema: tools/Skills/skills.schema.json */
+  export type Skills = "Attack" | "Cooking" | "Crafting" | "Defence" | "Firemaking" | "Fishing" | "Hitpoints" | "Magic" | "Mining" | "Prayer" | "Ranged" | "Runecrafting" | "Smithing" | "Strength" | "Woodcutting" | "Agility" | "Construction" | "Farming" | "Fletching" | "Herblore" | "Hunter" | "Slayer" | "Thieving";
+
+  const data: ReadonlyArray<Skills>;
+  export default data;
+}
+
 declare module "osrs-db/data/slotStats.g.json" {
   /** Generated from schema: tools/Items/slotStats.schema.json */
   export type Slotstats = {

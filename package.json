@@ -1,6 +1,6 @@
 {
   "name": "osrs-db",
-  "version": "1.1.2317",
+  "version": "1.2.2317",
   "description": "Machine-readable data for Old School RuneScape",
   "keywords": [
     "osrs",
@@ -21,27 +21,15 @@
   "files": [
     "data/**/*.json",
     "types/**/*.d.ts",
-    "tools/**/*.schema.json",
-    "tools/**/*.schema.d.ts",
     "README.md",
     "LICENSE"
   ],
   "exports": {
-    "./*": "./data/*",
-    "./data/*.json": "./data/*.json",
-    "./data/**/*.json": "./data/**/*.json",
-    "./schemas/*": "./tools/*/*.schema.json",
-    "./types/*": "./tools/*/*.schema.d.ts"
+    "./data/*": "./data/*"
   },
   "typesVersions": {
     "*": {
-      "*": [
-        "types/index.d.ts"
-      ],
-      "data/*.json": [
-        "types/index.d.ts"
-      ],
-      "data/**/*.json": [
+      "data/*": [
         "types/index.d.ts"
       ]
     }
