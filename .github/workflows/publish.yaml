@@ -35,6 +35,9 @@ jobs:
       - name: 🔢 Update version from cache number
         run: npm run update-version
 
+      - name: 🏗️ Build package
+        run: npm run build
+
       - name: 📝 Get version for tagging
         id: get_version
         run: |
@@ -70,7 +73,9 @@ jobs:
 
       - name: 🚀 Publish to npm
         if: steps.check_version.outputs.skip != 'true'
-        run: npm publish --provenance --access public
+        run: |
+          cd build
+          npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 

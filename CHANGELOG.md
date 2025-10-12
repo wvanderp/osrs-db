@@ -7,6 +7,15 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 
 ## [Unreleased]
 
+### Added
+
+2025-10-12 — @wvanderp — Added: Build script to prepare clean package for npm publishing.
+
+- Created `scripts/build.ts` to automate package preparation
+- Build process: creates build folder, copies data, generates types, copies npm files
+- Updated publish workflow to use build script and publish from build directory
+- Added `build/` to `.gitignore` to prevent committing build artifacts
+
 ### Changed
 
 2025-10-12 — @copilot — Changed: Rewrote `scripts/generate-types.ts` to generate TypeScript wrapper files instead of ambient type declarations.

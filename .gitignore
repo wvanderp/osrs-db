@@ -1,5 +1,8 @@
 node_modules
 
+# Build output
+build/
+
 # parts of the cache
 cache.zip
 cache/
