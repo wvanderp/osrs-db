@@ -1,6 +1,10 @@
+import path from 'path';
 import Tool from "../../collect/Tool";
 import { cyan } from "../../common/colors";
-import lintTransports from "./Transports.linter";
+import lintWithSchema from '../../common/lintWithSchema';
+
+const prefix = cyan("[TransportsTool]");
+
 
 export const TransportsTool: Tool = {
   name: "Transports",
@@ -9,10 +13,13 @@ export const TransportsTool: Tool = {
   needs: [],
   async run() {
     // TODO: Implement transport data processing logic here
-    console.log(cyan("[TransportsTool]"), "Not implemented");
+    console.log(prefix, "Not implemented");
   },
   async lint() {
-    console.log(cyan("[TransportsTool]"), "Linting data using schema...");
-    lintTransports();
+    console.log(prefix, "Linting data using schema...");
+    const dataPath = path.join(__dirname, "data/wilderness_obelisks.json");
+    const schemaPath = path.join(__dirname, "transports.schema.json");
+
+    lintWithSchema(dataPath, schemaPath, { prefix });
   },
 };

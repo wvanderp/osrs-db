@@ -3,8 +3,9 @@ import path from "path";
 import lintWithSchema from "../../common/lintWithSchema";
 import { cyan, red, green } from "../../common/colors";
 
+const prefix = cyan("[ItemsTool]");
+
 export default function LintItems() {
-    const prefix = cyan("[Items]");
     const filePath = path.join(__dirname, "../../data/items.g.json");
     const schemaPath = path.join(__dirname, "items.schema.json");
 

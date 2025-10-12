@@ -2,8 +2,8 @@ import fs from "fs";
 import path from "path";
 import axios from "axios";
 import Tool from "../../collect/Tool";
-import executeShellScript from "../../common/executeShellScript";
-import { cyan, green, yellow } from "../../common/colors";
+import { cyan, green, red, yellow } from "../../common/colors";
+import lintWithSchema from '../../common/lintWithSchema';
 
 const QUEST_SOURCE_URL =
   "https://raw.githubusercontent.com/runelite/runelite/master/runelite-api/src/main/java/net/runelite/api/Quest.java";
@@ -41,23 +41,34 @@ async function fetchAndParseQuests(): Promise<QuestRow[]> {
   return results;
 }
 
+const prefix = cyan("[Quests]");
+
+
 export const QuestsTool: Tool = {
   name: "Quests",
   description: "Tool for exporting a quest list parsed from RuneLite's Quest enum.",
   version: "1.0.0",
   needs: [],
   run: async () => {
-    console.log(`${cyan("[Quests]")} Start`);
+    console.log(prefix, "Start");
     const quests = await fetchAndParseQuests();
 
     const outDir = path.join(__dirname, "..", "..", "data"); // Updated to root data folder
     const outFile = path.join(outDir, "quests.g.json");
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(outFile, JSON.stringify(quests, null, 4));
-    console.log(`${cyan("[Quests]")} Wrote ${green(String(quests.length))} quests to ${path.relative(process.cwd(), outFile)}`);
+    console.log(prefix, "Wrote", green(String(quests.length)), "quests to", path.relative(process.cwd(), outFile));
   },
   lint: async () => {
-    console.log(`${cyan("[Quests]")} ${yellow("Linting data using schema...")}`);
-    await executeShellScript("npx tsx tools/Quests/Quests.linter.ts");
+    console.log(prefix, yellow("Linting data using schema..."));
+    const dataPath = path.join(__dirname, "../../data", "quests.g.json");
+    const schemaPath = path.join(__dirname, "quests.schema.json");
+
+    try {
+      lintWithSchema(dataPath, schemaPath, { prefix });
+    } catch (e) {
+      console.error(prefix, red("Quests schema lint failed"));
+      process.exit(1);
+    }
   },
 };

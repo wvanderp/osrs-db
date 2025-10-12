@@ -9,9 +9,8 @@ You don't have to ask permission to edit files. Just do it.
 
 Each rule should have the following files/functions:
 
-- `{tool_name}Tool.ts`: the main script that implements the tool's functionality. This script exports an object that can be used to collect data and generate outputs.
+- `{tool_name}Tool.ts`: the main script that implements the tool's functionality. This script exports an object that can be used to collect data and generate outputs. It also contains a `lint` function that can be used to validate the generated output.
 - `{tool_name}.md`: a markdown file with the description of the tool.
-- `{tool_name}.linter.ts`: a linter to check the output of the tool. Output format is flexible, but the script must exit with a non-zero status code on failure.
 - Multiple `*.schema.json` files: JSON schema files to validate the output of the tool.
 - `{tool_name}.changelog.md`: a markdown file to track changes and updates to the tool.
 - `data/`: a directory containing the data files used by the tool. This can include JSON files, CSV files, or any other format that the tool uses. This path is only for data used during generation that should be edited by the developers. any generated data should be place in the root data folder.

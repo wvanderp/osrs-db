@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "OSRS-DB/skills.schema.json",
+    "title": "Skills",
+    "description": "A schema for the generated Skills.json file: an array of skill names.",
+    "type": "array",
+    "items": {
+        "type": "string",
+        "enum": [
+            "Attack",
+            "Cooking",
+            "Crafting",
+            "Defence",
+            "Firemaking",
+            "Fishing",
+            "Hitpoints",
+            "Magic",
+            "Mining",
+            "Prayer",
+            "Ranged",
+            "Runecrafting",
+            "Smithing",
+            "Strength",
+            "Woodcutting",
+            "Agility",
+            "Construction",
+            "Farming",
+            "Fletching",
+            "Herblore",
+            "Hunter",
+            "Slayer",
+            "Thieving"
+        ]
+    },
+    "uniqueItems": true
+}

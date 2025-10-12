@@ -7,6 +7,7 @@ import { TransportsTool } from "../tools/Transports/TransportsTool";
 import { QuestsTool } from "../tools/Quests/QuestsTool";
 import { WorldMapTool } from "../tools/WorldMap/WorldMapTool";
 import { CacheNumberTool } from "../tools/CacheNumber/CacheNumberTool";
+import { SkillsTool } from "../tools/Skills/SkillsTool";
 export default interface Tool {
   name: string;
   description: string;
@@ -31,6 +32,7 @@ export const tools: Tool[] = [
   ItemsTool,
   QuestsTool,
   CollisionMapTool,
+  SkillsTool,
   WorldMapTool,
 ];
 

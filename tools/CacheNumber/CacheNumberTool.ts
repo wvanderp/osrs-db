@@ -6,13 +6,14 @@ import lintWithSchema from "../../common/lintWithSchema";
 import { dataPath } from "../../common/paths";
 import { getCacheID } from "../../common/getNewestCache";
 
+const prefix = cyan("[CacheNumber]");
+
 export const CacheNumberTool: Tool = {
     name: "CacheNumber",
     description: "Saves the current cache number to data/cache-number.json",
     version: "1.0.0",
     needs: [],
     async run(): Promise<void> {
-        const prefix = cyan("[CacheNumber]");
 
         const cacheID = await getCacheID();
 
@@ -25,8 +26,7 @@ export const CacheNumberTool: Tool = {
         console.log(green(`${prefix} Wrote ${outPath}`));
     },
     async lint(): Promise<void> {
-        console.log(cyan("[CacheNumber]"), "Linting cache-number.json");
-        const prefix = cyan("[CacheNumber]");
+        console.log(prefix, "Linting cache-number.json");
         const filePath = path.join(dataPath, "cache-number.json");
         const schemaPath = path.join(__dirname, "cache-number.schema.json");
 
@@ -39,7 +39,7 @@ export const CacheNumberTool: Tool = {
 
         lintWithSchema(filePath, schemaPath, { prefix });
 
-        console.log(green(`${prefix} cache-number.json validated`));
+        console.log(prefix, green(`cache-number.json validated`));
     },
 };
 
