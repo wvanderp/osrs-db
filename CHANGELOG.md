@@ -9,6 +9,16 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 
 ### Added
 
+2025-10-12 — @copilot — Added: TypeScript compilation of facade files and proper npm package exports. (#TBD)
+
+- Build script now compiles `*.g.ts` facade files to `.mjs` with `.d.ts` type definitions
+- Added `tsconfig.build.json` for ES2020 module compilation with declarations
+- Package exports are now auto-generated based on compiled `.mjs` files in the build directory
+- Facade files are now importable from the npm package with full type support
+- Updated `package.json` to include `.mjs`, `.d.ts`, and `.d.ts.map` files
+- Build output uses clean filenames without `.g` suffix (e.g., `items.mjs` instead of `items.g.mjs`)
+- Exports are dynamically generated: `./items`, `./npcs`, `./objects`, `./quests`, `./skills`, `./slotStats`, `./cache-number`
+
 2025-10-12 — @wvanderp — Added: Build script to prepare clean package for npm publishing.
 
 - Created `scripts/build.ts` to automate package preparation
@@ -17,6 +27,18 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 - Added `build/` to `.gitignore` to prevent committing build artifacts
 
 ### Changed
+
+2025-10-12 — @copilot — Changed: Build process now copies only schema files from tools folder instead of entire tools directory. (#TBD)
+
+- Added `copySchemaFiles` function to selectively copy `*.schema.json` files
+- Reduces package size by excluding tool implementation code
+- Maintains directory structure for schema resolution during type generation
+
+2025-10-12 — @copilot — Changed: Updated JSON import syntax from `assert` to `with` for Node.js compatibility. (#TBD)
+
+- Changed `import ... assert { type: 'json' }` to `import ... with { type: 'json' }`
+- Ensures compatibility with Node.js 22+ which uses the new import attributes syntax
+- Updated `scripts/generate-types.ts` to generate modern import syntax
 
 2025-10-12 — @copilot — Changed: Rewrote `scripts/generate-types.ts` to generate TypeScript wrapper files instead of ambient type declarations.
 

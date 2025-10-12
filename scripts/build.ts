@@ -76,6 +76,25 @@ async function copyFile(src: string, dest: string): Promise<void> {
 }
 
 /**
+ * Copy only schema files from a directory recursively
+ */
+async function copySchemaFiles(src: string, dest: string): Promise<void> {
+    const entries = await fs.readdir(src, { withFileTypes: true });
+
+    for (const entry of entries) {
+        const srcPath = path.join(src, entry.name);
+        const destPath = path.join(dest, entry.name);
+
+        if (entry.isDirectory()) {
+            await copySchemaFiles(srcPath, destPath);
+        } else if (entry.name.endsWith('.schema.json')) {
+            await fs.mkdir(path.dirname(destPath), { recursive: true });
+            await fs.copyFile(srcPath, destPath);
+        }
+    }
+}
+
+/**
  * Main build function
  */
 async function build() {
@@ -100,44 +119,82 @@ async function build() {
     console.log(green('   ✅ Data folder copied'));
     console.log('');
 
-    // Step 2.5: Copy tools folder (needed for schema resolution during type generation)
-    console.log(cyan('🔧 [build] Copying tools folder for schema resolution...'));
-    const toolsSrc = path.join(repoRoot, 'tools');
-    const toolsDest = path.join(buildPath, 'tools');
-    await copyDir(toolsSrc, toolsDest);
-    console.log(green('   ✅ Tools folder copied'));
-    console.log('');
-
-    // Step 2.6: Copy types folder (contains ambient type declarations)
-    console.log(cyan('📝 [build] Copying types folder...'));
-    const typesSrc = path.join(repoRoot, 'types');
-    const typesDest = path.join(buildPath, 'types');
-    await copyDir(typesSrc, typesDest);
-    console.log(green('   ✅ Types folder copied'));
-    console.log('');
-
-    // Step 3: Generate TypeScript types
-    console.log(cyan('🔧 [build] Generating TypeScript types...'));
-    const originalCwd = process.cwd();
+    // Step 3: Generate TypeScript wrapper files into build directory
+    // We run the generator from the repository root so it can locate schemas in tools/.
+    console.log(cyan('� [build] Generating TypeScript wrappers into build/...'));
     try {
-        // Change to build directory to generate types there
-        process.chdir(buildPath);
-
-        // Run generate-types.ts from the build directory
         const generateTypesScript = path.join(repoRoot, 'scripts', 'generate-types.ts');
+        // Run generator from repo root so it can resolve tools/ and other schema locations
         execSync(`npx tsx "${generateTypesScript}"`, {
+            stdio: 'inherit',
+            cwd: repoRoot,
+        });
+
+        // After generation, copy each generated .g.ts file inside build/ to a facade .ts filename
+        const buildFilesPostGen = await fs.readdir(buildPath);
+        for (const file of buildFilesPostGen) {
+            if (file.endsWith('.g.ts') && !file.includes('test') && file !== 'index.ts') {
+                const src = path.join(buildPath, file);
+                const destFilename = file.replace('.g.ts', '.ts');
+                const dest = path.join(buildPath, destFilename);
+                await copyFile(src, dest);
+                console.log(green(`   ✅ Copied generated ${file} -> ${destFilename}`));
+            }
+        }
+
+        console.log(green('   ✅ TypeScript wrappers generated'));
+    } catch (error) {
+        throw new Error(`Type generation failed: ${error instanceof Error ? error.message : String(error)}`);
+    }
+    console.log('');
+
+    // Step 4: Compile TypeScript facade files in build directory
+    console.log(cyan('📦 [build] Compiling TypeScript facade files...'));
+    try {
+        // Copy tsconfig for compilation
+        const tsconfigBuildSrc = path.join(repoRoot, 'tsconfig.build.json');
+        const tsconfigBuildDest = path.join(buildPath, 'tsconfig.build.json');
+        await copyFile(tsconfigBuildSrc, tsconfigBuildDest);
+
+        // Compile in build directory with increased memory
+        const tscPath = path.join(repoRoot, 'node_modules', 'typescript', 'bin', 'tsc');
+        execSync(`node --max-old-space-size=8192 "${tscPath}" -p tsconfig.build.json`, {
             stdio: 'inherit',
             cwd: buildPath,
         });
 
-        console.log(green('   ✅ TypeScript types generated'));
-    } finally {
-        // Always restore original directory
-        process.chdir(originalCwd);
+        // Rename .js files to .mjs in build directory
+        const compiledFiles = await fs.readdir(buildPath);
+        for (const file of compiledFiles) {
+            if (file.endsWith('.js') && !file.endsWith('.mjs')) {
+                const oldPath = path.join(buildPath, file);
+                const newPath = path.join(buildPath, file.replace(/\.js$/, '.mjs'));
+                await fs.rename(oldPath, newPath);
+            }
+        }
+
+        // Clean up tsconfig.build.json from build directory
+        await fs.unlink(tsconfigBuildDest);
+
+        console.log(green('   ✅ TypeScript facade files compiled'));
+    } catch (error) {
+        throw new Error(`TypeScript compilation failed: ${error instanceof Error ? error.message : String(error)}`);
     }
     console.log('');
 
-    // Step 4: Copy required npm files
+    // Step 5: Clean up .g.ts files generated by generate-types (they are not shipped)
+    console.log(cyan('🧹 [build] Cleaning up generated .g.ts files...'));
+    const buildFiles = await fs.readdir(buildPath);
+    for (const file of buildFiles) {
+        if (file.endsWith('.g.ts')) {
+            const filePath = path.join(buildPath, file);
+            await fs.unlink(filePath);
+            console.log(green(`   ✅ Removed ${file}`));
+        }
+    }
+    console.log('');
+
+    // Step 6: Copy required npm files
     console.log(cyan('📄 [build] Copying npm files...'));
 
     for (const file of FILES_TO_COPY) {
@@ -168,6 +225,40 @@ async function build() {
     if (!licenseCopied) {
         console.log(yellow(`   ⚠️  No LICENSE file found (checked: ${OPTIONAL_FILES.join(', ')})`));
     }
+
+    console.log('');
+
+    // Step 7: Auto-generate exports in package.json
+    console.log(cyan('⚙️  [build] Auto-generating exports in package.json...'));
+    const packageJsonPath = path.join(buildPath, 'package.json');
+    const packageJson = JSON.parse(await fs.readFile(packageJsonPath, 'utf-8'));
+
+    // Find all .mjs files in the build root (excluding subdirectories)
+    const mjsFiles = (await fs.readdir(buildPath))
+        .filter(file => file.endsWith('.mjs'))
+        .sort();
+
+    // Build exports object
+    const exports: Record<string, any> = {
+        './data/*': './data/*'
+    };
+
+    for (const mjsFile of mjsFiles) {
+        const baseName = mjsFile.replace('.mjs', '');
+        const exportName = `./${baseName}`;
+
+        exports[exportName] = {
+            types: `./${baseName}.d.ts`,
+            import: `./${mjsFile}`
+        };
+
+        console.log(green(`   ✅ Added export: ${exportName}`));
+    }
+
+    // Update package.json with generated exports
+    packageJson.exports = exports;
+    await fs.writeFile(packageJsonPath, JSON.stringify(packageJson, null, 2) + '\n', 'utf-8');
+    console.log(green(`   ✅ Generated ${mjsFiles.length} exports`));
 
     console.log('');
     console.log(green('✨ [build] Build complete!'));

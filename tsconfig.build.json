@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "lib": [
+            "ES2021"
+        ],
+        "declaration": true,
+        "declarationMap": true,
+        "rootDir": ".",
+        "outDir": ".",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "noEmit": false
+    },
+    "include": [
+        "*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
