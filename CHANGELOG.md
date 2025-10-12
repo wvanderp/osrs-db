@@ -7,9 +7,22 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 
 ## [Unreleased]
 
+### Added
+
+- TypeScript type definitions automatically generated from JSON schemas
+- `generate-types` script to convert JSON schemas to TypeScript types
+- JSON schemas and TypeScript types now included in npm package
+- Package exports for schemas (`osrs-db/schemas/*`) and types (`osrs-db/types/*`)
+- Documentation for using schemas and types in README and PUBLISHING guide
+
+### Dependencies
+
+- Added `json-schema-to-typescript` as dev dependency for type generation
+
 ## [1.0.2317] - 2024-10-05
 
 ### Added
+
 - Initial npm package release
 - Automatic versioning based on OSRS cache number
 - GitHub Actions workflow for automatic publishing
@@ -18,6 +31,7 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 - PUBLISHING.md guide for maintainers
 
 ### Changed
+
 - Moved all dependencies to devDependencies (only data files are published)
 - Package now only includes JSON data files, no source code
 

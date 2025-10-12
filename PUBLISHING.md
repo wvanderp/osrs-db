@@ -57,6 +57,8 @@ Only the following files are included in the npm package:
 - `README.md` - Package documentation
 - `package.json` - Package metadata
 - `data/*.json` - All JSON data files
+- `tools/**/*.schema.json` - JSON schema files for validation
+- `tools/**/*.schema.d.ts` - TypeScript type definitions
 
 Source code, tools, and build scripts are excluded from the published package.
 
@@ -73,7 +75,27 @@ The published package provides wildcard exports for all files in the data direct
 
 Any file in the `data/` directory can be imported using `osrs-db/[filename]`.
 
+### Schemas and Types
+
+The package also includes JSON schemas and TypeScript types:
+
+- Schemas: `osrs-db/schemas/[ToolName]/[schema-name].schema.json`
+- Types: `osrs-db/types/[ToolName]/[schema-name].schema`
+
+Example:
+
+```typescript
+import type { Items } from 'osrs-db/types/Items/items.schema';
+import itemsSchema from 'osrs-db/schemas/Items/items.schema.json';
+```
+
 ## Testing Before Publishing
+
+Before publishing, ensure TypeScript types are generated from the schemas:
+
+```bash
+npm run generate-types
+```
 
 To see what would be included in the package:
 
@@ -103,6 +125,7 @@ If a tag already exists for the current version, the workflow will fail. This ca
 - A previous publish partially completed
 
 To resolve:
+
 1. Either wait for a new cache update
 2. Or manually delete the existing tag and re-run the workflow
 

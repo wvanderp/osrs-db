@@ -19,17 +19,22 @@
     "url": "https://github.com/wvanderp/osrs-db.git"
   },
   "files": [
-    "data/**/*.json"
+    "data/**/*.json",
+    "tools/**/*.schema.json",
+    "tools/**/*.schema.d.ts"
   ],
   "exports": {
-    "./*": "./data/*"
+    "./*": "./data/*",
+    "./schemas/*": "./tools/*/*.schema.json",
+    "./types/*": "./tools/*/*.schema.d.ts"
   },
   "scripts": {
     "collect": "tsx collect/main.ts",
     "lint:data": "tsx collect/linters.ts",
     "lint": "tsc --noEmit -p tsconfig.json",
     "lint:dev": "tsx common/lintDev.ts",
-    "update-version": "node scripts/update-version.mjs"
+    "update-version": "node scripts/update-version.mjs",
+    "generate-types": "tsx scripts/generate-types.ts"
   },
   "devDependencies": {
     "@types/jsdom": "^21.1.7",
@@ -40,6 +45,7 @@
     "axios": "^1.12.2",
     "glob": "^11.0.3",
     "jsdom": "^27.0.0",
+    "json-schema-to-typescript": "^15.0.3",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2",
     "yauzl": "^3.2.0"
