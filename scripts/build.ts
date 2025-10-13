@@ -173,6 +173,24 @@ async function build() {
             }
         }
 
+        // Remove any generated ".g.mjs" files and accompanying generated d.ts files
+        // We want the build output to use clean filenames (e.g. skills.mjs) only.
+        const postRenameFiles = await fs.readdir(buildPath);
+        for (const file of postRenameFiles) {
+            try {
+                if (file.endsWith('.g.mjs')) {
+                    await fs.unlink(path.join(buildPath, file));
+                    console.log(green(`   ✅ Removed generated ${file}`));
+                }
+                if (file.endsWith('.g.d.ts') || file.endsWith('.g.d.ts.map')) {
+                    await fs.unlink(path.join(buildPath, file));
+                    console.log(green(`   ✅ Removed generated ${file}`));
+                }
+            } catch (err) {
+                // ignore if file already removed
+            }
+        }
+
         // Clean up tsconfig.build.json from build directory
         await fs.unlink(tsconfigBuildDest);
 

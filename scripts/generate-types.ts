@@ -247,11 +247,14 @@ async function generateWrapper(entry: DataFileEntry, repoRoot: string): Promise<
     const actualTypeName = extractTypeName(typeDeclarations, entry.typeName);
 
     // 4) Calculate relative import path from output .ts to JSON file
+    // Prefer the JSON file that will be placed under OUT_DIR (mirrors data/)
     const outDir = path.dirname(entry.outPath);
-    const jsonAbsNormalized = entry.jsonAbs.replace(/\\/g, '/');
-    const outDirNormalized = outDir.replace(/\\/g, '/');
 
-    let relativeImport = path.relative(outDir, entry.jsonAbs).replace(/\\/g, '/');
+    // Candidate JSON location under the OUT_DIR (e.g., build/data/items.g.json)
+    const jsonOutAbsCandidate = path.join(repoRoot, OUT_DIR, 'data', entry.jsonRelToData);
+    const importTargetAbs = (await fileExists(jsonOutAbsCandidate)) ? jsonOutAbsCandidate : entry.jsonAbs;
+
+    let relativeImport = path.relative(outDir, importTargetAbs).replace(/\\/g, '/');
     if (!relativeImport.startsWith('.')) {
         relativeImport = './' + relativeImport;
     }
@@ -263,7 +266,7 @@ async function generateWrapper(entry: DataFileEntry, repoRoot: string): Promise<
     lines.push('');
 
     // Import JSON with import assertions
-    lines.push(`import raw from '${relativeImport}' assert { type: 'json' };`);
+    lines.push(`import raw from '${relativeImport}' with { type: 'json' };`);
     lines.push('');
 
     // Add generated types
