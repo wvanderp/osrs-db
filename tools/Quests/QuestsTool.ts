@@ -53,11 +53,24 @@ export const QuestsTool: Tool = {
     console.log(prefix, "Start");
     const quests = await fetchAndParseQuests();
 
-    const outDir = path.join(__dirname, "..", "..", "data"); // Updated to root data folder
+    // Write the output file
+    const outDir = path.join(__dirname, "..", "..", "data");
     const outFile = path.join(outDir, "quests.g.json");
     fs.mkdirSync(outDir, { recursive: true });
     fs.writeFileSync(outFile, JSON.stringify(quests, null, 4));
     console.log(prefix, "Wrote", green(String(quests.length)), "quests to", path.relative(process.cwd(), outFile));
+
+    // Create a JSON schema for other tools to reference
+    const schemaFile = path.join(__dirname, "QuestList.schema.json");
+    const schema = quests.map(q => q.enum);
+    fs.writeFileSync(schemaFile, JSON.stringify({
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "string",
+      "title": "Quest",
+      "description": "An enum of all quests available in Old School RuneScape.",
+      "enum": schema,
+    }, null, 4));
+    console.log(prefix, "Wrote quest schema to", path.relative(process.cwd(), schemaFile));
   },
   lint: async () => {
     console.log(prefix, yellow("Linting data using schema..."));

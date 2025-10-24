@@ -5,6 +5,8 @@ import extractSlotStats from './ExtractSlotStats';
 import LintItems from './items.linter';
 import lintSlotStats from './slotStats.linter';
 import LintTitleToID from './titleToID.linter';
+import mergeWearRequirements from './MergeWearRequirements';
+import lintWearRequirements from './wearRequirements.linter';
 
 export const ItemsTool: Tool = {
   name: "Items",
@@ -16,10 +18,12 @@ export const ItemsTool: Tool = {
     await executeShellScript("bash tools/Items/exportItems.sh");
 
     await extractSlotStats();
+    await mergeWearRequirements();
   },
   async lint() {
     console.log(`${cyan("[ItemsTool]")} Linting data`);
     lintSlotStats();
+    lintWearRequirements();
     await LintTitleToID();
     await LintItems();
   },

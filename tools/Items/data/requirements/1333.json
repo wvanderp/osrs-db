@@ -1,0 +1,11 @@
+{
+    "id": 1333,
+    "name": "Rune scimitar",
+    "requirements": [
+        {
+            "type": "level",
+            "skill": "attack",
+            "level": 40
+        }
+    ]
+}

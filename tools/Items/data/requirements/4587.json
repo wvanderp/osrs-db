@@ -1,0 +1,15 @@
+{
+    "id": 4587,
+    "name": "Dragon scimitar",
+    "requirements": [
+        {
+            "type": "level",
+            "skill": "attack",
+            "level": 60
+        },
+        {
+            "type": "quest",
+            "quest": "MONKEY_MADNESS_I"
+        }
+    ]
+}

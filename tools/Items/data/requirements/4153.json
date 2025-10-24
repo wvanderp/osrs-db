@@ -1,0 +1,16 @@
+{
+    "id": 4153,
+    "name": "Granite maul",
+    "requirements": [
+        {
+            "type": "level",
+            "skill": "strength",
+            "level": 50
+        },
+        {
+            "type": "level",
+            "skill": "attack",
+            "level": 50
+        }
+    ]
+}
