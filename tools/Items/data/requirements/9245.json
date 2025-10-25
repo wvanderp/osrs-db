@@ -1,0 +1,21 @@
+{
+  "id": 9245,
+  "name": "Onyx bolts (e)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 61
+    },
+    {
+      "type": "equipment",
+      "equipment": [
+        9185,
+        21902,
+        21012,
+        11785,
+        26374
+      ]
+    }
+  ]
+}

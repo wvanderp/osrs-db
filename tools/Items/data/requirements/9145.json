@@ -1,0 +1,11 @@
+{
+  "id": 9145,
+  "name": "Silver bolts",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 26
+    }
+  ]
+}

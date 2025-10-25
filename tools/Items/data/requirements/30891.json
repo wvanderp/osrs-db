@@ -1,0 +1,16 @@
+{
+  "id": 30891,
+  "name": "Keris partisan of Amascut",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "attack",
+      "level": 80
+    },
+    {
+      "type": "quest",
+      "quest": "BENEATH_CURSED_SANDS",
+      "note": "It is created by combining a Keris partisan with a Jewel of Amascut, either being a quest reward or a reward for ToA"
+    }
+  ]
+}

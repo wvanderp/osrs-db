@@ -1,0 +1,21 @@
+{
+  "id": 11212,
+  "name": "Dragon arrow#(unp)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 60
+    },
+    {
+      "type": "equipment",
+      "equipment": [
+        11235,
+        20997,
+        27610,
+        29591,
+        12424
+      ]
+    }
+  ]
+}

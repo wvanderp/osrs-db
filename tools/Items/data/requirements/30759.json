@@ -1,0 +1,11 @@
+{
+  "id": 30759,
+  "name": "Soulflame horn",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "magic",
+      "level": 80
+    }
+  ]
+}

@@ -135,7 +135,8 @@
                                 "type": "string",
                                 "description": "An optional note about the requirement"
                             }
-                        }
+                        },
+                        "additionalProperties": false
                     }
                 ]
             }

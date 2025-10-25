@@ -1,0 +1,11 @@
+{
+  "id": 9337,
+  "name": "Sapphire bolts",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 36
+    }
+  ]
+}

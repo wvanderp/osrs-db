@@ -1,0 +1,27 @@
+{
+  "id": 10143,
+  "name": "Marrentill tar",
+  "requirements": [
+    {
+      "type": "equipment",
+      "equipment": [
+        10146
+      ]
+    },
+    {
+      "type": "level",
+      "skill": "attack",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "magic",
+      "level": 50
+    }
+  ]
+}

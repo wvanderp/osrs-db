@@ -1,0 +1,27 @@
+{
+  "id": 10142,
+  "name": "Guam tar",
+  "requirements": [
+    {
+      "type": "equipment",
+      "equipment": [
+        10149
+      ]
+    },
+    {
+      "type": "level",
+      "skill": "attack",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "magic",
+      "level": 30
+    }
+  ]
+}

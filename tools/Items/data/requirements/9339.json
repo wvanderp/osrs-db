@@ -1,0 +1,11 @@
+{
+  "id": 9339,
+  "name": "Ruby bolts",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 46
+    }
+  ]
+}

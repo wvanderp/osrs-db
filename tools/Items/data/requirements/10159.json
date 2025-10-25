@@ -1,0 +1,17 @@
+{
+  "id": 10159,
+  "name": "Long kebbit bolts",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 50
+    },
+    {
+      "type": "equipment",
+      "equipment": [
+        10156
+      ]
+    }
+  ]
+}

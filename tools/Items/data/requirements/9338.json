@@ -1,0 +1,11 @@
+{
+  "id": 9338,
+  "name": "Emerald bolts",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 36
+    }
+  ]
+}

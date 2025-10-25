@@ -1,0 +1,16 @@
+{
+  "id": 31113,
+  "name": "Eye of ayak",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "magic",
+      "level": 83
+    },
+    {
+      "type": "quest",
+      "quest": "THE_FINAL_DAWN",
+      "note": "Completion of delve level 3 and higher"
+    }
+  ]
+}
