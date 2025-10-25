@@ -1,0 +1,11 @@
+{
+  "id": 828,
+  "name": "Mithril javelin#Unpoisoned",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 65
+    }
+  ]
+}

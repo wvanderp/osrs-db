@@ -1,0 +1,13 @@
+{
+  "id": 4773,
+  "name": "Bronze brutal",
+  "requirements": [
+    {
+      "type": "equipment",
+      "equipment": [
+        2883,
+        4827
+      ]
+    }
+  ]
+}

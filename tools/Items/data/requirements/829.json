@@ -1,0 +1,11 @@
+{
+  "id": 829,
+  "name": "Adamant javelin#Unpoisoned",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 65
+    }
+  ]
+}

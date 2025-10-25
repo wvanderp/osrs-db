@@ -1,0 +1,11 @@
+{
+  "id": 9340,
+  "name": "Diamond bolts",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 46
+    }
+  ]
+}

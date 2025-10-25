@@ -1,0 +1,11 @@
+{
+  "id": 9139,
+  "name": "Blurite bolts#Unpoisoned",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 16
+    }
+  ]
+}

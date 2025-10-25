@@ -9,8 +9,7 @@
         "properties": {
             "id": {
                 "type": [
-                    "integer",
-                    "null"
+                    "integer"
                 ],
                 "description": "The item's ID"
             },

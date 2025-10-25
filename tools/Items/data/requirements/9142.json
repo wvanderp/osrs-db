@@ -1,0 +1,11 @@
+{
+  "id": 9142,
+  "name": "Mithril bolts#Unpoisoned",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 36
+    }
+  ]
+}

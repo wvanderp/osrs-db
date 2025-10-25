@@ -1,0 +1,17 @@
+{
+  "id": 8882,
+  "name": "Extract Equipment Requirements from Wiki Page",
+  "requirements": [
+    {
+      "type": "equipment",
+      "equipment": [
+        8880
+      ]
+    },
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 28
+    }
+  ]
+}

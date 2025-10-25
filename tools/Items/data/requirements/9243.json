@@ -1,0 +1,11 @@
+{
+  "id": 9243,
+  "name": "Diamond bolts (e)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "magic",
+      "level": 57
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 892,
+  "name": "Rune arrow",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 40
+    }
+  ]
+}

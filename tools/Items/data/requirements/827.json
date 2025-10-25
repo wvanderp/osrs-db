@@ -1,0 +1,11 @@
+{
+  "id": 827,
+  "name": "Steel javelin#Unpoisoned",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "ranged",
+      "level": 65
+    }
+  ]
+}
