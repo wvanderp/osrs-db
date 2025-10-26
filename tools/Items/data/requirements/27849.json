@@ -1,0 +1,11 @@
+{
+  "id": 27849,
+  "name": "Corrupted morrigan's leather chaps (bh)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

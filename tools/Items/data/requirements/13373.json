@@ -1,0 +1,11 @@
+{
+  "id": 13373,
+  "name": "Shayzien boots (4)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

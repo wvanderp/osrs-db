@@ -1,0 +1,16 @@
+{
+  "id": 11830,
+  "name": "Armadyl chainskirt",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 2538,
+  "name": "Adamant fire arrow",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 50
+    }
+  ]
+}
