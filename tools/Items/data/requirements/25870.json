@@ -1,0 +1,11 @@
+{
+  "id": 25870,
+  "name": "Blade of saeldor (c) (Ithell)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "attack",
+      "level": 80
+    }
+  ]
+}

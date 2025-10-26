@@ -1,0 +1,11 @@
+{
+  "id": 24617,
+  "name": "Vesta's blighted longsword",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "attack",
+      "level": 75
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 3751,
+  "name": "Berserker Helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "defence",
+      "level": 45
+    },
+    {
+      "type": "quest",
+      "quest": "THE_FREMENNIK_TRIALS"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": 5555,
+  "name": "Rogue trousers",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "thieving",
+      "level": 50,
+      "note": "Required to get the rogue outfit"
+    },
+    {
+      "type": "level",
+      "skill": "agility",
+      "level": 50,
+      "note": "Required to get the rogue outfit"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 21643,
+  "name": "Granite boots",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "defence",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "strength",
+      "level": 50
+    }
+  ]
+}

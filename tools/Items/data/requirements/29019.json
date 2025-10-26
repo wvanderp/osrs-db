@@ -1,0 +1,16 @@
+{
+  "id": 29019,
+  "name": "Blue moon helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "magic",
+      "level": 75
+    },
+    {
+      "type": "level",
+      "skill": "defence",
+      "level": 50
+    }
+  ]
+}

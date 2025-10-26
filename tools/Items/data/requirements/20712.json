@@ -1,0 +1,12 @@
+{
+  "id": 20712,
+  "name": "Warm gloves",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "firemaking",
+      "level": 50,
+      "note": "this is a wintertodt reward and not tradable"
+    }
+  ]
+}

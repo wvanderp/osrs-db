@@ -1,0 +1,11 @@
+{
+  "id": 9771,
+  "name": "Agility cape",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "agility",
+      "level": 99
+    }
+  ]
+}

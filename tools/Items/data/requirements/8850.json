@@ -1,0 +1,16 @@
+{
+  "id": 8850,
+  "name": "Rune defender",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "attack",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "defence",
+      "level": 40
+    }
+  ]
+}

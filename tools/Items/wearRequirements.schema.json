@@ -15,6 +15,10 @@
             "type": "string",
             "description": "The name of the item"
         },
+        "note": {
+            "type": "string",
+            "description": "An optional note about the item's requirements"
+        },
         "requirements": {
             "type": "array",
             "description": "Array of requirements for wearing this item",
@@ -42,7 +46,11 @@
                                     "strength",
                                     "ranged",
                                     "magic",
-                                    "prayer"
+                                    "prayer",
+                                    "agility",
+                                    "thieving",
+                                    "hunter",
+                                    "firemaking"
                                 ],
                                 "description": "The skill required"
                             },
