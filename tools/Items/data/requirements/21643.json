@@ -4,12 +4,12 @@
   "requirements": [
     {
       "type": "level",
-      "skill": "defence",
+      "skill": "Defence",
       "level": 50
     },
     {
       "type": "level",
-      "skill": "strength",
+      "skill": "Strength",
       "level": 50
     }
   ]

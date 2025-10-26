@@ -4,12 +4,12 @@
   "requirements": [
     {
       "type": "level",
-      "skill": "defence",
+      "skill": "Defence",
       "level": 70
     },
     {
       "type": "level",
-      "skill": "magic",
+      "skill": "Magic",
       "level": 70
     }
   ]

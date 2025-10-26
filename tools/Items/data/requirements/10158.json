@@ -4,7 +4,7 @@
   "requirements": [
     {
       "type": "level",
-      "skill": "ranged",
+      "skill": "Ranged",
       "level": 50
     },
     {

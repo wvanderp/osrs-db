@@ -1,0 +1,11 @@
+{
+  "id": 12273,
+  "name": "Bandos cloak",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 40
+    }
+  ]
+}

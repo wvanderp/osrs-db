@@ -1,0 +1,16 @@
+{
+  "id": 12512,
+  "name": "Armadyl coif",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

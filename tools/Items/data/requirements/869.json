@@ -1,0 +1,11 @@
+{
+  "id": 869,
+  "name": "Black knife#(unp)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 10
+    }
+  ]
+}

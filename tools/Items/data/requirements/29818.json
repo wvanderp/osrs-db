@@ -1,0 +1,12 @@
+{
+  "id": 29818,
+  "name": "Araxyte slayer helmet (i)",
+  "note": "Nightmare zones",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    }
+  ]
+}

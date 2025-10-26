@@ -10,17 +10,17 @@
     },
     {
       "type": "level",
-      "skill": "attack",
+      "skill": "Attack",
       "level": 50
     },
     {
       "type": "level",
-      "skill": "ranged",
+      "skill": "Ranged",
       "level": 50
     },
     {
       "type": "level",
-      "skill": "magic",
+      "skill": "Magic",
       "level": 50
     }
   ]

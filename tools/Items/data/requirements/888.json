@@ -4,7 +4,7 @@
   "requirements": [
     {
       "type": "level",
-      "skill": "ranged",
+      "skill": "Ranged",
       "level": 20,
       "note": "needed for a willow shortbow"
     }

@@ -4,13 +4,13 @@
   "requirements": [
     {
       "type": "level",
-      "skill": "thieving",
+      "skill": "Thieving",
       "level": 50,
       "note": "Required to get the rogue outfit"
     },
     {
       "type": "level",
-      "skill": "agility",
+      "skill": "Agility",
       "level": 50,
       "note": "Required to get the rogue outfit"
     }

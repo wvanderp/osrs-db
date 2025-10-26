@@ -4,7 +4,7 @@
     "requirements": [
         {
             "type": "level",
-            "skill": "attack",
+            "skill": "Attack",
             "level": 60
         },
         {
