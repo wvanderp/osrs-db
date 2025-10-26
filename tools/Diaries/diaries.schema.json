@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "OSRS-DB/diaries.schema.json",
+    "title": "Diaries",
+    "description": "A schema for the generated diaries.json file: an array of achievement diary tier names.",
+    "type": "array",
+    "items": {
+        "$ref": "diariesList.schema.json"
+    },
+    "uniqueItems": true
+}
