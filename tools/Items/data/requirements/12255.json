@@ -1,0 +1,11 @@
+{
+  "id": 12255,
+  "name": "Armadyl robe legs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 20
+    }
+  ]
+}

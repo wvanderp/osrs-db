@@ -1,0 +1,18 @@
+{
+  "id": 8710,
+  "name": "Steel heraldic helm (Varrock)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 38,
+      "note": "To craft the helm"
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 16,
+      "note": "To build Pluming stand in POH"
+    }
+  ]
+}

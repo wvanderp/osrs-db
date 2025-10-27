@@ -1,0 +1,10 @@
+{
+  "id": 12434,
+  "name": "Top hat & monocle",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    }
+  ]
+}

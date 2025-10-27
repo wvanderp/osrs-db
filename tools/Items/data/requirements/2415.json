@@ -1,0 +1,15 @@
+{
+  "id": 2415,
+  "name": "Saradomin staff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 60
+    },
+    {
+      "type": "quest",
+      "quest": "MAGE_ARENA_I"
+    }
+  ]
+}

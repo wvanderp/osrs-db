@@ -1,0 +1,11 @@
+{
+  "id": 29607,
+  "name": "Voidwaker (deadman)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 75
+    }
+  ]
+}

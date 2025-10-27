@@ -1,0 +1,15 @@
+{
+  "id": 22244,
+  "name": "Dragon kiteshield (g)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 60
+    },
+    {
+      "type": "quest",
+      "quest": "DRAGON_SLAYER_II"
+    }
+  ]
+}

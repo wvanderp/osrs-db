@@ -1,0 +1,11 @@
+{
+  "id": 13362,
+  "name": "Shayzien gloves (2)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

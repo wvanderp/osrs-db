@@ -1,0 +1,11 @@
+{
+  "id": 25900,
+  "name": "Tztok slayer helmet (i)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    }
+  ]
+}

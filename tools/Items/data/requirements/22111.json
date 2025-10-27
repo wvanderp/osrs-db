@@ -1,0 +1,11 @@
+{
+  "id": 22111,
+  "name": "Dragonbone necklace",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 70
+    }
+  ]
+}

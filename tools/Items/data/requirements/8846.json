@@ -1,0 +1,16 @@
+{
+  "id": 8846,
+  "name": "Steel defender",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 5
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    }
+  ]
+}

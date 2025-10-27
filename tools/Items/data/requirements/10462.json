@@ -1,0 +1,11 @@
+{
+  "id": 10462,
+  "name": "Guthix robe top",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 20
+    }
+  ]
+}

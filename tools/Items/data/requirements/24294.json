@@ -1,0 +1,16 @@
+{
+  "id": 24294,
+  "name": "Dagon'hai robe bottom",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 70
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 9705,
+  "name": "Training bow",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 1
+    }
+  ]
+}

@@ -63,7 +63,8 @@
                                     "Herblore",
                                     "Hunter",
                                     "Slayer",
-                                    "Thieving"
+                                    "Thieving",
+                                    "Combat"
                                 ],
                                 "description": "The skill required"
                             },
