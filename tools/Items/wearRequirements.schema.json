@@ -158,6 +158,30 @@
                             }
                         },
                         "additionalProperties": false
+                    },
+                    {
+                        "description": "Achievement diary requirement for an item",
+                        "type": "object",
+                        "required": [
+                            "type",
+                            "diary"
+                        ],
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "const": "diary",
+                                "description": "Achievement diary requirement type"
+                            },
+                            "diary": {
+                                "$ref": "../Diaries/diariesList.schema.json",
+                                "description": "The achievement diary required"
+                            },
+                            "note": {
+                                "type": "string",
+                                "description": "An optional note about the requirement"
+                            }
+                        },
+                        "additionalProperties": false
                     }
                 ]
             }

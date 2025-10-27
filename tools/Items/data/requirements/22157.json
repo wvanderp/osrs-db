@@ -1,0 +1,31 @@
+{
+  "id": 22157,
+  "name": "Adamant kiteshield (Zamorak)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 43
+    },
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 70
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 41
+    },
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 70
+    }
+  ]
+}

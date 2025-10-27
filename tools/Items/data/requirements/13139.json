@@ -1,0 +1,10 @@
+{
+  "id": 13139,
+  "name": "Kandarin headgear 3",
+  "requirements": [
+    {
+      "type": "diary",
+      "diary": "KANDARIN_HARD"
+    }
+  ]
+}

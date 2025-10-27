@@ -1,0 +1,11 @@
+{
+  "id": 28202,
+  "name": "Steel felling axe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 5
+    }
+  ]
+}

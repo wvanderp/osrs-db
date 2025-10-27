@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "type": "string",
-    "title": "Quest",
+    "title": "QuestList",
     "description": "An enum of all quests available in Old School RuneScape.",
     "enum": [
         "ANIMAL_MAGNETISM",

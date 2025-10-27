@@ -1,0 +1,10 @@
+{
+  "id": 20053,
+  "name": "Half moon spectacles",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "THE_FREMENNIK_TRIALS"
+    }
+  ]
+}

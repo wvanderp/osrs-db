@@ -1,0 +1,21 @@
+{
+  "id": 13243,
+  "name": "Infernal pickaxe#Charged",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Mining",
+      "level": 61
+    },
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    },
+    {
+      "type": "level",
+      "skill": "Smithing",
+      "level": 81
+    }
+  ]
+}

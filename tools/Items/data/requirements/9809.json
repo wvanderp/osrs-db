@@ -1,0 +1,11 @@
+{
+  "id": 9809,
+  "name": "Woodcutting hood",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Woodcutting",
+      "level": 99
+    }
+  ]
+}

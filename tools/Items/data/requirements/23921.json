@@ -1,0 +1,10 @@
+{
+  "id": 23921,
+  "name": "Crystal crown (Meilyr)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "SONG_OF_THE_ELVES"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 29016,
+  "name": "Blue moon tassets",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 75
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 50
+    }
+  ]
+}

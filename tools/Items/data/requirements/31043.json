@@ -1,0 +1,10 @@
+{
+  "id": 31043,
+  "name": "Fletching knife",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "VALE_TOTEMS"
+    }
+  ]
+}

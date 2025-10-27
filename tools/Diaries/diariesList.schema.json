@@ -1,9 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "OSRS-DB/diariesList.schema.json",
+    "type": "string",
     "title": "DiariesList",
     "description": "An enum of all achievement diary tier identifiers (string). Reusable across schemas.",
-    "type": "string",
     "enum": [
         "ARDOUGNE_EASY",
         "ARDOUGNE_MEDIUM",

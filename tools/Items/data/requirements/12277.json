@@ -1,0 +1,11 @@
+{
+  "id": 12277,
+  "name": "Mithril platebody (g)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}
