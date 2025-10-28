@@ -1,0 +1,11 @@
+{
+  "id": 1428,
+  "name": "Mithril mace",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 20
+    }
+  ]
+}

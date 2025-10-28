@@ -1,0 +1,16 @@
+{
+  "id": 8688,
+  "name": "Steel heraldic helm (Dragon)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 38
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    }
+  ]
+}

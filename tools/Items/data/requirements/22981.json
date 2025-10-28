@@ -1,0 +1,16 @@
+{
+  "id": 22981,
+  "name": "Ferocious gloves",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 80
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 80
+    }
+  ]
+}

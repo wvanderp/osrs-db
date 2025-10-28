@@ -1,0 +1,16 @@
+{
+  "id": 24423,
+  "name": "Harmonised nightmare staff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 82
+    },
+    {
+      "type": "level",
+      "skill": "Hitpoints",
+      "level": 50
+    }
+  ]
+}

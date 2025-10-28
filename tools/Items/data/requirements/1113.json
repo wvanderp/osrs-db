@@ -1,0 +1,11 @@
+{
+  "id": 1113,
+  "name": "Rune chainbody",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 3099,
+  "name": "Mithril claws",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 20
+    }
+  ]
+}

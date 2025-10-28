@@ -1,0 +1,11 @@
+{
+  "id": 11824,
+  "name": "Zamorakian spear",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 70
+    }
+  ]
+}

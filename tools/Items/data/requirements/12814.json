@@ -1,0 +1,10 @@
+{
+  "id": 12814,
+  "name": "Ultimate ironman platebody",
+  "requirements": [
+    {
+      "type": "gameMode",
+      "mode": "Ultimate Ironman"
+    }
+  ]
+}

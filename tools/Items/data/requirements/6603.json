@@ -1,0 +1,15 @@
+{
+  "id": 6603,
+  "name": "White magic staff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

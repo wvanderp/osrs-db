@@ -183,6 +183,35 @@
                             }
                         },
                         "additionalProperties": false
+                    },
+                    {
+                        "description": "A gamemode restriction for an item",
+                        "type": "object",
+                        "required": [
+                            "type",
+                            "mode"
+                        ],
+                        "properties": {
+                            "type": {
+                                "type": "string",
+                                "const": "gameMode",
+                                "description": "Game mode restriction type"
+                            },
+                            "mode": {
+                                "type": "string",
+                                "enum": [
+                                    "Ironman",
+                                    "Hardcore Ironman",
+                                    "Ultimate Ironman"
+                                ],
+                                "description": "The game mode restricted"
+                            },
+                            "note": {
+                                "type": "string",
+                                "description": "An optional note about the restriction"
+                            }
+                        },
+                        "additionalProperties": false
                     }
                 ]
             }

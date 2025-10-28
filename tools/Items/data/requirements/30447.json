@@ -1,0 +1,16 @@
+{
+  "id": 30447,
+  "name": "Echo ahrim's robetop",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 70
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

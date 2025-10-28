@@ -1,0 +1,15 @@
+{
+  "id": 24727,
+  "name": "Hallowed hammer",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "SINS_OF_THE_FATHER"
+    },
+    {
+      "type": "level",
+      "skill": "Agility",
+      "level": 52
+    }
+  ]
+}

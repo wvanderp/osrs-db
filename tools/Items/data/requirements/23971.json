@@ -1,0 +1,16 @@
+{
+  "id": 23971,
+  "name": "Crystal helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    },
+    {
+      "type": "level",
+      "skill": "Agility",
+      "level": 50
+    }
+  ]
+}
