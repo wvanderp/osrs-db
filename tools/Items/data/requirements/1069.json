@@ -1,0 +1,11 @@
+{
+  "id": 1069,
+  "name": "Steel platelegs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 25906,
+  "name": "Vampyric slayer helmet (i)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 55
+    }
+  ]
+}

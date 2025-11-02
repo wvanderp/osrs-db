@@ -1,0 +1,10 @@
+{
+  "id": 22388,
+  "name": "Xeric's guard",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CHILDREN_OF_THE_SUN"
+    }
+  ]
+}

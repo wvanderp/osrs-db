@@ -1,0 +1,16 @@
+{
+  "id": 28939,
+  "name": "Sunfire fanatic chausses",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 60
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

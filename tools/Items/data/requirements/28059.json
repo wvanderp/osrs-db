@@ -1,0 +1,15 @@
+{
+  "id": 28059,
+  "name": "Dragon sq shield (cr)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 60
+    },
+    {
+      "type": "quest",
+      "quest": "LEGENDS_QUEST"
+    }
+  ]
+}

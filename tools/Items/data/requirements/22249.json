@@ -1,0 +1,11 @@
+{
+  "id": 22249,
+  "name": "Necklace of anguish (or)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hitpoints",
+      "level": 75
+    }
+  ]
+}

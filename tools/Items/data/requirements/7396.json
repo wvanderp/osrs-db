@@ -1,0 +1,11 @@
+{
+  "id": 7396,
+  "name": "Blue wizard hat (t)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 25553,
+  "name": "Golden prospector legs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Mining",
+      "level": 30
+    }
+  ]
+}

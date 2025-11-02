@@ -1,0 +1,16 @@
+{
+  "id": 30523,
+  "name": "Echo ahrim's robeskirt",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 70
+    }
+  ]
+}

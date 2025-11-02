@@ -1,0 +1,11 @@
+{
+  "id": 25918,
+  "name": "Dragon hunter crossbow (b)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

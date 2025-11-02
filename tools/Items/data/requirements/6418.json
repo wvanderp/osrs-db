@@ -1,0 +1,20 @@
+{
+  "id": 6418,
+  "name": "Maple blackjack(o)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Thieving",
+      "level": 30
+    },
+    {
+      "type": "quest",
+      "quest": "ROGUE_TRADER"
+    }
+  ]
+}

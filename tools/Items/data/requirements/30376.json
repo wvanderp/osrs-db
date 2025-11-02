@@ -1,0 +1,10 @@
+{
+  "id": 30376,
+  "name": "Amulet of the monarchs",
+  "requirements": [
+    {
+      "type": "gameMode",
+      "gameMode": "Grid Master"
+    }
+  ]
+}

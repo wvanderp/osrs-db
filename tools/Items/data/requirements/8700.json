@@ -1,0 +1,21 @@
+{
+  "id": 8700,
+  "name": "Steel heraldic helm (Kandarin)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 5
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 38
+    }
+  ]
+}

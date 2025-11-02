@@ -1,0 +1,11 @@
+{
+  "id": 10346,
+  "name": "3rd age platelegs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 65
+    }
+  ]
+}

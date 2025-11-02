@@ -1,0 +1,11 @@
+{
+  "id": 286,
+  "name": "Orange goblin mail",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "LAND_OF_THE_GOBLINS"
+    }
+  ],
+  "note": "only during Land of the Goblins quest"
+}

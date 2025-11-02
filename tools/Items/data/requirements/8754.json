@@ -1,0 +1,21 @@
+{
+  "id": 8754,
+  "name": "Steel kiteshield (Fairy)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 41
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 43
+    }
+  ]
+}

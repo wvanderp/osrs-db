@@ -1,0 +1,11 @@
+{
+  "id": 27861,
+  "name": "Abyssal dagger (bh)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 70
+    }
+  ]
+}

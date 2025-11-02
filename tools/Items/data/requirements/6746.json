@@ -1,0 +1,10 @@
+{
+  "id": 6746,
+  "name": "Darklight",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "SHADOW_OF_THE_STORM"
+    }
+  ]
+}

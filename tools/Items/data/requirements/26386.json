@@ -1,0 +1,11 @@
+{
+  "id": 26386,
+  "name": "Torva platelegs (restored)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 80
+    }
+  ]
+}

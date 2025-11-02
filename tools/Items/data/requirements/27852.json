@@ -1,0 +1,11 @@
+{
+  "id": 27852,
+  "name": "Corrupted zuriel's robe bottom (bh)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}
