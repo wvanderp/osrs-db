@@ -1,0 +1,11 @@
+{
+  "id": 581,
+  "name": "Black robe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 1
+    }
+  ]
+}

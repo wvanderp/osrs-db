@@ -1,0 +1,11 @@
+{
+  "id": 552,
+  "name": "Ghostspeak amulet",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "THE_RESTLESS_GHOST",
+      "note": "Partial completion is enough to obtain the amulet"
+    }
+  ]
+}

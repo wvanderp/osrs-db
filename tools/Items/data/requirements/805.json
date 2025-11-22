@@ -1,0 +1,11 @@
+{
+  "id": 805,
+  "name": "Rune thrownaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 40
+    }
+  ]
+}

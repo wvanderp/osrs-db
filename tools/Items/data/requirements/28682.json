@@ -1,0 +1,16 @@
+{
+  "id": 28682,
+  "name": "Dinh's blazing bulwark",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 75
+    },
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 75
+    }
+  ]
+}

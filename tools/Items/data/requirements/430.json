@@ -1,0 +1,10 @@
+{
+  "id": 430,
+  "name": "Medical gown",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "BIOHAZARD"
+    }
+  ]
+}

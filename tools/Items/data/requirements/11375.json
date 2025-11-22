@@ -1,0 +1,16 @@
+{
+  "id": 11375,
+  "name": "Adamant hasta (unp)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    },
+    {
+      "type": "quest",
+      "quest": "BARBARIAN_TRAINING",
+      "note": "Specifically the Smithing portion of Barbarian Training."
+    }
+  ]
+}

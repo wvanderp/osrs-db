@@ -1,0 +1,12 @@
+{
+  "id": 11875,
+  "name": "Broad bolts",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 65
+    }
+  ],
+  "note": "Broad bolts require 65 Ranged to equip/use due to being considered an enchanted bolt type despite not having an enchantment. If unstrung then 65 fletching is required for crafting."
+}

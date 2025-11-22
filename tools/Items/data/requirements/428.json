@@ -1,0 +1,12 @@
+{
+  "id": 428,
+  "name": "Priest gown (bottom)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "BIOHAZARD",
+      "note": "Required to wear as part of the quest."
+    }
+  ],
+  "note": "The priest gown (bottom) is worn as part of the Priest gown set during the Biohazard quest."
+}

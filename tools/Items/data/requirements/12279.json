@@ -1,0 +1,11 @@
+{
+  "id": 12279,
+  "name": "Mithril platelegs (g)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

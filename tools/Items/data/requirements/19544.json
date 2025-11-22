@@ -1,0 +1,11 @@
+{
+  "id": 19544,
+  "name": "Tormented bracelet",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hitpoints",
+      "level": 75
+    }
+  ]
+}

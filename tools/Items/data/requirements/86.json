@@ -1,0 +1,11 @@
+{
+  "id": 86,
+  "name": "Pendant of lucien",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "TEMPLE_OF_IKOV"
+    }
+  ],
+  "note": "Lucien gives the player the pendant immediately after starting the quest. Equipping it allows access to the northern dungeon door in the Temple of Ikov dungeon."
+}

@@ -1,0 +1,10 @@
+{
+  "id": 426,
+  "name": "Priest gown (top)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "BIOHAZARD"
+    }
+  ]
+}

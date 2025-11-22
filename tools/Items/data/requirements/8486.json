@@ -1,0 +1,22 @@
+{
+  "id": 8486,
+  "name": "Rune heraldic helm (Money)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 38
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 16,
+      "note": "For creating the Pluming stand"
+    }
+  ]
+}

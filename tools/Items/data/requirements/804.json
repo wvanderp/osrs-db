@@ -1,0 +1,11 @@
+{
+  "id": 804,
+  "name": "Adamant thrownaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 30
+    }
+  ]
+}

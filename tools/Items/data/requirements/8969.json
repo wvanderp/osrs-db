@@ -1,0 +1,10 @@
+{
+  "id": 8969,
+  "name": "Lucky shot flag",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    }
+  ]
+}

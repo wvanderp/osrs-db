@@ -1,0 +1,17 @@
+{
+  "id": 20011,
+  "name": "3rd age axe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 65
+    },
+    {
+      "type": "level",
+      "skill": "Woodcutting",
+      "level": 61,
+      "note": "Required to use, not to wield."
+    }
+  ]
+}

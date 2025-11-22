@@ -1,0 +1,10 @@
+{
+  "id": 285,
+  "name": "Plague trousers",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "SHEEP_HERDER"
+    }
+  ]
+}

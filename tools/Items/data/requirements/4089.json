@@ -1,0 +1,16 @@
+{
+  "id": 4089,
+  "name": "Mystic hat",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

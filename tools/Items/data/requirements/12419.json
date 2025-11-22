@@ -1,0 +1,16 @@
+{
+  "id": 12419,
+  "name": "Light infinity hat",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 25
+    }
+  ]
+}

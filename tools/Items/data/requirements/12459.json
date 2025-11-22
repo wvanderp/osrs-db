@@ -1,0 +1,16 @@
+{
+  "id": 12459,
+  "name": "Dark infinity bottoms",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 25
+    }
+  ]
+}

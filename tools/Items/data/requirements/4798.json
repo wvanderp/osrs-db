@@ -1,0 +1,13 @@
+{
+  "id": 4798,
+  "name": "Adamant brutal",
+  "requirements": [
+    {
+      "type": "equipment",
+      "equipment": [
+        4827
+      ],
+      "note": "Only usable with a comp ogre bow"
+    }
+  ]
+}

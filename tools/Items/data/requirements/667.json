@@ -1,0 +1,15 @@
+{
+  "id": 667,
+  "name": "Blurite sword",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 1
+    },
+    {
+      "type": "quest",
+      "quest": "THE_KNIGHTS_SWORD"
+    }
+  ]
+}

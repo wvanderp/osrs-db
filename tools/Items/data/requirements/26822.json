@@ -1,0 +1,10 @@
+{
+  "id": 26822,
+  "name": "Abyssal lantern (Unlit)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "TEMPLE_OF_THE_EYE"
+    }
+  ]
+}

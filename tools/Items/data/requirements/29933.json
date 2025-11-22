@@ -1,0 +1,10 @@
+{
+  "id": 29933,
+  "name": "Snake mask",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "DEATH_ON_THE_ISLE"
+    }
+  ]
+}

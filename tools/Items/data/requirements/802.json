@@ -1,0 +1,11 @@
+{
+  "id": 802,
+  "name": "Steel thrownaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 5
+    }
+  ]
+}

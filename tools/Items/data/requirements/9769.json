@@ -1,0 +1,11 @@
+{
+  "id": 9769,
+  "name": "Hitpoints cape#Trimmed",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hitpoints",
+      "level": 99
+    }
+  ]
+}

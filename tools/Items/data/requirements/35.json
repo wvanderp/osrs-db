@@ -1,0 +1,15 @@
+{
+  "id": 35,
+  "name": "Excalibur",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 20
+    },
+    {
+      "type": "quest",
+      "quest": "MERLINS_CRYSTAL"
+    }
+  ]
+}

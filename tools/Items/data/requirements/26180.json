@@ -1,0 +1,10 @@
+{
+  "id": 26180,
+  "name": "Hardcore group ironman platelegs",
+  "requirements": [
+    {
+      "type": "gameMode",
+      "mode": "Hardcore Ironman"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 7122,
+  "name": "Stripy pirate shirt (red)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    }
+  ]
+}

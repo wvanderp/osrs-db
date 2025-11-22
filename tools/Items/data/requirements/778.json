@@ -1,0 +1,10 @@
+{
+  "id": 778,
+  "name": "Steel gauntlets",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "FAMILY_CREST"
+    }
+  ]
+}

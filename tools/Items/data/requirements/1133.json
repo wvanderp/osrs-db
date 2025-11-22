@@ -1,0 +1,16 @@
+{
+  "id": 1133,
+  "name": "Studded body",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 20
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

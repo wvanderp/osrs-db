@@ -1,0 +1,17 @@
+{
+  "id": 4150,
+  "name": "Broad arrows",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 55,
+      "note": "To purchase and use"
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 50
+    }
+  ]
+}

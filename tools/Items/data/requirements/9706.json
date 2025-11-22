@@ -1,0 +1,13 @@
+{
+  "id": 9706,
+  "name": "Training arrows",
+  "requirements": [
+    {
+      "type": "equipment",
+      "equipment": [
+        9705
+      ],
+      "note": "Can only be fired using a Training bow."
+    }
+  ]
+}

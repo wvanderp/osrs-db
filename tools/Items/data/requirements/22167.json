@@ -1,0 +1,21 @@
+{
+  "id": 22167,
+  "name": "Adamant heraldic helm (Fairy)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 38
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 16
+    }
+  ]
+}

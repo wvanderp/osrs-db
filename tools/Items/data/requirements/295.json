@@ -1,0 +1,11 @@
+{
+  "id": 295,
+  "name": "Glarial's amulet",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "WATERFALL_QUEST",
+      "note": "Required during the Waterfall Quest to enter the Waterfall Dungeon. After the quest, it is not needed to enter the dungeon."
+    }
+  ]
+}

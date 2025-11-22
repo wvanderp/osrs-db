@@ -1,0 +1,11 @@
+{
+  "id": 1345,
+  "name": "Adamant warhammer",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 30
+    }
+  ]
+}

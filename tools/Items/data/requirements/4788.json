@@ -1,0 +1,14 @@
+{
+  "id": 4788,
+  "name": "Black brutal",
+  "requirements": [
+    {
+      "type": "equipment",
+      "equipment": [
+        2883,
+        4827
+      ],
+      "note": "Can only be used with an Ogre bow or Composite bow"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 589,
+  "name": "Gnome amulet",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "TREE_GNOME_VILLAGE"
+    }
+  ]
+}

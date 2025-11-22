@@ -1,0 +1,11 @@
+{
+  "id": 13365,
+  "name": "Shayzien greaves (2)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

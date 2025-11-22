@@ -1,0 +1,11 @@
+{
+  "id": 25112,
+  "name": "Echo pickaxe",
+  "requirements": [
+    {
+      "type": "gameMode",
+      "gameMode": "Grid Master",
+      "note": "Can be obtained by unlocking the Power Miner relic during the Grid Master community event"
+    }
+  ]
+}
