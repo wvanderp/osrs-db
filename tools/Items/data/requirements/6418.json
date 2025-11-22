@@ -11,10 +11,6 @@
       "type": "level",
       "skill": "Thieving",
       "level": 30
-    },
-    {
-      "type": "quest",
-      "quest": "ROGUE_TRADER"
     }
   ]
 }
