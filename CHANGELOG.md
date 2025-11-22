@@ -9,6 +9,11 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 
 ### Added
 
+2025-11-22 — @copilot — Fixed: Automatic loading of referenced JSON schemas during schema linting to resolve relative $refs (e.g., Diaries/diariesList.schema.json). (#TBD)
+
+- `lintWithSchema` now detects and registers any `.schema.json` files referenced with `$ref` and recursively resolves nested references.
+- `wearRequirements.linter.ts` now explicitly registers the `Diaries/diariesList.schema.json` so that `../Diaries/diariesList.schema.json` references resolve.
+
 2025-10-12 — @copilot — Added: TypeScript compilation of facade files and proper npm package exports. (#TBD)
 
 - Build script now compiles `*.g.ts` facade files to `.mjs` with `.d.ts` type definitions

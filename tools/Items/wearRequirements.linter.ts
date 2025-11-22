@@ -12,6 +12,7 @@ export default function lintWearRequirements(): void {
     const requirementsDir = path.join(__dirname, "data", "requirements");
     const schemaPath = path.join(__dirname, "wearRequirements.schema.json");
     const questListSchemaPath = path.join(__dirname, "..", "Quests", "QuestList.schema.json");
+    const diariesListSchemaPath = path.join(__dirname, "..", "Diaries", "diariesList.schema.json");
 
     // Check if requirements directory exists
     if (!fs.existsSync(requirementsDir)) {
@@ -22,11 +23,13 @@ export default function lintWearRequirements(): void {
     // Load the schemas
     const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
     const questListSchema = JSON.parse(fs.readFileSync(questListSchemaPath, "utf8"));
+    const diariesListSchema = JSON.parse(fs.readFileSync(diariesListSchemaPath, "utf8"));
 
     // Setup AJV validator and add the referenced schema
     const ajv = new Ajv();
-    // Add the quest list schema so it can be resolved by the $ref
+    // Add referenced schemas so AJV can resolve the $refs
     ajv.addSchema(questListSchema, "Quests/QuestList.schema.json");
+    ajv.addSchema(diariesListSchema, "Diaries/diariesList.schema.json");
     const validate = ajv.compile(schema);
 
     // Get all JSON files in the requirements directory
