@@ -1,0 +1,11 @@
+{
+  "id": 6527,
+  "name": "Tzhaar-ket-em",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    }
+  ]
+}

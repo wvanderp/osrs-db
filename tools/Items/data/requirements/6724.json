@@ -1,0 +1,11 @@
+{
+  "id": 6724,
+  "name": "Seercull",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 50
+    }
+  ]
+}

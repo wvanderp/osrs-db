@@ -1,0 +1,16 @@
+{
+  "id": 6414,
+  "name": "Willow blackjack(d)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    },
+    {
+      "type": "level",
+      "skill": "Thieving",
+      "level": 20
+    }
+  ]
+}

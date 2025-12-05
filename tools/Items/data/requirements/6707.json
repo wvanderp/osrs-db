@@ -1,0 +1,10 @@
+{
+  "id": 6707,
+  "name": "Camulet",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "ENAKHRAS_LAMENT"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 6420,
+  "name": "Maple blackjack(d)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Thieving",
+      "level": 30
+    }
+  ]
+}

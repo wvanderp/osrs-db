@@ -1,0 +1,11 @@
+{
+  "id": 6739,
+  "name": "Dragon axe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    }
+  ]
+}

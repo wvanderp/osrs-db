@@ -1,0 +1,15 @@
+{
+  "id": 6589,
+  "name": "White battleaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 6631,
+  "name": "White sq shield",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 6416,
+  "name": "Maple blackjack",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Thieving",
+      "level": 30
+    },
+    {
+      "type": "quest",
+      "quest": "THE_FEUD",
+      "note": "Player must have started The Feud quest by talking to Ali Morrisane."
+    }
+  ]
+}

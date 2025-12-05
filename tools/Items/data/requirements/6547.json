@@ -1,0 +1,10 @@
+{
+  "id": 6547,
+  "name": "Doctor's hat",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "A_TAIL_OF_TWO_CATS"
+    }
+  ]
+}

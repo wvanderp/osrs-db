@@ -1,0 +1,15 @@
+{
+  "id": 6629,
+  "name": "White gloves",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

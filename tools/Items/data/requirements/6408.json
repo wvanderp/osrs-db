@@ -1,0 +1,16 @@
+{
+  "id": 6408,
+  "name": "Oak blackjack(o)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    },
+    {
+      "type": "level",
+      "skill": "Thieving",
+      "level": 10
+    }
+  ]
+}

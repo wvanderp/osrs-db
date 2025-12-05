@@ -1,0 +1,15 @@
+{
+  "id": 6601,
+  "name": "White mace",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

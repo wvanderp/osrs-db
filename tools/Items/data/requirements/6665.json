@@ -1,0 +1,15 @@
+{
+  "id": 6665,
+  "name": "Mudskipper hat",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 32
+    },
+    {
+      "type": "quest",
+      "quest": "SKIPPY_AND_THE_MOGRES"
+    }
+  ]
+}

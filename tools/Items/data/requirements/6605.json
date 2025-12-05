@@ -1,0 +1,15 @@
+{
+  "id": 6605,
+  "name": "White sword",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

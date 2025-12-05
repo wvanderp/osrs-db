@@ -1,0 +1,20 @@
+{
+  "id": 6599,
+  "name": "White halberd",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    },
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 5
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

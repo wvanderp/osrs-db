@@ -1,0 +1,15 @@
+{
+  "id": 6623,
+  "name": "White full helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

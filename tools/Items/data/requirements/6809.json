@@ -1,0 +1,16 @@
+{
+  "id": 6809,
+  "name": "Granite legs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 50
+    }
+  ]
+}

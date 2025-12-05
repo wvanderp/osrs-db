@@ -1,0 +1,15 @@
+{
+  "id": 6625,
+  "name": "White platelegs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

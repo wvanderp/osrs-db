@@ -1,0 +1,16 @@
+{
+  "id": 6526,
+  "name": "Toktz-mej-tal",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 60
+    },
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    }
+  ]
+}

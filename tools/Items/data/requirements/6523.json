@@ -1,0 +1,11 @@
+{
+  "id": 6523,
+  "name": "Toktz-xil-ak",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    }
+  ]
+}

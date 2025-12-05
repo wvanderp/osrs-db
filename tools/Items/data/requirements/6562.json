@@ -1,0 +1,16 @@
+{
+  "id": 6562,
+  "name": "Mud battlestaff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 30
+    }
+  ]
+}

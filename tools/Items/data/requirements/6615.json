@@ -1,0 +1,15 @@
+{
+  "id": 6615,
+  "name": "White chainbody",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 6591,
+  "name": "White dagger",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 6541,
+  "name": "Mouse toy",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "A_TAIL_OF_TWO_CATS"
+    }
+  ]
+}

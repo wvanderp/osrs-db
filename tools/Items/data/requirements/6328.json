@@ -1,0 +1,16 @@
+{
+  "id": 6328,
+  "name": "Snakeskin boots",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

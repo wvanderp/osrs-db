@@ -1,0 +1,15 @@
+{
+  "id": 6627,
+  "name": "White plateskirt",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "WANTED"
+    }
+  ]
+}

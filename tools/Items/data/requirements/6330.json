@@ -1,0 +1,17 @@
+{
+  "id": 6330,
+  "name": "Snakeskin vambraces",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ],
+  "note": "Members' item"
+}
