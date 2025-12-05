@@ -1,6 +1,6 @@
 {
-  "id": 6239,
-  "name": "Broodoo shield (disease)",
+  "id": 6233,
+  "name": "Broodoo shield (poison)#(1)",
   "requirements": [
     {
       "type": "level",
@@ -12,5 +12,6 @@
       "skill": "Magic",
       "level": 25
     }
-  ]
+  ],
+  "note": "This item is members only"
 }

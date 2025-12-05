@@ -1,0 +1,11 @@
+{
+  "id": 4507,
+  "name": "Decorative shield (white)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

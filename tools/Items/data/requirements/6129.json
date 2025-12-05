@@ -1,0 +1,15 @@
+{
+  "id": 6129,
+  "name": "Rock-shell plate",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "quest",
+      "quest": "THE_FREMENNIK_TRIALS"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 6069,
+  "name": "Mourner boots",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "MOURNINGS_END_PART_I"
+    }
+  ]
+}

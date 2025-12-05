@@ -1,0 +1,11 @@
+{
+  "id": 4726,
+  "name": "Guthan's warspear#Undamaged",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 70
+    }
+  ]
+}

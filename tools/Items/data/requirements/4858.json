@@ -1,16 +1,16 @@
 {
-  "id": 6239,
-  "name": "Broodoo shield (disease)",
+  "id": 4858,
+  "name": "Ahrim's hood",
   "requirements": [
     {
       "type": "level",
       "skill": "Defence",
-      "level": 25
+      "level": 70
     },
     {
       "type": "level",
       "skill": "Magic",
-      "level": 25
+      "level": 70
     }
   ]
 }

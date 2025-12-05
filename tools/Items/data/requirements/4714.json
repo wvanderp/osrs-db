@@ -1,16 +1,16 @@
 {
-  "id": 6239,
-  "name": "Broodoo shield (disease)",
+  "id": 4714,
+  "name": "Ahrim's robeskirt (Undamaged)",
   "requirements": [
     {
       "type": "level",
       "skill": "Defence",
-      "level": 25
+      "level": 70
     },
     {
       "type": "level",
       "skill": "Magic",
-      "level": 25
+      "level": 70
     }
   ]
 }

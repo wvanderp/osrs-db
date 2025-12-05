@@ -1,0 +1,10 @@
+{
+  "id": 5608,
+  "name": "Fox (Recruitment Drive)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECRUITMENT_DRIVE"
+    }
+  ]
+}

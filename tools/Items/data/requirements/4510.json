@@ -1,0 +1,12 @@
+{
+  "id": 4510,
+  "name": "Decorative armour (gold platelegs)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ],
+  "note": "Has the same stats as adamant platelegs."
+}

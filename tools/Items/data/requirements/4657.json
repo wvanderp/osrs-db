@@ -1,0 +1,11 @@
+{
+  "id": 4657,
+  "name": "Ring of visibility",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "DESERT_TREASURE_I"
+    }
+  ],
+  "note": "This item is obtained by completing the quest \"Desert Treasure I\" and is untradeable. While it has no explicit \"wear\" requirements, it is intrinsically linked to the quest's completion which must be done first before it can be used."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 4970,
+  "name": "Torag's platelegs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 5554,
+  "name": "Rogue mask",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Agility",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Thieving",
+      "level": 50
+    }
+  ]
+}

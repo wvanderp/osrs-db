@@ -1,0 +1,11 @@
+{
+  "id": 4898,
+  "name": "Dharok's platelegs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

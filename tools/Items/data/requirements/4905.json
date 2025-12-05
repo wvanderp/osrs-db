@@ -1,0 +1,11 @@
+{
+  "id": 4905,
+  "name": "Guthan's helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "id": 6239,
-  "name": "Broodoo shield (disease)",
+  "id": 6269,
+  "name": "Broodoo shield (combat)",
   "requirements": [
     {
       "type": "level",
@@ -12,5 +12,6 @@
       "skill": "Magic",
       "level": 25
     }
-  ]
+  ],
+  "note": "When created, the shield comes with 10 charges."
 }

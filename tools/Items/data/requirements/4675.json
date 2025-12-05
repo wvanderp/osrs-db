@@ -1,0 +1,20 @@
+{
+  "id": 4675,
+  "name": "Ancient staff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 50
+    },
+    {
+      "type": "quest",
+      "quest": "DESERT_TREASURE_I"
+    }
+  ]
+}

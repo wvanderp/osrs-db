@@ -1,0 +1,10 @@
+{
+  "id": 5609,
+  "name": "Chicken (Recruitment Drive)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECRUITMENT_DRIVE"
+    }
+  ]
+}

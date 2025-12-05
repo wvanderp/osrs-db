@@ -1,0 +1,15 @@
+{
+  "id": 6082,
+  "name": "Fixed device",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 60
+    },
+    {
+      "type": "quest",
+      "quest": "MOURNINGS_END_PART_I"
+    }
+  ]
+}

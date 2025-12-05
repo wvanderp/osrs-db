@@ -1,0 +1,16 @@
+{
+  "id": 5556,
+  "name": "Rogue gloves",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Agility",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Thieving",
+      "level": 50
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 4508,
+  "name": "Decorative sword (gold)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    }
+  ]
+}

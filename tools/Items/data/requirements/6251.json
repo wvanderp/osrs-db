@@ -1,5 +1,5 @@
 {
-  "id": 6239,
+  "id": 6251,
   "name": "Broodoo shield (disease)",
   "requirements": [
     {
@@ -12,5 +12,6 @@
       "skill": "Magic",
       "level": 25
     }
-  ]
+  ],
+  "note": "Members only"
 }

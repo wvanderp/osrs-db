@@ -1,0 +1,15 @@
+{
+  "id": 6130,
+  "name": "Rock-shell legs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "quest",
+      "quest": "THE_FREMENNIK_TRIALS"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 5553,
+  "name": "Rogue top",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Agility",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Thieving",
+      "level": 50
+    }
+  ]
+}

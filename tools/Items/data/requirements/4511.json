@@ -1,0 +1,11 @@
+{
+  "id": 4511,
+  "name": "Decorative helm (gold) - Normal",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

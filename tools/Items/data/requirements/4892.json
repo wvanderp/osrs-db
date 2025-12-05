@@ -1,0 +1,11 @@
+{
+  "id": 4892,
+  "name": "Dharok's platebody",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

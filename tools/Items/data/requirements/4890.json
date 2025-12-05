@@ -1,0 +1,16 @@
+{
+  "id": 4890,
+  "name": "Dharok's greataxe (broken)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 70
+    },
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 70
+    }
+  ]
+}

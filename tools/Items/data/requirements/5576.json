@@ -1,0 +1,20 @@
+{
+  "id": 5576,
+  "name": "Initiate cuisse",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    },
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "RECRUITMENT_DRIVE"
+    }
+  ]
+}

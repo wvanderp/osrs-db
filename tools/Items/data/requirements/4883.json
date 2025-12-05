@@ -1,0 +1,11 @@
+{
+  "id": 4883,
+  "name": "Dharok's helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

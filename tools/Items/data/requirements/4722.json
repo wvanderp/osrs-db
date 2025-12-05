@@ -1,0 +1,11 @@
+{
+  "id": 4722,
+  "name": "Dharok's platelegs#Undamaged",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

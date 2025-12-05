@@ -1,0 +1,10 @@
+{
+  "id": 6109,
+  "name": "Ghostly hood",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CURSE_OF_THE_EMPTY_LORD"
+    }
+  ]
+}

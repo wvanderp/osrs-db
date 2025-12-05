@@ -1,0 +1,11 @@
+{
+  "id": 4551,
+  "name": "Spiny helmet",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    }
+  ]
+}

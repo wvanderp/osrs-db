@@ -1,0 +1,10 @@
+{
+  "id": 4502,
+  "name": "Bearhead",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "MOUNTAIN_DAUGHTER"
+    }
+  ]
+}

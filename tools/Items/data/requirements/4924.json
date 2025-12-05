@@ -1,0 +1,11 @@
+{
+  "id": 4924,
+  "name": "Guthan's chainskirt",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}
