@@ -1,0 +1,11 @@
+{
+  "id": 2601,
+  "name": "Adamant platelegs (t)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 3393,
+  "name": "Splitbark boots",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

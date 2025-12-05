@@ -1,0 +1,12 @@
+{
+  "id": 4164,
+  "name": "Facemask",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 10,
+      "note": "Cannot be boosted."
+    }
+  ]
+}

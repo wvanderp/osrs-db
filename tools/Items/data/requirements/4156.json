@@ -1,0 +1,16 @@
+{
+  "id": 4156,
+  "name": "Mirror shield",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 25
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

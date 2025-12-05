@@ -1,0 +1,16 @@
+{
+  "id": 3385,
+  "name": "Splitbark helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 2990,
+  "name": "Chompy bird hat (ogre expert)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Fletching",
+      "level": 5
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 30
+    }
+  ]
+}

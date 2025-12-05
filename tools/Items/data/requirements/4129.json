@@ -1,0 +1,11 @@
+{
+  "id": 4129,
+  "name": "Adamant boots",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

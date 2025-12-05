@@ -1,0 +1,16 @@
+{
+  "id": 3198,
+  "name": "Mithril halberd",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 20
+    },
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 10
+    }
+  ]
+}

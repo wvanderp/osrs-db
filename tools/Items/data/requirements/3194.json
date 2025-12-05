@@ -1,0 +1,11 @@
+{
+  "id": 3194,
+  "name": "Steel halberd",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 5
+    }
+  ]
+}

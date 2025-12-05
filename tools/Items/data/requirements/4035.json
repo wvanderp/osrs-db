@@ -1,0 +1,10 @@
+{
+  "id": 4035,
+  "name": "10th squad sigil",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "MONKEY_MADNESS_I"
+    }
+  ]
+}

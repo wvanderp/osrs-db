@@ -1,0 +1,16 @@
+{
+  "id": 4091,
+  "name": "Mystic robe top",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

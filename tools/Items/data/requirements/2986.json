@@ -1,0 +1,16 @@
+{
+  "id": 2986,
+  "name": "Chompy bird hat (ogre forester)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Fletching",
+      "level": 5
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 30
+    }
+  ]
+}

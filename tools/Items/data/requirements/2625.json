@@ -1,0 +1,11 @@
+{
+  "id": 2625,
+  "name": "Rune platelegs (t)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

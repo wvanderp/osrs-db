@@ -1,0 +1,16 @@
+{
+  "id": 4095,
+  "name": "Mystic gloves",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

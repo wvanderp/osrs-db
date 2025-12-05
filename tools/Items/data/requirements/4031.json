@@ -1,0 +1,10 @@
+{
+  "id": 4031,
+  "name": "Karamjan monkey greegree",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "MONKEY_MADNESS_I"
+    }
+  ]
+}

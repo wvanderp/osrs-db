@@ -1,0 +1,15 @@
+{
+  "id": 2661,
+  "name": "Saradomin platebody",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "quest",
+      "quest": "DRAGON_SLAYER_I"
+    }
+  ]
+}

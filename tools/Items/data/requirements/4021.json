@@ -1,0 +1,10 @@
+{
+  "id": 4021,
+  "name": "M'speak amulet",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "MONKEY_MADNESS_I"
+    }
+  ]
+}

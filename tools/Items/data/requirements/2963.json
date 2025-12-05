@@ -1,0 +1,11 @@
+{
+  "id": 2963,
+  "name": "Silver sickle (b)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "NATURE_SPIRIT",
+      "note": "To bless the silver sickle"
+    }
+  ]
+}

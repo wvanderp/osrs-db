@@ -1,0 +1,16 @@
+{
+  "id": 4170,
+  "name": "Slayer's staff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 55
+    }
+  ]
+}

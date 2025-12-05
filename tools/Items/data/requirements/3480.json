@@ -1,0 +1,11 @@
+{
+  "id": 3480,
+  "name": "Guthix plateskirt",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

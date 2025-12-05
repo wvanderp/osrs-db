@@ -1,0 +1,11 @@
+{
+  "id": 4087,
+  "name": "Dragon platelegs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 60
+    }
+  ]
+}

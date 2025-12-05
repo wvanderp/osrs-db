@@ -1,0 +1,15 @@
+{
+  "id": 3755,
+  "name": "Farseer helm",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "THE_FREMENNIK_TRIALS"
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 45
+    }
+  ]
+}

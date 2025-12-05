@@ -1,0 +1,11 @@
+{
+  "id": 2655,
+  "name": "Zamorak platelegs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

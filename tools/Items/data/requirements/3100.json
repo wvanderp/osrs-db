@@ -1,0 +1,11 @@
+{
+  "id": 3100,
+  "name": "Adamant claws",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    }
+  ]
+}

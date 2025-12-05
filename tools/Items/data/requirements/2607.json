@@ -1,0 +1,11 @@
+{
+  "id": 2607,
+  "name": "Adamant platebody (g)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

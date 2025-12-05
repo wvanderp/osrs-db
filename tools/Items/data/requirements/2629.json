@@ -1,0 +1,11 @@
+{
+  "id": 2629,
+  "name": "Rune kiteshield (t)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

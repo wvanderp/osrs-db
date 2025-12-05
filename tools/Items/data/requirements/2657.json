@@ -1,0 +1,11 @@
+{
+  "id": 2657,
+  "name": "Zamorak full helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

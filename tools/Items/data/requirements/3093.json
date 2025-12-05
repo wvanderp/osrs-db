@@ -1,0 +1,11 @@
+{
+  "id": 3093,
+  "name": "Black dart#(unp)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 10
+    }
+  ]
+}

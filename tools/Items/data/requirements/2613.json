@@ -1,0 +1,11 @@
+{
+  "id": 2613,
+  "name": "Adamant full helm (g)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

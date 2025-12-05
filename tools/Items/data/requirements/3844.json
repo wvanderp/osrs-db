@@ -1,0 +1,10 @@
+{
+  "id": 3844,
+  "name": "Book of balance",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "HORROR_FROM_THE_DEEP"
+    }
+  ]
+}

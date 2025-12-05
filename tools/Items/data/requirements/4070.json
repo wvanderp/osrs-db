@@ -1,0 +1,11 @@
+{
+  "id": 4070,
+  "name": "Decorative armour (red platelegs)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 1
+    }
+  ]
+}

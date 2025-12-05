@@ -1,0 +1,16 @@
+{
+  "id": 2978,
+  "name": "Chompy bird hat (ogre bowman)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Fletching",
+      "level": 5
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 30
+    }
+  ]
+}

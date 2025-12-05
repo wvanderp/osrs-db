@@ -1,0 +1,11 @@
+{
+  "id": 4168,
+  "name": "Nose peg",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 60
+    }
+  ]
+}

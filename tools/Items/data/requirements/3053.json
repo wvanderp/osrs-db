@@ -1,0 +1,16 @@
+{
+  "id": 3053,
+  "name": "Lava battlestaff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 30
+    }
+  ]
+}

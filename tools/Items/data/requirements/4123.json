@@ -1,0 +1,11 @@
+{
+  "id": 4123,
+  "name": "Steel boots",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    }
+  ]
+}

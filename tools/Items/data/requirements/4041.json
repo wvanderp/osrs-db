@@ -1,0 +1,11 @@
+{
+  "id": 4041,
+  "name": "Saradomin cloak",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 40
+    }
+  ]
+}

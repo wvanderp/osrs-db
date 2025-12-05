@@ -1,0 +1,16 @@
+{
+  "id": 2981,
+  "name": "Chompy bird hat (yeoman)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Fletching",
+      "level": 5
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 30
+    }
+  ]
+}

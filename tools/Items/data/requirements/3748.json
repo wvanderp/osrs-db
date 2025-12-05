@@ -1,0 +1,15 @@
+{
+  "id": 3748,
+  "name": "Fremennik helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    },
+    {
+      "type": "quest",
+      "quest": "THE_FREMENNIK_TRIALS"
+    }
+  ]
+}

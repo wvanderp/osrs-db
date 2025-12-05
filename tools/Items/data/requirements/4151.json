@@ -1,0 +1,11 @@
+{
+  "id": 4151,
+  "name": "Abyssal whip",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 70
+    }
+  ]
+}

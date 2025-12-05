@@ -1,0 +1,16 @@
+{
+  "id": 4109,
+  "name": "Mystic hat (light)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

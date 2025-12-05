@@ -1,0 +1,16 @@
+{
+  "id": 3202,
+  "name": "Rune halberd",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 20
+    }
+  ]
+}

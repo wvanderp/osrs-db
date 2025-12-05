@@ -1,0 +1,11 @@
+{
+  "id": 4069,
+  "name": "Decorative armour (red platebody)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    }
+  ]
+}

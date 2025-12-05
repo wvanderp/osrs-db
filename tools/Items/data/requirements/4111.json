@@ -1,0 +1,17 @@
+{
+  "id": 4111,
+  "name": "Mystic robe top (light)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ],
+  "note": "All mystic robe tops require 40 Magic and 20 Defence to wear."
+}

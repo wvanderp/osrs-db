@@ -1,0 +1,16 @@
+{
+  "id": 4158,
+  "name": "Leaf-bladed spear",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 55
+    },
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 50
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 3208,
+  "name": "Crystal pendant",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "REGICIDE"
+    }
+  ]
+}

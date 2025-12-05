@@ -1,0 +1,11 @@
+{
+  "id": 4042,
+  "name": "Zamorak cloak",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 40
+    }
+  ]
+}

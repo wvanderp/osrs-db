@@ -1,0 +1,11 @@
+{
+  "id": 4127,
+  "name": "Mithril boots",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

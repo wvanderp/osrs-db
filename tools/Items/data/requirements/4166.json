@@ -1,0 +1,11 @@
+{
+  "id": 4166,
+  "name": "Earmuffs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 15
+    }
+  ]
+}

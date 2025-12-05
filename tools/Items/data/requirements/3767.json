@@ -1,10 +1,5 @@
 {
   "id": 3767,
   "name": "Fremennik brown shirt",
-  "requirements": [
-    {
-      "type": "quest",
-      "quest": "THE_FREMENNIK_TRIALS"
-    }
-  ]
+  "requirements": []
 }

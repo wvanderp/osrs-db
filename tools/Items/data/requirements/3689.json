@@ -1,0 +1,10 @@
+{
+  "id": 3689,
+  "name": "Lyre",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "THE_FREMENNIK_TRIALS"
+    }
+  ]
+}

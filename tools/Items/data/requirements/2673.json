@@ -1,0 +1,11 @@
+{
+  "id": 2673,
+  "name": "Guthix full helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

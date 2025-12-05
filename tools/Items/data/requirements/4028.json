@@ -1,0 +1,10 @@
+{
+  "id": 4028,
+  "name": "Ancient gorilla greegree",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "MONKEY_MADNESS_I"
+    }
+  ]
+}

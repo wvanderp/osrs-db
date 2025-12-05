@@ -1,0 +1,11 @@
+{
+  "id": 4131,
+  "name": "Rune boots",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

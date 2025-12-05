@@ -1,0 +1,10 @@
+{
+  "id": 4025,
+  "name": "Ninja monkey greegree (medium)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "MONKEY_MADNESS_I"
+    }
+  ]
+}

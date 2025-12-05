@@ -1,0 +1,11 @@
+{
+  "id": 3476,
+  "name": "Rune plateskirt (g)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

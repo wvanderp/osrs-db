@@ -1,0 +1,16 @@
+{
+  "id": 3391,
+  "name": "Splitbark gauntlets",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

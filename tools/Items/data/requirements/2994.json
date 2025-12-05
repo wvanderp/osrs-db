@@ -1,0 +1,16 @@
+{
+  "id": 2994,
+  "name": "Chompy bird hat (expert ogre dragon archer)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Fletching",
+      "level": 5
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 30
+    }
+  ]
+}

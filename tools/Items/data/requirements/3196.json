@@ -1,0 +1,16 @@
+{
+  "id": 3196,
+  "name": "Black halberd",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    },
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 5
+    }
+  ]
+}
