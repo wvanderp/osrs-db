@@ -1,0 +1,11 @@
+{
+  "id": 1137,
+  "name": "Iron med helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 1
+    }
+  ]
+}

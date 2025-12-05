@@ -1,0 +1,11 @@
+{
+  "id": 1199,
+  "name": "Adamant kiteshield",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

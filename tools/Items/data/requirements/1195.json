@@ -1,0 +1,11 @@
+{
+  "id": 1195,
+  "name": "Black kiteshield",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 2513,
+  "name": "Dragon chainbody",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 60
+    }
+  ]
+}

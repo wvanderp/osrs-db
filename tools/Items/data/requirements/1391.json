@@ -1,0 +1,16 @@
+{
+  "id": 1391,
+  "name": "Battlestaff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 30
+    }
+  ]
+}

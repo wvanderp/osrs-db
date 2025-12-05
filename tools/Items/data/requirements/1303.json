@@ -1,0 +1,11 @@
+{
+  "id": 1303,
+  "name": "Rune longsword",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

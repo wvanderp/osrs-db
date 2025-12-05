@@ -1,0 +1,11 @@
+{
+  "id": 1091,
+  "name": "Adamant plateskirt",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

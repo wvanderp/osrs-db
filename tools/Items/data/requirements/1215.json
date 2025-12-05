@@ -1,0 +1,15 @@
+{
+  "id": 1215,
+  "name": "Dragon dagger (unp)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    },
+    {
+      "type": "quest",
+      "quest": "LOST_CITY"
+    }
+  ]
+}

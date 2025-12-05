@@ -1,0 +1,11 @@
+{
+  "id": 1335,
+  "name": "Iron warhammer",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 1
+    }
+  ]
+}

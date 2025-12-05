@@ -1,0 +1,11 @@
+{
+  "id": 1424,
+  "name": "Steel mace",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 5
+    }
+  ]
+}

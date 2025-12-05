@@ -1,0 +1,11 @@
+{
+  "id": 1361,
+  "name": "Black axe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    }
+  ]
+}

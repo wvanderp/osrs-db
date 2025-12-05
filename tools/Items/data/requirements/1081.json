@@ -1,0 +1,11 @@
+{
+  "id": 1081,
+  "name": "Iron plateskirt",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 1
+    }
+  ]
+}

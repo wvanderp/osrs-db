@@ -1,0 +1,11 @@
+{
+  "id": 1129,
+  "name": "Leather body",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 1
+    }
+  ]
+}

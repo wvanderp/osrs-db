@@ -1,0 +1,11 @@
+{
+  "id": 1540,
+  "name": "Anti-dragon shield",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "DRAGON_SLAYER_I",
+      "note": "Can only be equipped if the player has started Dragon Slayer I"
+    }
+  ]
+}

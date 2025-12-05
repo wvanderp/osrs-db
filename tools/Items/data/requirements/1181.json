@@ -1,0 +1,11 @@
+{
+  "id": 1181,
+  "name": "Mithril sq shield",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

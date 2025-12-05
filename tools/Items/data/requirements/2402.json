@@ -1,0 +1,10 @@
+{
+  "id": 2402,
+  "name": "Silverlight",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "DEMON_SLAYER"
+    }
+  ]
+}

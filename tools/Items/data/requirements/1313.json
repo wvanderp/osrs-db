@@ -1,0 +1,11 @@
+{
+  "id": 1313,
+  "name": "Black 2h sword",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    }
+  ]
+}

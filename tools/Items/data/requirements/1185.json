@@ -1,0 +1,11 @@
+{
+  "id": 1185,
+  "name": "Rune sq shield",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 1317,
+  "name": "Adamant 2h sword",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    }
+  ]
+}

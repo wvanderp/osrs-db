@@ -1,0 +1,15 @@
+{
+  "id": 2417,
+  "name": "Zamorak staff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 60
+    },
+    {
+      "type": "quest",
+      "quest": "MAGE_ARENA_I"
+    }
+  ]
+}

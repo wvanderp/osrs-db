@@ -1,0 +1,16 @@
+{
+  "id": 1131,
+  "name": "Hardleather body",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 1
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    }
+  ]
+}

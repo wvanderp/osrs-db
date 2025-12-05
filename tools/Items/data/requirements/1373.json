@@ -1,0 +1,11 @@
+{
+  "id": 1373,
+  "name": "Rune battleaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

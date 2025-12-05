@@ -1,0 +1,11 @@
+{
+  "id": 1271,
+  "name": "Adamant pickaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 1167,
+  "name": "Leather cowl",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 1
+    }
+  ]
+}

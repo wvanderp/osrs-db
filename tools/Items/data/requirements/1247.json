@@ -1,0 +1,11 @@
+{
+  "id": 1247,
+  "name": "Rune spear#(unp)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 1097,
+  "name": "Studded chaps",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 20
+    }
+  ]
+}

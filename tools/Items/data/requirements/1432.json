@@ -1,0 +1,11 @@
+{
+  "id": 1432,
+  "name": "Rune mace",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

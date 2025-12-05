@@ -1,0 +1,11 @@
+{
+  "id": 1207,
+  "name": "Steel dagger",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 5
+    }
+  ]
+}

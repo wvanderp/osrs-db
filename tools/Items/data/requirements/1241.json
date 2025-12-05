@@ -1,0 +1,11 @@
+{
+  "id": 1241,
+  "name": "Steel spear#(unp)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 5
+    }
+  ]
+}

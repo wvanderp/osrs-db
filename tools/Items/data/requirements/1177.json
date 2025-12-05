@@ -1,0 +1,11 @@
+{
+  "id": 1177,
+  "name": "Steel sq shield",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    }
+  ]
+}

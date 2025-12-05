@@ -1,0 +1,11 @@
+{
+  "id": 2583,
+  "name": "Black platebody (t)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    }
+  ]
+}

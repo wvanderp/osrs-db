@@ -1,0 +1,11 @@
+{
+  "id": 1273,
+  "name": "Mithril pickaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 20
+    }
+  ]
+}

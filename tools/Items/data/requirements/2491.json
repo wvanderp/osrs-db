@@ -1,0 +1,11 @@
+{
+  "id": 2491,
+  "name": "Black d'hide vambraces",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

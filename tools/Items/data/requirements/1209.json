@@ -1,0 +1,11 @@
+{
+  "id": 1209,
+  "name": "Mithril dagger (unp)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 20
+    }
+  ]
+}

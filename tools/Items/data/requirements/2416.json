@@ -1,0 +1,15 @@
+{
+  "id": 2416,
+  "name": "Guthix staff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 60
+    },
+    {
+      "type": "quest",
+      "quest": "MAGE_ARENA_I"
+    }
+  ]
+}

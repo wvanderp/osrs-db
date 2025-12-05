@@ -1,0 +1,11 @@
+{
+  "id": 1389,
+  "name": "Magic staff",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 1
+    }
+  ]
+}

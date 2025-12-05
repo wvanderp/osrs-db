@@ -1,0 +1,11 @@
+{
+  "id": 1109,
+  "name": "Mithril chainbody",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

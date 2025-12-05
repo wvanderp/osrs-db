@@ -1,0 +1,11 @@
+{
+  "id": 2579,
+  "name": "Wizard boots",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 20
+    }
+  ]
+}

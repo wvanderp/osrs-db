@@ -1,0 +1,11 @@
+{
+  "id": 1331,
+  "name": "Adamant scimitar",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    }
+  ]
+}

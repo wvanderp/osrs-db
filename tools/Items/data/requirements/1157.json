@@ -1,0 +1,11 @@
+{
+  "id": 1157,
+  "name": "Steel full helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    }
+  ]
+}

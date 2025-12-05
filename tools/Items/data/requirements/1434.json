@@ -1,0 +1,15 @@
+{
+  "id": 1434,
+  "name": "Dragon mace",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    },
+    {
+      "type": "quest",
+      "quest": "HEROES_QUEST"
+    }
+  ]
+}

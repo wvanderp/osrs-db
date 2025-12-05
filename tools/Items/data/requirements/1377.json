@@ -1,0 +1,15 @@
+{
+  "id": 1377,
+  "name": "Dragon battleaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    },
+    {
+      "type": "quest",
+      "quest": "HEROES_QUEST"
+    }
+  ]
+}

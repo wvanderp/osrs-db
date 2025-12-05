@@ -1,0 +1,11 @@
+{
+  "id": 868,
+  "name": "Rune knife",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 40
+    }
+  ]
+}

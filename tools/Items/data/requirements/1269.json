@@ -1,0 +1,18 @@
+{
+  "id": 1269,
+  "name": "Steel pickaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 5,
+      "note": "To equip"
+    },
+    {
+      "type": "level",
+      "skill": "Mining",
+      "level": 6,
+      "note": "To use"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 2412,
+  "name": "Saradomin cape",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "MAGE_ARENA_I"
+    }
+  ]
+}

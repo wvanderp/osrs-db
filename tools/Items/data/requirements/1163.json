@@ -1,0 +1,11 @@
+{
+  "id": 1163,
+  "name": "Rune full helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

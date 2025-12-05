@@ -1,0 +1,11 @@
+{
+  "id": 1341,
+  "name": "Black warhammer",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 10
+    }
+  ]
+}

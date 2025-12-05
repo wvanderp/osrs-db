@@ -1,0 +1,11 @@
+{
+  "id": 1365,
+  "name": "Steel battleaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 5
+    }
+  ]
+}

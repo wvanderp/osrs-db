@@ -1,0 +1,11 @@
+{
+  "id": 1249,
+  "name": "Dragon spear (unp)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    }
+  ]
+}

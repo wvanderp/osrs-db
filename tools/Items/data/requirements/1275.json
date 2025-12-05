@@ -1,0 +1,12 @@
+{
+  "id": 1275,
+  "name": "Rune pickaxe",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    }
+  ],
+  "note": "Players lacking 40 Attack can still use it for mining."
+}

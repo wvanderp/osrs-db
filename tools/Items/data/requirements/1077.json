@@ -1,0 +1,11 @@
+{
+  "id": 1077,
+  "name": "Black platelegs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 10
+    }
+  ]
+}

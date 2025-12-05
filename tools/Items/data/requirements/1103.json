@@ -1,0 +1,11 @@
+{
+  "id": 1103,
+  "name": "Bronze chainbody",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 1
+    }
+  ]
+}
