@@ -1,0 +1,25 @@
+{
+  "id": 8682,
+  "name": "Steel heraldic helm (Arrav)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5
+    },
+    {
+      "type": "quest",
+      "quest": "SHIELD_OF_ARRAV"
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 38
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 16
+    }
+  ]
+}

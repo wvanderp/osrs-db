@@ -1,0 +1,20 @@
+{
+  "id": 8658,
+  "name": "Banner (Fairy)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 48
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 66
+    },
+    {
+      "type": "quest",
+      "quest": "LOST_CITY"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 7453,
+  "name": "Hardleather gloves",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "Completion of the 'Another Cook's Quest' subquest within Recipe for Disaster."
+    }
+  ]
+}

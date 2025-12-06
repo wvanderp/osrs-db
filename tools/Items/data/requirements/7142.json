@@ -1,0 +1,11 @@
+{
+  "id": 7142,
+  "name": "Rapier",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 7459,
+  "name": "Adamant gloves",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 13
+    },
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "Specifically, completion of six subquests of Recipe for Disaster"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 7917,
+  "name": "Ram skull helm",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RAG_AND_BONE_MAN_II"
+    }
+  ]
+}

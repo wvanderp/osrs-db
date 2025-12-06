@@ -1,0 +1,11 @@
+{
+  "id": 7159,
+  "name": "Insulated boots",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 37
+    }
+  ]
+}

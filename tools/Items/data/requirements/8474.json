@@ -1,0 +1,26 @@
+{
+  "id": 8474,
+  "name": "Rune heraldic helm (Guthix)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 16
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 38
+    },
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 70
+    }
+  ]
+}

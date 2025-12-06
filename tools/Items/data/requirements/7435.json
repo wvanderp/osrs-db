@@ -1,0 +1,11 @@
+{
+  "id": 7435,
+  "name": "Egg whisk",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "Wielding it requires two subquests."
+    }
+  ]
+}

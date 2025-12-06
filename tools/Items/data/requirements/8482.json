@@ -1,0 +1,21 @@
+{
+  "id": 8482,
+  "name": "Rune heraldic helm (Kandarin)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 16
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 38
+    }
+  ]
+}

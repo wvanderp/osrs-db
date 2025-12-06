@@ -1,0 +1,16 @@
+{
+  "id": 7400,
+  "name": "Enchanted hat",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    }
+  ]
+}

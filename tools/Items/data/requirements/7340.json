@@ -1,0 +1,11 @@
+{
+  "id": 7340,
+  "name": "Adamant shield (h2)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

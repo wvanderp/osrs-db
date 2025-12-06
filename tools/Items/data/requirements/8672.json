@@ -1,0 +1,16 @@
+{
+  "id": 8672,
+  "name": "Banner (Money)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 48
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 66
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 6910,
+  "name": "Apprentice wand",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 50
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 7457,
+  "name": "Black gloves",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER"
+    }
+  ]
+}

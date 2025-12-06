@@ -1,0 +1,12 @@
+{
+  "id": 7534,
+  "name": "Fishbowl helmet",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE",
+      "note": "Subquest of Recipe for Disaster"
+    }
+  ],
+  "note": "The fishbowl helmet is obtained from Murphy during the Freeing Pirate Pete subquest of the Recipe for Disaster quest in exchange for a fishbowl."
+}

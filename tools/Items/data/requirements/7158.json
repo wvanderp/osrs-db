@@ -1,0 +1,11 @@
+{
+  "id": 7158,
+  "name": "Dragon 2h sword",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 60
+    }
+  ]
+}

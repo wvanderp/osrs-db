@@ -1,0 +1,20 @@
+{
+  "id": 8650,
+  "name": "Banner (Arrav)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 48
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 66
+    },
+    {
+      "type": "quest",
+      "quest": "SHIELD_OF_ARRAV"
+    }
+  ]
+}

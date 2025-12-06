@@ -1,0 +1,16 @@
+{
+  "id": 7447,
+  "name": "Kitchen knife",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "Complete any 8 Recipe for Disaster subquests"
+    },
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

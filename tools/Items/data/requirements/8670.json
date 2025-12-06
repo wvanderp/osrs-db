@@ -1,0 +1,16 @@
+{
+  "id": 8670,
+  "name": "Banner (Misthalin)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 48
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 66
+    }
+  ]
+}

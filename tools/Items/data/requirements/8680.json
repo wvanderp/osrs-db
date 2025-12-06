@@ -1,0 +1,21 @@
+{
+  "id": 8680,
+  "name": "Banner (Zamorak)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 48
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 66
+    },
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 70
+    }
+  ]
+}

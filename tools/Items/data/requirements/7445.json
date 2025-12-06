@@ -1,0 +1,16 @@
+{
+  "id": 7445,
+  "name": "Rolling pin",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    },
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "Specifically, 7 subquests of Recipe for Disaster must be completed."
+    }
+  ]
+}

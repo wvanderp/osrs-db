@@ -1,0 +1,16 @@
+{
+  "id": 6916,
+  "name": "Infinity top",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 25
+    }
+  ]
+}

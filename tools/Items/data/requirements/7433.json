@@ -1,0 +1,12 @@
+{
+  "id": 7433,
+  "name": "Wooden spoon",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "Beginning portion"
+    }
+  ],
+  "note": "Only available after starting Recipe for Disaster and is the first weapon received in the quest."
+}

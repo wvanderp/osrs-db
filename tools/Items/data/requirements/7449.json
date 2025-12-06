@@ -1,0 +1,16 @@
+{
+  "id": 7449,
+  "name": "Meat tenderiser",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "Completion of all 8 Recipe for Disaster subquests, and the final battle."
+    },
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 8656,
+  "name": "Banner (Dragon)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 48
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 66
+    },
+    {
+      "type": "quest",
+      "quest": "DRAGON_SLAYER_I"
+    }
+  ]
+}

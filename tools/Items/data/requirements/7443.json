@@ -1,0 +1,16 @@
+{
+  "id": 7443,
+  "name": "Skewer",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    },
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "Completion of five Recipe for Disaster subquests."
+    }
+  ]
+}

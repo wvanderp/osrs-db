@@ -1,0 +1,16 @@
+{
+  "id": 7451,
+  "name": "Cleaver",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "Completed the entire Recipe for Disaster quest"
+    },
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

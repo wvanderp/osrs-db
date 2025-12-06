@@ -1,0 +1,10 @@
+{
+  "id": 7003,
+  "name": "Camel mask",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "ENAKHRAS_LAMENT"
+    }
+  ]
+}

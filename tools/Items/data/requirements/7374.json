@@ -1,0 +1,16 @@
+{
+  "id": 7374,
+  "name": "Blue d'hide body (g)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 50
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

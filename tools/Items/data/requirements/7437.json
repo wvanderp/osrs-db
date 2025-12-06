@@ -1,0 +1,16 @@
+{
+  "id": 7437,
+  "name": "Spork",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 10
+    },
+    {
+      "type": "quest",
+      "quest": "RECIPE_FOR_DISASTER",
+      "note": "completion of three Recipe for Disaster subquests"
+    }
+  ]
+}

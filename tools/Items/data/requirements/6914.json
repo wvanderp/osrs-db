@@ -1,0 +1,11 @@
+{
+  "id": 6914,
+  "name": "Master wand",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 60
+    }
+  ]
+}

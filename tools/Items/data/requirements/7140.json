@@ -1,0 +1,15 @@
+{
+  "id": 7140,
+  "name": "Lucky cutlass",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    },
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    }
+  ]
+}
