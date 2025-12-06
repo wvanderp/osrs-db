@@ -1,0 +1,11 @@
+{
+  "id": 21959,
+  "name": "Pearl dragon bolts",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 64
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 24866,
+  "name": "Kruk jr",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "MONKEY_MADNESS_II"
+    },
+    {
+      "type": "level",
+      "skill": "Agility",
+      "level": 48
+    }
+  ]
+}

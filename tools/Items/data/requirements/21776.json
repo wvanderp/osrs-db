@@ -1,0 +1,121 @@
+{
+  "id": 21776,
+  "name": "Imbued saradomin max cape",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Runecrafting",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Hitpoints",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Agility",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Herblore",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Thieving",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Fletching",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Hunter",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Mining",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Smithing",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Fishing",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Cooking",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Firemaking",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Woodcutting",
+      "level": 99
+    },
+    {
+      "type": "level",
+      "skill": "Farming",
+      "level": 99
+    }
+  ]
+}
