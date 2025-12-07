@@ -1,0 +1,11 @@
+{
+  "id": 12637,
+  "name": "Saradomin halo",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

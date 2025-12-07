@@ -1,0 +1,10 @@
+{
+  "id": 8926,
+  "name": "Bandana eyepatch (blue)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    }
+  ]
+}

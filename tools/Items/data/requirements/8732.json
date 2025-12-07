@@ -1,0 +1,24 @@
+{
+  "id": 8732,
+  "name": "Rune kiteshield (Kandarin)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40,
+      "note": "To wear the shield"
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 43,
+      "note": "To craft the shield"
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 41,
+      "note": "To build Shield easel in POH"
+    }
+  ]
+}

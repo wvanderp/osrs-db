@@ -1,0 +1,11 @@
+{
+  "id": 9058,
+  "name": "Purple goblin mail",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "LAND_OF_THE_GOBLINS"
+    }
+  ],
+  "note": "Players cannot normally wear this armour due to its size. It can only be worn during the Land of the Goblins quest by using a transmogrification potion to turn into a goblin."
+}

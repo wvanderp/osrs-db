@@ -1,0 +1,17 @@
+{
+  "id": 8849,
+  "name": "Adamant defender",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 30
+    }
+  ],
+  "note": "All defenders need to be bought from the Warriors' Guild. requiring a combined Attack and Strength level of at least 130 (or level 99 in either skill)."
+}

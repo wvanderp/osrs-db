@@ -1,0 +1,41 @@
+{
+  "id": 8842,
+  "name": "Void knight gloves",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 42
+    },
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 42
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 42
+    },
+    {
+      "type": "level",
+      "skill": "Hitpoints",
+      "level": 42
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 42
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 42
+    },
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 22
+    }
+  ]
+}

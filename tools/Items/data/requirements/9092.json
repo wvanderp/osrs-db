@@ -1,0 +1,17 @@
+{
+  "id": 9092,
+  "name": "Lunar staff - pt2",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "LUNAR_DIPLOMACY",
+      "note": "Partial completion"
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 61,
+      "note": "To craft the item (untradeable)"
+    }
+  ]
+}

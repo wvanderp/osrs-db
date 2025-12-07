@@ -5,17 +5,26 @@
     {
       "type": "level",
       "skill": "Defence",
-      "level": 5
+      "level": 5,
+      "note": "To wear the shield"
     },
     {
       "type": "level",
       "skill": "Crafting",
-      "level": 43
+      "level": 43,
+      "note": "To craft the shield"
     },
     {
       "type": "level",
       "skill": "Construction",
-      "level": 41
+      "level": 41,
+      "note": "To build Shield easel in POH"
+    },
+    {
+      "type": "level",
+      "skill": "Prayer",
+      "level": 70,
+      "note": "To equip the Saradomin emblem"
     }
   ]
 }

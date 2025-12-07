@@ -1,0 +1,10 @@
+{
+  "id": 8964,
+  "name": "Purple tricorn hat",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    }
+  ]
+}

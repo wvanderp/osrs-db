@@ -1,0 +1,11 @@
+{
+  "id": 30777,
+  "name": "Radiant oathplate helm",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 78
+    }
+  ]
+}

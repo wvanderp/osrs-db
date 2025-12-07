@@ -1,0 +1,10 @@
+{
+  "id": 26844,
+  "name": "Abyssal lantern#Blisterwood",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "TEMPLE_OF_THE_EYE"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 9073,
+  "name": "Moonclan boots",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "LUNAR_DIPLOMACY"
+    }
+  ]
+}

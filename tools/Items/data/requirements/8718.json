@@ -1,0 +1,29 @@
+{
+  "id": 8718,
+  "name": "Rune kiteshield (Dorgeshuun)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "THE_LOST_TRIBE",
+      "note": "Required to create the item"
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40,
+      "note": "To wear the shield"
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 43,
+      "note": "To craft the shield"
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 41,
+      "note": "To build Shield easel in POH"
+    }
+  ]
+}

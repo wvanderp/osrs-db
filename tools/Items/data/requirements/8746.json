@@ -1,0 +1,28 @@
+{
+  "id": 8746,
+  "name": "Steel kiteshield (Arrav)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "SHIELD_OF_ARRAV"
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 5,
+      "note": "To wear the shield"
+    },
+    {
+      "type": "level",
+      "skill": "Crafting",
+      "level": 43,
+      "note": "To craft the shield"
+    },
+    {
+      "type": "level",
+      "skill": "Construction",
+      "level": 41,
+      "note": "To build Shield easel in POH"
+    }
+  ]
+}

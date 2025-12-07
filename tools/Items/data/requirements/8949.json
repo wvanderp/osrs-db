@@ -1,0 +1,10 @@
+{
+  "id": 8949,
+  "name": "Pirate bandana (Trouble Brewing)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 29007,
+  "name": "Eclipse moon tassets",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 75
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 50
+    }
+  ]
+}

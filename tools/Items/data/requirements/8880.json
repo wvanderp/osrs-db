@@ -1,0 +1,11 @@
+{
+  "id": 8880,
+  "name": "Dorgeshuun crossbow",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 28
+    }
+  ]
+}

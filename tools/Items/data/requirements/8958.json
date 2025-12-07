@@ -1,0 +1,10 @@
+{
+  "id": 8958,
+  "name": "Grey naval shirt",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    }
+  ]
+}

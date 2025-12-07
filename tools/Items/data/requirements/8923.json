@@ -1,0 +1,11 @@
+{
+  "id": 8923,
+  "name": "Witchwood icon",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Slayer",
+      "level": 35
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": 22846,
+  "name": "Pearl fishing rod",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Fishing",
+      "level": 43
+    },
+    {
+      "type": "level",
+      "skill": "Hunter",
+      "level": 35
+    }
+  ]
+}

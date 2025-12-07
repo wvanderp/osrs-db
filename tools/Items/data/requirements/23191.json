@@ -1,0 +1,16 @@
+{
+  "id": 23191,
+  "name": "Saradomin d'hide shield",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

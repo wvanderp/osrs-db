@@ -1,0 +1,11 @@
+{
+  "id": 31736,
+  "name": "Storm cruiser's hat",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Sailing",
+      "level": 30
+    }
+  ]
+}

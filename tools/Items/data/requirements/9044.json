@@ -1,0 +1,21 @@
+{
+  "id": 9044,
+  "name": "Pharaoh's sceptre",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 30
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 30
+    },
+    {
+      "type": "quest",
+      "quest": "ICTHLARINS_LITTLE_HELPER",
+      "note": "For access to the Pyramid Plunder minigame where the sceptre can be obtained."
+    }
+  ]
+}

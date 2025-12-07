@@ -4,6 +4,12 @@
   "requirements": [
     {
       "type": "level",
+      "skill": "Defence",
+      "level": 5,
+      "note": "To wear the helm"
+    },
+    {
+      "type": "level",
       "skill": "Crafting",
       "level": 38,
       "note": "To craft the helm"

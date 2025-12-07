@@ -1,0 +1,16 @@
+{
+  "id": 20137,
+  "name": "Robe bottom of darkness",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 40
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

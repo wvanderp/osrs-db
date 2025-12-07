@@ -1,0 +1,11 @@
+{
+  "id": 9765,
+  "name": "Runecraft cape#Untrimmed",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Runecrafting",
+      "level": 99
+    }
+  ]
+}

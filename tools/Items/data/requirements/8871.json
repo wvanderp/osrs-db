@@ -1,0 +1,10 @@
+{
+  "id": 8871,
+  "name": "Crate with zanik",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "DEATH_TO_THE_DORGESHUUN"
+    }
+  ]
+}

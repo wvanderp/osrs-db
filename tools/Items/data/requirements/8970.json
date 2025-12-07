@@ -1,0 +1,10 @@
+{
+  "id": 8970,
+  "name": "Treasure flag",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    }
+  ]
+}

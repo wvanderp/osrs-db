@@ -1,0 +1,10 @@
+{
+  "id": 8994,
+  "name": "Brown navy slacks",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER"
+    }
+  ]
+}
