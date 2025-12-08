@@ -1,0 +1,11 @@
+{
+  "id": 9185,
+  "name": "Rune crossbow",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 61
+    }
+  ]
+}

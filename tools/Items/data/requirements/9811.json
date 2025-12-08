@@ -1,10 +1,10 @@
 {
-  "id": 9769,
-  "name": "Hitpoints cape#Trimmed",
+  "id": 9811,
+  "name": "Farming cape(t)",
   "requirements": [
     {
       "type": "level",
-      "skill": "Hitpoints",
+      "skill": "Farming",
       "level": 99
     }
   ],

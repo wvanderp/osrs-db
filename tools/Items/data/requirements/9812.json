@@ -1,0 +1,11 @@
+{
+  "id": 9812,
+  "name": "Farming hood",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Farming",
+      "level": 99
+    }
+  ]
+}

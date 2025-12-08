@@ -1,0 +1,12 @@
+{
+  "id": 9752,
+  "name": "Strength hood",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Strength",
+      "level": 99,
+      "note": "Required to purchase the hood."
+    }
+  ]
+}

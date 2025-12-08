@@ -1,0 +1,20 @@
+{
+  "id": 9100,
+  "name": "Lunar boots",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "LUNAR_DIPLOMACY"
+    },
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 65
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

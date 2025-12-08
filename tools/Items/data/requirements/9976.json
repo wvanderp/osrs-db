@@ -1,0 +1,11 @@
+{
+  "id": 9976,
+  "name": "Chinchompa",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 45
+    }
+  ]
+}

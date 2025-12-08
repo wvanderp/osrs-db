@@ -1,10 +1,10 @@
 {
-  "id": 9769,
-  "name": "Hitpoints cape#Trimmed",
+  "id": 9760,
+  "name": "Prayer cape(t)",
   "requirements": [
     {
       "type": "level",
-      "skill": "Hitpoints",
+      "skill": "Prayer",
       "level": 99
     }
   ],

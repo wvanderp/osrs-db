@@ -1,0 +1,11 @@
+{
+  "id": 9810,
+  "name": "Farming cape",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Farming",
+      "level": 99
+    }
+  ]
+}

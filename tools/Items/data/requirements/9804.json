@@ -1,0 +1,11 @@
+{
+  "id": 9804,
+  "name": "Firemaking cape",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Firemaking",
+      "level": 99
+    }
+  ]
+}

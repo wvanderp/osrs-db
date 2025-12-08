@@ -1,10 +1,10 @@
 {
-  "id": 9769,
-  "name": "Hitpoints cape#Trimmed",
+  "id": 9799,
+  "name": "Fishing cape(t)",
   "requirements": [
     {
       "type": "level",
-      "skill": "Hitpoints",
+      "skill": "Fishing",
       "level": 99
     }
   ],

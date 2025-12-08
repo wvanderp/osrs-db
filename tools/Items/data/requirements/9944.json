@@ -1,0 +1,10 @@
+{
+  "id": 9944,
+  "name": "Bomber jacket",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "ENLIGHTENED_JOURNEY"
+    }
+  ]
+}

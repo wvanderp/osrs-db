@@ -1,0 +1,11 @@
+{
+  "id": 9753,
+  "name": "Defence cape",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 99
+    }
+  ]
+}

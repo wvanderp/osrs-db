@@ -1,0 +1,11 @@
+{
+  "id": 10043,
+  "name": "Larupia top",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hunter",
+      "level": 28
+    }
+  ]
+}

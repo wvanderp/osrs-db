@@ -1,10 +1,10 @@
 {
-  "id": 9769,
-  "name": "Hitpoints cape#Trimmed",
+  "id": 9775,
+  "name": "Herblore cape(t)",
   "requirements": [
     {
       "type": "level",
-      "skill": "Hitpoints",
+      "skill": "Herblore",
       "level": 99
     }
   ],

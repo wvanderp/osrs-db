@@ -1,0 +1,11 @@
+{
+  "id": 9803,
+  "name": "Cooking hood",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Cooking",
+      "level": 99
+    }
+  ]
+}

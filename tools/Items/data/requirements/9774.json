@@ -1,0 +1,11 @@
+{
+  "id": 9774,
+  "name": "Herblore cape",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Herblore",
+      "level": 99
+    }
+  ]
+}

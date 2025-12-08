@@ -1,0 +1,11 @@
+{
+  "id": 10037,
+  "name": "Kyatt top",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hunter",
+      "level": 52
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 9770,
+  "name": "Hitpoints hood",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hitpoints",
+      "level": 99
+    }
+  ]
+}

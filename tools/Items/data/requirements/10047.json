@@ -1,0 +1,11 @@
+{
+  "id": 10047,
+  "name": "Graahk legs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hunter",
+      "level": 38
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 9776,
+  "name": "Herblore hood",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Herblore",
+      "level": 99
+    }
+  ]
+}

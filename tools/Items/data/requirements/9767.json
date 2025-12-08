@@ -1,0 +1,11 @@
+{
+  "id": 9767,
+  "name": "Runecraft hood",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Runecrafting",
+      "level": 99
+    }
+  ]
+}

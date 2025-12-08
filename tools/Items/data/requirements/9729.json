@@ -1,0 +1,10 @@
+{
+  "id": 9729,
+  "name": "Elemental helmet",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "ELEMENTAL_WORKSHOP_II"
+    }
+  ]
+}

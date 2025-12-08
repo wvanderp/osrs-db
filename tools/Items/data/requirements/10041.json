@@ -1,0 +1,11 @@
+{
+  "id": 10041,
+  "name": "Larupia legs",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hunter",
+      "level": 28
+    }
+  ]
+}

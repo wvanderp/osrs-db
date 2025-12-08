@@ -1,0 +1,20 @@
+{
+  "id": 9101,
+  "name": "Lunar cape",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Magic",
+      "level": 65
+    },
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "quest",
+      "quest": "LUNAR_DIPLOMACY"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 9795,
+  "name": "Smithing cape",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Smithing",
+      "level": 99
+    }
+  ]
+}

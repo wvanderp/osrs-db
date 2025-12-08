@@ -1,0 +1,11 @@
+{
+  "id": 9807,
+  "name": "Woodcutting cape",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Woodcutting",
+      "level": 99
+    }
+  ]
+}

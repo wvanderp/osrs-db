@@ -1,0 +1,11 @@
+{
+  "id": 10075,
+  "name": "Gloves of silence",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hunter",
+      "level": 54
+    }
+  ]
+}

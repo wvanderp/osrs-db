@@ -1,0 +1,11 @@
+{
+  "id": 9177,
+  "name": "Iron crossbow",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 26
+    }
+  ]
+}

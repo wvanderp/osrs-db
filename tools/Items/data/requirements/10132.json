@@ -1,0 +1,11 @@
+{
+  "id": 10132,
+  "name": "Strung rabbit foot",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Hunter",
+      "level": 24
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 9749,
+  "name": "Attack hood",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Attack",
+      "level": 99
+    }
+  ]
+}

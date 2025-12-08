@@ -1,0 +1,10 @@
+{
+  "id": 9102,
+  "name": "Lunar amulet",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "LUNAR_DIPLOMACY"
+    }
+  ]
+}
