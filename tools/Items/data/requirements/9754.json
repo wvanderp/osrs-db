@@ -3,7 +3,7 @@
   "name": "Defence cape(t)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 99
     }

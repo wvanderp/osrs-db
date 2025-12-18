@@ -3,7 +3,7 @@
   "name": "Black knife#(unp)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 10
     }

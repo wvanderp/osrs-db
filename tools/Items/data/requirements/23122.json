@@ -3,7 +3,7 @@
   "name": "Oily pearl fishing rod",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Herblore",
       "level": 25
     },

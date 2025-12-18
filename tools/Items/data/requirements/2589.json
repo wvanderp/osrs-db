@@ -3,7 +3,7 @@
   "name": "Black kiteshield (t)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 10
     }

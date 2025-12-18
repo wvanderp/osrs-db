@@ -3,12 +3,12 @@
   "name": "Blue moon helm",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 75
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 50
     }

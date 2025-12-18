@@ -3,12 +3,12 @@
   "name": "Amethyst broad bolts",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 65
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 61
     }

@@ -3,7 +3,7 @@
   "name": "Adamant platebody (g)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 30
     }

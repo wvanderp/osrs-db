@@ -3,7 +3,7 @@
   "name": "Torva platelegs (restored)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 80
     }

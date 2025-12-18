@@ -7,12 +7,12 @@
       "quest": "LUNAR_DIPLOMACY"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 65
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     }

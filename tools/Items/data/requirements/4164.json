@@ -3,7 +3,7 @@
   "name": "Facemask",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 10,
       "note": "Cannot be boosted."

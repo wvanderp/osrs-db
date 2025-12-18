@@ -3,7 +3,7 @@
   "name": "Apprentice wand",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 50
     }

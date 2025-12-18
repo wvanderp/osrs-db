@@ -3,12 +3,12 @@
   "name": "Chompy bird hat (bowmaster)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Fletching",
       "level": 5
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 30
     }

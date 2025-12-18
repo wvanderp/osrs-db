@@ -3,7 +3,7 @@
   "name": "Cooking hood",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Cooking",
       "level": 99
     }

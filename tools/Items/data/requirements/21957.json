@@ -3,7 +3,7 @@
   "name": "Jade dragon bolts",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 64
     }

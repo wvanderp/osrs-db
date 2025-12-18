@@ -3,12 +3,12 @@
   "name": "Maple blackjack(d)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 30
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Thieving",
       "level": 30
     }

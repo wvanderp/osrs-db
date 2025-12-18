@@ -3,12 +3,12 @@
   "name": "Studded body",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 20
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 20
     }

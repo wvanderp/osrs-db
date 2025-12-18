@@ -3,7 +3,7 @@
   "name": "Larupia top",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hunter",
       "level": 28
     }

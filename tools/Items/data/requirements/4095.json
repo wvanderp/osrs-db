@@ -3,12 +3,12 @@
   "name": "Mystic gloves",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 40
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 20
     }

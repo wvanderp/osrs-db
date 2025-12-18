@@ -3,7 +3,7 @@
   "name": "Dragon platelegs",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 60
     }

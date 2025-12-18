@@ -3,7 +3,7 @@
   "name": "Longbow",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 1
     }

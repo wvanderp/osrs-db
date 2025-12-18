@@ -3,7 +3,7 @@
   "name": "Agility cape#Trimmed",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Agility",
       "level": 99
     }

@@ -3,12 +3,12 @@
   "name": "Black d'hide body",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 70
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     }

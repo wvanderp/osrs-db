@@ -3,12 +3,12 @@
   "name": "Armadyl coif",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 70
     }

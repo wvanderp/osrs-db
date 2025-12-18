@@ -3,12 +3,12 @@
   "name": "White halberd",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 10
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Strength",
       "level": 5
     },

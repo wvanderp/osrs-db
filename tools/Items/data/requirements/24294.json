@@ -3,12 +3,12 @@
   "name": "Dagon'hai robe bottom",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 70
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     }

@@ -3,12 +3,12 @@
   "name": "Harmonised nightmare staff",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 82
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hitpoints",
       "level": 50
     }

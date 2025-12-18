@@ -3,12 +3,12 @@
   "name": "Adamant defender",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 30
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 30
     }

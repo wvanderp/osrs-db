@@ -3,12 +3,12 @@
   "name": "Water battlestaff",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 30
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 30
     }

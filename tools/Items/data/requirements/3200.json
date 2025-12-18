@@ -3,12 +3,12 @@
   "name": "Adamant halberd",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 30
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Strength",
       "level": 15
     }

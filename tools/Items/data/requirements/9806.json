@@ -3,7 +3,7 @@
   "name": "Firemaking hood",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Firemaking",
       "level": 99
     }

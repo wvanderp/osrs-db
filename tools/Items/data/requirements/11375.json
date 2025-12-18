@@ -3,7 +3,7 @@
   "name": "Adamant hasta (unp)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 30
     },

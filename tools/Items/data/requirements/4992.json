@@ -3,7 +3,7 @@
   "name": "Verac's brassard 0",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 70
     }

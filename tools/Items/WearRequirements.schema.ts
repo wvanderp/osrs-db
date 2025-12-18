@@ -4,10 +4,10 @@ import { DiarySchema } from "../Diaries/Diaries.schema";
 import { SkillSchema } from '../Skills/Skills.schema';
 
 /**
- * A level requirement for an item
+ * A skill requirement for an item
  */
-const LevelRequirementSchema = z.object({
-    type: z.literal("level").describe("Level requirement type"),
+const skillRequirementSchema = z.object({
+    type: z.literal("skill").describe("Skill requirement type"),
     skill: SkillSchema.describe("The skill required"),
     level: z.number().int().min(1).max(99).describe("The required level in the specified skill"),
     note: z.string().optional().describe("An optional note about the requirement"),
@@ -31,8 +31,6 @@ const GameModeSchema = z.enum([
     "Raging Echoes League",
     "Grid Master",
 ]);
-
-type GameMode = z.infer<typeof GameModeSchema>;
 
 /**
  * A game mode requirement for an item
@@ -75,33 +73,21 @@ const IronmanModeSchema = z.enum([
 /**
  * A game mode restriction for an item (Ironman modes)
  */
-const GameModeRestrictionSchema = z.object({
-    type: z.literal("gameMode").describe("Game mode restriction type"),
-    mode: IronmanModeSchema.describe("The game mode restricted"),
+const IronmanRestrictionSchema = z.object({
+    type: z.literal("ironman").describe("Ironman mode restriction type"),
+    mode: IronmanModeSchema.describe("The type of Ironman mode"),
     note: z.string().optional().describe("An optional note about the restriction"),
 }).strict();
 
-/**
- * All possible requirement types
- */
-export const RequirementSchema = z.discriminatedUnion("type", [
-    LevelRequirementSchema,
-    QuestRequirementSchema,
-    GameModeRequirementSchema,
-    EquipmentRequirementSchema,
-    DiaryRequirementSchema,
-    // Note: GameModeRestrictionSchema uses the same "type": "gameMode" as GameModeRequirementSchema
-    // which means we can't use discriminated union for it. Using union instead.
-]);
 
 // Since we have two types with "gameMode" as the discriminator value, we need a custom approach
 export const AnyRequirementSchema = z.union([
-    LevelRequirementSchema,
+    skillRequirementSchema,
     QuestRequirementSchema,
     GameModeRequirementSchema,
     EquipmentRequirementSchema,
     DiaryRequirementSchema,
-    GameModeRestrictionSchema,
+    IronmanRestrictionSchema,
 ]);
 
 export type AnyRequirement = z.infer<typeof AnyRequirementSchema>;

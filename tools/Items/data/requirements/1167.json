@@ -3,7 +3,7 @@
   "name": "Leather cowl",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 1
     }

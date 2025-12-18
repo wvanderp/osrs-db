@@ -3,7 +3,7 @@
   "name": "Hitpoints hood",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hitpoints",
       "level": 99
     }

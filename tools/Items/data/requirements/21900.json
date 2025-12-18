@@ -3,7 +3,7 @@
   "name": "Assembler max hood",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 99
     }

@@ -3,12 +3,12 @@
   "name": "Skeletal bottoms",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 40
     },

@@ -3,7 +3,7 @@
   "name": "Kyatt legs",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hunter",
       "level": 52
     }

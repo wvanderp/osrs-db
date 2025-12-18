@@ -3,7 +3,7 @@
   "name": "Rune knife",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 40
     }

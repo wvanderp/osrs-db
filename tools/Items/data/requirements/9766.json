@@ -3,7 +3,7 @@
   "name": "Runecraft cape#Trimmed",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Runecrafting",
       "level": 99
     }

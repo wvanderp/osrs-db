@@ -3,7 +3,7 @@
   "name": "White chainbody",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 10
     },

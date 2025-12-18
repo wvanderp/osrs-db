@@ -3,7 +3,7 @@
   "name": "Ranging cape",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 99
     }

@@ -3,7 +3,7 @@
   "name": "Corrupted morrigan's leather chaps (bh)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 20
     }

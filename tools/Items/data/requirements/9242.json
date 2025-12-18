@@ -3,7 +3,7 @@
   "name": "Ruby bolts (e)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 46
     }

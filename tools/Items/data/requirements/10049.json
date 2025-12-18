@@ -3,7 +3,7 @@
   "name": "Graahk top",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hunter",
       "level": 38
     }

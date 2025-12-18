@@ -3,13 +3,13 @@
   "name": "Broad arrows",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 55,
       "note": "To purchase and use"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 50
     }

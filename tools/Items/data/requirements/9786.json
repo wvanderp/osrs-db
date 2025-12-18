@@ -3,7 +3,7 @@
   "name": "Slayer cape",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 99
     }

@@ -3,7 +3,7 @@
   "name": "Black spear",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 10
     }

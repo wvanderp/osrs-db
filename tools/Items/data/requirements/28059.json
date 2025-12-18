@@ -3,7 +3,7 @@
   "name": "Dragon sq shield (cr)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 60
     },

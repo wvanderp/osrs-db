@@ -3,7 +3,7 @@
   "name": "Toktz-xil-ul",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 60
     }

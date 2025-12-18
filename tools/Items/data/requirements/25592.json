@@ -3,7 +3,7 @@
   "name": "Spirit angler headband",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Fishing",
       "level": 35
     }

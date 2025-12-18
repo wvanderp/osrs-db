@@ -3,7 +3,7 @@
   "name": "Dharok's platebody#Undamaged",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 70
     }

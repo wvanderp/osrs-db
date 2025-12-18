@@ -3,12 +3,12 @@
   "name": "Infernal harpoon (or) (Trailblazer Reloaded)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Fishing",
       "level": 75
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Cooking",
       "level": 85
     }

@@ -3,7 +3,7 @@
   "name": "Shayzien greaves (5)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 20
     }

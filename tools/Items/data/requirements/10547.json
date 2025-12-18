@@ -3,7 +3,7 @@
   "name": "Healer hat",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 45
     }

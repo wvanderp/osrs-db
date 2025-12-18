@@ -3,7 +3,7 @@
   "name": "Carnillean armour",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 1
     }

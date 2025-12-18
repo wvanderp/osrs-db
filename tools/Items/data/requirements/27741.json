@@ -3,12 +3,12 @@
   "name": "Crystal helm (Trahaearn)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 70
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Agility",
       "level": 50
     },

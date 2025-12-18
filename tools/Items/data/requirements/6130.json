@@ -3,7 +3,7 @@
   "name": "Rock-shell legs",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     },

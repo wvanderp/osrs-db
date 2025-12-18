@@ -3,7 +3,7 @@
   "name": "Prayer cape(t)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Prayer",
       "level": 99
     }

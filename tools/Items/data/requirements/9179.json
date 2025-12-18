@@ -3,7 +3,7 @@
   "name": "Steel crossbow",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 31
     }

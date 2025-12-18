@@ -3,7 +3,7 @@
   "name": "Adamant med helm",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 30
     }

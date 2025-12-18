@@ -3,12 +3,12 @@
   "name": "Mirror shield",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 25
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 20
     }

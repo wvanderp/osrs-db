@@ -3,12 +3,12 @@
   "name": "Slayer's staff",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 50
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 55
     }

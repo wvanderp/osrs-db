@@ -3,7 +3,7 @@
   "name": "Mithril crossbow",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 36
     }

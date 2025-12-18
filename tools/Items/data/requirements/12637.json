@@ -3,7 +3,7 @@
   "name": "Saradomin halo",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 20
     }

@@ -3,12 +3,12 @@
   "name": "Infinity hat",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 50
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 25
     }

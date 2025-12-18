@@ -3,7 +3,7 @@
   "name": "Diamond bolts (e)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 57
     }

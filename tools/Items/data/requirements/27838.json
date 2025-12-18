@@ -3,7 +3,7 @@
   "name": "Morrigan's leather chaps (bh)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 78
     }

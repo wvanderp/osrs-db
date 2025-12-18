@@ -3,7 +3,7 @@
   "name": "Decorative shield (white)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 20
     }

@@ -3,7 +3,7 @@
   "name": "Black plateskirt (g)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 10
     }

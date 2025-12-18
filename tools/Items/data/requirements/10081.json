@@ -3,7 +3,7 @@
   "name": "Blue spiky vambraces",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 50
     }

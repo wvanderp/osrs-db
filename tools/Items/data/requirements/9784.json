@@ -3,7 +3,7 @@
   "name": "Fletching cape(t)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Fletching",
       "level": 99
     }

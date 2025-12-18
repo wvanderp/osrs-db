@@ -3,7 +3,7 @@
   "name": "Robin hood hat",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 40
     }

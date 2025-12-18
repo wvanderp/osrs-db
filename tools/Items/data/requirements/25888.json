@@ -3,17 +3,17 @@
   "name": "Bow of faerdhinen (c) (Trahaearn)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 80
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Agility",
       "level": 70
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Fletching",
       "level": 70
     },

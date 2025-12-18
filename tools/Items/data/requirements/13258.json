@@ -3,7 +3,7 @@
   "name": "Angler hat",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Fishing",
       "level": 34
     }

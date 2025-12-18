@@ -3,12 +3,12 @@
   "name": "Oak blackjack(d)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 10
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Thieving",
       "level": 10
     }

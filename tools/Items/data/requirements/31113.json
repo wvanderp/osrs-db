@@ -3,7 +3,7 @@
   "name": "Eye of ayak",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 83
     },

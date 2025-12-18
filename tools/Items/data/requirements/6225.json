@@ -3,12 +3,12 @@
   "name": "Broodoo shield (poison)#(5)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 25
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 25
     }

@@ -3,7 +3,7 @@
   "name": "Mining cape(t)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Mining",
       "level": 99
     }

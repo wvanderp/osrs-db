@@ -3,7 +3,7 @@
   "name": "Nose peg",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 60
     }

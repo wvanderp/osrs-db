@@ -3,12 +3,12 @@
   "name": "Broodoo shield (disease)#Uncharged",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 25
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 25
     }

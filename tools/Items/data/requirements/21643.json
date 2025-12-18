@@ -3,12 +3,12 @@
   "name": "Granite boots",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 50
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Strength",
       "level": 50
     }

@@ -8,7 +8,7 @@
       "note": "Four Recipe for Disaster subquests must be completed."
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 20
     }

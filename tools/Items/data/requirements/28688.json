@@ -3,7 +3,7 @@
   "name": "Blazing blowpipe",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 75
     }

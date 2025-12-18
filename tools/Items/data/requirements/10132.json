@@ -3,7 +3,7 @@
   "name": "Strung rabbit foot",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hunter",
       "level": 24
     }

@@ -3,7 +3,7 @@
   "name": "Rune kiteshield (g)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     }

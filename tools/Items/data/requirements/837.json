@@ -3,7 +3,7 @@
   "name": "Crossbow",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 1
     }

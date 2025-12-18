@@ -3,7 +3,7 @@
   "name": "Mage's book",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 60
     }

@@ -5,7 +5,7 @@
     "id": {
       "description": "The unique identifier of the item",
       "type": "integer",
-      "minimum": -9007199254740991,
+      "minimum": 0,
       "maximum": 9007199254740991
     },
     "name": {
@@ -25,9 +25,9 @@
             "type": "object",
             "properties": {
               "type": {
-                "description": "Level requirement type",
+                "description": "Skill requirement type",
                 "type": "string",
-                "const": "level"
+                "const": "skill"
               },
               "skill": {
                 "description": "The skill required",
@@ -445,12 +445,12 @@
             "type": "object",
             "properties": {
               "type": {
-                "description": "Game mode restriction type",
+                "description": "Ironman mode restriction type",
                 "type": "string",
-                "const": "gameMode"
+                "const": "ironman"
               },
               "mode": {
-                "description": "The game mode restricted",
+                "description": "The type of Ironman mode",
                 "type": "string",
                 "enum": [
                   "Ironman",

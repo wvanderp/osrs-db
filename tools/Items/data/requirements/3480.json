@@ -3,7 +3,7 @@
   "name": "Guthix plateskirt",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     }

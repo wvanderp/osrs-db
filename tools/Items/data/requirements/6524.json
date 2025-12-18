@@ -3,7 +3,7 @@
   "name": "Toktz-ket-xil",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 60
     }

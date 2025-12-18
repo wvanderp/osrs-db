@@ -3,7 +3,7 @@
   "name": "Verac's flail#Undamaged",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 70
     }

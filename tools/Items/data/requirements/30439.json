@@ -3,12 +3,12 @@
   "name": "Echo virtus robe top",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 75
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 78
     }

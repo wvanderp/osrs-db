@@ -3,7 +3,7 @@
   "name": "Strength hood",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Strength",
       "level": 99,
       "note": "Required to purchase the hood."

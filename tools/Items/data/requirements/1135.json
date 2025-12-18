@@ -7,12 +7,12 @@
       "quest": "DRAGON_SLAYER_I"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 40
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     }

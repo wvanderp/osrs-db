@@ -3,12 +3,12 @@
   "name": "Blue d'hide body (t)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 50
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     }

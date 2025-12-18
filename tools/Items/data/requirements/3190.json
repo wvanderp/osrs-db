@@ -3,7 +3,7 @@
   "name": "Bronze halberd",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 1
     }

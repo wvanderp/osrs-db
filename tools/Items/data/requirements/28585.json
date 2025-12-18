@@ -3,7 +3,7 @@
   "name": "Warped sceptre (charged)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 62
     }

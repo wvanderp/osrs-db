@@ -8,7 +8,7 @@
       "note": "Complete any 8 Recipe for Disaster subquests"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 40
     }

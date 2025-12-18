@@ -3,7 +3,7 @@
   "name": "Ultimate ironman platebody",
   "requirements": [
     {
-      "type": "gameMode",
+      "type": "ironman",
       "mode": "Ultimate Ironman"
     }
   ]

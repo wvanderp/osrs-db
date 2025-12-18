@@ -3,7 +3,7 @@
   "name": "Teacher wand",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 55
     }

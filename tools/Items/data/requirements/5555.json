@@ -3,13 +3,13 @@
   "name": "Rogue trousers",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Thieving",
       "level": 50,
       "note": "Required to get the rogue outfit"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Agility",
       "level": 50,
       "note": "Required to get the rogue outfit"

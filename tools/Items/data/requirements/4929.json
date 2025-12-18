@@ -3,12 +3,12 @@
   "name": "Karil's coif",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 70
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 70
     }

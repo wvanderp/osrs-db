@@ -3,12 +3,12 @@
   "name": "Enchanted top",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 20
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 40
     }

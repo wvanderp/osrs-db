@@ -3,12 +3,12 @@
   "name": "Mithril halberd",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 20
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Strength",
       "level": 10
     }

@@ -3,7 +3,7 @@
   "name": "Decorative armour (gold platebody)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 30
     }

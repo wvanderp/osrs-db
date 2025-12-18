@@ -3,7 +3,7 @@
   "name": "Steel boots",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 5
     }

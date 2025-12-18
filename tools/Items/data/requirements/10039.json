@@ -3,7 +3,7 @@
   "name": "Kyatt hat",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hunter",
       "level": 52
     }

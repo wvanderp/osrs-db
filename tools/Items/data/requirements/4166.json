@@ -3,7 +3,7 @@
   "name": "Earmuffs",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 15
     }

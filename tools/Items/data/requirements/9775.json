@@ -3,7 +3,7 @@
   "name": "Herblore cape(t)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Herblore",
       "level": 99
     }

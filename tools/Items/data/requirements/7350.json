@@ -3,7 +3,7 @@
   "name": "Black shield (h4)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 10
     }

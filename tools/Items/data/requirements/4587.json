@@ -3,7 +3,7 @@
     "name": "Dragon scimitar",
     "requirements": [
         {
-            "type": "level",
+            "type": "skill",
             "skill": "Attack",
             "level": 60
         },

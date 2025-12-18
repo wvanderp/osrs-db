@@ -7,7 +7,7 @@
       "quest": "THE_FREMENNIK_TRIALS"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 30
     }

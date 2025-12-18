@@ -3,7 +3,7 @@
   "name": "Magic staff",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 1
     }

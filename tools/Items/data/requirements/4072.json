@@ -3,7 +3,7 @@
   "name": "Decorative shield (red)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 5
     }

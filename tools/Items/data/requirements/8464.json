@@ -7,17 +7,17 @@
       "quest": "SHIELD_OF_ARRAV"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Construction",
       "level": 16
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Crafting",
       "level": 38
     }

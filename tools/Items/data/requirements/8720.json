@@ -8,19 +8,19 @@
       "note": "Required to create the kiteshield, and the item is untradeable and only obtainable via crafting."
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40,
       "note": "To wear the shield"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Crafting",
       "level": 43,
       "note": "To craft the shield"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Construction",
       "level": 41,
       "note": "To build Shield easel in POH"

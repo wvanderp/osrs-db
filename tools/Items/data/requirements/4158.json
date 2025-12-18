@@ -3,12 +3,12 @@
   "name": "Leaf-bladed spear",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 55
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 50
     }

@@ -3,7 +3,7 @@
   "name": "Saradomin cloak",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Prayer",
       "level": 40
     }

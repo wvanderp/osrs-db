@@ -3,7 +3,7 @@
   "name": "Adamant dagger",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 30
     }

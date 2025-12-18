@@ -3,7 +3,7 @@
   "name": "Necklace of anguish (or)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hitpoints",
       "level": 75
     }

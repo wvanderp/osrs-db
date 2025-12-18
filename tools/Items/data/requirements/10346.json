@@ -3,7 +3,7 @@
   "name": "3rd age platelegs",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 65
     }

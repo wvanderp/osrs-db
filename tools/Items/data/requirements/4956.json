@@ -3,7 +3,7 @@
   "name": "Torag's helm (broken)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 70
     }

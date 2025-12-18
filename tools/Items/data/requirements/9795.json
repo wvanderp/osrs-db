@@ -3,7 +3,7 @@
   "name": "Smithing cape",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Smithing",
       "level": 99
     }

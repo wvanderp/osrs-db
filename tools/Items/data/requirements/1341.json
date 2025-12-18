@@ -3,7 +3,7 @@
   "name": "Black warhammer",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Strength",
       "level": 10
     }

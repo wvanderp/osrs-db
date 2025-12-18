@@ -3,7 +3,7 @@
   "name": "Magic cape",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 99
     }

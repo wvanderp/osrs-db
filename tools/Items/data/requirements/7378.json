@@ -3,7 +3,7 @@
   "name": "Green d'hide chaps (g)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 40
     }

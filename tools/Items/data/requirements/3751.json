@@ -3,7 +3,7 @@
   "name": "Berserker Helm",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 45
     },

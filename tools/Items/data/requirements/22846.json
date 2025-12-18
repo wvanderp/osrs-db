@@ -3,12 +3,12 @@
   "name": "Pearl fishing rod",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Fishing",
       "level": 43
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hunter",
       "level": 35
     }

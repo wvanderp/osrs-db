@@ -3,37 +3,37 @@
   "name": "Void knight top",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Attack",
       "level": 42
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Strength",
       "level": 42
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 42
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Hitpoints",
       "level": 42
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 42
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 42
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Prayer",
       "level": 22
     }

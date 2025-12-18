@@ -3,7 +3,7 @@
   "name": "Adamant gloves",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 13
     },

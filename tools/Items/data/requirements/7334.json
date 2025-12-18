@@ -3,7 +3,7 @@
   "name": "Adamant shield (h1)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 30
     }

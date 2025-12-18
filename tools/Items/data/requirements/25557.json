@@ -3,7 +3,7 @@
   "name": "Dark flippers",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 32
     },

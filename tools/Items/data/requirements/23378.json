@@ -3,7 +3,7 @@
   "name": "Black platebody (h5)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 10
     }

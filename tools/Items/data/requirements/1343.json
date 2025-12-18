@@ -3,7 +3,7 @@
   "name": "Mithril warhammer",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Strength",
       "level": 20,
       "note": "Unlike other mithril weapons, it requires level 20 in Strength to wield."

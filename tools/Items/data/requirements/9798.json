@@ -3,7 +3,7 @@
   "name": "Fishing cape",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Fishing",
       "level": 99
     }

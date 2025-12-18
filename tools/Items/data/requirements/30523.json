@@ -3,12 +3,12 @@
   "name": "Echo ahrim's robeskirt",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 70
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Magic",
       "level": 70
     }

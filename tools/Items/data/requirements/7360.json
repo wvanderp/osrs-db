@@ -3,7 +3,7 @@
   "name": "Rune shield (h5)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 40
     }

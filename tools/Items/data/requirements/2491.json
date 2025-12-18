@@ -3,7 +3,7 @@
   "name": "Black d'hide vambraces",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 70
     }

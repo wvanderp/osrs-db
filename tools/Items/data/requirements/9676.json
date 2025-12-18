@@ -3,12 +3,12 @@
   "name": "Proselyte cuisse",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 30
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Prayer",
       "level": 20
     },

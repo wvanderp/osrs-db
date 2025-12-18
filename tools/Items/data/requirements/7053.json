@@ -3,7 +3,7 @@
   "name": "Bug lantern#Lit",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Slayer",
       "level": 33
     }

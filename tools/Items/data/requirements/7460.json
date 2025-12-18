@@ -7,7 +7,7 @@
       "quest": "RECIPE_FOR_DISASTER"
     },
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Defence",
       "level": 13
     }

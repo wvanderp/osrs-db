@@ -3,7 +3,7 @@
   "name": "Thieving cape",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Thieving",
       "level": 99
     }

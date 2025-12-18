@@ -3,7 +3,7 @@
   "name": "Dragon arrow#(unp)",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Ranged",
       "level": 60
     },

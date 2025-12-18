@@ -3,7 +3,7 @@
   "name": "Storm cruiser's hat",
   "requirements": [
     {
-      "type": "level",
+      "type": "skill",
       "skill": "Sailing",
       "level": 30
     }
