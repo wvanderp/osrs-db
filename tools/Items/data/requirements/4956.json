@@ -1,0 +1,11 @@
+{
+  "id": 4956,
+  "name": "Torag's helm (broken)",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

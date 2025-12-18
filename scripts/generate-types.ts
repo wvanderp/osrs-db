@@ -25,7 +25,6 @@ import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { glob } from 'glob';
 import { yellow, green, red, cyan } from '../common/colors.js';
-import { zodToJsonSchema } from 'zod-to-json-schema';
 import { compile } from 'json-schema-to-typescript';
 
 // Constants
@@ -225,7 +224,7 @@ async function generateWrapper(entry: DataFileEntry, repoRoot: string): Promise<
     }
 
     // 2) Convert Zod schema to JSON schema
-    const jsonSchema = zodToJsonSchema(zodSchema, { name: entry.typeName });
+    const jsonSchema = zodSchema.toJSONSchema();
 
     // 3) Generate TypeScript types using json-schema-to-typescript
     const typeDeclarations = await compile(jsonSchema as any, entry.typeName, {

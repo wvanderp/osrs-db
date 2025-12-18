@@ -1,0 +1,11 @@
+{
+  "id": 4992,
+  "name": "Verac's brassard 0",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

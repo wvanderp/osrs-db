@@ -1,0 +1,16 @@
+{
+  "id": 4944,
+  "name": "Karil's leathertop 0",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    },
+    {
+      "type": "level",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

@@ -110,7 +110,10 @@ export type AnyRequirement = z.infer<typeof AnyRequirementSchema>;
  * Schema for a single wear requirements entry
  */
 export const WearRequirementSchema = z.object({
-    id: z.number().int().describe("The unique identifier of the item"),
+    id: z.number()
+        .int()
+        .min(0)
+        .describe("The unique identifier of the item"),
     name: z.string().describe("The name of the item"),
     note: z.string().optional().describe("An optional note about the item's requirements"),
     requirements: z.array(AnyRequirementSchema).describe("Array of requirements for wearing this item"),

@@ -9,6 +9,11 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 
 ### Added
 
+2025-12-18 — @copilot — Added: Automatic generation of JSON schemas from Zod schemas during build. (#TBD)
+
+- Added `scripts/generate-schemas.ts` to compile Zod schemas into `schema.json` files.
+- Build process now outputs JSON schemas to `schemas/` at the root and includes them in the npm package.
+
 2025-11-22 — @copilot — Fixed: Automatic loading of referenced JSON schemas during schema linting to resolve relative $refs (e.g., Diaries/diariesList.schema.json). (#TBD)
 
 - `lintWithSchema` now detects and registers any `.schema.json` files referenced with `$ref` and recursively resolves nested references.

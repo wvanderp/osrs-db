@@ -1,0 +1,11 @@
+{
+  "id": 4980,
+  "name": "Verac's helm 0",
+  "requirements": [
+    {
+      "type": "level",
+      "skill": "Defence",
+      "level": 70
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "description": "The item's ID",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "name": {
+        "description": "The item's name",
+        "type": "string"
+      },
+      "members": {
+        "description": "Whether the item is members-only",
+        "type": "boolean"
+      },
+      "stabAttack": {
+        "description": "Stab attack bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "slashAttack": {
+        "description": "Slash attack bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "crushAttack": {
+        "description": "Crush attack bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "magicAttack": {
+        "description": "Magic attack bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "rangedAttack": {
+        "description": "Ranged attack bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "stabDefence": {
+        "description": "Stab defence bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "slashDefence": {
+        "description": "Slash defence bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "crushDefence": {
+        "description": "Crush defence bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "magicDefence": {
+        "description": "Magic defence bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "rangedDefence": {
+        "description": "Ranged defence bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "strengthBonus": {
+        "description": "Strength bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "rangedStrength": {
+        "description": "Ranged strength bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "magicDamage": {
+        "description": "Magic damage bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "prayerBonus": {
+        "description": "Prayer bonus",
+        "type": "integer",
+        "minimum": -9007199254740991,
+        "maximum": 9007199254740991
+      },
+      "weight": {
+        "description": "Item weight in kg",
+        "type": "number"
+      },
+      "speed": {
+        "description": "Attack speed (for weapons)",
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "slot": {
+        "description": "Equipment slot",
+        "type": "string",
+        "enum": [
+          "Ammunition",
+          "Body",
+          "Cape",
+          "Feet",
+          "Hands",
+          "Head",
+          "Legs",
+          "Neck",
+          "Ring",
+          "Shield",
+          "Weapon",
+          "Two-handed"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "members",
+      "stabAttack",
+      "slashAttack",
+      "crushAttack",
+      "magicAttack",
+      "rangedAttack",
+      "stabDefence",
+      "slashDefence",
+      "crushDefence",
+      "magicDefence",
+      "rangedDefence",
+      "strengthBonus",
+      "rangedStrength",
+      "magicDamage",
+      "prayerBonus",
+      "weight",
+      "slot"
+    ],
+    "additionalProperties": false
+  }
+}

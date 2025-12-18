@@ -279,6 +279,26 @@ async function build() {
     console.log(green(`   ✅ Generated ${mjsFiles.length} exports`));
 
     console.log('');
+
+    // Step 8: Generate JSON schemas
+    console.log(cyan('🔧 [build] Generating JSON schemas...'));
+    try {
+        const generateSchemasScript = path.join(repoRoot, 'scripts', 'generate-schemas.ts');
+        execSync(`npx tsx "${generateSchemasScript}"`, {
+            stdio: 'inherit',
+            cwd: repoRoot,
+        });
+
+        // Copy schemas to build directory
+        const schemasSrc = path.join(repoRoot, 'schemas');
+        const schemasDest = path.join(buildPath, 'schemas');
+        await copyDir(schemasSrc, schemasDest);
+        console.log(green('   ✅ JSON schemas generated and copied to build/schemas'));
+    } catch (error) {
+        throw new Error(`JSON schema generation failed: ${error instanceof Error ? error.message : String(error)}`);
+    }
+
+    console.log('');
     console.log(green('✨ [build] Build complete!'));
     console.log(cyan(`   📦 Build output: ${BUILD_DIR}/`));
 }

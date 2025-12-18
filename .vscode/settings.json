@@ -251,7 +251,7 @@
             "fileMatch": [
                 "tools/Items/data/requirements/*.json"
             ],
-            "url": "/tools/Items/wearRequirements.schema.json"
+            "url": "/schemas/wearRequirements.schema.json"
         }
     ]
 }
