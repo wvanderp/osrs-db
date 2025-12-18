@@ -289,7 +289,7 @@ function rewriteName(name: string): string {
         name = name.replace("javelin (", "javelin(");
     }
 
-    // Things that just need a little space beween the name and the ()
+    // Things that just need a little space between the name and the ()
     const spaceNeeders = [
         "Abyssal dagger",
         "Bone dagger",
