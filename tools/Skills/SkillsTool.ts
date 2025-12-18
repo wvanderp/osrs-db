@@ -2,7 +2,8 @@ import fs from 'fs';
 import Tool from '../../collect/Tool';
 import { cyan, red, yellow } from '../../common/colors';
 import path from 'path';
-import lintWithSchema from '../../common/lintWithSchema';
+import lintWithZod from '../../common/lintWithZod';
+import SkillsSchema from './Skills.schema';
 
 export const Skills = [
     // Free to play skills
@@ -49,11 +50,9 @@ export const SkillsTool: Tool = {
     },
     async lint() {
         console.log(prefix, yellow("Linting data using schema..."));
-        const schemaPath = path.join(__dirname, "skills.schema.json");
 
-        try {
-            lintWithSchema(dataPath, schemaPath, { prefix });
-        } catch (e) {
+        const valid = lintWithZod(dataPath, SkillsSchema, { prefix });
+        if (!valid) {
             console.error(prefix, red("Skills schema lint failed"));
             process.exit(1);
         }

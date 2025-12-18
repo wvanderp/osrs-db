@@ -1,26 +1,19 @@
-import Ajv from "ajv";
 import fs from "fs";
 import path from "path";
 import { cyan, red, green } from "../../common/colors";
+import SlotStatsSchema from "./SlotStats.schema";
 
 // load the file
 const filePath = path.join(__dirname, "../../data/slotStats.g.json");
 const file = JSON.parse(fs.readFileSync(filePath, "utf8")) as { [key: string]: number | string | null }[];
 
-// load the schema
-const schemaPath = path.join(__dirname, "slotStats.schema.json");
-const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
-
 export default function lintSlotStats() {
     console.log(cyan("Linting slotStats.g.json"));
     // #region schema
-    const ajv = new Ajv();
-    const validate = ajv.compile(schema);
+    const result = SlotStatsSchema.safeParse(file);
 
-    const valid = validate(file);
-
-    if (!valid) {
-        console.error(cyan("[slotStats.linter]"), red("slotStats schema validation errors:"), validate.errors);
+    if (!result.success) {
+        console.error(cyan("[slotStats.linter]"), red("slotStats schema validation errors:"), result.error.issues);
     }
     // #endregion
 

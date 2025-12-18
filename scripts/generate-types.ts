@@ -3,40 +3,39 @@
 /**
  * @generated FILE — Zero-config TypeScript wrapper generator for JSON data files
  * 
- * This script discovers JSON data files and their schemas, then generates TypeScript
+ * This script discovers JSON data files and their Zod schemas, then generates TypeScript
  * wrapper files that import the JSON and export properly typed data.
  * 
  * Conventions:
  * - DATA_DIR = "./data"
- * - SCHEMA_DIR = "./schemas" and/or co-located schemas (*.schema.json)
- * - OUT_DIR = "." (package root, mirrors data/ structure)
+ * - Zod schemas in tools/{ToolName}/*.schema.ts
+ * - OUT_DIR = "./build" (package root, mirrors data/ structure)
  * 
  * Schema resolution order:
- * 1. data/<rel>.schema.json (same folder, same base name)
- * 2. schemas/<rel>.schema.json (mirrors path under schemas/)
- * 3. Check tools/{ToolName} for matching schema
+ * 1. tools/{ToolName}/{Name}.schema.ts for matching schema
  * 
  * Generated files:
- * - data/items/item.g.json → ./items/item.g.ts
+ * - data/items.g.json → ./build/items.g.ts
  * - ESM imports with import assertions
- * - Fully typed exports using json-schema-to-typescript
+ * - Types inferred from Zod schemas
  */
 
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
-import { compile } from 'json-schema-to-typescript';
+import { pathToFileURL } from 'node:url';
 import { glob } from 'glob';
 import { yellow, green, red, cyan } from '../common/colors.js';
+import { zodToJsonSchema } from 'zod-to-json-schema';
+import { compile } from 'json-schema-to-typescript';
 
 // Constants
-const SCHEMA_DIR = './schemas';
 const OUT_DIR = './build';
 
 interface DataFileEntry {
     jsonRelToRoot: string;      // Relative path from repo root (data/items/item.g.json)
     jsonRelToData: string;      // Relative path from data/ (items/item.g.json)
     jsonAbs: string;            // Absolute path
-    schemaAbs?: string;         // Absolute path to schema
+    schemaModulePath?: string;  // Path to Zod schema module
     typeName: string;           // PascalCase type name
     outPath: string;            // Absolute output path for .ts file
 }
@@ -67,9 +66,9 @@ async function main() {
 
     for (const jsonRel of jsonFiles) {
         const jsonAbs = path.join(repoRoot, jsonRel);
-        const schemaAbs = await findSchemaFor(jsonAbs, repoRoot);
+        const schemaModulePath = await findSchemaFor(jsonAbs, repoRoot);
 
-        if (!schemaAbs) {
+        if (!schemaModulePath) {
             console.log(yellow(`⚠️  [generate-types] No schema found for ${jsonRel}, skipping`));
             skippedCount++;
             continue;
@@ -83,7 +82,7 @@ async function main() {
             jsonRelToRoot: jsonRel,
             jsonRelToData,
             jsonAbs,
-            schemaAbs,
+            schemaModulePath,
             typeName,
             outPath
         });
@@ -115,37 +114,20 @@ async function main() {
 }
 
 /**
- * Find the schema file for a given JSON data file
+ * Find the Zod schema file for a given JSON data file
  * 
  * Resolution order:
- * 1. data/<rel>.schema.json (same folder)
- * 2. schemas/<rel>.schema.json (mirror structure)
- * 3. tools/{ToolName}/{basename}.schema.json (for data/*.g.json files)
+ * 1. tools/{ToolName}/{Name}.schema.ts (for data/*.g.json files)
  */
 async function findSchemaFor(jsonAbs: string, repoRoot: string): Promise<string | undefined> {
-    const dir = path.dirname(jsonAbs);
     const basename = path.basename(jsonAbs, '.json');
     const relativePath = path.relative(repoRoot, jsonAbs);
 
-    // Strategy 1: Co-located schema (data/<path>/<basename>.schema.json)
-    const colocated = path.join(dir, `${basename}.schema.json`);
-    if (await fileExists(colocated)) {
-        return colocated;
-    }
-
-    // Strategy 2: Mirror structure in schemas/ directory
-    if (relativePath.startsWith('data' + path.sep)) {
-        const relToData = path.relative('data', relativePath);
-        const schemaPath = path.join(repoRoot, SCHEMA_DIR, relToData.replace(/\.json$/, '.schema.json'));
-        if (await fileExists(schemaPath)) {
-            return schemaPath;
-        }
-    }
-
-    // Strategy 3: For data/*.g.json files, check tools/{ToolName}/{name}.schema.json
+    // For data/*.g.json files, check tools/{ToolName}/{Name}.schema.ts
     const parts = relativePath.split(path.sep);
     if (parts[0] === 'data' && parts.length >= 2) {
         const name = basename.replace(/\.g$/, ''); // Remove .g suffix
+        const pascalName = toPascal(name);
 
         const toolsDir = path.join(repoRoot, 'tools');
         try {
@@ -154,9 +136,16 @@ async function findSchemaFor(jsonAbs: string, repoRoot: string): Promise<string 
                 const stat = await fs.stat(path.join(toolsDir, tool));
                 if (!stat.isDirectory()) continue;
 
-                const toolSchemaPath = path.join(toolsDir, tool, `${name}.schema.json`);
+                // Look for {PascalName}.schema.ts
+                const toolSchemaPath = path.join(toolsDir, tool, `${pascalName}.schema.ts`);
                 if (await fileExists(toolSchemaPath)) {
                     return toolSchemaPath;
+                }
+
+                // Also try {name}.schema.ts (original case)
+                const toolSchemaPathLower = path.join(toolsDir, tool, `${name}.schema.ts`);
+                if (await fileExists(toolSchemaPathLower)) {
+                    return toolSchemaPathLower;
                 }
             }
         } catch {
@@ -226,12 +215,20 @@ function extractTypeName(typeDeclarations: string, fallbackName: string): string
  * Returns true if file was written, false if unchanged
  */
 async function generateWrapper(entry: DataFileEntry, repoRoot: string): Promise<boolean> {
-    // 1) Read and compile schema
-    const schemaContent = await fs.readFile(entry.schemaAbs!, 'utf8');
-    const schema = JSON.parse(schemaContent);
+    // 1) Import the Zod schema module dynamically
+    const schemaModule = await import(pathToFileURL(entry.schemaModulePath!).href);
+    const zodSchema = schemaModule.default;
 
-    // 2) Generate TypeScript types using json-schema-to-typescript
-    const typeDeclarations = await compile(schema, entry.typeName, {
+    if (!zodSchema) {
+        console.error(red(`  ❌ No default export found in ${entry.schemaModulePath}`));
+        return false;
+    }
+
+    // 2) Convert Zod schema to JSON schema
+    const jsonSchema = zodToJsonSchema(zodSchema, { name: entry.typeName });
+
+    // 3) Generate TypeScript types using json-schema-to-typescript
+    const typeDeclarations = await compile(jsonSchema as any, entry.typeName, {
         bannerComment: '',
         style: {
             singleQuote: true,
@@ -242,12 +239,10 @@ async function generateWrapper(entry: DataFileEntry, repoRoot: string): Promise<
         unknownAny: false,
     });
 
-    // 3) Extract the actual type name from generated declarations
-    // json-schema-to-typescript may use schema title instead of our provided name
+    // 4) Extract the actual type name from generated declarations
     const actualTypeName = extractTypeName(typeDeclarations, entry.typeName);
 
-    // 4) Calculate relative import path from output .ts to JSON file
-    // Prefer the JSON file that will be placed under OUT_DIR (mirrors data/)
+    // 5) Calculate relative import path from output .ts to JSON file
     const outDir = path.dirname(entry.outPath);
 
     // Candidate JSON location under the OUT_DIR (e.g., build/data/items.g.json)
@@ -259,7 +254,7 @@ async function generateWrapper(entry: DataFileEntry, repoRoot: string): Promise<
         relativeImport = './' + relativeImport;
     }
 
-    // 5) Build wrapper content
+    // 6) Build wrapper content
     const lines: string[] = [];
     lines.push('// @generated FILE — do not edit');
     lines.push('// Generated by: scripts/generate-types.ts');
@@ -279,13 +274,13 @@ async function generateWrapper(entry: DataFileEntry, repoRoot: string): Promise<
     lines.push('');
     const content = lines.join('\n');
 
-    // 5) Only write if content changed
+    // 7) Only write if content changed
     const existing = await fs.readFile(entry.outPath, 'utf8').catch(() => null);
     if (existing === content) {
         return false;
     }
 
-    // 6) Write file
+    // 8) Write file
     await fs.mkdir(path.dirname(entry.outPath), { recursive: true });
     await fs.writeFile(entry.outPath, content, 'utf8');
 

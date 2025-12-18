@@ -3,7 +3,8 @@ import path from "path";
 import axios from "axios";
 import Tool from "../../collect/Tool";
 import { cyan, green, red, yellow } from "../../common/colors";
-import lintWithSchema from '../../common/lintWithSchema';
+import lintWithZod from '../../common/lintWithZod';
+import QuestsSchema from './Quests.schema';
 
 const QUEST_SOURCE_URL =
   "https://raw.githubusercontent.com/runelite/runelite/master/runelite-api/src/main/java/net/runelite/api/Quest.java";
@@ -60,26 +61,15 @@ export const QuestsTool: Tool = {
     fs.writeFileSync(outFile, JSON.stringify(quests, null, 4));
     console.log(prefix, "Wrote", green(String(quests.length)), "quests to", path.relative(process.cwd(), outFile));
 
-    // Create a JSON schema for other tools to reference
-    const schemaFile = path.join(__dirname, "QuestList.schema.json");
-    const schema = quests.map(q => q.enum);
-    fs.writeFileSync(schemaFile, JSON.stringify({
-      "$schema": "http://json-schema.org/draft-07/schema#",
-      "type": "string",
-      "title": "Quest",
-      "description": "An enum of all quests available in Old School RuneScape.",
-      "enum": schema,
-    }, null, 4));
-    console.log(prefix, "Wrote quest schema to", path.relative(process.cwd(), schemaFile));
+    // Note: Quest enum is defined in Quests.schema.ts for Zod validation
+    // When new quests are added to the game, update the QuestEnumSchema in Quests.schema.ts
   },
   lint: async () => {
     console.log(prefix, yellow("Linting data using schema..."));
     const dataPath = path.join(__dirname, "../../data", "quests.g.json");
-    const schemaPath = path.join(__dirname, "quests.schema.json");
 
-    try {
-      lintWithSchema(dataPath, schemaPath, { prefix });
-    } catch (e) {
+    const valid = lintWithZod(dataPath, QuestsSchema, { prefix });
+    if (!valid) {
       console.error(prefix, red("Quests schema lint failed"));
       process.exit(1);
     }

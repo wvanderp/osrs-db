@@ -2,7 +2,8 @@ import path from 'path';
 import Tool from "../../collect/Tool";
 import { cyan, red } from "../../common/colors";
 import executeShellScript from '../../common/executeShellScript';
-import lintWithSchema from '../../common/lintWithSchema';
+import lintWithZod from '../../common/lintWithZod';
+import NpcsSchema from './Npcs.schema';
 
 const prefix = cyan("[NpcsTool]");
 
@@ -19,12 +20,9 @@ export const NpcsTool: Tool = {
   async lint() {
     console.log(prefix, "Linting data using schema...");
     const dataPath = path.join(__dirname, "../../data", "npcs.g.json");
-    const schemaPath = path.join(__dirname, "npcs.schema.json");
 
-    try {
-      lintWithSchema(dataPath, schemaPath, { prefix });
-    } catch (e) {
-      // lintWithSchema prints all errors already, just exit non-zero here
+    const valid = lintWithZod(dataPath, NpcsSchema, { prefix });
+    if (!valid) {
       console.error(prefix, red("Npcs schema lint failed"));
       process.exit(1);
     }

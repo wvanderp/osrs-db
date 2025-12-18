@@ -68,14 +68,14 @@ function checkTool(toolDirName: string, toolsRoot: string): ToolCheckResult {
         errors.push(`Missing file: ${path.relative(process.cwd(), requiredFiles.changelogMd)} (tool changelog)`);
     }
 
-    // Schema check (at least one *.schema.json)
+    // Schema check (at least one *.schema.ts file)
     const entries = fs.readdirSync(toolPath, { withFileTypes: true });
     const schemaFiles = entries
         .filter(e => e.isFile())
         .map(e => e.name)
-        .filter(name => /\.schema\.json$/i.test(name));
+        .filter(name => /\.schema\.ts$/i.test(name));
     if (schemaFiles.length === 0) {
-        errors.push(`No schema files found (*.schema.json) in ${path.relative(process.cwd(), toolPath)}`);
+        errors.push(`No schema files found (*.schema.ts) in ${path.relative(process.cwd(), toolPath)}`);
     }
 
     // Friendly warnings: Look for README.md if {tool}.md missing

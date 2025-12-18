@@ -1,7 +1,7 @@
 
-import Ajv from "ajv";
 import fs from "fs";
 import path from "path";
+import { z } from "zod";
 import { cyan, red, green, yellow } from "../../common/colors";
 
 
@@ -31,27 +31,20 @@ try {
 }
 
 
-const schema = {
-    type: "object",
-    additionalProperties: {
-        oneOf: [
-            { type: "number" },
-            { type: "string" },
-            { type: "null" }
-        ]
-    }
-};
+const schema = z.record(z.string(), z.union([z.number(), z.string(), z.null()]));
 
 
 export default function LintTitleToID() {
     console.log(cyan("[titleToID.linter]"), "Linting titleToID.json");
 
     // Validate schema
-    const ajv = new Ajv();
-    const validate = ajv.compile(schema);
-    const valid = validate(file);
-    if (!valid) {
-        console.error(cyan("[titleToID.linter]"), red("Schema validation errors:"), validate.errors);
+    const result = schema.safeParse(file);
+    if (!result.success) {
+        console.error(cyan("[titleToID.linter]"), red("Schema validation errors:"));
+        for (const err of result.error.issues) {
+            const loc = err.path.length > 0 ? err.path.join(".") : "/";
+            console.error(cyan("[titleToID.linter]"), red(`${loc}: ${err.message}`));
+        }
         process.exitCode = 1;
     }
 

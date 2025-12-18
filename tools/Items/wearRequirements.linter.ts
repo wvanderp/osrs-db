@@ -1,7 +1,7 @@
-import Ajv from "ajv";
 import fs from "fs";
 import path from "path";
 import { cyan, red, green, yellow } from "../../common/colors";
+import WearRequirementSchema from "./WearRequirements.schema";
 
 /**
  * Validates individual wearRequirements JSON files in data/requirements/ against the schema
@@ -10,27 +10,12 @@ export default function lintWearRequirements(): void {
     console.log(`${cyan("[ItemsTool]")} Linting individual wearRequirements files`);
 
     const requirementsDir = path.join(__dirname, "data", "requirements");
-    const schemaPath = path.join(__dirname, "wearRequirements.schema.json");
-    const questListSchemaPath = path.join(__dirname, "..", "Quests", "QuestList.schema.json");
-    const diariesListSchemaPath = path.join(__dirname, "..", "Diaries", "diariesList.schema.json");
 
     // Check if requirements directory exists
     if (!fs.existsSync(requirementsDir)) {
         console.log(`${yellow("[ItemsTool]")} No requirements directory found, skipping lint.`);
         return;
     }
-
-    // Load the schemas
-    const schema = JSON.parse(fs.readFileSync(schemaPath, "utf8"));
-    const questListSchema = JSON.parse(fs.readFileSync(questListSchemaPath, "utf8"));
-    const diariesListSchema = JSON.parse(fs.readFileSync(diariesListSchemaPath, "utf8"));
-
-    // Setup AJV validator and add the referenced schema
-    const ajv = new Ajv();
-    // Add referenced schemas so AJV can resolve the $refs
-    ajv.addSchema(questListSchema, "Quests/QuestList.schema.json");
-    ajv.addSchema(diariesListSchema, "Diaries/diariesList.schema.json");
-    const validate = ajv.compile(schema);
 
     // Get all JSON files in the requirements directory
     const files = fs.readdirSync(requirementsDir).filter(file => file.endsWith('.json'));
@@ -48,11 +33,11 @@ export default function lintWearRequirements(): void {
         const filePath = path.join(requirementsDir, file);
         const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-        const valid = validate(data);
+        const result = WearRequirementSchema.safeParse(data);
 
-        if (!valid) {
+        if (!result.success) {
             console.error(`${red("[ItemsTool]")} Validation failed for ${file}:`);
-            console.error(validate.errors);
+            console.error(result.error.issues);
             allValid = false;
         } else {
             validCount++;

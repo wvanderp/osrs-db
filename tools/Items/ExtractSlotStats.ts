@@ -273,6 +273,10 @@ function rewriteName(name: string): string {
 
     for (const brother of barrowsBrothers) {
         if (name.includes(brother)) {
+            console.log("Rewriting barrows item name:", name);
+            // broken is actually 0
+            name = name.replace("broken", "0");
+
             name = name.replace(/#(\d+)/, " $1");
         }
     }

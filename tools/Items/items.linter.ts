@@ -1,20 +1,19 @@
 import fs from "fs";
 import path from "path";
-import lintWithSchema from "../../common/lintWithSchema";
+import lintWithZod from "../../common/lintWithZod";
 import { cyan, red, green } from "../../common/colors";
+import ItemsSchema from "./Items.schema";
 
 const prefix = cyan("[ItemsTool]");
 
 export default function LintItems() {
     const filePath = path.join(__dirname, "../../data/items.g.json");
-    const schemaPath = path.join(__dirname, "items.schema.json");
 
     console.log(`${prefix} ${cyan("Linting items.g.json")}`);
 
     let hasError = false;
-    try {
-        lintWithSchema(filePath, schemaPath, { prefix });
-    } catch (e) {
+    const valid = lintWithZod(filePath, ItemsSchema, { prefix });
+    if (!valid) {
         hasError = true;
     }
 

@@ -1,7 +1,8 @@
 import path from 'path';
 import Tool from "../../collect/Tool";
 import { cyan } from "../../common/colors";
-import lintWithSchema from '../../common/lintWithSchema';
+import lintWithZod from '../../common/lintWithZod';
+import TransportsSchema from './Transports.schema';
 
 const prefix = cyan("[TransportsTool]");
 
@@ -18,8 +19,7 @@ export const TransportsTool: Tool = {
   async lint() {
     console.log(prefix, "Linting data using schema...");
     const dataPath = path.join(__dirname, "data/wilderness_obelisks.json");
-    const schemaPath = path.join(__dirname, "transports.schema.json");
 
-    lintWithSchema(dataPath, schemaPath, { prefix });
+    lintWithZod(dataPath, TransportsSchema, { prefix });
   },
 };

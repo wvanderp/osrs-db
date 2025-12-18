@@ -2,9 +2,10 @@ import Tool from "../../collect/Tool";
 import { cyan, green, red } from "../../common/colors";
 import fs from "fs";
 import path from "path";
-import lintWithSchema from "../../common/lintWithSchema";
+import lintWithZod from "../../common/lintWithZod";
 import { dataPath } from "../../common/paths";
 import { getCacheID } from "../../common/getNewestCache";
+import { CacheNumberSchema } from "./CacheNumber.schema";
 
 const prefix = cyan("[CacheNumber]");
 
@@ -28,7 +29,6 @@ export const CacheNumberTool: Tool = {
     async lint(): Promise<void> {
         console.log(prefix, "Linting cache-number.json");
         const filePath = path.join(dataPath, "cache-number.json");
-        const schemaPath = path.join(__dirname, "cache-number.schema.json");
 
         console.log(`${prefix} Linting cache-number.json`);
 
@@ -37,7 +37,10 @@ export const CacheNumberTool: Tool = {
             process.exit(1);
         }
 
-        lintWithSchema(filePath, schemaPath, { prefix });
+        const valid = lintWithZod(filePath, CacheNumberSchema, { prefix });
+        if (!valid) {
+            process.exit(1);
+        }
 
         console.log(prefix, green(`cache-number.json validated`));
     },

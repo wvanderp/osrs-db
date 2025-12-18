@@ -1,14 +1,14 @@
 import path from "path";
-import lintWithSchema from "../../common/lintWithSchema";
+import lintWithZod from "../../common/lintWithZod";
 import { cyan, green } from "../../common/colors";
+import ObjectLocationsSchema from "./ObjectLocations.schema";
 
 export default function lintObjectLocations() {
   const prefix = cyan("[ObjectLocations]");
   const filePath = path.join(__dirname, "./data/object-locations.g.json");
-  const schemaPath = path.join(__dirname, "object-locations.schema.json");
 
   console.log(`${prefix} Linting object-locations.g.json`);
-  lintWithSchema(filePath, schemaPath, { prefix });
+  lintWithZod(filePath, ObjectLocationsSchema, { prefix });
 
   console.log(green(`${prefix} object-locations.g.json is valid`));
 }

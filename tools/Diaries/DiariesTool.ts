@@ -2,7 +2,8 @@ import fs from 'fs';
 import Tool from '../../collect/Tool';
 import { cyan, red, yellow } from '../../common/colors';
 import path from 'path';
-import lintWithSchema from '../../common/lintWithSchema';
+import lintWithZod from '../../common/lintWithZod';
+import DiariesSchema from './Diaries.schema';
 
 export const Diaries = [
     // Ardougne Diary
@@ -94,11 +95,9 @@ export const DiariesTool: Tool = {
     },
     async lint() {
         console.log(prefix, yellow("Linting data using schema..."));
-        const schemaPath = path.join(__dirname, "diaries.schema.json");
 
-        try {
-            lintWithSchema(dataPath, schemaPath, { prefix });
-        } catch (e) {
+        const valid = lintWithZod(dataPath, DiariesSchema, { prefix });
+        if (!valid) {
             console.error(prefix, red("Diaries schema lint failed"));
             process.exit(1);
         }
