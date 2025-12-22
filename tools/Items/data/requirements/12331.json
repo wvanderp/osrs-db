@@ -1,0 +1,16 @@
+{
+  "id": 12331,
+  "name": "Red d'hide body (t)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 60
+    },
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

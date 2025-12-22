@@ -1,0 +1,10 @@
+{
+  "id": 10865,
+  "name": "Builder's boots",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "TOWER_OF_LIFE"
+    }
+  ]
+}

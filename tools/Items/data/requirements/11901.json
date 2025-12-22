@@ -1,0 +1,11 @@
+{
+  "id": 11901,
+  "name": "Decorative armour (quiver)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 30
+    }
+  ]
+}

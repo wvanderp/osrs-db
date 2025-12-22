@@ -1,0 +1,11 @@
+{
+  "id": 12486,
+  "name": "Bandos full helm",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

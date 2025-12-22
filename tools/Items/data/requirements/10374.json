@@ -1,0 +1,16 @@
+{
+  "id": 10374,
+  "name": "Zamorak coif",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

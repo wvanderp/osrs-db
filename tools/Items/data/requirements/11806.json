@@ -1,0 +1,11 @@
+{
+  "id": 11806,
+  "name": "Saradomin godsword",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 75
+    }
+  ]
+}

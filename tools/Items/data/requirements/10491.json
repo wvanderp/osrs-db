@@ -1,0 +1,11 @@
+{
+  "id": 10491,
+  "name": "Blessed axe",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "ANIMAL_MAGNETISM",
+      "note": "Required to have the axe made and to use it."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 11088,
+  "name": "Inoculation bracelet",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "ZOGRE_FLESH_EATERS"
+    }
+  ]
+}

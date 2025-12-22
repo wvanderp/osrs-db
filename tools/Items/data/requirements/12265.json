@@ -1,0 +1,11 @@
+{
+  "id": 12265,
+  "name": "Bandos robe top",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 20
+    }
+  ]
+}

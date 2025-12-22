@@ -1,0 +1,11 @@
+{
+  "id": 10380,
+  "name": "Guthix chaps",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

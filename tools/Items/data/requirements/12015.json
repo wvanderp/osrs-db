@@ -1,0 +1,12 @@
+{
+  "id": 12015,
+  "name": "Prospector legs",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Mining",
+      "level": 30,
+      "note": "Required to enter the Motherlode Mine where the item is obtained (implicit requirement for skilling outfits)."
+    }
+  ]
+}

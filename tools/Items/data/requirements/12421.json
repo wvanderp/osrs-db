@@ -1,0 +1,16 @@
+{
+  "id": 12421,
+  "name": "Light infinity bottoms",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Magic",
+      "level": 50
+    },
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 25
+    }
+  ]
+}

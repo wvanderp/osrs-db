@@ -1,0 +1,16 @@
+{
+  "id": 10336,
+  "name": "3rd age vambraces",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 65
+    },
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 45
+    }
+  ]
+}

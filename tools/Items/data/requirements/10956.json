@@ -1,0 +1,16 @@
+{
+  "id": 10956,
+  "name": "Frog-leather chaps",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 25
+    },
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 25
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": 11864,
+  "name": "Slayer helmet",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 10
+    },
+    {
+      "type": "skill",
+      "skill": "Crafting",
+      "level": 55,
+      "note": "Required to create the untradeable helmet"
+    },
+    {
+      "type": "skill",
+      "skill": "Slayer",
+      "level": 1,
+      "note": "Requires the 'Malevolent masquerade' unlock (400 points) to create"
+    }
+  ]
+}

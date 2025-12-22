@@ -1,0 +1,16 @@
+{
+  "id": 10454,
+  "name": "Guthix mitre",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 40
+    },
+    {
+      "type": "skill",
+      "skill": "Magic",
+      "level": 40
+    }
+  ]
+}

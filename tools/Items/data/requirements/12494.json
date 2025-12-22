@@ -1,0 +1,11 @@
+{
+  "id": 12494,
+  "name": "Ancient chaps",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

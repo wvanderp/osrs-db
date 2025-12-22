@@ -1,0 +1,11 @@
+{
+  "id": 12484,
+  "name": "Bandos plateskirt",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 11719,
+  "name": "Rune pickaxe (nz)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

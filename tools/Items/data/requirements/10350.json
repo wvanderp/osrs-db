@@ -1,0 +1,11 @@
+{
+  "id": 10350,
+  "name": "3rd age full helmet",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 65
+    }
+  ]
+}

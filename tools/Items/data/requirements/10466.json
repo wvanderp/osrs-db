@@ -1,0 +1,11 @@
+{
+  "id": 10466,
+  "name": "Guthix robe legs",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 20
+    }
+  ]
+}

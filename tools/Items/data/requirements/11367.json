@@ -1,0 +1,11 @@
+{
+  "id": 11367,
+  "name": "Bronze hasta",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "BARBARIAN_TRAINING",
+      "note": "Required to wield; must complete up through the Smithing section"
+    }
+  ]
+}

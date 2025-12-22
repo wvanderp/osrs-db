@@ -1,0 +1,18 @@
+{
+  "id": 10156,
+  "name": "Hunters' crossbow",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 50
+    },
+    {
+      "type": "equipment",
+      "equipment": [
+        10158,
+        10159
+      ]
+    }
+  ]
+}

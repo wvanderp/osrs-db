@@ -1,0 +1,11 @@
+{
+  "id": 12199,
+  "name": "Ancient crozier",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 60
+    }
+  ]
+}

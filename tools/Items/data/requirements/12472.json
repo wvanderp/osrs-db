@@ -1,0 +1,11 @@
+{
+  "id": 12472,
+  "name": "Armadyl platelegs",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

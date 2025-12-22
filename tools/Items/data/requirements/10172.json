@@ -1,0 +1,10 @@
+{
+  "id": 10172,
+  "name": "Fake beak",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "EAGLES_PEAK"
+    }
+  ]
+}

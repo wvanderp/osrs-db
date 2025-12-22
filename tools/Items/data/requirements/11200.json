@@ -1,0 +1,15 @@
+{
+  "id": 11200,
+  "name": "Dwarven helmet",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 50
+    },
+    {
+      "type": "quest",
+      "quest": "GRIM_TALES"
+    }
+  ]
+}

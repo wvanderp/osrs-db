@@ -1,11 +1,12 @@
 {
   "id": 12013,
-  "name": "Test",
+  "name": "Prospector helmet",
   "requirements": [
     {
       "type": "skill",
       "skill": "Mining",
-      "level": 30
+      "level": 30,
+      "note": "Required to enter the Motherlode Mine where the item is obtained (implicit requirement for skilling outfits)."
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "id": 10828,
+  "name": "Helm of neitiznot",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 55
+    },
+    {
+      "type": "quest",
+      "quest": "THE_FREMENNIK_ISLES",
+      "note": "While it is tradeable, players may only equip the helm if they have completed The Fremennik Isles quest."
+    }
+  ]
+}

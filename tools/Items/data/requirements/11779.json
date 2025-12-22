@@ -1,0 +1,21 @@
+{
+  "id": 11779,
+  "name": "Black mask (5) (i)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Strength",
+      "level": 20
+    },
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 10
+    },
+    {
+      "type": "skill",
+      "skill": "Combat",
+      "level": 40
+    }
+  ]
+}

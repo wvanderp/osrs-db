@@ -1,0 +1,11 @@
+{
+  "id": 10306,
+  "name": "Black helm (h1)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 10
+    }
+  ]
+}

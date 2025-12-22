@@ -1,0 +1,11 @@
+{
+  "id": 12269,
+  "name": "Bandos stole",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 60
+    }
+  ]
+}

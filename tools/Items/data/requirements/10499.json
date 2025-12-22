@@ -1,0 +1,15 @@
+{
+  "id": 10499,
+  "name": "Ava's accumulator",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 50
+    },
+    {
+      "type": "quest",
+      "quest": "ANIMAL_MAGNETISM"
+    }
+  ]
+}

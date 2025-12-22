@@ -1,0 +1,10 @@
+{
+  "id": 12018,
+  "name": "Salve amulet(ei)",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "LAIR_OF_TARN_RAZORLOR"
+    }
+  ]
+}

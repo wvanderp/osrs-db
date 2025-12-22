@@ -1,0 +1,11 @@
+{
+  "id": 11720,
+  "name": "Mithril pickaxe (nz)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 20
+    }
+  ]
+}

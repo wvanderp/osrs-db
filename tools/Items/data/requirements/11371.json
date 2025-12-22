@@ -1,0 +1,16 @@
+{
+  "id": 11371,
+  "name": "Steel hasta",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 5
+    },
+    {
+      "type": "quest",
+      "quest": "BARBARIAN_TRAINING",
+      "note": "Smithing section"
+    }
+  ]
+}

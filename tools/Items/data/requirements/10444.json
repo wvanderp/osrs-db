@@ -1,0 +1,11 @@
+{
+  "id": 10444,
+  "name": "Zamorak crozier",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 60
+    }
+  ]
+}

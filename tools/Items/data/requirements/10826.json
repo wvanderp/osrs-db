@@ -1,0 +1,11 @@
+{
+  "id": 10826,
+  "name": "Neitiznot shield",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 25
+    }
+  ]
+}

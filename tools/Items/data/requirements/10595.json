@@ -1,0 +1,22 @@
+{
+  "id": 10595,
+  "name": "Clockwork suit",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "COLD_WAR"
+    },
+    {
+      "type": "skill",
+      "skill": "Crafting",
+      "level": 30,
+      "note": "Required to create the untradeable suit"
+    },
+    {
+      "type": "skill",
+      "skill": "Crafting",
+      "level": 34,
+      "note": "Required to create Crafting table 3"
+    }
+  ]
+}

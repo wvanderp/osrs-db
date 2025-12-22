@@ -1,0 +1,16 @@
+{
+  "id": 12449,
+  "name": "Black wizard robe (g)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Magic",
+      "level": 1
+    },
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 1
+    }
+  ]
+}

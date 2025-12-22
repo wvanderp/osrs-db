@@ -1,0 +1,15 @@
+{
+  "id": 10581,
+  "name": "Keris",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 50
+    },
+    {
+      "type": "quest",
+      "quest": "CONTACT"
+    }
+  ]
+}

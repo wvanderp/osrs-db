@@ -1,0 +1,11 @@
+{
+  "id": 12416,
+  "name": "Dragon plateskirt (g)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 60
+    }
+  ]
+}

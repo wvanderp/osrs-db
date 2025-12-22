@@ -1,0 +1,16 @@
+{
+  "id": 10954,
+  "name": "Frog-leather body",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 25
+    },
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 25
+    }
+  ]
+}

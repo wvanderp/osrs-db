@@ -1,0 +1,11 @@
+{
+  "id": 10548,
+  "name": "Fighter hat",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 45
+    }
+  ]
+}

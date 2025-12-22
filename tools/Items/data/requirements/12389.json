@@ -1,0 +1,11 @@
+{
+  "id": 12389,
+  "name": "Gilded scimitar",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 40
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": 11895,
+  "name": "Decorative armour (gold plateskirt)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 30
+    }
+  ]
+}

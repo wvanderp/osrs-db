@@ -1,0 +1,11 @@
+{
+  "id": 12598,
+  "name": "Holy sandals",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 31
+    }
+  ]
+}

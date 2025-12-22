@@ -1,0 +1,16 @@
+{
+  "id": 11789,
+  "name": "Mystic steam staff",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 40
+    },
+    {
+      "type": "skill",
+      "skill": "Magic",
+      "level": 40
+    }
+  ]
+}

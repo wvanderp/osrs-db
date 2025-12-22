@@ -1,0 +1,11 @@
+{
+  "id": 11785,
+  "name": "Armadyl crossbow",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": 12460,
+  "name": "Ancient platebody",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "quest",
+      "quest": "DRAGON_SLAYER_I"
+    }
+  ]
+}

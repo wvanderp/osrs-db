@@ -1,0 +1,11 @@
+{
+  "id": 12478,
+  "name": "Armadyl kiteshield",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

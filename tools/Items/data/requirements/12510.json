@@ -1,0 +1,11 @@
+{
+  "id": 12510,
+  "name": "Armadyl chaps",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

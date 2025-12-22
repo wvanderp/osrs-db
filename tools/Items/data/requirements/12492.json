@@ -1,0 +1,16 @@
+{
+  "id": 12492,
+  "name": "Ancient d'hide body",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    },
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

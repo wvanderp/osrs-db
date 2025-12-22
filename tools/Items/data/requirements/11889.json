@@ -1,0 +1,27 @@
+{
+  "id": 11889,
+  "name": "Zamorakian hasta",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 70
+    },
+    {
+      "type": "skill",
+      "skill": "Fishing",
+      "level": 55,
+      "note": "Required to complete the Barbarian Fishing part of Barbarian Training"
+    },
+    {
+      "type": "quest",
+      "quest": "TAI_BWO_WANNAI_TRIO",
+      "note": "Required for the Barbarian Smithing section of Barbarian Training"
+    },
+    {
+      "type": "quest",
+      "quest": "BARBARIAN_TRAINING",
+      "note": "Must complete Fishing and Smithing sections to wield"
+    }
+  ]
+}

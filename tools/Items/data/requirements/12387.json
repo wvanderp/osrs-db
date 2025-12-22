@@ -1,0 +1,16 @@
+{
+  "id": 12387,
+  "name": "Black d'hide chaps (t)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 70
+    },
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

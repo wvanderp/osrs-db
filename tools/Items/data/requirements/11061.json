@@ -1,0 +1,21 @@
+{
+  "id": 11061,
+  "name": "Ancient mace",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "ANOTHER_SLICE_OF_HAM",
+      "note": "A certain point in the quest must be reached to wield the mace."
+    },
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 15
+    },
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 25
+    }
+  ]
+}

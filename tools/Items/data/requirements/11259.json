@@ -1,0 +1,11 @@
+{
+  "id": 11259,
+  "name": "Magic butterfly net",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Hunter",
+      "level": 17
+    }
+  ]
+}

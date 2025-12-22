@@ -1,0 +1,11 @@
+{
+  "id": 11896,
+  "name": "Decorative armour (magic top)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Magic",
+      "level": 20
+    }
+  ]
+}

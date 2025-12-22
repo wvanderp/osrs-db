@@ -1,0 +1,11 @@
+{
+  "id": 10487,
+  "name": "Undead chicken",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "ANIMAL_MAGNETISM",
+      "note": "The item is obtained during the quest and requires it to be at least partially completed to purchase."
+    }
+  ]
+}

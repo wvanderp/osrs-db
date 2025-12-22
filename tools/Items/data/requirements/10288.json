@@ -1,0 +1,11 @@
+{
+  "id": 10288,
+  "name": "Rune helm (h2)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 40
+    }
+  ]
+}

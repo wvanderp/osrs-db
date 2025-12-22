@@ -1,0 +1,11 @@
+{
+  "id": 10468,
+  "name": "Zamorak robe legs",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 20
+    }
+  ]
+}

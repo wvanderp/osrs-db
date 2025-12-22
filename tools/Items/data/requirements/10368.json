@@ -1,0 +1,11 @@
+{
+  "id": 10368,
+  "name": "Zamorak bracers",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

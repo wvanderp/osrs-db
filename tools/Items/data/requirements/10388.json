@@ -1,0 +1,11 @@
+{
+  "id": 10388,
+  "name": "Saradomin chaps",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 70
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": 10171,
+  "name": "Eagle cape",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "EAGLES_PEAK"
+    }
+  ]
+}

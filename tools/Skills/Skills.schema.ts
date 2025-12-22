@@ -28,6 +28,7 @@ export const SkillSchema = z.enum([
     "Strength",
     "Thieving",
     "Woodcutting",
+    "Combat"
 ]);
 
 export type Skill = z.infer<typeof SkillSchema>;

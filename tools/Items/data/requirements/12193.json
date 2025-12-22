@@ -1,0 +1,11 @@
+{
+  "id": 12193,
+  "name": "Ancient robe top",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Prayer",
+      "level": 20
+    }
+  ]
+}

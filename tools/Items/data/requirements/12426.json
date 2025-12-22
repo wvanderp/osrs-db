@@ -1,0 +1,11 @@
+{
+  "id": 12426,
+  "name": "3rd age longsword",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 65
+    }
+  ]
+}

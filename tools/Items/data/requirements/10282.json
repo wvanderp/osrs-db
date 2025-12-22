@@ -1,0 +1,11 @@
+{
+  "id": 10282,
+  "name": "Yew comp bow",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Ranged",
+      "level": 40
+    }
+  ]
+}

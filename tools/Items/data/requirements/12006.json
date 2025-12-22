@@ -1,0 +1,11 @@
+{
+  "id": 12006,
+  "name": "Abyssal tentacle",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 75
+    }
+  ]
+}

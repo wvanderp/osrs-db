@@ -1,0 +1,11 @@
+{
+  "id": 11195,
+  "name": "Clean necklace",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "THE_DIG_SITE",
+      "note": "Required to clean the necklace from uncleaned finds."
+    }
+  ]
+}

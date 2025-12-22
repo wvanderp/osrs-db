@@ -1,0 +1,16 @@
+{
+  "id": 12000,
+  "name": "Mystic smoke staff",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 40
+    },
+    {
+      "type": "skill",
+      "skill": "Magic",
+      "level": 40
+    }
+  ]
+}

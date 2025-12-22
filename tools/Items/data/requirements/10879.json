@@ -1,0 +1,10 @@
+{
+  "id": 10879,
+  "name": "Red satchel",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "TOWER_OF_LIFE"
+    }
+  ]
+}

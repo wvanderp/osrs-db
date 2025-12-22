@@ -1,0 +1,11 @@
+{
+  "id": 11282,
+  "name": "Beret mask",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "CABIN_FEVER",
+      "note": "Required to have the item assembled"
+    }
+  ]
+}

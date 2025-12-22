@@ -1,0 +1,11 @@
+{
+  "id": 12231,
+  "name": "Iron full helm (t)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 1
+    }
+  ]
+}

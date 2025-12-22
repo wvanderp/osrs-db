@@ -1,0 +1,11 @@
+{
+  "id": 12295,
+  "name": "Mithril plateskirt (t)",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Defence",
+      "level": 20
+    }
+  ]
+}

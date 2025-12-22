@@ -1,0 +1,10 @@
+{
+  "id": 10858,
+  "name": "Shadow sword",
+  "requirements": [
+    {
+      "type": "quest",
+      "quest": "THE_GENERALS_SHADOW"
+    }
+  ]
+}

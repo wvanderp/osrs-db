@@ -1,0 +1,11 @@
+{
+  "id": 11808,
+  "name": "Zamorak godsword",
+  "requirements": [
+    {
+      "type": "skill",
+      "skill": "Attack",
+      "level": 75
+    }
+  ]
+}
