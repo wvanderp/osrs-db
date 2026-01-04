@@ -3,8 +3,8 @@ set -e
 
 # This script builds the Runelite cache tools and copies the resulting jar file to the root directory as cache.jar.
 
-# Ensure Java, git, and Maven are installed
-for cmd in java git mvn; do
+# Ensure Java and git are installed
+for cmd in java git; do
   if ! command -v $cmd >/dev/null 2>&1; then
     echo "$cmd is not installed. Please install $cmd." >&2
     exit 1
@@ -17,21 +17,22 @@ if [ ! -d "runelite" ]; then
   git clone https://github.com/runelite/runelite.git runelite
 fi
 
-# Copy pom.patch and apply it
-cp pom.patch runelite/cache
+# Copy build.gradle.kts.patch and apply it
+cp build.gradle.kts.patch runelite/cache
 cd runelite/cache
-if git apply --check pom.patch; then
-  git apply pom.patch
+if git apply --check build.gradle.kts.patch; then
+  git apply build.gradle.kts.patch
 else
-  echo "pom.patch already applied or cannot be applied. Continuing..."
+  echo "build.gradle.kts.patch already applied or cannot be applied. Continuing..."
 fi
 
-# Build with Maven
-mvn -B package --file pom.xml -DskipTests
+# Build with Gradle
+cd ..
+./gradlew :cache:shadowJar -x test --dependency-verification=off
 
 # Copy jar to root directory
-cd ../../
-JAR_PATH=$(find runelite/cache/target -name "*-jar-with-dependencies.jar" | head -n 1)
+cd ..
+JAR_PATH=$(find runelite/cache/build/libs -name "*-all.jar" | head -n 1)
 if [ -z "$JAR_PATH" ]; then
   echo "Could not find built jar file." >&2
   exit 1
