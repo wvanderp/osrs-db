@@ -40,7 +40,7 @@ export function formatJson(data: unknown): string {
   const formatter = getFormatter();
   const result = formatter.Serialize(data);
   if (result === undefined) {
-    throw new Error('FracturedJson failed to serialize data');
+    throw new Error("FracturedJson failed to serialize data");
   }
   return result;
 }
@@ -56,7 +56,7 @@ export function reformatJson(json: string): string {
   const formatter = getFormatter();
   const result = formatter.Reformat(json);
   if (result === undefined) {
-    throw new Error('FracturedJson failed to reformat JSON');
+    throw new Error("FracturedJson failed to reformat JSON");
   }
   return result;
 }
