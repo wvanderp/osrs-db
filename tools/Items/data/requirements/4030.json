@@ -1,10 +1,7 @@
 {
-  "id": 4030,
-  "name": "Zombie monkey greegree (big)",
+  "id"          : 4030,
+  "name"        : "Zombie monkey greegree (big)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MONKEY_MADNESS_I"
-    }
+    {"type": "quest", "quest": "MONKEY_MADNESS_I"}
   ]
 }

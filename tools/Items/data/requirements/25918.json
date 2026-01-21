@@ -1,11 +1,7 @@
 {
-  "id": 25918,
-  "name": "Dragon hunter crossbow (b)",
+  "id"          : 25918,
+  "name"        : "Dragon hunter crossbow (b)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

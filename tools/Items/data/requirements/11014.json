@@ -1,10 +1,7 @@
 {
-  "id": 11014,
-  "name": "Beacon ring",
+  "id"          : 11014,
+  "name"        : "Beacon ring",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "WHAT_LIES_BELOW"
-    }
+    {"type": "quest", "quest": "WHAT_LIES_BELOW"}
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "id": 1419,
-  "name": "Scythe (Halloween event)",
+  "id"          : 1419,
+  "name"        : "Scythe (Halloween event)",
   "requirements": [],
-  "note": "This item has no specific skill or quest requirements to equip."
+  "note"        : "This item has no specific skill or quest requirements to equip."
 }

@@ -1,11 +1,7 @@
 {
-  "id": 12277,
-  "name": "Mithril platebody (g)",
+  "id"          : 12277,
+  "name"        : "Mithril platebody (g)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

@@ -1,20 +1,9 @@
 {
-  "id": 3204,
-  "name": "Dragon halberd",
+  "id"          : 3204,
+  "name"        : "Dragon halberd",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 30
-    },
-    {
-      "type": "quest",
-      "quest": "REGICIDE"
-    }
+    {"type": "skill", "skill": "Attack",   "level": 60                     },
+    {"type": "skill", "skill": "Strength", "level": 30                     },
+    {"type": "quest",                                   "quest": "REGICIDE"}
   ]
 }

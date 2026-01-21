@@ -1,12 +1,8 @@
 {
-  "id": 7458,
-  "name": "Mithril gloves",
+  "id"          : 7458,
+  "name"        : "Mithril gloves",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER",
-      "note": "Completion of 5 sub-quests of Recipe for Disaster"
-    }
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER", "note": "Completion of 5 sub-quests of Recipe for Disaster"}
   ],
-  "note": "Can be equipped at level 1 Defence."
+  "note"        : "Can be equipped at level 1 Defence."
 }

@@ -1,11 +1,7 @@
 {
-  "id": 2489,
-  "name": "Red d'hide vambraces",
+  "id"          : 2489,
+  "name"        : "Red d'hide vambraces",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Ranged", "level": 60}
   ]
 }

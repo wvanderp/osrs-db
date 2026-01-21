@@ -1,11 +1,7 @@
 {
-  "id": 10384,
-  "name": "Saradomin bracers",
+  "id"          : 10384,
+  "name"        : "Saradomin bracers",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

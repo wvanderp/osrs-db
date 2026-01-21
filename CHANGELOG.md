@@ -9,6 +9,19 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 
 ### Added
 
+2025-01-21 — @copilot — Added: FracturedJson for consistent, human-readable JSON formatting. (#TBD)
+
+- Added `fracturedjsonjs` dependency for smart JSON formatting with table alignment
+- Created `common/formatJson.ts` utility for consistent JSON output across all tools
+- Added `scripts/format-json.ts` script to reformat existing JSON files
+- Updated all tools to use FracturedJson instead of `JSON.stringify`
+
+2025-01-21 — @wvanderp — Added: Amenities tool for extracting game amenities by action detection. (#TBD)
+
+- Created `tools/Amenities/` with action-based amenity detection (banks, altars, furnaces, etc.)
+- Identifies amenities by their object actions (e.g., "Bank" action = bank)
+- Added comprehensive documentation in `docs/creating-a-new-tool.md`
+
 2025-12-18 — @copilot — Added: Automatic generation of JSON schemas from Zod schemas during build. (#TBD)
 
 - Added `scripts/generate-schemas.ts` to compile Zod schemas into `schema.json` files.

@@ -1,11 +1,7 @@
 {
-  "id": 22249,
-  "name": "Necklace of anguish (or)",
+  "id"          : 22249,
+  "name"        : "Necklace of anguish (or)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Hitpoints",
-      "level": 75
-    }
+    {"type": "skill", "skill": "Hitpoints", "level": 75}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 9145,
-  "name": "Silver bolts",
+  "id"          : 9145,
+  "name"        : "Silver bolts",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 26
-    }
+    {"type": "skill", "skill": "Ranged", "level": 26}
   ]
 }

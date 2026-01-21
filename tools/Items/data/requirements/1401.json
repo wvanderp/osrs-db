@@ -1,16 +1,8 @@
 {
-  "id": 1401,
-  "name": "Mystic fire staff",
+  "id"          : 1401,
+  "name"        : "Mystic fire staff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40},
+    {"type": "skill", "skill": "Magic",  "level": 40}
   ]
 }

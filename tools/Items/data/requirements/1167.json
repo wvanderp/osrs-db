@@ -1,11 +1,7 @@
 {
-  "id": 1167,
-  "name": "Leather cowl",
+  "id"          : 1167,
+  "name"        : "Leather cowl",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

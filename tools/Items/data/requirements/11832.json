@@ -1,11 +1,7 @@
 {
-  "id": 11832,
-  "name": "Bandos chestplate",
+  "id"          : 11832,
+  "name"        : "Bandos chestplate",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Defence", "level": 65}
   ]
 }

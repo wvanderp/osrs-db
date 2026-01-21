@@ -1,11 +1,7 @@
 {
-  "id": 12257,
-  "name": "Armadyl stole",
+  "id"          : 12257,
+  "name"        : "Armadyl stole",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Prayer", "level": 60}
   ]
 }

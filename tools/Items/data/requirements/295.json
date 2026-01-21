@@ -1,6 +1,6 @@
 {
-  "id": 295,
-  "name": "Glarial's amulet",
+  "id"          : 295,
+  "name"        : "Glarial's amulet",
   "requirements": [
     {
       "type": "quest",

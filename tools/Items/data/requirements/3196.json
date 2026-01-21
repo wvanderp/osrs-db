@@ -1,16 +1,8 @@
 {
-  "id": 3196,
-  "name": "Black halberd",
+  "id"          : 3196,
+  "name"        : "Black halberd",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 10
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Attack",   "level": 10},
+    {"type": "skill", "skill": "Strength", "level":  5}
   ]
 }

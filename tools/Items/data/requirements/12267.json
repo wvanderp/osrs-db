@@ -1,11 +1,7 @@
 {
-  "id": 12267,
-  "name": "Bandos robe legs",
+  "id"          : 12267,
+  "name"        : "Bandos robe legs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Prayer", "level": 20}
   ]
 }

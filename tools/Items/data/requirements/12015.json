@@ -1,6 +1,6 @@
 {
-  "id": 12015,
-  "name": "Prospector legs",
+  "id"          : 12015,
+  "name"        : "Prospector legs",
   "requirements": [
     {
       "type": "skill",

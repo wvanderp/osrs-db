@@ -1,11 +1,7 @@
 {
-  "id": 12221,
-  "name": "Bronze full helm (t)",
+  "id"          : 12221,
+  "name"        : "Bronze full helm (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

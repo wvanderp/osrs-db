@@ -1,12 +1,7 @@
 {
-  "id": 888,
-  "name": "Mithril arrow#(unp)",
+  "id"          : 888,
+  "name"        : "Mithril arrow#(unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 20,
-      "note": "needed for a willow shortbow"
-    }
+    {"type": "skill", "skill": "Ranged", "level": 20, "note": "needed for a willow shortbow"}
   ]
 }

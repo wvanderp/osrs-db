@@ -1,11 +1,7 @@
 {
-  "id": 9241,
-  "name": "Emerald bolts (e)",
+  "id"          : 9241,
+  "name"        : "Emerald bolts (e)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 36
-    }
+    {"type": "skill", "skill": "Ranged", "level": 36}
   ]
 }

@@ -1,16 +1,8 @@
 {
-  "id": 5554,
-  "name": "Rogue mask",
+  "id"          : 5554,
+  "name"        : "Rogue mask",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Agility",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Thieving",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Agility",  "level": 50},
+    {"type": "skill", "skill": "Thieving", "level": 50}
   ]
 }

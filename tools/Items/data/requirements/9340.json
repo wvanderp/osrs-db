@@ -1,11 +1,7 @@
 {
-  "id": 9340,
-  "name": "Diamond bolts",
+  "id"          : 9340,
+  "name"        : "Diamond bolts",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 46
-    }
+    {"type": "skill", "skill": "Ranged", "level": 46}
   ]
 }

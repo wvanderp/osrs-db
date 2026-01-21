@@ -1,16 +1,8 @@
 {
-  "id": 6267,
-  "name": "Broodoo shield (combat)",
+  "id"          : 6267,
+  "name"        : "Broodoo shield (combat)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 25
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 25
-    }
+    {"type": "skill", "skill": "Defence", "level": 25},
+    {"type": "skill", "skill": "Magic",   "level": 25}
   ]
 }

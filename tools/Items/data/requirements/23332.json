@@ -1,11 +1,7 @@
 {
-  "id": 23332,
-  "name": "Rune scimitar (saradomin)",
+  "id"          : 23332,
+  "name"        : "Rune scimitar (saradomin)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

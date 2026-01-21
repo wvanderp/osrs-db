@@ -1,11 +1,7 @@
 {
-  "id": 9176,
-  "name": "Blurite crossbow",
+  "id"          : 9176,
+  "name"        : "Blurite crossbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 16
-    }
+    {"type": "skill", "skill": "Ranged", "level": 16}
   ]
 }

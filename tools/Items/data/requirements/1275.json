@@ -1,12 +1,8 @@
 {
-  "id": 1275,
-  "name": "Rune pickaxe",
+  "id"          : 1275,
+  "name"        : "Rune pickaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ],
-  "note": "Players lacking 40 Attack can still use it for mining."
+  "note"        : "Players lacking 40 Attack can still use it for mining."
 }

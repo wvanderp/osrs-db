@@ -1,16 +1,8 @@
 {
-  "id": 30955,
-  "name": "Arkan blade",
+  "id"          : 30955,
+  "name"        : "Arkan blade",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FINAL_DAWN",
-      "note": "It is an untradable quest reward"
-    }
+    {"type": "skill", "skill": "Attack", "level": 60},
+    {"type": "quest", "quest": "THE_FINAL_DAWN", "note": "It is an untradable quest reward"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 11924,
-  "name": "Malediction ward",
+  "id"          : 11924,
+  "name"        : "Malediction ward",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Defence", "level": 60}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 9807,
-  "name": "Woodcutting cape",
+  "id"          : 9807,
+  "name"        : "Woodcutting cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Woodcutting",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Woodcutting", "level": 99}
   ]
 }

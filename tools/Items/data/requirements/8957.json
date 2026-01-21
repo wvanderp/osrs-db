@@ -1,10 +1,7 @@
 {
-  "id": 8957,
-  "name": "Purple naval shirt",
+  "id"          : 8957,
+  "name"        : "Purple naval shirt",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"}
   ]
 }

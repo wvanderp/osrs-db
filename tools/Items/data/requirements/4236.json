@@ -1,10 +1,7 @@
 {
-  "id": 4236,
-  "name": "Signed oak bow",
+  "id"          : 4236,
+  "name"        : "Signed oak bow",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "GHOSTS_AHOY"
-    }
+    {"type": "quest", "quest": "GHOSTS_AHOY"}
   ]
 }

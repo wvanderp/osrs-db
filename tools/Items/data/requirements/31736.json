@@ -1,11 +1,7 @@
 {
-  "id": 31736,
-  "name": "Storm cruiser's hat",
+  "id"          : 31736,
+  "name"        : "Storm cruiser's hat",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Sailing",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Sailing", "level": 30}
   ]
 }

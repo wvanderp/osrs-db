@@ -1,10 +1,7 @@
 {
-  "id": 3840,
-  "name": "Holy book",
+  "id"          : 3840,
+  "name"        : "Holy book",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "HORROR_FROM_THE_DEEP"
-    }
+    {"type": "quest", "quest": "HORROR_FROM_THE_DEEP"}
   ]
 }

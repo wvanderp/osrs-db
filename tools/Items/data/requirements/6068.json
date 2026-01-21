@@ -1,10 +1,7 @@
 {
-  "id": 6068,
-  "name": "Mourner gloves",
+  "id"          : 6068,
+  "name"        : "Mourner gloves",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MOURNINGS_END_PART_I"
-    }
+    {"type": "quest", "quest": "MOURNINGS_END_PART_I"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 2497,
-  "name": "Black d'hide chaps",
+  "id"          : 2497,
+  "name"        : "Black d'hide chaps",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

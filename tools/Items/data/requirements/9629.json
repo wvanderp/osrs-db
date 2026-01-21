@@ -1,11 +1,7 @@
 {
-  "id": 9629,
-  "name": "Tyras helm",
+  "id"          : 9629,
+  "name"        : "Tyras helm",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Defence", "level": 5}
   ]
 }

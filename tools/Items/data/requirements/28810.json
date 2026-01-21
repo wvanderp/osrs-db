@@ -1,11 +1,7 @@
 {
-  "id": 28810,
-  "name": "Zombie axe",
+  "id"          : 28810,
+  "name"        : "Zombie axe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Attack", "level": 65}
   ]
 }

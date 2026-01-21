@@ -1,12 +1,8 @@
 {
-  "id": 9784,
-  "name": "Fletching cape(t)",
+  "id"          : 9784,
+  "name"        : "Fletching cape(t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Fletching",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Fletching", "level": 99}
   ],
-  "note": "Requires a 99 in another skill to wear."
+  "note"        : "Requires a 99 in another skill to wear."
 }

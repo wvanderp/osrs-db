@@ -1,14 +1,7 @@
 {
-  "id": 4793,
-  "name": "Mithril brutal",
+  "id"          : 4793,
+  "name"        : "Mithril brutal",
   "requirements": [
-    {
-      "type": "equipment",
-      "equipment": [
-        2883,
-        4827
-      ],
-      "note": "Only usable with an Ogre bow or Composite Ogre bow"
-    }
+    { "type": "equipment", "equipment": [2883, 4827], "note": "Only usable with an Ogre bow or Composite Ogre bow" }
   ]
 }

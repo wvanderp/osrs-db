@@ -1,16 +1,8 @@
 {
-  "id": 10338,
-  "name": "3rd age robe top",
+  "id"          : 10338,
+  "name"        : "3rd age robe top",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 65
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Magic",   "level": 65},
+    {"type": "skill", "skill": "Defence", "level": 30}
   ]
 }

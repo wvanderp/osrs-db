@@ -1,16 +1,8 @@
 {
-  "id": 20131,
-  "name": "Robe top of darkness",
+  "id"          : 20131,
+  "name"        : "Robe top of darkness",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Magic",   "level": 40},
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

@@ -1,11 +1,8 @@
 {
-  "id": 4083,
-  "name": "Sled (Unwaxed)",
+  "id"          : 4083,
+  "name"        : "Sled (Unwaxed)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "TROLL_ROMANCE"
-    }
+    {"type": "quest", "quest": "TROLL_ROMANCE"}
   ],
-  "note": "Required to have started \"Troll Romance\" to obtain."
+  "note"        : "Required to have started \"Troll Romance\" to obtain."
 }

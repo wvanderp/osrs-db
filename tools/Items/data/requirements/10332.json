@@ -1,16 +1,8 @@
 {
-  "id": 10332,
-  "name": "3rd age range legs",
+  "id"          : 10332,
+  "name"        : "3rd age range legs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 65
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 45
-    }
+    {"type": "skill", "skill": "Ranged",  "level": 65},
+    {"type": "skill", "skill": "Defence", "level": 45}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 11959,
-  "name": "Black chinchompa",
+  "id"          : 11959,
+  "name"        : "Black chinchompa",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Ranged", "level": 65}
   ]
 }

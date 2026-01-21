@@ -2,10 +2,7 @@
   "id": 7668,
   "name": "Gadderhammer",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "IN_AID_OF_THE_MYREQUE"
-    }
+    {"type": "quest", "quest": "IN_AID_OF_THE_MYREQUE"}
   ],
   "note": "There are no combat requirements for wielding the gadderhammer. Cannot be wielded if purchased from another player or the Grand Exchange."
 }

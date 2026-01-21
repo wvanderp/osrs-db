@@ -1,10 +1,7 @@
 {
-  "id": 8966,
-  "name": "Cutthroat flag",
+  "id"          : 8966,
+  "name"        : "Cutthroat flag",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"}
   ]
 }

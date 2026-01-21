@@ -1,21 +1,9 @@
 {
-  "id": 12904,
-  "name": "Toxic staff of the dead (Charged)",
+  "id"          : 12904,
+  "name"        : "Toxic staff of the dead (Charged)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 75
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 75
-    },
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 59
-    }
+    {"type": "skill", "skill": "Attack",   "level": 75},
+    {"type": "skill", "skill": "Magic",    "level": 75},
+    {"type": "skill", "skill": "Crafting", "level": 59}
   ]
 }

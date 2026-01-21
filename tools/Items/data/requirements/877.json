@@ -1,11 +1,7 @@
 {
-  "id": 877,
-  "name": "Bronze bolts#Unpoisoned",
+  "id"          : 877,
+  "name"        : "Bronze bolts#Unpoisoned",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Ranged", "level": 1}
   ]
 }

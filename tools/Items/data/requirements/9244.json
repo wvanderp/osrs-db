@@ -1,11 +1,7 @@
 {
-  "id": 9244,
-  "name": "Dragonstone bolts (e)",
+  "id"          : 9244,
+  "name"        : "Dragonstone bolts (e)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 61
-    }
+    {"type": "skill", "skill": "Ranged", "level": 61}
   ]
 }

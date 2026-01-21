@@ -1,11 +1,7 @@
 {
-  "id": 4511,
-  "name": "Decorative helm (gold) - Normal",
+  "id"          : 4511,
+  "name"        : "Decorative helm (gold) - Normal",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Defence", "level": 30}
   ]
 }

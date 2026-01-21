@@ -1,10 +1,7 @@
 {
-  "id": 11140,
-  "name": "Karamja gloves 3",
+  "id"          : 11140,
+  "name"        : "Karamja gloves 3",
   "requirements": [
-    {
-      "type": "diary",
-      "diary": "KARAMJA_HARD"
-    }
+    {"type": "diary", "diary": "KARAMJA_HARD"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 4503,
-  "name": "Decorative sword (white)",
+  "id"          : 4503,
+  "name"        : "Decorative sword (white)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

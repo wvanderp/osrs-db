@@ -1,11 +1,7 @@
 {
-  "id": 7142,
-  "name": "Rapier",
+  "id"          : 7142,
+  "name"        : "Rapier",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

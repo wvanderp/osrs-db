@@ -1,11 +1,7 @@
 {
-  "id": 4937,
-  "name": "Karil's crossbow",
+  "id"          : 4937,
+  "name"        : "Karil's crossbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

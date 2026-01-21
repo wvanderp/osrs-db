@@ -1,11 +1,7 @@
 {
-  "id": 12506,
-  "name": "Armadyl bracers",
+  "id"          : 12506,
+  "name"        : "Armadyl bracers",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

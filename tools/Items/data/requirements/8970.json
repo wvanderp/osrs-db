@@ -1,10 +1,7 @@
 {
-  "id": 8970,
-  "name": "Treasure flag",
+  "id"          : 8970,
+  "name"        : "Treasure flag",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"}
   ]
 }

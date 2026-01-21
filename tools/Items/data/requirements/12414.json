@@ -1,11 +1,7 @@
 {
-  "id": 12414,
-  "name": "Dragon chainbody (g)",
+  "id"          : 12414,
+  "name"        : "Dragon chainbody (g)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Defence", "level": 60}
   ]
 }

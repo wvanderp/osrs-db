@@ -1,11 +1,7 @@
 {
-  "id": 12235,
-  "name": "Iron platebody (g)",
+  "id"          : 12235,
+  "name"        : "Iron platebody (g)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

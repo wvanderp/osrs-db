@@ -1,10 +1,7 @@
 {
-  "id": 3208,
-  "name": "Crystal pendant",
+  "id"          : 3208,
+  "name"        : "Crystal pendant",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "REGICIDE"
-    }
+    {"type": "quest", "quest": "REGICIDE"}
   ]
 }

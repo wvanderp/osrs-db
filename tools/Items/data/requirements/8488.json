@@ -1,26 +1,10 @@
 {
-  "id": 8488,
-  "name": "Rune heraldic helm (Saradomin)",
+  "id"          : 8488,
+  "name"        : "Rune heraldic helm (Saradomin)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Construction",
-      "level": 16
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 38
-    },
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Construction", "level": 16},
+    {"type": "skill", "skill": "Defence",      "level": 40},
+    {"type": "skill", "skill": "Crafting",     "level": 38},
+    {"type": "skill", "skill": "Prayer",       "level": 70}
   ]
 }

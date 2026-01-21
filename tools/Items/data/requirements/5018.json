@@ -1,10 +1,7 @@
 {
-  "id": 5018,
-  "name": "Bone club",
+  "id"          : 5018,
+  "name"        : "Bone club",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "THE_LOST_TRIBE"
-    }
+    {"type": "quest", "quest": "THE_LOST_TRIBE"}
   ]
 }

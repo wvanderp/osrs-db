@@ -1,10 +1,7 @@
 {
-  "id": 2890,
-  "name": "Elemental shield",
+  "id"          : 2890,
+  "name"        : "Elemental shield",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "ELEMENTAL_WORKSHOP_I"
-    }
+    {"type": "quest", "quest": "ELEMENTAL_WORKSHOP_I"}
   ]
 }

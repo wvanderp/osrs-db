@@ -1,11 +1,7 @@
 {
-  "id": 9237,
-  "name": "Jade bolts (e)",
+  "id"          : 9237,
+  "name"        : "Jade bolts (e)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Ranged", "level": 1}
   ]
 }

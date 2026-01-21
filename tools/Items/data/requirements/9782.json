@@ -1,11 +1,7 @@
 {
-  "id": 9782,
-  "name": "Crafting hood",
+  "id"          : 9782,
+  "name"        : "Crafting hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Crafting", "level": 99}
   ]
 }

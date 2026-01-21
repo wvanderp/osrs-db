@@ -1,11 +1,7 @@
 {
-  "id": 4998,
-  "name": "Verac's plateskirt (broken)",
+  "id"          : 4998,
+  "name"        : "Verac's plateskirt (broken)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

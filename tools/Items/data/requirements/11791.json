@@ -1,16 +1,8 @@
 {
-  "id": 11791,
-  "name": "Staff of the dead",
+  "id"          : 11791,
+  "name"        : "Staff of the dead",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 75
-    },
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 75
-    }
+    {"type": "skill", "skill": "Magic",  "level": 75},
+    {"type": "skill", "skill": "Attack", "level": 75}
   ]
 }

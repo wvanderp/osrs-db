@@ -1,11 +1,7 @@
 {
-  "id": 1083,
-  "name": "Steel plateskirt",
+  "id"          : 1083,
+  "name"        : "Steel plateskirt",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Defence", "level": 5}
   ]
 }

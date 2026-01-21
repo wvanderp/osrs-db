@@ -1,11 +1,7 @@
 {
-  "id": 1325,
-  "name": "Steel scimitar",
+  "id"          : 1325,
+  "name"        : "Steel scimitar",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Attack", "level": 5}
   ]
 }

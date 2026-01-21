@@ -1,10 +1,7 @@
 {
-  "id": 10864,
-  "name": "Builder's trousers",
+  "id"          : 10864,
+  "name"        : "Builder's trousers",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "TOWER_OF_LIFE"
-    }
+    {"type": "quest", "quest": "TOWER_OF_LIFE"}
   ]
 }

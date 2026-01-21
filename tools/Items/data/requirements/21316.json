@@ -1,16 +1,8 @@
 {
-  "id": 21316,
-  "name": "Amethyst broad bolts",
+  "id"          : 21316,
+  "name"        : "Amethyst broad bolts",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 65
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 61
-    }
+    {"type": "skill", "skill": "Slayer", "level": 65},
+    {"type": "skill", "skill": "Ranged", "level": 61}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 746,
-  "name": "Dark dagger",
+  "id"          : 746,
+  "name"        : "Dark dagger",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "LEGENDS_QUEST",
-      "note": "Required to obtain the Dark dagger"
-    }
+    {"type": "quest", "quest": "LEGENDS_QUEST", "note": "Required to obtain the Dark dagger"}
   ]
 }

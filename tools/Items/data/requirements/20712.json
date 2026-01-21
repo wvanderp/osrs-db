@@ -1,12 +1,7 @@
 {
-  "id": 20712,
-  "name": "Warm gloves",
+  "id"          : 20712,
+  "name"        : "Warm gloves",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Firemaking",
-      "level": 50,
-      "note": "this is a wintertodt reward and not tradable"
-    }
+    {"type": "skill", "skill": "Firemaking", "level": 50, "note": "this is a wintertodt reward and not tradable"}
   ]
 }

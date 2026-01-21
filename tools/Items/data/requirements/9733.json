@@ -1,10 +1,7 @@
 {
-  "id": 9733,
-  "name": "Mind helmet",
+  "id"          : 9733,
+  "name"        : "Mind helmet",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "ELEMENTAL_WORKSHOP_II"
-    }
+    {"type": "quest", "quest": "ELEMENTAL_WORKSHOP_II"}
   ]
 }

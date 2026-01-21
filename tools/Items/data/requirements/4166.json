@@ -1,11 +1,7 @@
 {
-  "id": 4166,
-  "name": "Earmuffs",
+  "id"          : 4166,
+  "name"        : "Earmuffs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 15
-    }
+    {"type": "skill", "skill": "Slayer", "level": 15}
   ]
 }

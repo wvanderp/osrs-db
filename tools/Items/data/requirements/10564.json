@@ -1,16 +1,8 @@
 {
-  "id": 10564,
-  "name": "Granite body",
+  "id"          : 10564,
+  "name"        : "Granite body",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Defence",  "level": 50},
+    {"type": "skill", "skill": "Strength", "level": 50}
   ]
 }

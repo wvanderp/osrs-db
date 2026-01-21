@@ -1,12 +1,8 @@
 {
-  "id": 9769,
-  "name": "Hitpoints cape#Trimmed",
+  "id"          : 9769,
+  "name"        : "Hitpoints cape#Trimmed",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Hitpoints",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Hitpoints", "level": 99}
   ],
-  "note": "Requires a 99 in another skill to wear."
+  "note"        : "Requires a 99 in another skill to wear."
 }

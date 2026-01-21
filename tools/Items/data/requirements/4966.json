@@ -1,11 +1,7 @@
 {
-  "id": 4966,
-  "name": "Torag's platebody",
+  "id"          : 4966,
+  "name"        : "Torag's platebody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

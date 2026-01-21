@@ -1,11 +1,7 @@
 {
-  "id": 9803,
-  "name": "Cooking hood",
+  "id"          : 9803,
+  "name"        : "Cooking hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Cooking",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Cooking", "level": 99}
   ]
 }

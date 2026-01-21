@@ -1,11 +1,7 @@
 {
-  "id": 1211,
-  "name": "Adamant dagger",
+  "id"          : 1211,
+  "name"        : "Adamant dagger",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30}
   ]
 }

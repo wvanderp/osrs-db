@@ -1,11 +1,7 @@
 {
-  "id": 1099,
-  "name": "Green d'hide chaps",
+  "id"          : 1099,
+  "name"        : "Green d'hide chaps",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 6790,
-  "name": "Shoes",
+  "id"          : 6790,
+  "name"        : "Shoes",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "SPIRITS_OF_THE_ELID"
-    }
+    {"type": "quest", "quest": "SPIRITS_OF_THE_ELID"}
   ]
 }

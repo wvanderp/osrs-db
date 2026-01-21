@@ -1,11 +1,7 @@
 {
-  "id": 6910,
-  "name": "Apprentice wand",
+  "id"          : 6910,
+  "name"        : "Apprentice wand",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Magic", "level": 50}
   ]
 }

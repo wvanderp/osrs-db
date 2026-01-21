@@ -1,16 +1,8 @@
 {
-  "id": 7372,
-  "name": "Green d'hide body (t)",
+  "id"          : 7372,
+  "name"        : "Green d'hide body (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged",  "level": 40},
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

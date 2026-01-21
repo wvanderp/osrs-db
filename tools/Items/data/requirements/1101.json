@@ -1,11 +1,7 @@
 {
-  "id": 1101,
-  "name": "Iron chainbody",
+  "id"          : 1101,
+  "name"        : "Iron chainbody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 747,
-  "name": "Glowing dagger",
+  "id"          : 747,
+  "name"        : "Glowing dagger",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "LEGENDS_QUEST"
-    }
+    {"type": "quest", "quest": "LEGENDS_QUEST"}
   ]
 }

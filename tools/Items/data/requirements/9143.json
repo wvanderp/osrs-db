@@ -1,11 +1,7 @@
 {
-  "id": 9143,
-  "name": "Adamant bolts#Unpoisoned",
+  "id"          : 9143,
+  "name"        : "Adamant bolts#Unpoisoned",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 46
-    }
+    {"type": "skill", "skill": "Ranged", "level": 46}
   ]
 }

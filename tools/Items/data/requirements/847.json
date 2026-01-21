@@ -1,11 +1,7 @@
 {
-  "id": 847,
-  "name": "Willow longbow",
+  "id"          : 847,
+  "name"        : "Willow longbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Ranged", "level": 20}
   ]
 }

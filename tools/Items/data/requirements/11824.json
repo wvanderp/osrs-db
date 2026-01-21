@@ -1,11 +1,7 @@
 {
-  "id": 11824,
-  "name": "Zamorakian spear",
+  "id"          : 11824,
+  "name"        : "Zamorakian spear",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Attack", "level": 70}
   ]
 }

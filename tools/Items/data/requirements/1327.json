@@ -1,11 +1,7 @@
 {
-  "id": 1327,
-  "name": "Black scimitar",
+  "id"          : 1327,
+  "name"        : "Black scimitar",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Attack", "level": 10}
   ]
 }

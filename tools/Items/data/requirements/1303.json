@@ -1,11 +1,7 @@
 {
-  "id": 1303,
-  "name": "Rune longsword",
+  "id"          : 1303,
+  "name"        : "Rune longsword",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

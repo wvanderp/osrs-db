@@ -1,16 +1,8 @@
 {
-  "id": 11902,
-  "name": "Leaf-bladed sword",
+  "id"          : 11902,
+  "name"        : "Leaf-bladed sword",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 55
-    }
+    {"type": "skill", "skill": "Attack", "level": 50},
+    {"type": "skill", "skill": "Slayer", "level": 55}
   ]
 }

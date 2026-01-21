@@ -1,13 +1,7 @@
 {
-  "id": 4803,
-  "name": "Rune brutal",
+  "id"          : 4803,
+  "name"        : "Rune brutal",
   "requirements": [
-    {
-      "type": "equipment",
-      "equipment": [
-        4827
-      ],
-      "note": "Can only be used with a comp ogre bow"
-    }
+    { "type": "equipment", "equipment": [4827], "note": "Can only be used with a comp ogre bow" }
   ]
 }

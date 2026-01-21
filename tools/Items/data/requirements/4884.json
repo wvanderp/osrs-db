@@ -1,11 +1,7 @@
 {
-  "id": 4884,
-  "name": "Dharok's helm (broken)",
+  "id"          : 4884,
+  "name"        : "Dharok's helm (broken)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

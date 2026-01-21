@@ -1,16 +1,8 @@
 {
-  "id": 6922,
-  "name": "Infinity gloves",
+  "id"          : 6922,
+  "name"        : "Infinity gloves",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 25
-    }
+    {"type": "skill", "skill": "Magic",   "level": 50},
+    {"type": "skill", "skill": "Defence", "level": 25}
   ]
 }

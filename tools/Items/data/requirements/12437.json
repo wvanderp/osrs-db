@@ -1,11 +1,7 @@
 {
-  "id": 12437,
-  "name": "3rd age cloak",
+  "id"          : 12437,
+  "name"        : "3rd age cloak",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Prayer", "level": 65}
   ]
 }

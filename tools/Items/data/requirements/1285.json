@@ -1,11 +1,7 @@
 {
-  "id": 1285,
-  "name": "Mithril sword",
+  "id"          : 1285,
+  "name"        : "Mithril sword",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

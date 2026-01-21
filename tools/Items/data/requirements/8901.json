@@ -1,21 +1,9 @@
 {
-  "id": 8901,
-  "name": "Black mask (10)",
+  "id"          : 8901,
+  "name"        : "Black mask (10)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 20
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    },
-    {
-      "type": "skill",
-      "skill": "Combat",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Strength", "level": 20},
+    {"type": "skill", "skill": "Defence",  "level": 10},
+    {"type": "skill", "skill": "Combat",   "level": 40}
   ]
 }

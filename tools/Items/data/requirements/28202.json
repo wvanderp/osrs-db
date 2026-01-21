@@ -1,11 +1,7 @@
 {
-  "id": 28202,
-  "name": "Steel felling axe",
+  "id"          : 28202,
+  "name"        : "Steel felling axe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Attack", "level": 5}
   ]
 }

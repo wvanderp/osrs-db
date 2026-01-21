@@ -1,10 +1,7 @@
 {
-  "id": 4024,
-  "name": "Ninja monkey greegree (small)",
+  "id"          : 4024,
+  "name"        : "Ninja monkey greegree (small)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MONKEY_MADNESS_I"
-    }
+    {"type": "quest", "quest": "MONKEY_MADNESS_I"}
   ]
 }

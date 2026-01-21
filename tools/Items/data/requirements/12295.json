@@ -1,11 +1,7 @@
 {
-  "id": 12295,
-  "name": "Mithril plateskirt (t)",
+  "id"          : 12295,
+  "name"        : "Mithril plateskirt (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

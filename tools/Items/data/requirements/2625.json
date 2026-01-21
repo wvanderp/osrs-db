@@ -1,11 +1,7 @@
 {
-  "id": 2625,
-  "name": "Rune platelegs (t)",
+  "id"          : 2625,
+  "name"        : "Rune platelegs (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

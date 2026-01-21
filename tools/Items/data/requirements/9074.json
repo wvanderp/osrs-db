@@ -1,10 +1,7 @@
 {
-  "id": 9074,
-  "name": "Moonclan cape",
+  "id"          : 9074,
+  "name"        : "Moonclan cape",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "LUNAR_DIPLOMACY"
-    }
+    {"type": "quest", "quest": "LUNAR_DIPLOMACY"}
   ]
 }

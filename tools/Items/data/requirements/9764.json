@@ -1,11 +1,7 @@
 {
-  "id": 9764,
-  "name": "Magic hood",
+  "id"          : 9764,
+  "name"        : "Magic hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Magic", "level": 99}
   ]
 }

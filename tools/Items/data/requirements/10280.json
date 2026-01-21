@@ -1,11 +1,7 @@
 {
-  "id": 10280,
-  "name": "Willow comp bow",
+  "id"          : 10280,
+  "name"        : "Willow comp bow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Ranged", "level": 20}
   ]
 }

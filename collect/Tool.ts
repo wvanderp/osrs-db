@@ -1,3 +1,4 @@
+import { AmenitiesTool } from "../tools/Amenities/AmenitiesTool";
 import { CollisionMapTool } from "../tools/CollisionMap/CollisionMapTool";
 import { DiariesTool } from "../tools/Diaries/DiariesTool";
 import { ItemsTool } from "../tools/Items/ItemsTool";
@@ -28,6 +29,7 @@ export const tools: Tool[] = [
   NpcsTool,
   ObjectsTool,
   ObjectLocationsTool,
+  AmenitiesTool,
   ItemsTool,
   QuestsTool,
   CollisionMapTool,

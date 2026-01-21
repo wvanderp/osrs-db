@@ -1,11 +1,7 @@
 {
-  "id": 2577,
-  "name": "Ranger boots",
+  "id"          : 2577,
+  "name"        : "Ranger boots",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

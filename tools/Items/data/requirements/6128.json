@@ -1,15 +1,8 @@
 {
-  "id": 6128,
-  "name": "Rock-shell helm",
+  "id"          : 6128,
+  "name"        : "Rock-shell helm",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FREMENNIK_TRIALS"
-    }
+    {"type": "skill", "skill": "Defence", "level": 40                                 },
+    {"type": "quest",                                  "quest": "THE_FREMENNIK_TRIALS"}
   ]
 }

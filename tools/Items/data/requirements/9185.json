@@ -1,11 +1,7 @@
 {
-  "id": 9185,
-  "name": "Rune crossbow",
+  "id"          : 9185,
+  "name"        : "Rune crossbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 61
-    }
+    {"type": "skill", "skill": "Ranged", "level": 61}
   ]
 }

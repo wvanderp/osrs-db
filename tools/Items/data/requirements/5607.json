@@ -1,10 +1,7 @@
 {
-  "id": 5607,
-  "name": "Grain (Recruitment Drive)",
+  "id"          : 5607,
+  "name"        : "Grain (Recruitment Drive)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RECRUITMENT_DRIVE"
-    }
+    {"type": "quest", "quest": "RECRUITMENT_DRIVE"}
   ]
 }

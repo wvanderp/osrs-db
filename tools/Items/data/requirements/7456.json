@@ -1,10 +1,7 @@
 {
-  "id": 7456,
-  "name": "Steel gloves",
+  "id"          : 7456,
+  "name"        : "Steel gloves",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER"
-    }
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER"}
   ]
 }

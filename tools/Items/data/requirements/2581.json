@@ -1,11 +1,7 @@
 {
-  "id": 2581,
-  "name": "Robin hood hat",
+  "id"          : 2581,
+  "name"        : "Robin hood hat",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

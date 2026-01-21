@@ -1,11 +1,7 @@
 {
-  "id": 9765,
-  "name": "Runecraft cape#Untrimmed",
+  "id"          : 9765,
+  "name"        : "Runecraft cape#Untrimmed",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Runecrafting",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Runecrafting", "level": 99}
   ]
 }

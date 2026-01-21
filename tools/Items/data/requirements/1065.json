@@ -1,11 +1,7 @@
 {
-  "id": 1065,
-  "name": "Green d'hide vambraces",
+  "id"          : 1065,
+  "name"        : "Green d'hide vambraces",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

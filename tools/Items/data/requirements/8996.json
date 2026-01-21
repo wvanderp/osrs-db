@@ -1,10 +1,7 @@
 {
-  "id": 8996,
-  "name": "Purple navy slacks",
+  "id"          : 8996,
+  "name"        : "Purple navy slacks",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"}
   ]
 }

@@ -1,15 +1,8 @@
 {
-  "id": 1215,
-  "name": "Dragon dagger (unp)",
+  "id"          : 1215,
+  "name"        : "Dragon dagger (unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    },
-    {
-      "type": "quest",
-      "quest": "LOST_CITY"
-    }
+    {"type": "skill", "skill": "Attack", "level": 60                      },
+    {"type": "quest",                                 "quest": "LOST_CITY"}
   ]
 }

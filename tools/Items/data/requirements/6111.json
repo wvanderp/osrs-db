@@ -1,11 +1,7 @@
 {
-  "id": 6111,
-  "name": "Ghostly cloak",
+  "id"          : 6111,
+  "name"        : "Ghostly cloak",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CURSE_OF_THE_EMPTY_LORD",
-      "note": "Obtained by speaking to Viggora during the quest."
-    }
+    {"type": "quest", "quest": "CURSE_OF_THE_EMPTY_LORD", "note": "Obtained by speaking to Viggora during the quest."}
   ]
 }

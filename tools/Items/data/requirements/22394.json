@@ -1,10 +1,7 @@
 {
-  "id": 22394,
-  "name": "Xeric's general",
+  "id"          : 22394,
+  "name"        : "Xeric's general",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CHILDREN_OF_THE_SUN"
-    }
+    {"type": "quest", "quest": "CHILDREN_OF_THE_SUN"}
   ]
 }

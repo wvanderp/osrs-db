@@ -1,16 +1,8 @@
 {
-  "id": 1405,
-  "name": "Mystic air staff",
+  "id"          : 1405,
+  "name"        : "Mystic air staff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40},
+    {"type": "skill", "skill": "Magic",  "level": 40}
   ]
 }

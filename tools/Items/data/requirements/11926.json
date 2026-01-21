@@ -1,11 +1,7 @@
 {
-  "id": 11926,
-  "name": "Odium ward",
+  "id"          : 11926,
+  "name"        : "Odium ward",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Defence", "level": 60}
   ]
 }

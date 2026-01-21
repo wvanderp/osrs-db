@@ -1,11 +1,7 @@
 {
-  "id": 2487,
-  "name": "Blue d'hide vambraces",
+  "id"          : 2487,
+  "name"        : "Blue d'hide vambraces",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Ranged", "level": 50}
   ]
 }

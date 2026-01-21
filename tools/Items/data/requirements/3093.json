@@ -1,11 +1,7 @@
 {
-  "id": 3093,
-  "name": "Black dart#(unp)",
+  "id"          : 3093,
+  "name"        : "Black dart#(unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Ranged", "level": 10}
   ]
 }

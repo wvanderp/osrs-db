@@ -1,16 +1,9 @@
 {
-  "id": 26836,
-  "name": "Abyssal lantern",
-  "note": "Abyssal lantern (oak logs)",
+  "id"          : 26836,
+  "name"        : "Abyssal lantern",
+  "note"        : "Abyssal lantern (oak logs)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "TEMPLE_OF_THE_EYE"
-    },
-    {
-      "type": "skill",
-      "skill": "Runecrafting",
-      "level": 27
-    }
+    {"type": "quest", "quest": "TEMPLE_OF_THE_EYE"                                      },
+    {"type": "skill",                               "skill": "Runecrafting", "level": 27}
   ]
 }

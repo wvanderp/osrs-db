@@ -1,11 +1,7 @@
 {
-  "id": 7332,
-  "name": "Black shield (h1)",
+  "id"          : 7332,
+  "name"        : "Black shield (h1)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Defence", "level": 10}
   ]
 }

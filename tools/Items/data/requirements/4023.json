@@ -1,10 +1,7 @@
 {
-  "id": 4023,
-  "name": "Monkey talisman",
+  "id"          : 4023,
+  "name"        : "Monkey talisman",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MONKEY_MADNESS_II"
-    }
+    {"type": "quest", "quest": "MONKEY_MADNESS_II"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 4914,
-  "name": "Guthan's warspear 0",
+  "id"          : 4914,
+  "name"        : "Guthan's warspear 0",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Attack", "level": 70}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 27023,
-  "name": "Smiths tunic",
+  "id"          : 27023,
+  "name"        : "Smiths tunic",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "SLEEPING_GIANTS"
-    }
+    {"type": "quest", "quest": "SLEEPING_GIANTS"}
   ]
 }

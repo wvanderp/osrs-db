@@ -1,16 +1,8 @@
 {
-  "id": 6918,
-  "name": "Infinity hat",
+  "id"          : 6918,
+  "name"        : "Infinity hat",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 25
-    }
+    {"type": "skill", "skill": "Magic",   "level": 50},
+    {"type": "skill", "skill": "Defence", "level": 25}
   ]
 }

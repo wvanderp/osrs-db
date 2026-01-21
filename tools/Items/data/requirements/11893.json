@@ -1,11 +1,7 @@
 {
-  "id": 11893,
-  "name": "Decorative armour (red plateskirt)",
+  "id"          : 11893,
+  "name"        : "Decorative armour (red plateskirt)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

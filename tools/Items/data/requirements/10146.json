@@ -1,21 +1,9 @@
 {
-  "id": 10146,
-  "name": "Orange salamander",
+  "id"          : 10146,
+  "name"        : "Orange salamander",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Ranged", "level": 50},
+    {"type": "skill", "skill": "Attack", "level": 50},
+    {"type": "skill", "skill": "Magic",  "level": 50}
   ]
 }

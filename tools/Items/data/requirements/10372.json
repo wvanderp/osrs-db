@@ -1,11 +1,7 @@
 {
-  "id": 10372,
-  "name": "Zamorak chaps",
+  "id"          : 10372,
+  "name"        : "Zamorak chaps",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

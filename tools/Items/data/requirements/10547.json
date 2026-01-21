@@ -1,11 +1,7 @@
 {
-  "id": 10547,
-  "name": "Healer hat",
+  "id"          : 10547,
+  "name"        : "Healer hat",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 45
-    }
+    {"type": "skill", "skill": "Defence", "level": 45}
   ]
 }

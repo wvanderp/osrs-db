@@ -1,11 +1,7 @@
 {
-  "id": 10548,
-  "name": "Fighter hat",
+  "id"          : 10548,
+  "name"        : "Fighter hat",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 45
-    }
+    {"type": "skill", "skill": "Defence", "level": 45}
   ]
 }

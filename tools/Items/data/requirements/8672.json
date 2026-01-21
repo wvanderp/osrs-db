@@ -1,16 +1,8 @@
 {
-  "id": 8672,
-  "name": "Banner (Money)",
+  "id"          : 8672,
+  "name"        : "Banner (Money)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 48
-    },
-    {
-      "type": "skill",
-      "skill": "Construction",
-      "level": 66
-    }
+    {"type": "skill", "skill": "Crafting",     "level": 48},
+    {"type": "skill", "skill": "Construction", "level": 66}
   ]
 }

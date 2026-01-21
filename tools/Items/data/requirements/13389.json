@@ -1,16 +1,8 @@
 {
-  "id": 13389,
-  "name": "Xerician robe",
+  "id"          : 13389,
+  "name"        : "Xerician robe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 10},
+    {"type": "skill", "skill": "Magic",   "level": 20}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 8960,
-  "name": "Green tricorn hat",
+  "id"          : 8960,
+  "name"        : "Green tricorn hat",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"}
   ]
 }

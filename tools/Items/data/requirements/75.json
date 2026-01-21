@@ -1,12 +1,8 @@
 {
-  "id": 75,
-  "name": "Khazard armour",
+  "id"          : 75,
+  "name"        : "Khazard armour",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "FIGHT_ARENA",
-      "note": "Required for a quest"
-    }
+    {"type": "quest", "quest": "FIGHT_ARENA", "note": "Required for a quest"}
   ],
-  "note": "A quest item obtained during the Fight Arena quest. It is untradeable."
+  "note"        : "A quest item obtained during the Fight Arena quest. It is untradeable."
 }

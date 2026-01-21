@@ -1,10 +1,7 @@
 {
-  "id": 22986,
-  "name": "Bonecrusher necklace",
+  "id"          : 22986,
+  "name"        : "Bonecrusher necklace",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "BONE_VOYAGE"
-    }
+    {"type": "quest", "quest": "BONE_VOYAGE"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 12412,
-  "name": "Pirate hat & patch",
+  "id"          : 12412,
+  "name"        : "Pirate hat & patch",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER",
-      "note": "Required to wear the combined item"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER", "note": "Required to wear the combined item"}
   ]
 }

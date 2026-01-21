@@ -1,16 +1,9 @@
 {
-  "id": 3481,
-  "name": "Gilded platebody",
+  "id"          : 3481,
+  "name"        : "Gilded platebody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "DRAGON_SLAYER_I"
-    }
+    {"type": "skill", "skill": "Defence", "level": 40                            },
+    {"type": "quest",                                  "quest": "DRAGON_SLAYER_I"}
   ],
-  "note": "Has the same defence bonuses and requirements as a rune platebody."
+  "note"        : "Has the same defence bonuses and requirements as a rune platebody."
 }

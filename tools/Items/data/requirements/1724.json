@@ -1,11 +1,8 @@
 {
-  "id": 1724,
-  "name": "Unholy symbol",
+  "id"          : 1724,
+  "name"        : "Unholy symbol",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "PRIEST_IN_PERIL"
-    }
+    {"type": "quest", "quest": "PRIEST_IN_PERIL"}
   ],
-  "note": "While not directly equippable without this quest, the amulet loses its prayer bonus without it."
+  "note"        : "While not directly equippable without this quest, the amulet loses its prayer bonus without it."
 }

@@ -1,11 +1,7 @@
 {
-  "id": 9806,
-  "name": "Firemaking hood",
+  "id"          : 9806,
+  "name"        : "Firemaking hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Firemaking",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Firemaking", "level": 99}
   ]
 }

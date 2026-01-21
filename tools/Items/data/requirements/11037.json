@@ -1,11 +1,7 @@
 {
-  "id": 11037,
-  "name": "Brine sabre",
+  "id"          : 11037,
+  "name"        : "Brine sabre",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

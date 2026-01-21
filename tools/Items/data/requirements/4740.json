@@ -1,21 +1,8 @@
 {
-  "id": 4740,
-  "name": "Bolt rack",
+  "id"          : 4740,
+  "name"        : "Bolt rack",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70,
-      "note": "from the Karil's crossbow"
-    },
-    {
-      "type": "equipment",
-      "equipment": [
-        4734,
-        4935,
-        4936,
-        4937
-      ]
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70, "note": "from the Karil's crossbow"},
+    { "type": "equipment", "equipment": [4734, 4935, 4936, 4937] }
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 28585,
-  "name": "Warped sceptre (charged)",
+  "id"          : 28585,
+  "name"        : "Warped sceptre (charged)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 62
-    }
+    {"type": "skill", "skill": "Magic", "level": 62}
   ]
 }

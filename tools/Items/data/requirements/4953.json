@@ -1,11 +1,7 @@
 {
-  "id": 4953,
-  "name": "Torag's helm",
+  "id"          : 4953,
+  "name"        : "Torag's helm",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

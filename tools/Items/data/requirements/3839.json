@@ -1,11 +1,8 @@
 {
-  "id": 3839,
-  "name": "Damaged book (Saradomin)",
+  "id"          : 3839,
+  "name"        : "Damaged book (Saradomin)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "HORROR_FROM_THE_DEEP"
-    }
+    {"type": "quest", "quest": "HORROR_FROM_THE_DEEP"}
   ],
-  "note": "This item is untradeable and counts as a god item for Saradomin."
+  "note"        : "This item is untradeable and counts as a god item for Saradomin."
 }

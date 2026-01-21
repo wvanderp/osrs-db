@@ -1,11 +1,7 @@
 {
-  "id": 11900,
-  "name": "Decorative armour (ranged legs)",
+  "id"          : 11900,
+  "name"        : "Decorative armour (ranged legs)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Ranged", "level": 30}
   ]
 }

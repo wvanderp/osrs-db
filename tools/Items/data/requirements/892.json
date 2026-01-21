@@ -1,11 +1,7 @@
 {
-  "id": 892,
-  "name": "Rune arrow",
+  "id"          : 892,
+  "name"        : "Rune arrow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 10552,
-  "name": "Runner boots",
+  "id"          : 10552,
+  "name"        : "Runner boots",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

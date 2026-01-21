@@ -1,21 +1,9 @@
 {
-  "id": 22002,
-  "name": "Dragonfire ward (Charged)",
+  "id"          : 22002,
+  "name"        : "Dragonfire ward (Charged)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 75
-    },
-    {
-      "type": "quest",
-      "quest": "DRAGON_SLAYER_I",
-      "note": "to fight Elvarg"
-    }
+    {"type": "skill", "skill": "Ranged",  "level": 70                                                       },
+    {"type": "skill", "skill": "Defence", "level": 75                                                       },
+    {"type": "quest",                                  "quest": "DRAGON_SLAYER_I", "note": "to fight Elvarg"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 9791,
-  "name": "Construct. hood",
+  "id"          : 9791,
+  "name"        : "Construct. hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Construction",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Construction", "level": 99}
   ]
 }

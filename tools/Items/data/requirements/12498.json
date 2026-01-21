@@ -1,11 +1,7 @@
 {
-  "id": 12498,
-  "name": "Bandos bracers",
+  "id"          : 12498,
+  "name"        : "Bandos bracers",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

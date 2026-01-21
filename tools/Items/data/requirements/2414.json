@@ -1,10 +1,7 @@
 {
-  "id": 2414,
-  "name": "Zamorak cape",
+  "id"          : 2414,
+  "name"        : "Zamorak cape",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MAGE_ARENA_I"
-    }
+    {"type": "quest", "quest": "MAGE_ARENA_I"}
   ]
 }

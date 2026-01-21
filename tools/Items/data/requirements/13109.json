@@ -1,10 +1,7 @@
 {
-  "id": 13109,
-  "name": "Wilderness sword 2",
+  "id"          : 13109,
+  "name"        : "Wilderness sword 2",
   "requirements": [
-    {
-      "type": "diary",
-      "diary": "WILDERNESS_MEDIUM"
-    }
+    {"type": "diary", "diary": "WILDERNESS_MEDIUM"}
   ]
 }

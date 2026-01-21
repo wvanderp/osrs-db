@@ -1,11 +1,7 @@
 {
-  "id": 10079,
-  "name": "Green spiky vambraces",
+  "id"          : 10079,
+  "name"        : "Green spiky vambraces",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

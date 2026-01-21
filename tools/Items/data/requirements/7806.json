@@ -1,11 +1,7 @@
 {
-  "id": 7806,
-  "name": "Anger sword",
+  "id"          : 7806,
+  "name"        : "Anger sword",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "A_SOULS_BANE",
-      "note": "Only obtainable during the quest"
-    }
+    {"type": "quest", "quest": "A_SOULS_BANE", "note": "Only obtainable during the quest"}
   ]
 }

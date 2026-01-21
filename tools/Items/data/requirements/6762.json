@@ -1,6 +1,6 @@
 {
-  "id": 6762,
-  "name": "Saradomin mjolnir",
+  "id"          : 6762,
+  "name"        : "Saradomin mjolnir",
   "requirements": [],
-  "note": "There are no level requirements to wield this item."
+  "note"        : "There are no level requirements to wield this item."
 }

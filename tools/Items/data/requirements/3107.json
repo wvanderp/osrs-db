@@ -1,10 +1,7 @@
 {
-  "id": 3107,
-  "name": "Spiked boots",
+  "id"          : 3107,
+  "name"        : "Spiked boots",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "DEATH_PLATEAU"
-    }
+    {"type": "quest", "quest": "DEATH_PLATEAU"}
   ]
 }

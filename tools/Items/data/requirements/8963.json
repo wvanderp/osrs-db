@@ -1,10 +1,7 @@
 {
-  "id": 8963,
-  "name": "Black tricorn hat",
+  "id"          : 8963,
+  "name"        : "Black tricorn hat",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"}
   ]
 }

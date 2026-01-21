@@ -1,11 +1,7 @@
 {
-  "id": 10284,
-  "name": "Magic comp bow",
+  "id"          : 10284,
+  "name"        : "Magic comp bow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Ranged", "level": 50}
   ]
 }

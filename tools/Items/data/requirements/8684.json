@@ -2,24 +2,9 @@
   "id": 8684,
   "name": "Steel heraldic helm (Asgarnia)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5,
-      "note": "To wear the helm"
-    },
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 38,
-      "note": "To craft the helm"
-    },
-    {
-      "type": "skill",
-      "skill": "Construction",
-      "level": 16,
-      "note": "To build Pluming stand in POH"
-    }
+    {"type": "skill", "skill": "Defence",      "level":  5, "note": "To wear the helm"             },
+    {"type": "skill", "skill": "Crafting",     "level": 38, "note": "To craft the helm"            },
+    {"type": "skill", "skill": "Construction", "level": 16, "note": "To build Pluming stand in POH"}
   ],
   "note": "This item is untradeable and cannot be bought. It's obtained by painting a steel full helm in a Player-owned house with 38 Crafting."
 }

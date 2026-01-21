@@ -1,10 +1,7 @@
 {
-  "id": 6359,
-  "name": "Villager armband (blue)",
+  "id"          : 6359,
+  "name"        : "Villager armband (blue)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "JUNGLE_POTION"
-    }
+    {"type": "quest", "quest": "JUNGLE_POTION"}
   ]
 }

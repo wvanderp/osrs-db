@@ -1,11 +1,7 @@
 {
-  "id": 1213,
-  "name": "Rune dagger#(unp)",
+  "id"          : 1213,
+  "name"        : "Rune dagger#(unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

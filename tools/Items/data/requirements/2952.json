@@ -1,11 +1,11 @@
 {
-  "id": 2952,
-  "name": "Wolfbane",
+  "id"          : 2952,
+  "name"        : "Wolfbane",
   "requirements": [
     {
-      "type": "quest",
+      "type" : "quest",
       "quest": "PRIEST_IN_PERIL",
-      "note": "To wield the Wolfbane, the Priest in Peril quest must have been completed."
+      "note" : "To wield the Wolfbane, the Priest in Peril quest must have been completed."
     }
   ]
 }

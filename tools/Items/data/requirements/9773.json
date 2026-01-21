@@ -1,11 +1,7 @@
 {
-  "id": 9773,
-  "name": "Agility hood",
+  "id"          : 9773,
+  "name"        : "Agility hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Agility",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Agility", "level": 99}
   ]
 }

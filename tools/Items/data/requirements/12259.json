@@ -1,16 +1,8 @@
 {
-  "id": 12259,
-  "name": "Armadyl mitre",
+  "id"          : 12259,
+  "name"        : "Armadyl mitre",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Prayer", "level": 40},
+    {"type": "skill", "skill": "Magic",  "level": 40}
   ]
 }

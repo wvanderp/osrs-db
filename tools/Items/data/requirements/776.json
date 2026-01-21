@@ -1,10 +1,7 @@
 {
-  "id": 776,
-  "name": "Goldsmith gauntlets",
+  "id"          : 776,
+  "name"        : "Goldsmith gauntlets",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "FAMILY_CREST"
-    }
+    {"type": "quest", "quest": "FAMILY_CREST"}
   ]
 }

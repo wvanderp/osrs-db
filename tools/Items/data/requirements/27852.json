@@ -1,11 +1,7 @@
 {
-  "id": 27852,
-  "name": "Corrupted zuriel's robe bottom (bh)",
+  "id"          : 27852,
+  "name"        : "Corrupted zuriel's robe bottom (bh)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

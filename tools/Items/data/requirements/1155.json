@@ -1,6 +1,6 @@
 {
-  "id": 1155,
-  "name": "Bronze full helm",
+  "id"          : 1155,
+  "name"        : "Bronze full helm",
   "requirements": [],
-  "note": "There are no Defence requirements for wearing this helmet."
+  "note"        : "There are no Defence requirements for wearing this helmet."
 }

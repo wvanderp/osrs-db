@@ -1,11 +1,7 @@
 {
-  "id": 12333,
-  "name": "Red d'hide chaps (t)",
+  "id"          : 12333,
+  "name"        : "Red d'hide chaps (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Ranged", "level": 60}
   ]
 }

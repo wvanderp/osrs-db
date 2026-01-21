@@ -1,11 +1,7 @@
 {
-  "id": 2611,
-  "name": "Adamant kiteshield (g)",
+  "id"          : 2611,
+  "name"        : "Adamant kiteshield (g)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Defence", "level": 30}
   ]
 }

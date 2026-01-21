@@ -1,17 +1,9 @@
 {
-  "id": 9787,
-  "name": "Slayer cape(t)",
+  "id"          : 9787,
+  "name"        : "Slayer cape(t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 99
-    },
-    {
-      "type": "quest",
-      "quest": "SHILO_VILLAGE",
-      "note": "Required to purchase the cape."
-    }
+    {"type": "skill", "skill": "Slayer", "level": 99},
+    {"type": "quest", "quest": "SHILO_VILLAGE", "note": "Required to purchase the cape."}
   ],
-  "note": "Requires a 99 in another skill to wear."
+  "note"        : "Requires a 99 in another skill to wear."
 }

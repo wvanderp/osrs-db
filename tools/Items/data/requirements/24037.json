@@ -1,19 +1,9 @@
 {
-  "id": 24037,
-  "name": "Dragonstone platebody",
+  "id"          : 24037,
+  "name"        : "Dragonstone platebody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "DRAGON_SLAYER_I"
-    },
-    {
-      "type": "quest",
-      "quest": "SONG_OF_THE_ELVES"
-    }
+    {"type": "skill", "skill": "Defence", "level": 40                              },
+    {"type": "quest",                                  "quest": "DRAGON_SLAYER_I"  },
+    {"type": "quest",                                  "quest": "SONG_OF_THE_ELVES"}
   ]
 }

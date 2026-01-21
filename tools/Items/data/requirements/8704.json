@@ -1,24 +1,9 @@
 {
-  "id": 8704,
-  "name": "Steel heraldic helm (Money)",
+  "id"          : 8704,
+  "name"        : "Steel heraldic helm (Money)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5,
-      "note": "To wear the helm"
-    },
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 38,
-      "note": "To craft the helm"
-    },
-    {
-      "type": "skill",
-      "skill": "Construction",
-      "level": 16,
-      "note": "To build Pluming stand in POH"
-    }
+    {"type": "skill", "skill": "Defence",      "level":  5, "note": "To wear the helm"             },
+    {"type": "skill", "skill": "Crafting",     "level": 38, "note": "To craft the helm"            },
+    {"type": "skill", "skill": "Construction", "level": 16, "note": "To build Pluming stand in POH"}
   ]
 }

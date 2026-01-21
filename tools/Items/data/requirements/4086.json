@@ -1,10 +1,7 @@
 {
-  "id": 4086,
-  "name": "Trollweiss",
+  "id"          : 4086,
+  "name"        : "Trollweiss",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "TROLL_ROMANCE"
-    }
+    {"type": "quest", "quest": "TROLL_ROMANCE"}
   ]
 }

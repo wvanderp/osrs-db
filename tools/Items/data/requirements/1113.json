@@ -1,11 +1,7 @@
 {
-  "id": 1113,
-  "name": "Rune chainbody",
+  "id"          : 1113,
+  "name"        : "Rune chainbody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

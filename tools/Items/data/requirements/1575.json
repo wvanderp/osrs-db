@@ -1,11 +1,11 @@
 {
-  "id": 1575,
-  "name": "Cat training medal",
+  "id"          : 1575,
+  "name"        : "Cat training medal",
   "requirements": [
     {
-      "type": "quest",
+      "type" : "quest",
       "quest": "GERTRUDES_CAT",
-      "note": "To obtain the medal after having your cat or kitten catch 100 rats"
+      "note" : "To obtain the medal after having your cat or kitten catch 100 rats"
     }
   ]
 }

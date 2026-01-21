@@ -1,11 +1,7 @@
 {
-  "id": 7380,
-  "name": "Green d'hide chaps (t)",
+  "id"          : 7380,
+  "name"        : "Green d'hide chaps (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

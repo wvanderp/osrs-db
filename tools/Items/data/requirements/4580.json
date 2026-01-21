@@ -1,11 +1,7 @@
 {
-  "id": 4580,
-  "name": "Black spear",
+  "id"          : 4580,
+  "name"        : "Black spear",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Attack", "level": 10}
   ]
 }

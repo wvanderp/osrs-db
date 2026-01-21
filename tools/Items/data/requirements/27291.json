@@ -1,15 +1,8 @@
 {
-  "id": 27291,
-  "name": "Keris partisan of the sun",
+  "id"          : 27291,
+  "name"        : "Keris partisan of the sun",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 80
-    },
-    {
-      "type": "quest",
-      "quest": "BENEATH_CURSED_SANDS"
-    }
+    {"type": "skill", "skill": "Attack", "level": 80                                 },
+    {"type": "quest",                                 "quest": "BENEATH_CURSED_SANDS"}
   ]
 }

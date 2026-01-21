@@ -1,18 +1,8 @@
 {
-  "id": 1269,
-  "name": "Steel pickaxe",
+  "id"          : 1269,
+  "name"        : "Steel pickaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 5,
-      "note": "To equip"
-    },
-    {
-      "type": "skill",
-      "skill": "Mining",
-      "level": 6,
-      "note": "To use"
-    }
+    {"type": "skill", "skill": "Attack", "level": 5, "note": "To equip"},
+    {"type": "skill", "skill": "Mining", "level": 6, "note": "To use"  }
   ]
 }

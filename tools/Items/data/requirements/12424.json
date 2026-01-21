@@ -1,11 +1,7 @@
 {
-  "id": 12424,
-  "name": "3rd age bow",
+  "id"          : 12424,
+  "name"        : "3rd age bow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Ranged", "level": 65}
   ]
 }

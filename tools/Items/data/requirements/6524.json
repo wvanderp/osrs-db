@@ -1,11 +1,7 @@
 {
-  "id": 6524,
-  "name": "Toktz-ket-xil",
+  "id"          : 6524,
+  "name"        : "Toktz-ket-xil",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Defence", "level": 60}
   ]
 }

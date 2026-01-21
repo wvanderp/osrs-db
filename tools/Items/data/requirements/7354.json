@@ -1,11 +1,7 @@
 {
-  "id": 7354,
-  "name": "Rune shield (h4)",
+  "id"          : 7354,
+  "name"        : "Rune shield (h4)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

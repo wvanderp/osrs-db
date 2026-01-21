@@ -1,16 +1,8 @@
 {
-  "id": 4113,
-  "name": "Mystic robe bottom (light)",
+  "id"          : 4113,
+  "name"        : "Mystic robe bottom (light)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Magic",   "level": 40},
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

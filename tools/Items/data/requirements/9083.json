@@ -1,11 +1,8 @@
 {
-  "id": 9083,
-  "name": "Seal of passage",
+  "id"          : 9083,
+  "name"        : "Seal of passage",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "LUNAR_DIPLOMACY"
-    }
+    {"type": "quest", "quest": "LUNAR_DIPLOMACY"}
   ],
-  "note": "Required to be worn or held in the inventory to talk to or trade on Lunar Isle."
+  "note"        : "Required to be worn or held in the inventory to talk to or trade on Lunar Isle."
 }

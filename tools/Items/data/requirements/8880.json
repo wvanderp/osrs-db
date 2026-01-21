@@ -1,11 +1,7 @@
 {
-  "id": 8880,
-  "name": "Dorgeshuun crossbow",
+  "id"          : 8880,
+  "name"        : "Dorgeshuun crossbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 28
-    }
+    {"type": "skill", "skill": "Ranged", "level": 28}
   ]
 }

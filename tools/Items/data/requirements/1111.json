@@ -1,11 +1,7 @@
 {
-  "id": 1111,
-  "name": "Adamant chainbody",
+  "id"          : 1111,
+  "name"        : "Adamant chainbody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Defence", "level": 30}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 1339,
-  "name": "Steel warhammer",
+  "id"          : 1339,
+  "name"        : "Steel warhammer",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Strength", "level": 5}
   ]
 }

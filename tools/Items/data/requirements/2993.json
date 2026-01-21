@@ -1,16 +1,8 @@
 {
-  "id": 2993,
-  "name": "Chompy bird hat (dragon archer)",
+  "id"          : 2993,
+  "name"        : "Chompy bird hat (dragon archer)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Fletching",
-      "level": 5
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Fletching", "level":  5},
+    {"type": "skill", "skill": "Ranged",    "level": 30}
   ]
 }

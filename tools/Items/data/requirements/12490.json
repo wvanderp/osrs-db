@@ -1,11 +1,7 @@
 {
-  "id": 12490,
-  "name": "Ancient bracers",
+  "id"          : 12490,
+  "name"        : "Ancient bracers",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

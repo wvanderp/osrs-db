@@ -1,20 +1,9 @@
 {
-  "id": 9099,
-  "name": "Lunar gloves",
+  "id"          : 9099,
+  "name"        : "Lunar gloves",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 65
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "LUNAR_DIPLOMACY"
-    }
+    {"type": "skill", "skill": "Magic",   "level": 65                            },
+    {"type": "skill", "skill": "Defence", "level": 40                            },
+    {"type": "quest",                                  "quest": "LUNAR_DIPLOMACY"}
   ]
 }

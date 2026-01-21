@@ -1,16 +1,8 @@
 {
-  "id": 11787,
-  "name": "Steam battlestaff",
+  "id"          : 11787,
+  "name"        : "Steam battlestaff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30},
+    {"type": "skill", "skill": "Magic",  "level": 30}
   ]
 }

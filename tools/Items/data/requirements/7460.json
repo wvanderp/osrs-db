@@ -2,15 +2,8 @@
   "id": 7460,
   "name": "Rune gloves",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER"
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 13
-    }
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER"                                 },
+    {"type": "skill",                                 "skill": "Defence", "level": 13}
   ],
   "note": "Rune gloves are special gloves that can be bought from the Culinaromancer's Chest after completion of seven Recipe for Disaster subquests."
 }

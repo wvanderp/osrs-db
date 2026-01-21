@@ -1,10 +1,7 @@
 {
-  "id": 1495,
-  "name": "Klank's gauntlets",
+  "id"          : 1495,
+  "name"        : "Klank's gauntlets",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "UNDERGROUND_PASS"
-    }
+    {"type": "quest", "quest": "UNDERGROUND_PASS"}
   ]
 }

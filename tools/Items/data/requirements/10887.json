@@ -1,20 +1,9 @@
 {
-  "id": 10887,
-  "name": "Barrelchest anchor",
+  "id"          : 10887,
+  "name"        : "Barrelchest anchor",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "THE_GREAT_BRAIN_ROBBERY"
-    }
+    {"type": "skill", "skill": "Attack",   "level": 60                                    },
+    {"type": "skill", "skill": "Strength", "level": 40                                    },
+    {"type": "quest",                                   "quest": "THE_GREAT_BRAIN_ROBBERY"}
   ]
 }

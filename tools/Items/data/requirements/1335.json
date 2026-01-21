@@ -1,11 +1,7 @@
 {
-  "id": 1335,
-  "name": "Iron warhammer",
+  "id"          : 1335,
+  "name"        : "Iron warhammer",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Strength", "level": 1}
   ]
 }

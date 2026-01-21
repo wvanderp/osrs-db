@@ -1,11 +1,7 @@
 {
-  "id": 4759,
-  "name": "Verac's plateskirt#Undamaged",
+  "id"          : 4759,
+  "name"        : "Verac's plateskirt#Undamaged",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

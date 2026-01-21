@@ -1,95 +1,54 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "object",
-  "properties": {
-    "id": {
+  "$schema"             : "https://json-schema.org/draft/2020-12/schema",
+  "type"                : "object",
+  "properties"          : {
+    "id"          : {
       "description": "The unique identifier of the item",
-      "type": "integer",
-      "minimum": 0,
-      "maximum": 9007199254740991
+      "type"       : "integer",
+      "minimum"    : 0,
+      "maximum"    : 9007199254740991
     },
-    "name": {
-      "description": "The name of the item",
-      "type": "string"
-    },
-    "note": {
-      "description": "An optional note about the item's requirements",
-      "type": "string"
-    },
+    "name"        : {"description": "The name of the item", "type": "string"},
+    "note"        : {"description": "An optional note about the item's requirements", "type": "string"},
     "requirements": {
       "description": "Array of requirements for wearing this item",
-      "type": "array",
-      "items": {
+      "type"       : "array",
+      "items"      : {
         "anyOf": [
           {
-            "type": "object",
-            "properties": {
-              "type": {
-                "description": "Skill requirement type",
-                "type": "string",
-                "const": "skill"
-              },
+            "type"                : "object",
+            "properties"          : {
+              "type" : {"description": "Skill requirement type", "type": "string", "const": "skill"},
               "skill": {
                 "description": "The skill required",
-                "type": "string",
-                "enum": [
-                  "Agility",
-                  "Attack",
-                  "Construction",
-                  "Cooking",
-                  "Crafting",
-                  "Defence",
-                  "Farming",
-                  "Firemaking",
-                  "Fishing",
-                  "Fletching",
-                  "Herblore",
-                  "Hitpoints",
-                  "Hunter",
-                  "Magic",
-                  "Mining",
-                  "Prayer",
-                  "Ranged",
-                  "Runecrafting",
-                  "Sailing",
-                  "Slayer",
-                  "Smithing",
-                  "Strength",
-                  "Thieving",
-                  "Woodcutting",
+                "type"       : "string",
+                "enum"       : [
+                  "Agility",      "Attack",       "Construction", "Cooking",      "Crafting",     "Defence",
+                  "Farming",      "Firemaking",   "Fishing",      "Fletching",    "Herblore",     "Hitpoints",
+                  "Hunter",       "Magic",        "Mining",       "Prayer",       "Ranged",       "Runecrafting",
+                  "Sailing",      "Slayer",       "Smithing",     "Strength",     "Thieving",     "Woodcutting",
                   "Combat"
                 ]
               },
               "level": {
                 "description": "The required level in the specified skill",
-                "type": "integer",
-                "minimum": 1,
-                "maximum": 99
+                "type"       : "integer",
+                "minimum"    : 1,
+                "maximum"    : 99
               },
-              "note": {
-                "description": "An optional note about the requirement",
-                "type": "string"
-              }
+              "note" : {"description": "An optional note about the requirement", "type": "string"}
             },
-            "required": [
-              "type",
-              "skill",
-              "level"
-            ],
+            "required"            : ["type", "skill", "level"],
             "additionalProperties": false
           },
           {
-            "type": "object",
-            "properties": {
-              "type": {
-                "description": "Quest requirement type",
-                "type": "string",
-                "const": "quest"
-              },
+            "type"                : "object",
+            "properties"          : {
+              "type" : {"description": "Quest requirement type", "type": "string", "const": "quest"},
               "quest": {
                 "description": "The quest required",
-                "type": "string",
-                "enum": [
+                "type"       : "string",
+                "enum"       : [
                   "ANIMAL_MAGNETISM",
                   "ANOTHER_SLICE_OF_HAM",
                   "THE_ASCENT_OF_ARCEUUS",
@@ -303,181 +262,88 @@
                   "BURIAL_AT_SEA"
                 ]
               },
-              "note": {
-                "description": "An optional note about the requirement",
-                "type": "string"
-              }
+              "note" : {"description": "An optional note about the requirement", "type": "string"}
             },
-            "required": [
-              "type",
-              "quest"
-            ],
+            "required"            : ["type", "quest"],
             "additionalProperties": false
           },
           {
-            "type": "object",
-            "properties": {
-              "type": {
-                "description": "Game mode requirement type",
-                "type": "string",
-                "const": "gameMode"
-              },
+            "type"                : "object",
+            "properties"          : {
+              "type"    : {"description": "Game mode requirement type", "type": "string", "const": "gameMode"},
               "gameMode": {
                 "description": "The game mode required",
-                "type": "string",
-                "enum": [
-                  "Raging Echoes League",
-                  "Grid Master"
-                ]
+                "type"       : "string",
+                "enum"       : ["Raging Echoes League", "Grid Master"]
               },
-              "note": {
-                "description": "An optional note about the requirement",
-                "type": "string"
-              }
+              "note"    : {"description": "An optional note about the requirement", "type": "string"}
             },
-            "required": [
-              "type",
-              "gameMode"
-            ],
+            "required"            : ["type", "gameMode"],
             "additionalProperties": false
           },
           {
-            "type": "object",
-            "properties": {
-              "type": {
-                "description": "Equipment requirement type",
-                "type": "string",
-                "const": "equipment"
-              },
+            "type"                : "object",
+            "properties"          : {
+              "type"     : {"description": "Equipment requirement type", "type": "string", "const": "equipment"},
               "equipment": {
                 "description": "Array of equipment item IDs required. When multiple items are listed, any one of them can satisfy the requirement.",
                 "type": "array",
-                "items": {
-                  "type": "integer",
-                  "minimum": -9007199254740991,
-                  "maximum": 9007199254740991
-                }
+                "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
               },
-              "note": {
-                "description": "An optional note about the requirement",
-                "type": "string"
-              }
+              "note"     : {"description": "An optional note about the requirement", "type": "string"}
             },
-            "required": [
-              "type",
-              "equipment"
-            ],
+            "required"            : ["type", "equipment"],
             "additionalProperties": false
           },
           {
-            "type": "object",
-            "properties": {
-              "type": {
-                "description": "Achievement diary requirement type",
-                "type": "string",
-                "const": "diary"
-              },
+            "type"                : "object",
+            "properties"          : {
+              "type" : {"description": "Achievement diary requirement type", "type": "string", "const": "diary"},
               "diary": {
                 "description": "The achievement diary required",
-                "type": "string",
-                "enum": [
-                  "ARDOUGNE_EASY",
-                  "ARDOUGNE_MEDIUM",
-                  "ARDOUGNE_HARD",
-                  "ARDOUGNE_ELITE",
-                  "DESERT_EASY",
-                  "DESERT_MEDIUM",
-                  "DESERT_HARD",
-                  "DESERT_ELITE",
-                  "FALADOR_EASY",
-                  "FALADOR_MEDIUM",
-                  "FALADOR_HARD",
-                  "FALADOR_ELITE",
-                  "FREMENNIK_EASY",
-                  "FREMENNIK_MEDIUM",
-                  "FREMENNIK_HARD",
-                  "FREMENNIK_ELITE",
-                  "KANDARIN_EASY",
-                  "KANDARIN_MEDIUM",
-                  "KANDARIN_HARD",
-                  "KANDARIN_ELITE",
-                  "KARAMJA_EASY",
-                  "KARAMJA_MEDIUM",
-                  "KARAMJA_HARD",
-                  "KARAMJA_ELITE",
-                  "KOUREND_AND_KEBOS_EASY",
-                  "KOUREND_AND_KEBOS_MEDIUM",
-                  "KOUREND_AND_KEBOS_HARD",
-                  "KOUREND_AND_KEBOS_ELITE",
-                  "LUMBRIDGE_AND_DRAYNOR_EASY",
-                  "LUMBRIDGE_AND_DRAYNOR_MEDIUM",
-                  "LUMBRIDGE_AND_DRAYNOR_HARD",
-                  "LUMBRIDGE_AND_DRAYNOR_ELITE",
-                  "MORYTANIA_EASY",
-                  "MORYTANIA_MEDIUM",
-                  "MORYTANIA_HARD",
-                  "MORYTANIA_ELITE",
-                  "VARROCK_EASY",
-                  "VARROCK_MEDIUM",
-                  "VARROCK_HARD",
-                  "VARROCK_ELITE",
-                  "WESTERN_PROVINCES_EASY",
-                  "WESTERN_PROVINCES_MEDIUM",
-                  "WESTERN_PROVINCES_HARD",
-                  "WESTERN_PROVINCES_ELITE",
-                  "WILDERNESS_EASY",
-                  "WILDERNESS_MEDIUM",
-                  "WILDERNESS_HARD",
-                  "WILDERNESS_ELITE"
+                "type"       : "string",
+                "enum"       : [
+                  "ARDOUGNE_EASY",                "ARDOUGNE_MEDIUM",              "ARDOUGNE_HARD",
+                  "ARDOUGNE_ELITE",               "DESERT_EASY",                  "DESERT_MEDIUM",
+                  "DESERT_HARD",                  "DESERT_ELITE",                 "FALADOR_EASY",
+                  "FALADOR_MEDIUM",               "FALADOR_HARD",                 "FALADOR_ELITE",
+                  "FREMENNIK_EASY",               "FREMENNIK_MEDIUM",             "FREMENNIK_HARD",
+                  "FREMENNIK_ELITE",              "KANDARIN_EASY",                "KANDARIN_MEDIUM",
+                  "KANDARIN_HARD",                "KANDARIN_ELITE",               "KARAMJA_EASY",
+                  "KARAMJA_MEDIUM",               "KARAMJA_HARD",                 "KARAMJA_ELITE",
+                  "KOUREND_AND_KEBOS_EASY",       "KOUREND_AND_KEBOS_MEDIUM",     "KOUREND_AND_KEBOS_HARD",
+                  "KOUREND_AND_KEBOS_ELITE",      "LUMBRIDGE_AND_DRAYNOR_EASY",   "LUMBRIDGE_AND_DRAYNOR_MEDIUM",
+                  "LUMBRIDGE_AND_DRAYNOR_HARD",   "LUMBRIDGE_AND_DRAYNOR_ELITE",  "MORYTANIA_EASY",
+                  "MORYTANIA_MEDIUM",             "MORYTANIA_HARD",               "MORYTANIA_ELITE",
+                  "VARROCK_EASY",                 "VARROCK_MEDIUM",               "VARROCK_HARD",
+                  "VARROCK_ELITE",                "WESTERN_PROVINCES_EASY",       "WESTERN_PROVINCES_MEDIUM",
+                  "WESTERN_PROVINCES_HARD",       "WESTERN_PROVINCES_ELITE",      "WILDERNESS_EASY",
+                  "WILDERNESS_MEDIUM",            "WILDERNESS_HARD",              "WILDERNESS_ELITE"
                 ]
               },
-              "note": {
-                "description": "An optional note about the requirement",
-                "type": "string"
-              }
+              "note" : {"description": "An optional note about the requirement", "type": "string"}
             },
-            "required": [
-              "type",
-              "diary"
-            ],
+            "required"            : ["type", "diary"],
             "additionalProperties": false
           },
           {
-            "type": "object",
-            "properties": {
-              "type": {
-                "description": "Ironman mode restriction type",
-                "type": "string",
-                "const": "ironman"
-              },
+            "type"                : "object",
+            "properties"          : {
+              "type": {"description": "Ironman mode restriction type", "type": "string", "const": "ironman"},
               "mode": {
                 "description": "The type of Ironman mode",
-                "type": "string",
-                "enum": [
-                  "Ironman",
-                  "Hardcore Ironman",
-                  "Ultimate Ironman"
-                ]
+                "type"       : "string",
+                "enum"       : ["Ironman", "Hardcore Ironman", "Ultimate Ironman"]
               },
-              "note": {
-                "description": "An optional note about the restriction",
-                "type": "string"
-              }
+              "note": {"description": "An optional note about the restriction", "type": "string"}
             },
-            "required": [
-              "type",
-              "mode"
-            ],
+            "required"            : ["type", "mode"],
             "additionalProperties": false
           }
         ]
       }
     }
   },
-  "required": [
-    "id",
-    "name",
-    "requirements"
-  ],
+  "required"            : ["id", "name", "requirements"],
   "additionalProperties": false
 }

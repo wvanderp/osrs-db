@@ -1,16 +1,8 @@
 {
-  "id": 10589,
-  "name": "Granite helm",
+  "id"          : 10589,
+  "name"        : "Granite helm",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Strength", "level": 50},
+    {"type": "skill", "skill": "Defence",  "level": 50}
   ]
 }

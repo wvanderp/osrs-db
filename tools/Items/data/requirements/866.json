@@ -1,11 +1,7 @@
 {
-  "id": 866,
-  "name": "Mithril knife",
+  "id"          : 866,
+  "name"        : "Mithril knife",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Ranged", "level": 20}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 6070,
-  "name": "Mourner cloak",
+  "id"          : 6070,
+  "name"        : "Mourner cloak",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MOURNINGS_END_PART_I"
-    }
+    {"type": "quest", "quest": "MOURNINGS_END_PART_I"}
   ]
 }

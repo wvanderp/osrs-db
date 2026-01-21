@@ -1,24 +1,9 @@
 {
-  "id": 8766,
-  "name": "Steel kiteshield (Misthalin)",
+  "id"          : 8766,
+  "name"        : "Steel kiteshield (Misthalin)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5,
-      "note": "To wear the shield"
-    },
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 43,
-      "note": "To craft the shield"
-    },
-    {
-      "type": "skill",
-      "skill": "Construction",
-      "level": 41,
-      "note": "To build Shield easel in POH"
-    }
+    {"type": "skill", "skill": "Defence",      "level":  5, "note": "To wear the shield"          },
+    {"type": "skill", "skill": "Crafting",     "level": 43, "note": "To craft the shield"         },
+    {"type": "skill", "skill": "Construction", "level": 41, "note": "To build Shield easel in POH"}
   ]
 }

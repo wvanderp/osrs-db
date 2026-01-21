@@ -1,16 +1,8 @@
 {
-  "id": 1397,
-  "name": "Air battlestaff",
+  "id"          : 1397,
+  "name"        : "Air battlestaff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30},
+    {"type": "skill", "skill": "Magic",  "level": 30}
   ]
 }

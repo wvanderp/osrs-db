@@ -1,20 +1,9 @@
 {
-  "id": 24127,
-  "name": "Crystal shield",
+  "id"          : 24127,
+  "name"        : "Crystal shield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Agility",
-      "level": 50
-    },
-    {
-      "type": "quest",
-      "quest": "ROVING_ELVES"
-    }
+    {"type": "skill", "skill": "Defence", "level": 70                         },
+    {"type": "skill", "skill": "Agility", "level": 50                         },
+    {"type": "quest",                                  "quest": "ROVING_ELVES"}
   ]
 }

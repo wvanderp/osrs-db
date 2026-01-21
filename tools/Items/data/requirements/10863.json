@@ -1,10 +1,7 @@
 {
-  "id": 10863,
-  "name": "Builder's shirt",
+  "id"          : 10863,
+  "name"        : "Builder's shirt",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "TOWER_OF_LIFE"
-    }
+    {"type": "quest", "quest": "TOWER_OF_LIFE"}
   ]
 }

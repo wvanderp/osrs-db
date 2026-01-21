@@ -1,16 +1,8 @@
 {
-  "id": 4117,
-  "name": "Mystic boots (light)",
+  "id"          : 4117,
+  "name"        : "Mystic boots (light)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Magic",   "level": 40},
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

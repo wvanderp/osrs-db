@@ -1,10 +1,7 @@
 {
-  "id": 9071,
-  "name": "Moonclan skirt",
+  "id"          : 9071,
+  "name"        : "Moonclan skirt",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "LUNAR_DIPLOMACY"
-    }
+    {"type": "quest", "quest": "LUNAR_DIPLOMACY"}
   ]
 }

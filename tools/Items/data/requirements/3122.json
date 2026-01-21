@@ -1,16 +1,8 @@
 {
-  "id": 3122,
-  "name": "Granite shield",
+  "id"          : 3122,
+  "name"        : "Granite shield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Defence",  "level": 50},
+    {"type": "skill", "skill": "Strength", "level": 50}
   ]
 }

@@ -1,12 +1,7 @@
 {
-  "id": 4164,
-  "name": "Facemask",
+  "id"          : 4164,
+  "name"        : "Facemask",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 10,
-      "note": "Cannot be boosted."
-    }
+    {"type": "skill", "skill": "Slayer", "level": 10, "note": "Cannot be boosted."}
   ]
 }

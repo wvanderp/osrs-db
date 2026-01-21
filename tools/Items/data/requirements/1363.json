@@ -1,11 +1,7 @@
 {
-  "id": 1363,
-  "name": "Iron battleaxe",
+  "id"          : 1363,
+  "name"        : "Iron battleaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Attack", "level": 1}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 7141,
-  "name": "Harry's cutlass",
+  "id"          : 7141,
+  "name"        : "Harry's cutlass",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"}
   ]
 }

@@ -1,28 +1,10 @@
 {
-  "id": 10147,
-  "name": "Red salamander",
+  "id"          : 10147,
+  "name"        : "Red salamander",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 60
-    },
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 60
-    },
-    {
-      "type": "equipment",
-      "equipment": [
-        10144
-      ],
-      "note": "Only shoots Tarromin tar"
-    }
+    { "type": "skill",     "skill": "Ranged", "level": 60                                                           },
+    { "type": "skill",     "skill": "Attack", "level": 60                                                           },
+    { "type": "skill",     "skill": "Magic",  "level": 60                                                           },
+    { "type": "equipment",                                 "equipment": [10144], "note": "Only shoots Tarromin tar" }
   ]
 }

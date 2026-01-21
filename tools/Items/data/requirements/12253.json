@@ -1,11 +1,7 @@
 {
-  "id": 12253,
-  "name": "Armadyl robe top",
+  "id"          : 12253,
+  "name"        : "Armadyl robe top",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Prayer", "level": 20}
   ]
 }

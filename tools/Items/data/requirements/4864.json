@@ -1,16 +1,8 @@
 {
-  "id": 4864,
-  "name": "Ahrim's staff",
+  "id"          : 4864,
+  "name"        : "Ahrim's staff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Magic",  "level": 70},
+    {"type": "skill", "skill": "Attack", "level": 70}
   ]
 }

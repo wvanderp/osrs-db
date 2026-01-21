@@ -2,11 +2,7 @@
   "id": 6528,
   "name": "Tzhaar-ket-om",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Strength", "level": 60}
   ],
   "note": "This item is affected by the Berserker necklace, receiving a 20% damage increase when the necklace is worn. It is also affected by the Obsidian armour (helmet, platebody, and platelegs)."
 }

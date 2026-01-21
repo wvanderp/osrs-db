@@ -1,16 +1,8 @@
 {
-  "id": 30439,
-  "name": "Echo virtus robe top",
+  "id"          : 30439,
+  "name"        : "Echo virtus robe top",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 75
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 78
-    }
+    {"type": "skill", "skill": "Defence", "level": 75},
+    {"type": "skill", "skill": "Magic",   "level": 78}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 10348,
-  "name": "3rd age platebody",
+  "id"          : 10348,
+  "name"        : "3rd age platebody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Defence", "level": 65}
   ]
 }

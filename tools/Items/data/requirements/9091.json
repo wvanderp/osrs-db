@@ -1,10 +1,7 @@
 {
-  "id": 9091,
-  "name": "Lunar staff - pt1",
+  "id"          : 9091,
+  "name"        : "Lunar staff - pt1",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "LUNAR_DIPLOMACY"
-    }
+    {"type": "quest", "quest": "LUNAR_DIPLOMACY"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 9779,
-  "name": "Thieving hood",
+  "id"          : 9779,
+  "name"        : "Thieving hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Thieving",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Thieving", "level": 99}
   ]
 }

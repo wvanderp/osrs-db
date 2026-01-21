@@ -1,12 +1,8 @@
 {
-  "id": 30891,
-  "name": "Keris partisan of Amascut",
+  "id"          : 30891,
+  "name"        : "Keris partisan of Amascut",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 80
-    },
+    {"type": "skill", "skill": "Attack", "level": 80},
     {
       "type": "quest",
       "quest": "BENEATH_CURSED_SANDS",

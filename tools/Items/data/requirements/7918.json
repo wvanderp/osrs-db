@@ -1,10 +1,7 @@
 {
-  "id": 7918,
-  "name": "Bonesack",
+  "id"          : 7918,
+  "name"        : "Bonesack",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RAG_AND_BONE_MAN_II"
-    }
+    {"type": "quest", "quest": "RAG_AND_BONE_MAN_II"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 1341,
-  "name": "Black warhammer",
+  "id"          : 1341,
+  "name"        : "Black warhammer",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Strength", "level": 10}
   ]
 }

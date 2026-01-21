@@ -1,11 +1,7 @@
 {
-  "id": 1331,
-  "name": "Adamant scimitar",
+  "id"          : 1331,
+  "name"        : "Adamant scimitar",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30}
   ]
 }

@@ -1,142 +1,83 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "origin": {
-        "type": "array",
+  "type"   : "array",
+  "items"  : {
+    "type"                : "object",
+    "properties"          : {
+      "origin"     : {
+        "type"       : "array",
         "prefixItems": [
           {
             "description": "X coordinate",
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
+            "type"       : "integer",
+            "minimum"    : -9007199254740991,
+            "maximum"    : 9007199254740991
           },
           {
             "description": "Y coordinate",
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
+            "type"       : "integer",
+            "minimum"    : -9007199254740991,
+            "maximum"    : 9007199254740991
           },
           {
             "description": "Plane coordinate",
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
+            "type"       : "integer",
+            "minimum"    : -9007199254740991,
+            "maximum"    : 9007199254740991
           }
         ]
       },
       "destination": {
         "anyOf": [
           {
-            "type": "array",
+            "type"       : "array",
             "prefixItems": [
               {
                 "description": "X coordinate",
-                "type": "integer",
-                "minimum": -9007199254740991,
-                "maximum": 9007199254740991
+                "type"       : "integer",
+                "minimum"    : -9007199254740991,
+                "maximum"    : 9007199254740991
               },
               {
                 "description": "Y coordinate",
-                "type": "integer",
-                "minimum": -9007199254740991,
-                "maximum": 9007199254740991
+                "type"       : "integer",
+                "minimum"    : -9007199254740991,
+                "maximum"    : 9007199254740991
               },
               {
                 "description": "Plane coordinate",
-                "type": "integer",
-                "minimum": -9007199254740991,
-                "maximum": 9007199254740991
+                "type"       : "integer",
+                "minimum"    : -9007199254740991,
+                "maximum"    : 9007199254740991
               }
             ]
           },
-          {
-            "type": "null"
-          }
+          {"type": "null"}
         ]
       },
-      "menuOption": {
-        "type": "string"
+      "menuOption" : {"type": "string"},
+      "menuTarget" : {
+        "anyOf": [ {"type": "string"}, {"type": "null"} ]
       },
-      "menuTarget": {
-        "anyOf": [
-          {
-            "type": "string"
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "objectID"   : {
+        "anyOf": [ {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}, {"type": "null"} ]
       },
-      "objectID": {
-        "anyOf": [
-          {
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "skills"     : {
+        "anyOf": [ {"type": "array", "items": {}}, {"type": "null"} ]
       },
-      "skills": {
-        "anyOf": [
-          {
-            "type": "array",
-            "items": {}
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "items"      : {
+        "anyOf": [ {"type": "array", "items": {}}, {"type": "null"} ]
       },
-      "items": {
-        "anyOf": [
-          {
-            "type": "array",
-            "items": {}
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "quests"     : {
+        "anyOf": [ {"type": "array", "items": {}}, {"type": "null"} ]
       },
-      "quests": {
-        "anyOf": [
-          {
-            "type": "array",
-            "items": {}
-          },
-          {
-            "type": "null"
-          }
-        ]
-      },
-      "duration": {
-        "anyOf": [
-          {
-            "type": "number"
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "duration"   : {
+        "anyOf": [ {"type": "number"}, {"type": "null"} ]
       },
       "displayInfo": {
         "anyOf": [
-          {
-            "type": "object",
-            "propertyNames": {
-              "type": "string"
-            },
-            "additionalProperties": {}
-          },
-          {
-            "type": "null"
-          }
+          { "type": "object", "propertyNames": {"type": "string"}, "additionalProperties": {} },
+          { "type": "null"                                                                    }
         ]
       }
     },

@@ -1,16 +1,8 @@
 {
-  "id": 7441,
-  "name": "Frying pan",
+  "id"          : 7441,
+  "name"        : "Frying pan",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER",
-      "note": "Four Recipe for Disaster subquests must be completed."
-    },
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER", "note": "Four Recipe for Disaster subquests must be completed."},
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

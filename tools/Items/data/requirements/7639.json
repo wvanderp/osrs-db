@@ -1,10 +1,7 @@
 {
-  "id": 7639,
-  "name": "Rod of ivandis#(10)",
+  "id"          : 7639,
+  "name"        : "Rod of ivandis#(10)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "IN_AID_OF_THE_MYREQUE"
-    }
+    {"type": "quest", "quest": "IN_AID_OF_THE_MYREQUE"}
   ]
 }

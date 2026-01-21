@@ -1,10 +1,7 @@
 {
-  "id": 27025,
-  "name": "Smiths trousers",
+  "id"          : 27025,
+  "name"        : "Smiths trousers",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "SLEEPING_GIANTS"
-    }
+    {"type": "quest", "quest": "SLEEPING_GIANTS"}
   ]
 }

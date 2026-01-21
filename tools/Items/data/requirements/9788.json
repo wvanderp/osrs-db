@@ -1,11 +1,7 @@
 {
-  "id": 9788,
-  "name": "Slayer hood",
+  "id"          : 9788,
+  "name"        : "Slayer hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Slayer", "level": 99}
   ]
 }

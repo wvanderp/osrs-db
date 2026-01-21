@@ -1,16 +1,8 @@
 {
-  "id": 4718,
-  "name": "Dharok's greataxe",
+  "id"          : 4718,
+  "name"        : "Dharok's greataxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Attack",   "level": 70},
+    {"type": "skill", "skill": "Strength", "level": 70}
   ]
 }

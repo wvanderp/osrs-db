@@ -1,11 +1,7 @@
 {
-  "id": 12357,
-  "name": "Katana",
+  "id"          : 12357,
+  "name"        : "Katana",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

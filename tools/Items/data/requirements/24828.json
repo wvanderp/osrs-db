@@ -1,10 +1,7 @@
 {
-  "id": 24828,
-  "name": "Vyre noble coat tails (grey)",
+  "id"          : 24828,
+  "name"        : "Vyre noble coat tails (grey)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "SINS_OF_THE_FATHER"
-    }
+    {"type": "quest", "quest": "SINS_OF_THE_FATHER"}
   ]
 }

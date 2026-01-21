@@ -1,11 +1,7 @@
 {
-  "id": 24417,
-  "name": "Inquisitor's mace",
+  "id"          : 24417,
+  "name"        : "Inquisitor's mace",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 80
-    }
+    {"type": "skill", "skill": "Attack", "level": 80}
   ]
 }

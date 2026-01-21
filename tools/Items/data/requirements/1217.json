@@ -1,11 +1,7 @@
 {
-  "id": 1217,
-  "name": "Black dagger",
+  "id"          : 1217,
+  "name"        : "Black dagger",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Attack", "level": 10}
   ]
 }

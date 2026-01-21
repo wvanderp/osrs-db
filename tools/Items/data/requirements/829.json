@@ -1,11 +1,7 @@
 {
-  "id": 829,
-  "name": "Adamant javelin#Unpoisoned",
+  "id"          : 829,
+  "name"        : "Adamant javelin#Unpoisoned",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Ranged", "level": 65}
   ]
 }

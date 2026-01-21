@@ -1,11 +1,7 @@
 {
-  "id": 2405,
-  "name": "Carnillean armour",
+  "id"          : 2405,
+  "name"        : "Carnillean armour",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

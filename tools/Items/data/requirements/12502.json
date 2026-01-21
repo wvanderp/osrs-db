@@ -1,11 +1,7 @@
 {
-  "id": 12502,
-  "name": "Bandos chaps",
+  "id"          : 12502,
+  "name"        : "Bandos chaps",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

@@ -1,20 +1,9 @@
 {
-  "id": 6135,
-  "name": "Spined chaps",
+  "id"          : 6135,
+  "name"        : "Spined chaps",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FREMENNIK_TRIALS"
-    }
+    {"type": "skill", "skill": "Defence", "level": 40                                 },
+    {"type": "skill", "skill": "Ranged",  "level": 40                                 },
+    {"type": "quest",                                  "quest": "THE_FREMENNIK_TRIALS"}
   ]
 }

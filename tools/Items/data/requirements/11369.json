@@ -1,16 +1,12 @@
 {
-  "id": 11369,
-  "name": "Iron hasta",
+  "id"          : 11369,
+  "name"        : "Iron hasta",
   "requirements": [
     {
-      "type": "quest",
+      "type" : "quest",
       "quest": "BARBARIAN_TRAINING",
-      "note": "Must complete the Smithing section of the miniquest to wield"
+      "note" : "Must complete the Smithing section of the miniquest to wield"
     },
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Attack", "level": 1}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 4125,
-  "name": "Black boots",
+  "id"          : 4125,
+  "name"        : "Black boots",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Defence", "level": 10}
   ]
 }

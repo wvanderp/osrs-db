@@ -1,20 +1,9 @@
 {
-  "id": 7370,
-  "name": "Green d'hide body (g)",
+  "id"          : 7370,
+  "name"        : "Green d'hide body (g)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "DRAGON_SLAYER_I"
-    }
+    {"type": "skill", "skill": "Ranged",  "level": 40                            },
+    {"type": "skill", "skill": "Defence", "level": 40                            },
+    {"type": "quest",                                  "quest": "DRAGON_SLAYER_I"}
   ]
 }

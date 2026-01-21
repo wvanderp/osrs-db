@@ -1,11 +1,7 @@
 {
-  "id": 1169,
-  "name": "Coif",
+  "id"          : 1169,
+  "name"        : "Coif",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Ranged", "level": 20}
   ]
 }

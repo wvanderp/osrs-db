@@ -1,16 +1,8 @@
 {
-  "id": 4962,
-  "name": "Torag's hammers 0",
+  "id"          : 4962,
+  "name"        : "Torag's hammers 0",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Attack",   "level": 70},
+    {"type": "skill", "skill": "Strength", "level": 70}
   ]
 }

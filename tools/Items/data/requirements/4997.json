@@ -1,11 +1,7 @@
 {
-  "id": 4997,
-  "name": "Verac's plateskirt",
+  "id"          : 4997,
+  "name"        : "Verac's plateskirt",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

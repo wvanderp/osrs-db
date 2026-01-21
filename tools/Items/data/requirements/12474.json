@@ -1,11 +1,7 @@
 {
-  "id": 12474,
-  "name": "Armadyl plateskirt",
+  "id"          : 12474,
+  "name"        : "Armadyl plateskirt",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

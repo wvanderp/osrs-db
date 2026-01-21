@@ -1,11 +1,7 @@
 {
-    "id": 1333,
-    "name": "Rune scimitar",
-    "requirements": [
-        {
-            "type": "skill",
-            "skill": "Attack",
-            "level": 40
-        }
-    ]
+  "id"          : 1333,
+  "name"        : "Rune scimitar",
+  "requirements": [
+    {"type": "skill", "skill": "Attack", "level": 40}
+  ]
 }

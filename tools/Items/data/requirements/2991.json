@@ -1,16 +1,8 @@
 {
-  "id": 2991,
-  "name": "Chompy bird hat (expert)",
+  "id"          : 2991,
+  "name"        : "Chompy bird hat (expert)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Fletching",
-      "level": 5
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Fletching", "level":  5},
+    {"type": "skill", "skill": "Ranged",    "level": 30}
   ]
 }

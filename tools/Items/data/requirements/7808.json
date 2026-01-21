@@ -1,12 +1,8 @@
 {
-  "id": 7808,
-  "name": "Anger mace",
+  "id"          : 7808,
+  "name"        : "Anger mace",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "A_SOULS_BANE",
-      "note": "Required to use this item"
-    }
+    {"type": "quest", "quest": "A_SOULS_BANE", "note": "Required to use this item"}
   ],
-  "note": "Used only during A Soul's Bane quest."
+  "note"        : "Used only during A Soul's Bane quest."
 }

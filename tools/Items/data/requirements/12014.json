@@ -1,6 +1,6 @@
 {
-  "id": 12014,
-  "name": "Prospector jacket",
+  "id"          : 12014,
+  "name"        : "Prospector jacket",
   "requirements": [
     {
       "type": "skill",

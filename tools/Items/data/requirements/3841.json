@@ -1,10 +1,7 @@
 {
-  "id": 3841,
-  "name": "Damaged book (Zamorak)",
+  "id"          : 3841,
+  "name"        : "Damaged book (Zamorak)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "HORROR_FROM_THE_DEEP"
-    }
+    {"type": "quest", "quest": "HORROR_FROM_THE_DEEP"}
   ]
 }

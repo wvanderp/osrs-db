@@ -1,6 +1,7 @@
 import axios from "axios";
 import fs from "fs";
 import yauzl from "yauzl";
+import formatJson from "./formatJson";
 
 const url = "https://archive.openrs2.org/caches.json";
 
@@ -11,11 +12,11 @@ export interface OsrsCache {
   environment: string;
   language: string;
   builds?:
-  | ({
-    major: number;
-    minor?: number | null;
-  } | null)[]
-  | null;
+    | ({
+        major: number;
+        minor?: number | null;
+      } | null)[]
+    | null;
   timestamp?: string | null;
   sources?: (string | null)[] | null;
   valid_indexes: number;
@@ -56,7 +57,7 @@ async function downloadCache(cacheID: number) {
   // get the newest cache and unzip it and stream it to file
   console.log(`Downloading cache ${cacheID}...`);
   console.log(
-    `Cache URL: https://archive.openrs2.org/caches/runescape/${cacheID}`
+    `Cache URL: https://archive.openrs2.org/caches/runescape/${cacheID}`,
   );
   const cacheURL = `https://archive.openrs2.org/caches/runescape/${cacheID}/disk.zip`;
 
@@ -90,7 +91,7 @@ async function downloadCache(cacheID: number) {
             entry,
             (
               err: Error | null,
-              readStream: NodeJS.ReadableStream | undefined
+              readStream: NodeJS.ReadableStream | undefined,
             ) => {
               if (err) throw err;
               if (!readStream) throw new Error("Failed to open readStream");
@@ -98,11 +99,11 @@ async function downloadCache(cacheID: number) {
                 zipfile.readEntry();
               });
               readStream.pipe(fs.createWriteStream(entry.fileName));
-            }
+            },
           );
         }
       });
-    }
+    },
   );
 
   // Download the keys.json file
@@ -116,7 +117,7 @@ async function downloadCache(cacheID: number) {
     throw new Error(`Failed to fetch keys.json: ${keysResponse.statusText}`);
   }
 
-  fs.writeFileSync("keys.json", JSON.stringify(keysResponse.data, null, 2));
+  fs.writeFileSync("keys.json", formatJson(keysResponse.data));
 }
 
 async function main() {

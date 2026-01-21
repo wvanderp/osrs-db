@@ -1,11 +1,7 @@
 {
-  "id": 1243,
-  "name": "Mithril spear#(unp)",
+  "id"          : 1243,
+  "name"        : "Mithril spear#(unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

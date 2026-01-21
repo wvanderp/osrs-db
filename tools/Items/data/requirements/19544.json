@@ -1,11 +1,7 @@
 {
-  "id": 19544,
-  "name": "Tormented bracelet",
+  "id"          : 19544,
+  "name"        : "Tormented bracelet",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Hitpoints",
-      "level": 75
-    }
+    {"type": "skill", "skill": "Hitpoints", "level": 75}
   ]
 }

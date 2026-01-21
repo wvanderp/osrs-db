@@ -1,11 +1,7 @@
 {
-  "id": 11894,
-  "name": "Decorative armour (white plateskirt)",
+  "id"          : 11894,
+  "name"        : "Decorative armour (white plateskirt)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

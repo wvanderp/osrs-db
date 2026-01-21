@@ -1,11 +1,7 @@
 {
-  "id": 3101,
-  "name": "Rune claws",
+  "id"          : 3101,
+  "name"        : "Rune claws",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

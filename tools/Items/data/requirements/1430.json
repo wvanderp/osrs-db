@@ -1,11 +1,7 @@
 {
-  "id": 1430,
-  "name": "Adamant mace",
+  "id"          : 1430,
+  "name"        : "Adamant mace",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30}
   ]
 }

@@ -1,16 +1,8 @@
 {
-  "id": 3054,
-  "name": "Mystic lava staff",
+  "id"          : 3054,
+  "name"        : "Mystic lava staff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40},
+    {"type": "skill", "skill": "Magic",  "level": 40}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 7535,
-  "name": "Diving apparatus",
+  "id"          : 7535,
+  "name"        : "Diving apparatus",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE"
-    }
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE"}
   ]
 }

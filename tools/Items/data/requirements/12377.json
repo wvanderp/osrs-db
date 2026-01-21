@@ -1,11 +1,7 @@
 {
-  "id": 12377,
-  "name": "Adamant cane",
+  "id"          : 12377,
+  "name"        : "Adamant cane",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 28
-    }
+    {"type": "skill", "skill": "Attack", "level": 28}
   ]
 }

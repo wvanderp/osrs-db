@@ -1,16 +1,8 @@
 {
-  "id": 10452,
-  "name": "Saradomin mitre",
+  "id"          : 10452,
+  "name"        : "Saradomin mitre",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Prayer", "level": 40},
+    {"type": "skill", "skill": "Magic",  "level": 40}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 4892,
-  "name": "Dharok's platebody",
+  "id"          : 4892,
+  "name"        : "Dharok's platebody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

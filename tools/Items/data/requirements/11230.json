@@ -1,11 +1,7 @@
 {
-  "id": 11230,
-  "name": "Dragon dart",
+  "id"          : 11230,
+  "name"        : "Dragon dart",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Ranged", "level": 60}
   ]
 }

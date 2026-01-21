@@ -1,10 +1,7 @@
 {
-  "id": 10498,
-  "name": "Ava's attractor",
+  "id"          : 10498,
+  "name"        : "Ava's attractor",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "ANIMAL_MAGNETISM"
-    }
+    {"type": "quest", "quest": "ANIMAL_MAGNETISM"}
   ]
 }

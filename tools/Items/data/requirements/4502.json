@@ -1,10 +1,7 @@
 {
-  "id": 4502,
-  "name": "Bearhead",
+  "id"          : 4502,
+  "name"        : "Bearhead",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MOUNTAIN_DAUGHTER"
-    }
+    {"type": "quest", "quest": "MOUNTAIN_DAUGHTER"}
   ]
 }

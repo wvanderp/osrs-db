@@ -1,21 +1,9 @@
 {
-  "id": 8748,
-  "name": "Steel kiteshield (Asgarnia)",
+  "id"          : 8748,
+  "name"        : "Steel kiteshield (Asgarnia)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5
-    },
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 43
-    },
-    {
-      "type": "skill",
-      "skill": "Construction",
-      "level": 41
-    }
+    {"type": "skill", "skill": "Defence",      "level":  5},
+    {"type": "skill", "skill": "Crafting",     "level": 43},
+    {"type": "skill", "skill": "Construction", "level": 41}
   ]
 }

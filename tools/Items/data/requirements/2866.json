@@ -1,14 +1,11 @@
 {
-  "id": 2866,
-  "name": "Ogre arrow",
+  "id"          : 2866,
+  "name"        : "Ogre arrow",
   "requirements": [
     {
-      "type": "equipment",
-      "equipment": [
-        2883,
-        4827
-      ],
-      "note": "Can only be fired from ogre bows or composite ogre bows."
+      "type"     : "equipment",
+      "equipment": [2883, 4827],
+      "note"     : "Can only be fired from ogre bows or composite ogre bows."
     }
   ]
 }

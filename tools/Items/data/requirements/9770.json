@@ -1,11 +1,7 @@
 {
-  "id": 9770,
-  "name": "Hitpoints hood",
+  "id"          : 9770,
+  "name"        : "Hitpoints hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Hitpoints",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Hitpoints", "level": 99}
   ]
 }

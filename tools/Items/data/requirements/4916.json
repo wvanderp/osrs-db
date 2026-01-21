@@ -1,11 +1,7 @@
 {
-  "id": 4916,
-  "name": "Guthan's platebody",
+  "id"          : 4916,
+  "name"        : "Guthan's platebody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

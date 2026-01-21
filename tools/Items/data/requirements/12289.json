@@ -1,11 +1,7 @@
 {
-  "id": 12289,
-  "name": "Mithril platelegs (t)",
+  "id"          : 12289,
+  "name"        : "Mithril platelegs (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 9768,
-  "name": "Hitpoints cape",
+  "id"          : 9768,
+  "name"        : "Hitpoints cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Hitpoints",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Hitpoints", "level": 99}
   ]
 }

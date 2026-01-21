@@ -1,11 +1,7 @@
 {
-  "id": 1329,
-  "name": "Mithril scimitar",
+  "id"          : 1329,
+  "name"        : "Mithril scimitar",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

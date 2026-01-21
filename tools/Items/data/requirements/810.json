@@ -1,11 +1,7 @@
 {
-  "id": 810,
-  "name": "Adamant dart#(unp)",
+  "id"          : 810,
+  "name"        : "Adamant dart#(unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Ranged", "level": 30}
   ]
 }

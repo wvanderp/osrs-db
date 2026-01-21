@@ -1,11 +1,7 @@
 {
-  "id": 10368,
-  "name": "Zamorak bracers",
+  "id"          : 10368,
+  "name"        : "Zamorak bracers",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

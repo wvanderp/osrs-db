@@ -1,16 +1,8 @@
 {
-  "id": 1395,
-  "name": "Water battlestaff",
+  "id"          : 1395,
+  "name"        : "Water battlestaff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30},
+    {"type": "skill", "skill": "Magic",  "level": 30}
   ]
 }

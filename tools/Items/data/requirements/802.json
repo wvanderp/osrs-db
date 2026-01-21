@@ -1,11 +1,7 @@
 {
-  "id": 802,
-  "name": "Steel thrownaxe",
+  "id"          : 802,
+  "name"        : "Steel thrownaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Ranged", "level": 5}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 4984,
-  "name": "Verac's flail",
+  "id"          : 4984,
+  "name"        : "Verac's flail",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Attack", "level": 70}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 12002,
-  "name": "Occult necklace",
+  "id"          : 12002,
+  "name"        : "Occult necklace",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Magic", "level": 70}
   ]
 }

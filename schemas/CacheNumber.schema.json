@@ -1,14 +1,9 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "object",
-  "properties": {
-    "cacheID": {
-      "description": "Numeric cache id of the most recent ID",
-      "type": "number"
-    }
+  "$schema"             : "https://json-schema.org/draft/2020-12/schema",
+  "type"                : "object",
+  "properties"          : {
+    "cacheID": {"description": "Numeric cache id of the most recent ID", "type": "number"}
   },
-  "required": [
-    "cacheID"
-  ],
+  "required"            : ["cacheID"],
   "additionalProperties": false
 }

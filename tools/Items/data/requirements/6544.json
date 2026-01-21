@@ -1,10 +1,7 @@
 {
-  "id": 6544,
-  "name": "Catspeak amulet(e)",
+  "id"          : 6544,
+  "name"        : "Catspeak amulet(e)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "A_TAIL_OF_TWO_CATS"
-    }
+    {"type": "quest", "quest": "A_TAIL_OF_TWO_CATS"}
   ]
 }

@@ -1,16 +1,8 @@
 {
-  "id": 4170,
-  "name": "Slayer's staff",
+  "id"          : 4170,
+  "name"        : "Slayer's staff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 55
-    }
+    {"type": "skill", "skill": "Magic",  "level": 50},
+    {"type": "skill", "skill": "Slayer", "level": 55}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 581,
-  "name": "Black robe",
+  "id"          : 581,
+  "name"        : "Black robe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Magic", "level": 1}
   ]
 }

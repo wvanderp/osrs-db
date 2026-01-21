@@ -1,11 +1,7 @@
 {
-  "id": 3190,
-  "name": "Bronze halberd",
+  "id"          : 3190,
+  "name"        : "Bronze halberd",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Attack", "level": 1}
   ]
 }

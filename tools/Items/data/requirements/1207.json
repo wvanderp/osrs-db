@@ -1,11 +1,7 @@
 {
-  "id": 1207,
-  "name": "Steel dagger",
+  "id"          : 1207,
+  "name"        : "Steel dagger",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Attack", "level": 5}
   ]
 }

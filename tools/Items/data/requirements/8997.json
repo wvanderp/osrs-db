@@ -1,10 +1,7 @@
 {
-  "id": 8997,
-  "name": "Grey navy slacks",
+  "id"          : 8997,
+  "name"        : "Grey navy slacks",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"}
   ]
 }

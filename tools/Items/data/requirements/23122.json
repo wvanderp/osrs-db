@@ -1,15 +1,8 @@
 {
-  "id": 23122,
-  "name": "Oily pearl fishing rod",
+  "id"          : 23122,
+  "name"        : "Oily pearl fishing rod",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Herblore",
-      "level": 25
-    },
-    {
-      "type": "quest",
-      "quest": "HEROES_QUEST"
-    }
+    {"type": "skill", "skill": "Herblore", "level": 25                         },
+    {"type": "quest",                                   "quest": "HEROES_QUEST"}
   ]
 }

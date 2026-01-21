@@ -1,16 +1,8 @@
 {
-  "id": 11998,
-  "name": "Smoke battlestaff",
+  "id"          : 11998,
+  "name"        : "Smoke battlestaff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30},
+    {"type": "skill", "skill": "Magic",  "level": 30}
   ]
 }

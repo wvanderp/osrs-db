@@ -1,10 +1,7 @@
 {
-  "id": 1844,
-  "name": "Slave shirt",
+  "id"          : 1844,
+  "name"        : "Slave shirt",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "THE_TOURIST_TRAP"
-    }
+    {"type": "quest", "quest": "THE_TOURIST_TRAP"}
   ]
 }

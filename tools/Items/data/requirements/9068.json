@@ -1,10 +1,7 @@
 {
-  "id": 9068,
-  "name": "Moonclan helm",
+  "id"          : 9068,
+  "name"        : "Moonclan helm",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "LUNAR_DIPLOMACY"
-    }
+    {"type": "quest", "quest": "LUNAR_DIPLOMACY"}
   ]
 }

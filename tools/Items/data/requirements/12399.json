@@ -1,10 +1,7 @@
 {
-  "id": 12399,
-  "name": "Partyhat & specs",
+  "id"          : 12399,
+  "name"        : "Partyhat & specs",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"}
   ]
 }

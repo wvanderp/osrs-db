@@ -1,11 +1,7 @@
 {
-  "id": 4168,
-  "name": "Nose peg",
+  "id"          : 4168,
+  "name"        : "Nose peg",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Slayer", "level": 60}
   ]
 }

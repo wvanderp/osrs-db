@@ -1,12 +1,7 @@
 {
-  "id": 9752,
-  "name": "Strength hood",
+  "id"          : 9752,
+  "name"        : "Strength hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 99,
-      "note": "Required to purchase the hood."
-    }
+    {"type": "skill", "skill": "Strength", "level": 99, "note": "Required to purchase the hood."}
   ]
 }

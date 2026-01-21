@@ -1,10 +1,7 @@
 {
-  "id": 6110,
-  "name": "Ghostly gloves",
+  "id"          : 6110,
+  "name"        : "Ghostly gloves",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CURSE_OF_THE_EMPTY_LORD"
-    }
+    {"type": "quest", "quest": "CURSE_OF_THE_EMPTY_LORD"}
   ]
 }

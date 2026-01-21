@@ -1,11 +1,7 @@
 {
-  "id": 11907,
-  "name": "Trident of the seas",
+  "id"          : 11907,
+  "name"        : "Trident of the seas",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 75
-    }
+    {"type": "skill", "skill": "Magic", "level": 75}
   ]
 }

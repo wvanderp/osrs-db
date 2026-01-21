@@ -1,11 +1,11 @@
 {
-  "id": 9731,
-  "name": "Mind shield",
+  "id"          : 9731,
+  "name"        : "Mind shield",
   "requirements": [
     {
-      "type": "quest",
+      "type" : "quest",
       "quest": "ELEMENTAL_WORKSHOP_II",
-      "note": "Equipping a mind shield requires completion of Elemental Workshop II."
+      "note" : "Equipping a mind shield requires completion of Elemental Workshop II."
     }
   ]
 }

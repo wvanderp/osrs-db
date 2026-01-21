@@ -1,11 +1,7 @@
 {
-  "id": 9801,
-  "name": "Cooking cape",
+  "id"          : 9801,
+  "name"        : "Cooking cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Cooking",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Cooking", "level": 99}
   ]
 }

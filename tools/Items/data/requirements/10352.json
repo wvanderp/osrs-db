@@ -1,11 +1,7 @@
 {
-  "id": 10352,
-  "name": "3rd age kiteshield",
+  "id"          : 10352,
+  "name"        : "3rd age kiteshield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Defence", "level": 65}
   ]
 }

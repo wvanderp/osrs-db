@@ -1,11 +1,7 @@
 {
-  "id": 3099,
-  "name": "Mithril claws",
+  "id"          : 3099,
+  "name"        : "Mithril claws",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

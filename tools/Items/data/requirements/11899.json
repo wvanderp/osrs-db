@@ -1,11 +1,7 @@
 {
-  "id": 11899,
-  "name": "Decorative armour (ranged top)",
+  "id"          : 11899,
+  "name"        : "Decorative armour (ranged top)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Ranged", "level": 30}
   ]
 }

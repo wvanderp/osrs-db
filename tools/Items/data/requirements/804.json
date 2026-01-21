@@ -1,11 +1,7 @@
 {
-  "id": 804,
-  "name": "Adamant thrownaxe",
+  "id"          : 804,
+  "name"        : "Adamant thrownaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Ranged", "level": 30}
   ]
 }

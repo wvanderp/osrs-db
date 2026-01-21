@@ -1,16 +1,8 @@
 {
-  "id": 3389,
-  "name": "Splitbark legs",
+  "id"          : 3389,
+  "name"        : "Splitbark legs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Magic",   "level": 40},
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 9242,
-  "name": "Ruby bolts (e)",
+  "id"          : 9242,
+  "name"        : "Ruby bolts (e)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 46
-    }
+    {"type": "skill", "skill": "Ranged", "level": 46}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 1357,
-  "name": "Adamant axe",
+  "id"          : 1357,
+  "name"        : "Adamant axe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30}
   ]
 }

@@ -1,21 +1,8 @@
 {
-  "id": 9144,
-  "name": "Runite bolts#Unpoisoned",
+  "id"          : 9144,
+  "name"        : "Runite bolts#Unpoisoned",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 61
-    },
-    {
-      "type": "equipment",
-      "equipment": [
-        9185,
-        21902,
-        21012,
-        11785,
-        26374
-      ]
-    }
+    { "type": "skill",     "skill": "Ranged", "level": 61                                                  },
+    { "type": "equipment",                                 "equipment": [9185, 21902, 21012, 11785, 26374] }
   ]
 }

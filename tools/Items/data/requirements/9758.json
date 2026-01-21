@@ -1,11 +1,7 @@
 {
-  "id": 9758,
-  "name": "Ranging hood",
+  "id"          : 9758,
+  "name"        : "Ranging hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Ranged", "level": 99}
   ]
 }

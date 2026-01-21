@@ -1,11 +1,7 @@
 {
-  "id": 11217,
-  "name": "Dragon fire arrow",
+  "id"          : 11217,
+  "name"        : "Dragon fire arrow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Ranged", "level": 60}
   ]
 }

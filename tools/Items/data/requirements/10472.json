@@ -1,11 +1,7 @@
 {
-  "id": 10472,
-  "name": "Guthix stole",
+  "id"          : 10472,
+  "name"        : "Guthix stole",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Prayer", "level": 60}
   ]
 }

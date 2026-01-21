@@ -1,6 +1,6 @@
 {
-  "id": 12013,
-  "name": "Prospector helmet",
+  "id"          : 12013,
+  "name"        : "Prospector helmet",
   "requirements": [
     {
       "type": "skill",

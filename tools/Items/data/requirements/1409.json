@@ -1,20 +1,9 @@
 {
-  "id": 1409,
-  "name": "Iban's staff#Regular",
+  "id"          : 1409,
+  "name"        : "Iban's staff#Regular",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 50
-    },
-    {
-      "type": "quest",
-      "quest": "UNDERGROUND_PASS"
-    }
+    {"type": "skill", "skill": "Magic",  "level": 50                             },
+    {"type": "skill", "skill": "Attack", "level": 50                             },
+    {"type": "quest",                                 "quest": "UNDERGROUND_PASS"}
   ]
 }

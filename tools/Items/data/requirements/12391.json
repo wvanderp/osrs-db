@@ -1,11 +1,7 @@
 {
-  "id": 12391,
-  "name": "Gilded boots",
+  "id"          : 12391,
+  "name"        : "Gilded boots",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

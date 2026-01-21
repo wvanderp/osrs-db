@@ -1,6 +1,6 @@
 {
-  "id": 864,
-  "name": "Bronze knife (unp)",
+  "id"          : 864,
+  "name"        : "Bronze knife (unp)",
   "requirements": [],
-  "note": "No Ranged level is required to wield bronze knives."
+  "note"        : "No Ranged level is required to wield bronze knives."
 }

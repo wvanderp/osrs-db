@@ -1,10 +1,7 @@
 {
-  "id": 3843,
-  "name": "Damaged book (Guthix)",
+  "id"          : 3843,
+  "name"        : "Damaged book (Guthix)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "HORROR_FROM_THE_DEEP"
-    }
+    {"type": "quest", "quest": "HORROR_FROM_THE_DEEP"}
   ]
 }

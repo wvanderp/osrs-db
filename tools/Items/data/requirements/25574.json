@@ -1,17 +1,8 @@
 {
-  "id": 25574,
-  "name": "Tome of water (Charged)",
+  "id"          : 25574,
+  "name"        : "Tome of water (Charged)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Fishing",
-      "level": 35,
-      "note": "for doing Tempoross"
-    }
+    {"type": "skill", "skill": "Magic",   "level": 50                               },
+    {"type": "skill", "skill": "Fishing", "level": 35, "note": "for doing Tempoross"}
   ]
 }

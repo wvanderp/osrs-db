@@ -1,10 +1,7 @@
 {
-  "id": 87,
-  "name": "Armadyl pendant",
+  "id"          : 87,
+  "name"        : "Armadyl pendant",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "TEMPLE_OF_IKOV"
-    }
+    {"type": "quest", "quest": "TEMPLE_OF_IKOV"}
   ]
 }

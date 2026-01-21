@@ -1,11 +1,7 @@
 {
-  "id": 4901,
-  "name": "Dharok's platelegs",
+  "id"          : 4901,
+  "name"        : "Dharok's platelegs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

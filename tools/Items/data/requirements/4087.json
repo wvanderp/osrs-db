@@ -1,11 +1,7 @@
 {
-  "id": 4087,
-  "name": "Dragon platelegs",
+  "id"          : 4087,
+  "name"        : "Dragon platelegs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Defence", "level": 60}
   ]
 }

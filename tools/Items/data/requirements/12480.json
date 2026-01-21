@@ -1,15 +1,8 @@
 {
-  "id": 12480,
-  "name": "Bandos platebody",
+  "id"          : 12480,
+  "name"        : "Bandos platebody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "DRAGON_SLAYER_I"
-    }
+    {"type": "skill", "skill": "Defence", "level": 40                            },
+    {"type": "quest",                                  "quest": "DRAGON_SLAYER_I"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 4720,
-  "name": "Dharok's platebody#Undamaged",
+  "id"          : 4720,
+  "name"        : "Dharok's platebody#Undamaged",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

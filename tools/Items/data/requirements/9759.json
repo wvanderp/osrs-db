@@ -1,11 +1,7 @@
 {
-  "id": 9759,
-  "name": "Prayer cape",
+  "id"          : 9759,
+  "name"        : "Prayer cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Prayer", "level": 99}
   ]
 }

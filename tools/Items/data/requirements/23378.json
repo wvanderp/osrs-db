@@ -1,11 +1,7 @@
 {
-  "id": 23378,
-  "name": "Black platebody (h5)",
+  "id"          : 23378,
+  "name"        : "Black platebody (h5)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Defence", "level": 10}
   ]
 }

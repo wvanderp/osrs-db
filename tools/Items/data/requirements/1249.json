@@ -1,11 +1,7 @@
 {
-  "id": 1249,
-  "name": "Dragon spear (unp)",
+  "id"          : 1249,
+  "name"        : "Dragon spear (unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Attack", "level": 60}
   ]
 }

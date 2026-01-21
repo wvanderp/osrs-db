@@ -1,11 +1,7 @@
 {
-  "id": 4151,
-  "name": "Abyssal whip",
+  "id"          : 4151,
+  "name"        : "Abyssal whip",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Attack", "level": 70}
   ]
 }

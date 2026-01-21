@@ -1,16 +1,12 @@
 {
-  "id": 6416,
-  "name": "Maple blackjack",
+  "id"          : 6416,
+  "name"        : "Maple blackjack",
   "requirements": [
+    {"type": "skill", "skill": "Thieving", "level": 30},
     {
-      "type": "skill",
-      "skill": "Thieving",
-      "level": 30
-    },
-    {
-      "type": "quest",
+      "type" : "quest",
       "quest": "THE_FEUD",
-      "note": "Player must have started The Feud quest by talking to Ali Morrisane."
+      "note" : "Player must have started The Feud quest by talking to Ali Morrisane."
     }
   ]
 }

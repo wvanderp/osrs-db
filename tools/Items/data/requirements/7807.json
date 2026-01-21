@@ -1,10 +1,7 @@
 {
-  "id": 7807,
-  "name": "Anger battleaxe",
+  "id"          : 7807,
+  "name"        : "Anger battleaxe",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "A_SOULS_BANE"
-    }
+    {"type": "quest", "quest": "A_SOULS_BANE"}
   ]
 }

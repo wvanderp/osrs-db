@@ -1,11 +1,7 @@
 {
-  "id": 857,
-  "name": "Yew shortbow",
+  "id"          : 857,
+  "name"        : "Yew shortbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 6547,
-  "name": "Doctor's hat",
+  "id"          : 6547,
+  "name"        : "Doctor's hat",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "A_TAIL_OF_TWO_CATS"
-    }
+    {"type": "quest", "quest": "A_TAIL_OF_TWO_CATS"}
   ]
 }

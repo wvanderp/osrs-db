@@ -1,11 +1,7 @@
 {
-  "id": 9783,
-  "name": "Fletching cape",
+  "id"          : 9783,
+  "name"        : "Fletching cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Fletching",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Fletching", "level": 99}
   ]
 }

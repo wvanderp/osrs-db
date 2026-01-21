@@ -1,11 +1,7 @@
 {
-  "id": 4753,
-  "name": "Verac's helm#Undamaged",
+  "id"          : 4753,
+  "name"        : "Verac's helm#Undamaged",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70}
   ]
 }

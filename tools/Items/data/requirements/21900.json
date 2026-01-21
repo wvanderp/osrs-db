@@ -1,11 +1,7 @@
 {
-  "id": 21900,
-  "name": "Assembler max hood",
+  "id"          : 21900,
+  "name"        : "Assembler max hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Ranged", "level": 99}
   ]
 }

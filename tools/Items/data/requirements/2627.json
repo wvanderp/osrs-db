@@ -1,11 +1,7 @@
 {
-  "id": 2627,
-  "name": "Rune full helm (t)",
+  "id"          : 2627,
+  "name"        : "Rune full helm (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

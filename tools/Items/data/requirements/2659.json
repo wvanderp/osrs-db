@@ -1,11 +1,7 @@
 {
-  "id": 2659,
-  "name": "Zamorak kiteshield",
+  "id"          : 2659,
+  "name"        : "Zamorak kiteshield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

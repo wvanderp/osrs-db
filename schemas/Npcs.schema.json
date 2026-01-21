@@ -1,182 +1,69 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "id": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
+  "type"   : "array",
+  "items"  : {
+    "type"                : "object",
+    "properties"          : {
+      "id"            : {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "name"          : {"type": "string"},
+      "examine"       : {
+        "anyOf": [ {"type": "string"}, {"type": "null"} ]
       },
-      "name": {
-        "type": "string"
+      "size"          : {
+        "anyOf": [ {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}, {"type": "null"} ]
       },
-      "examine": {
-        "anyOf": [
-          {
-            "type": "string"
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "combatLevel"   : {
+        "anyOf": [ {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}, {"type": "null"} ]
       },
-      "size": {
-        "anyOf": [
-          {
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "attackSpeed"   : {
+        "anyOf": [ {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}, {"type": "null"} ]
       },
-      "combatLevel": {
-        "anyOf": [
-          {
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "aggressive"    : {
+        "anyOf": [ {"type": "boolean"}, {"type": "null"} ]
       },
-      "attackSpeed": {
-        "anyOf": [
-          {
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
-          },
-          {
-            "type": "null"
-          }
-        ]
-      },
-      "aggressive": {
-        "anyOf": [
-          {
-            "type": "boolean"
-          },
-          {
-            "type": "null"
-          }
-        ]
-      },
-      "poisonous": {
-        "anyOf": [
-          {
-            "type": "boolean"
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "poisonous"     : {
+        "anyOf": [ {"type": "boolean"}, {"type": "null"} ]
       },
       "immuneToPoison": {
-        "anyOf": [
-          {
-            "type": "boolean"
-          },
-          {
-            "type": "null"
-          }
-        ]
+        "anyOf": [ {"type": "boolean"}, {"type": "null"} ]
       },
-      "immuneToVenom": {
-        "anyOf": [
-          {
-            "type": "boolean"
-          },
-          {
-            "type": "null"
-          }
-        ]
+      "immuneToVenom" : {
+        "anyOf": [ {"type": "boolean"}, {"type": "null"} ]
       },
-      "options": {
+      "options"       : {
         "anyOf": [
           {
-            "type": "array",
+            "type" : "array",
             "items": {
-              "anyOf": [
-                {
-                  "type": "string"
-                },
-                {
-                  "type": "null"
-                }
-              ]
+              "anyOf": [ {"type": "string"}, {"type": "null"} ]
             }
           },
-          {
-            "type": "null"
-          }
+          {"type": "null"}
         ]
       },
-      "hitpoints": {
+      "hitpoints"     : {
+        "anyOf": [ {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}, {"type": "null"} ]
+      },
+      "attributes"    : {
         "anyOf": [
-          {
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
-          },
-          {
-            "type": "null"
-          }
+          { "type": "object", "propertyNames": {"type": "string"}, "additionalProperties": {} },
+          { "type": "null"                                                                    }
         ]
       },
-      "attributes": {
+      "animations"    : {
         "anyOf": [
-          {
-            "type": "object",
-            "propertyNames": {
-              "type": "string"
-            },
-            "additionalProperties": {}
-          },
-          {
-            "type": "null"
-          }
+          { "type": "object", "propertyNames": {"type": "string"}, "additionalProperties": {} },
+          { "type": "null"                                                                    }
         ]
       },
-      "animations": {
+      "params"        : {
         "anyOf": [
-          {
-            "type": "object",
-            "propertyNames": {
-              "type": "string"
-            },
-            "additionalProperties": {}
-          },
-          {
-            "type": "null"
-          }
-        ]
-      },
-      "params": {
-        "anyOf": [
-          {
-            "type": "object",
-            "propertyNames": {
-              "type": "string"
-            },
-            "additionalProperties": {}
-          },
-          {
-            "type": "null"
-          }
+          { "type": "object", "propertyNames": {"type": "string"}, "additionalProperties": {} },
+          { "type": "null"                                                                    }
         ]
       }
     },
-    "required": [
-      "id",
-      "name"
-    ],
+    "required"            : ["id", "name"],
     "additionalProperties": {}
   }
 }

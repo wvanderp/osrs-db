@@ -1,16 +1,8 @@
 {
-  "id": 6410,
-  "name": "Oak blackjack(d)",
+  "id"          : 6410,
+  "name"        : "Oak blackjack(d)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    },
-    {
-      "type": "skill",
-      "skill": "Thieving",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Defence",  "level": 10},
+    {"type": "skill", "skill": "Thieving", "level": 10}
   ]
 }

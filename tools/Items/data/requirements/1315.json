@@ -1,11 +1,7 @@
 {
-  "id": 1315,
-  "name": "Mithril 2h sword",
+  "id"          : 1315,
+  "name"        : "Mithril 2h sword",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

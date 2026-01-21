@@ -1,15 +1,8 @@
 {
-  "id": 7140,
-  "name": "Lucky cutlass",
+  "id"          : 7140,
+  "name"        : "Lucky cutlass",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    },
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    }
+    {"type": "quest", "quest": "CABIN_FEVER"                                },
+    {"type": "skill",                         "skill": "Attack", "level": 30}
   ]
 }

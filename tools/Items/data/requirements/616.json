@@ -1,10 +1,7 @@
 {
-  "id": 616,
-  "name": "Beads of the dead",
+  "id"          : 616,
+  "name"        : "Beads of the dead",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "SHILO_VILLAGE"
-    }
+    {"type": "quest", "quest": "SHILO_VILLAGE"}
   ]
 }

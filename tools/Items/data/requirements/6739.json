@@ -1,11 +1,7 @@
 {
-  "id": 6739,
-  "name": "Dragon axe",
+  "id"          : 6739,
+  "name"        : "Dragon axe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Attack", "level": 60}
   ]
 }

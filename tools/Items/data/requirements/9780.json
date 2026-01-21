@@ -1,11 +1,7 @@
 {
-  "id": 9780,
-  "name": "Crafting cape",
+  "id"          : 9780,
+  "name"        : "Crafting cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Crafting", "level": 99}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 284,
-  "name": "Plague jacket",
+  "id"          : 284,
+  "name"        : "Plague jacket",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "SHEEP_HERDER"
-    }
+    {"type": "quest", "quest": "SHEEP_HERDER"}
   ]
 }

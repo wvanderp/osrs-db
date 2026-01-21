@@ -1,10 +1,7 @@
 {
-  "id": 10878,
-  "name": "Green satchel",
+  "id"          : 10878,
+  "name"        : "Green satchel",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "TOWER_OF_LIFE"
-    }
+    {"type": "quest", "quest": "TOWER_OF_LIFE"}
   ]
 }

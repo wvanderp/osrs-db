@@ -1,11 +1,7 @@
 {
-  "id": 10376,
-  "name": "Guthix bracers",
+  "id"          : 10376,
+  "name"        : "Guthix bracers",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Ranged", "level": 70}
   ]
 }

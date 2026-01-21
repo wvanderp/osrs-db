@@ -1,11 +1,7 @@
 {
-  "id": 1369,
-  "name": "Mithril battleaxe",
+  "id"          : 1369,
+  "name"        : "Mithril battleaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

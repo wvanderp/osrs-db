@@ -1,11 +1,7 @@
 {
-  "id": 10551,
-  "name": "Fighter torso",
+  "id"          : 10551,
+  "name"        : "Fighter torso",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

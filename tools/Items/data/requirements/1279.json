@@ -1,11 +1,7 @@
 {
-  "id": 1279,
-  "name": "Iron sword",
+  "id"          : 1279,
+  "name"        : "Iron sword",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Attack", "level": 1}
   ]
 }

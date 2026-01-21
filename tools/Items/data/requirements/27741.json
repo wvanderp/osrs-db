@@ -1,20 +1,9 @@
 {
-  "id": 27741,
-  "name": "Crystal helm (Trahaearn)",
+  "id"          : 27741,
+  "name"        : "Crystal helm (Trahaearn)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Agility",
-      "level": 50
-    },
-    {
-      "type": "quest",
-      "quest": "SONG_OF_THE_ELVES"
-    }
+    {"type": "skill", "skill": "Defence", "level": 70                              },
+    {"type": "skill", "skill": "Agility", "level": 50                              },
+    {"type": "quest",                                  "quest": "SONG_OF_THE_ELVES"}
   ]
 }

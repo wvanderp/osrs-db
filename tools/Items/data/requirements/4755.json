@@ -1,11 +1,7 @@
 {
-  "id": 4755,
-  "name": "Verac's flail#Undamaged",
+  "id"          : 4755,
+  "name"        : "Verac's flail#Undamaged",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Attack", "level": 70}
   ]
 }

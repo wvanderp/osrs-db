@@ -1,11 +1,7 @@
 {
-  "id": 10448,
-  "name": "Guthix cloak",
+  "id"          : 10448,
+  "name"        : "Guthix cloak",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Prayer", "level": 40}
   ]
 }

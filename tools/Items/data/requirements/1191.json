@@ -1,11 +1,7 @@
 {
-  "id": 1191,
-  "name": "Iron kiteshield",
+  "id"          : 1191,
+  "name"        : "Iron kiteshield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

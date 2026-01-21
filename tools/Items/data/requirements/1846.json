@@ -1,10 +1,7 @@
 {
-  "id": 1846,
-  "name": "Slave boots",
+  "id"          : 1846,
+  "name"        : "Slave boots",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "THE_TOURIST_TRAP"
-    }
+    {"type": "quest", "quest": "THE_TOURIST_TRAP"}
   ]
 }

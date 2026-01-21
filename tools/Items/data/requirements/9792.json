@@ -1,11 +1,7 @@
 {
-  "id": 9792,
-  "name": "Mining cape",
+  "id"          : 9792,
+  "name"        : "Mining cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Mining",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Mining", "level": 99}
   ]
 }

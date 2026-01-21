@@ -1,11 +1,7 @@
 {
-  "id": 9795,
-  "name": "Smithing cape",
+  "id"          : 9795,
+  "name"        : "Smithing cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Smithing",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Smithing", "level": 99}
   ]
 }

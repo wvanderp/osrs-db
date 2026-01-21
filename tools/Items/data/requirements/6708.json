@@ -1,11 +1,7 @@
 {
-  "id": 6708,
-  "name": "Slayer gloves",
+  "id"          : 6708,
+  "name"        : "Slayer gloves",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 42
-    }
+    {"type": "skill", "skill": "Slayer", "level": 42}
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "id": 6106,
-  "name": "Ghostly boots",
+  "id"          : 6106,
+  "name"        : "Ghostly boots",
   "requirements": [
     {
       "type": "quest",

@@ -1,0 +1,3579 @@
+[
+  {
+    "objectId"    : 61,
+    "name"        : "Chaos altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", "Check", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 409,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 410,
+    "name"        : "Altar of Guthix",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 411,
+    "name"        : "Chaos altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 412,
+    "name"        : "Chaos altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 2640,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 2873,
+    "name"        : "Statue of Saradomin",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 2874,
+    "name"        : "Statue of Zamorak",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 2875,
+    "name"        : "Statue of Guthix",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 3521,
+    "name"        : "Altar of nature",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 3863,
+    "name"        : "Tribal Statue",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 4008,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 4859,
+    "name"        : "Gorilla Statue",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 6552,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 7814,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", "Standard spellbook", "Ancient spellbook", "Lunar spellbook", "Arceuus spellbook"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 8749,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10439,
+    "name"        : "Elidinis Statuette",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10639,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10640,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13179,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13180,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13181,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13182,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13183,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13184,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13185,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13186,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13187,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13188,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13189,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13190,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13191,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13192,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13193,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13194,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13195,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13196,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13197,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13198,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13199,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 14860,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 18258,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 19145,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 20377,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26257,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26258,
+    "name"        : "Chaos altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26363,
+    "name"        : "Zamorak altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", "Teleport", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26364,
+    "name"        : "Saradomin altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", "Teleport", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26365,
+    "name"        : "Armadyl altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", "Teleport", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26366,
+    "name"        : "Bandos altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", "Teleport", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27501,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28455,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28566,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29088,
+    "name"        : "Shrine",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29941,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 31624,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 32630,
+    "name"        : "Altar of Zamorak",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 34771,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Craft-rune", "Pray", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 34836,
+    "name"        : "Cursed Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 34837,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 34872,
+    "name"        : "Broken sun altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39234,
+    "name"        : "Statue",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39642,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39723,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40872,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40873,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40874,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40875,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40876,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40877,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40878,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 41650,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 42163,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 42965,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray", "Teleport", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 43089,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 43097,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 43098,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 43983,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 44034,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 52412,
+    "name"        : "Shrine of Ranul",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 54427,
+    "name"        : "Shrine of Twilight",
+    "type"        : "altar",
+    "actions"     : ["Pray", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 54447,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 54448,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 57329,
+    "name"        : "Altar",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 57938,
+    "name"        : "Shrine",
+    "type"        : "altar",
+    "actions"     : ["Pray-at", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 2031,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 2097,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 3402,
+    "name"        : "Workbench",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 4306,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 6150,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 22725,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 25349,
+    "name"        : "Barbarian anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28563,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 31623,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 32215,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39242,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39620,
+    "name"        : "Rusted anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40725,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 41551,
+    "name"        : "Barronite Crusher",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 44911,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 51501,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 56368,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58657,
+    "name"        : "Anvil",
+    "type"        : "anvil",
+    "actions"     : ["Smith", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 3194,
+    "name"        : "Open chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 6084,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 8139,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 8140,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10060,
+    "name"        : "Grand Exchange booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10355,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10356,
+    "name"        : "null",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10357,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10517,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10583,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10584,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 11338,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12309,
+    "name"        : "Chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", "Buy-food", "Buy-items"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12798,
+    "name"        : "Bank Booth",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 14367,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 16642,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 16700,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 18491,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 20127,
+    "name"        : "Bank counter",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 20325,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 22819,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 24101,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 24347,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 25808,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27253,
+    "name"        : "null",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27254,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27259,
+    "name"        : "null",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27260,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27262,
+    "name"        : "null",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27263,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27264,
+    "name"        : "null",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27265,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27266,
+    "name"        : "null",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27267,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27291,
+    "name"        : "null",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27292,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27718,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27719,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27720,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27721,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28430,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28431,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28432,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28433,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28546,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28547,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28548,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28549,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29321,
+    "name"        : "Bank chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 30390,
+    "name"        : "Grand Exchange booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 31582,
+    "name"        : "Bank counter",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 31949,
+    "name"        : "Bank Box",
+    "type"        : "bank",
+    "actions"     : ["Bank", "Venerate", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 32666,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 34810,
+    "name"        : "null",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", "Deposit-box", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 36559,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39238,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 42834,
+    "name"        : "Chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 42837,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 46075,
+    "name"        : "<col=ffff00>Bank Camel</col>",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 46231,
+    "name"        : "<col=ffff00>Cam the Camel</col>",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 50901,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 51515,
+    "name"        : "Bank table",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 51516,
+    "name"        : "Bank table",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 52396,
+    "name"        : "Bank table",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 52397,
+    "name"        : "Bank table",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 53014,
+    "name"        : "Bank chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 53015,
+    "name"        : "Bank chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 55199,
+    "name"        : "<col=ffff00>Bank buffalo</col>",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 57330,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 57892,
+    "name"        : "Bank booth",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 57958,
+    "name"        : "Bank chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58094,
+    "name"        : "<col=ffff00>Bank Crab</col>",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58128,
+    "name"        : "Bank chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58129,
+    "name"        : "Bank chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58663,
+    "name"        : "Bank chest",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 60434,
+    "name"        : "Bank boat",
+    "type"        : "bank",
+    "actions"     : [null, "Bank", "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 60435,
+    "name"        : "<col=ffff00>Bank Crab</col>",
+    "type"        : "bank",
+    "actions"     : ["Bank", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10529,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 15985,
+    "name"        : "Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 25937,
+    "name"        : "Bank deposit box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26254,
+    "name"        : "Bank deposit box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29103,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29104,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29105,
+    "name"        : "Bank deposit box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29106,
+    "name"        : "Bank deposit box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29327,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 30268,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 31726,
+    "name"        : "Bank deposit box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 32665,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 34344,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 36086,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39239,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 41723,
+    "name"        : "Bank deposit box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 50902,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 57331,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 57996,
+    "name"        : "Bank Deposit Box",
+    "type"        : "deposit_box",
+    "actions"     : ["Deposit", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 11761,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AIP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12003,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Use", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12094,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Use", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12095,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Use", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13621,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AIS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13628,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AIR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13635,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AIQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29362,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (ALP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29363,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (ALS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29364,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (ALR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29365,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (ALQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29366,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AKP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29367,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AKS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29368,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AKR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29369,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AKQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29370,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AJP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29371,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AJS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29372,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AJR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29373,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AJQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29374,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DIP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29375,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DIS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29376,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DIR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29377,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DIQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29378,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DLP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29379,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DLS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29380,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DLR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29381,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DLQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29382,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DKP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29383,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DKS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29384,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DKR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29385,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DKQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29386,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DJP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29387,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DJS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29388,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DJR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29389,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DJQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29390,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CIP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29391,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CIS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29392,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CIR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29393,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CIQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29394,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CLP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29395,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CLS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29396,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CLR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29397,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CLQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29398,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CKP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29399,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CKS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29400,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CKR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29401,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CKQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29402,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CJP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29403,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CJS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29404,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CJR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29405,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CJQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29406,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BIP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29407,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BIS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29408,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BIR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29409,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BIQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29410,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BLP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29411,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BLS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29412,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BLR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29413,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BLQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29414,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BKP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29415,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BKS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29416,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BKR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29417,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BKQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29418,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BJP)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29419,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BJS)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29420,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BJR)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29421,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BJQ)", null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29496,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AIP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29497,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AIS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29498,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AIR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29499,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AIQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29500,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (ALP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29501,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (ALS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29502,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (ALR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29503,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (ALQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29504,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AKP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29505,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AKS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29506,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AKR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29507,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AKQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29508,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AJP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29509,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AJS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29510,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AJR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29511,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (AJQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29512,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DIP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29513,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DIS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29514,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DIR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29515,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DIQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29516,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DLP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29517,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DLS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29518,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DLR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29519,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DLQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29520,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DKP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29521,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DKS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29522,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DKR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29523,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DKQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29524,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DJP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29525,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DJS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29526,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DJR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29527,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (DJQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29528,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CIP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29529,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CIS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29530,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CIR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29531,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CIQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29532,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CLP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29533,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CLS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29534,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CLR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29535,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CLQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29536,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CKP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29537,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CKS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29538,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CKR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29539,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CKQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29540,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CJP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29541,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CJS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29542,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CJR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29543,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (CJQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29544,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BIP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29545,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BIS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29546,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BIR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29547,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BIQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29548,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BLP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29549,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BLS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29550,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BLR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29551,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BLQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29552,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BKP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29553,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BKS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29554,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BKR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29555,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BKQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29556,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BJP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29557,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BJS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29558,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BJR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29559,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : ["Zanaris", "Configure", "Last-destination (BJQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29561,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AIP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29562,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AIS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29563,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AIR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29564,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AIQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29565,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (ALP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29566,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (ALS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29567,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (ALR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29568,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (ALQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29569,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AKP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29570,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AKS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29571,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AKR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29572,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AKQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29573,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AJP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29574,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AJS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29575,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AJR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29576,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (AJQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29577,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DIP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29578,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DIS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29579,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DIR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29580,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DIQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29581,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DLP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29582,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DLS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29583,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DLR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29584,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DLQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29585,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DKP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29586,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DKS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29587,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DKR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29588,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DKQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29589,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DJP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29590,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DJS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29591,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DJR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29592,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (DJQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29593,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CIP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29594,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CIS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29595,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CIR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29596,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CIQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29597,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CLP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29598,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CLS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29599,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CLR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29600,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CLQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29601,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CKP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29602,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CKS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29603,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CKR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29604,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CKQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29605,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CJP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29606,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CJS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29607,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CJR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29608,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (CJQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29609,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BIP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29610,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BIS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29611,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BIR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29612,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BIQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29613,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BLP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29614,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BLS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29615,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BLR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29616,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BLQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29617,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BKP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29618,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BKS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29619,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BKR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29620,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BKQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29621,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BJP)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29622,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BJS)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29623,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BJR)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29624,
+    "name"        : "Fairy ring",
+    "type"        : "fairy_ring",
+    "actions"     : [null, "Configure", "Last-destination (BJQ)", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 32654,
+    "name"        : "Vyre well",
+    "type"        : "fountain",
+    "actions"     : ["Charge-at", "Fill", "Check", "Empty", null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 32985,
+    "name"        : "Vyre well",
+    "type"        : "fountain",
+    "actions"     : [null, "Fill", "Check", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 2030,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 3294,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 4304,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 6189,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 11010,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 11978,
+    "name"        : "Lava forge",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12100,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12655,
+    "name"        : "Small furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12809,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 16469,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 16657,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 21303,
+    "name"        : "Clay forge",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 24009,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26300,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28562,
+    "name"        : "Lovakite furnace",
+    "type"        : "furnace",
+    "actions"     : ["Smelt", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 28565,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 30158,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", "Coffer", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 33504,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 34342,
+    "name"        : "Volcanic Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 36555,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39241,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 43895,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 47927,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 48171,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 50698,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 51496,
+    "name"        : "Forge",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 51509,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 56366,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 57788,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58661,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 60111,
+    "name"        : "Ancient Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 60145,
+    "name"        : "Furnace",
+    "type"        : "furnace",
+    "actions"     : [null, "Smelt", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10061,
+    "name"        : "Grand Exchange booth",
+    "type"        : "grand_exchange",
+    "actions"     : ["Exchange", null, "Collect", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 787,
+    "name"        : "Loom",
+    "type"        : "loom",
+    "actions"     : [null, "Weave", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 8717,
+    "name"        : "Loom",
+    "type"        : "loom",
+    "actions"     : [null, "Weave", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 30936,
+    "name"        : "Loom",
+    "type"        : "loom",
+    "actions"     : [null, "Weave", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58651,
+    "name"        : "Loom",
+    "type"        : "loom",
+    "actions"     : [null, "Weave", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 4308,
+    "name"        : "Pottery Oven",
+    "type"        : "pottery_oven",
+    "actions"     : ["Fire", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 11601,
+    "name"        : "Pottery Oven",
+    "type"        : "pottery_oven",
+    "actions"     : ["Fire", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 14888,
+    "name"        : "Pottery Oven",
+    "type"        : "pottery_oven",
+    "actions"     : ["Fire", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39396,
+    "name"        : "Pottery Oven",
+    "type"        : "pottery_oven",
+    "actions"     : ["Fire", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58655,
+    "name"        : "Pottery oven",
+    "type"        : "pottery_oven",
+    "actions"     : ["Fire", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 114,
+    "name"        : "Cooking range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 7183,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 7184,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 7421,
+    "name"        : "Oven",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 8750,
+    "name"        : "Cooking range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 9682,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 9736,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 10377,
+    "name"        : "Clay Oven",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12102,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12269,
+    "name"        : "Stove",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 12611,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13542,
+    "name"        : "Fancy range",
+    "type"        : "range",
+    "actions"     : [null, "Cook", null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13543,
+    "name"        : "Fancy range",
+    "type"        : "range",
+    "actions"     : ["Take-kettle", "Cook", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 13544,
+    "name"        : "Fancy range",
+    "type"        : "range",
+    "actions"     : [null, "Cook", null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 16641,
+    "name"        : "Cooking range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 16702,
+    "name"        : "Cooker",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 16893,
+    "name"        : "Cooking range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 17131,
+    "name"        : "Gnome cooker",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 21302,
+    "name"        : "Clay oven",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 21792,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 22713,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 22714,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 25730,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26181,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27516,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27517,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 27724,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 30932,
+    "name"        : "Cooking pot",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 31631,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 32631,
+    "name"        : "Simple stove",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 32739,
+    "name"        : "Cooking range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 35980,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 36077,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 37728,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39391,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39458,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 39490,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40149,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 41316,
+    "name"        : "Fire",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 43475,
+    "name"        : "Fire",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 47925,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 48169,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 50563,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 51362,
+    "name"        : "Cooking stove",
+    "type"        : "range",
+    "actions"     : ["Cook", "Make-cuppa", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 51540,
+    "name"        : "Stove",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 52647,
+    "name"        : "Oven",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 54049,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 54449,
+    "name"        : "Oven",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 57332,
+    "name"        : "Oven",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58025,
+    "name"        : "Cooking pot",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58647,
+    "name"        : "Cooking pot",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 59682,
+    "name"        : "Range",
+    "type"        : "range",
+    "actions"     : ["Cook", null, null, null, "Modify"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 4309,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 8748,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 14889,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 20365,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 21304,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 25824,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26143,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 30934,
+    "name"        : "Spinning Wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40735,
+    "name"        : "Spinning Wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 55330,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 56964,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 58649,
+    "name"        : "Spinning wheel",
+    "type"        : "spinning_wheel",
+    "actions"     : [null, "Spin", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 8355,
+    "name"        : "Spirit Tree",
+    "type"        : "spirit_tree",
+    "actions"     : ["Travel", "Talk-to", "Inspect", "Guide", "Clear"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26260,
+    "name"        : "Spirit tree",
+    "type"        : "spirit_tree",
+    "actions"     : ["Travel", "Talk-to", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26261,
+    "name"        : "Spirit tree",
+    "type"        : "spirit_tree",
+    "actions"     : ["Travel", "Talk-to", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 26263,
+    "name"        : "Spirit tree",
+    "type"        : "spirit_tree",
+    "actions"     : ["Travel", "Talk-to", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 29227,
+    "name"        : "Spirit Tree",
+    "type"        : "spirit_tree",
+    "actions"     : ["Travel", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 35950,
+    "name"        : "Spirit tree",
+    "type"        : "spirit_tree",
+    "actions"     : ["Travel", "Talk-to", null, null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 40778,
+    "name"        : "Christmas-Spirit Tree",
+    "type"        : "spirit_tree",
+    "actions"     : ["Travel", null, "Remove-decorations", null, null],
+    "requirements": []
+  },
+  {
+    "objectId"    : 44936,
+    "name"        : "Spirit Tree",
+    "type"        : "spirit_tree",
+    "actions"     : ["Travel", null, null, null, "Remove"],
+    "requirements": []
+  },
+  {
+    "objectId"    : 49595,
+    "name"        : "Spirit Tree",
+    "type"        : "spirit_tree",
+    "actions"     : ["Travel", "Talk-to", null, null, null],
+    "requirements": []
+  }
+]

@@ -1,11 +1,7 @@
 {
-  "id": 2413,
-  "name": "Guthix cape",
+  "id"          : 2413,
+  "name"        : "Guthix cape",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MAGE_ARENA_I",
-      "note": "To obtain the cape"
-    }
+    {"type": "quest", "quest": "MAGE_ARENA_I", "note": "To obtain the cape"}
   ]
 }

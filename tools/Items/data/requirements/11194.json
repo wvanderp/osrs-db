@@ -1,10 +1,7 @@
 {
-  "id": 11194,
-  "name": "Digsite pendant",
+  "id"          : 11194,
+  "name"        : "Digsite pendant",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "THE_DIG_SITE"
-    }
+    {"type": "quest", "quest": "THE_DIG_SITE"}
   ]
 }

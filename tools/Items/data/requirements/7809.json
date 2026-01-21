@@ -1,11 +1,8 @@
 {
-  "id": 7809,
-  "name": "Anger spear",
+  "id"          : 7809,
+  "name"        : "Anger spear",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "A_SOULS_BANE"
-    }
+    {"type": "quest", "quest": "A_SOULS_BANE"}
   ],
-  "note": "Only usable during the quest 'A Soul's Bane'. It cannot be equipped nor used outside the quest."
+  "note"        : "Only usable during the quest 'A Soul's Bane'. It cannot be equipped nor used outside the quest."
 }

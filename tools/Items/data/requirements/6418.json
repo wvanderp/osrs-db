@@ -1,16 +1,8 @@
 {
-  "id": 6418,
-  "name": "Maple blackjack(o)",
+  "id"          : 6418,
+  "name"        : "Maple blackjack(o)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Thieving",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack",   "level": 30},
+    {"type": "skill", "skill": "Thieving", "level": 30}
   ]
 }

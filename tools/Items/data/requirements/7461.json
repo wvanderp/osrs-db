@@ -1,11 +1,7 @@
 {
-  "id": 7461,
-  "name": "Dragon gloves",
+  "id"          : 7461,
+  "name"        : "Dragon gloves",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER",
-      "note": "Completion of all eight Recipe for Disaster subquests"
-    }
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER", "note": "Completion of all eight Recipe for Disaster subquests"}
   ]
 }

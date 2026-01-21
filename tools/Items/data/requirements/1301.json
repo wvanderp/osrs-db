@@ -1,11 +1,7 @@
 {
-  "id": 1301,
-  "name": "Adamant longsword",
+  "id"          : 1301,
+  "name"        : "Adamant longsword",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30}
   ]
 }

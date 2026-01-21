@@ -1,16 +1,8 @@
 {
-  "id": 1393,
-  "name": "Fire battlestaff",
+  "id"          : 1393,
+  "name"        : "Fire battlestaff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30},
+    {"type": "skill", "skill": "Magic",  "level": 30}
   ]
 }

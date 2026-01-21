@@ -1,21 +1,9 @@
 {
-  "id": 10149,
-  "name": "Swamp lizard",
+  "id"          : 10149,
+  "name"        : "Swamp lizard",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30},
+    {"type": "skill", "skill": "Ranged", "level": 30},
+    {"type": "skill", "skill": "Magic",  "level": 30}
   ]
 }

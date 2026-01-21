@@ -1,11 +1,7 @@
 {
-  "id": 12637,
-  "name": "Saradomin halo",
+  "id"          : 12637,
+  "name"        : "Saradomin halo",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

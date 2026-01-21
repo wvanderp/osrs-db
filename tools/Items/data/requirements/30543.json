@@ -1,16 +1,8 @@
 {
-  "id": 30543,
-  "name": "Echo ahrim's hood",
+  "id"          : 30543,
+  "name"        : "Echo ahrim's hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70},
+    {"type": "skill", "skill": "Magic",   "level": 70}
   ]
 }

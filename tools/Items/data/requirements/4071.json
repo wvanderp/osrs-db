@@ -1,11 +1,7 @@
 {
-  "id": 4071,
-  "name": "Decorative helm (red)",
+  "id"          : 4071,
+  "name"        : "Decorative helm (red)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Defence", "level": 5}
   ]
 }

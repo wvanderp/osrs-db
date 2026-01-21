@@ -1,16 +1,8 @@
 {
-  "id": 3202,
-  "name": "Rune halberd",
+  "id"          : 3202,
+  "name"        : "Rune halberd",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack",   "level": 40},
+    {"type": "skill", "skill": "Strength", "level": 20}
   ]
 }

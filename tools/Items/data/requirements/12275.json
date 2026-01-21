@@ -1,11 +1,7 @@
 {
-  "id": 12275,
-  "name": "Bandos crozier",
+  "id"          : 12275,
+  "name"        : "Bandos crozier",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Prayer", "level": 60}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 886,
-  "name": "Steel arrow",
+  "id"          : 886,
+  "name"        : "Steel arrow",
   "requirements": [
-    {
-      "type": "equipment",
-      "equipment": []
-    }
+    {"type": "equipment", "equipment": []}
   ]
 }

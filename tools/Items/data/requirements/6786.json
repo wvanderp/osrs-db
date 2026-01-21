@@ -1,10 +1,7 @@
 {
-  "id": 6786,
-  "name": "Robe of elidinis (top)",
+  "id"          : 6786,
+  "name"        : "Robe of elidinis (top)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "SPIRITS_OF_THE_ELID"
-    }
+    {"type": "quest", "quest": "SPIRITS_OF_THE_ELID"}
   ]
 }

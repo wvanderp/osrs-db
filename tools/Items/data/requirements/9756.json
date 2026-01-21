@@ -1,11 +1,7 @@
 {
-  "id": 9756,
-  "name": "Ranging cape",
+  "id"          : 9756,
+  "name"        : "Ranging cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Ranged", "level": 99}
   ]
 }

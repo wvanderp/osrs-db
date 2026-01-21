@@ -1,11 +1,7 @@
 {
-  "id": 805,
-  "name": "Rune thrownaxe",
+  "id"          : 805,
+  "name"        : "Rune thrownaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

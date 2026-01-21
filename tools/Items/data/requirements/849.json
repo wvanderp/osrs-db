@@ -1,11 +1,7 @@
 {
-  "id": 849,
-  "name": "Willow shortbow",
+  "id"          : 849,
+  "name"        : "Willow shortbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Ranged", "level": 20}
   ]
 }

@@ -1,16 +1,8 @@
 {
-  "id": 9946,
-  "name": "Cap and goggles",
+  "id"          : 9946,
+  "name"        : "Cap and goggles",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "ENLIGHTENED_JOURNEY",
-      "note": "To obtain the Bomber cap."
-    },
-    {
-      "type": "quest",
-      "quest": "THE_GRAND_TREE",
-      "note": "Required for Gnome goggles."
-    }
+    {"type": "quest", "quest": "ENLIGHTENED_JOURNEY", "note": "To obtain the Bomber cap."  },
+    {"type": "quest", "quest": "THE_GRAND_TREE",      "note": "Required for Gnome goggles."}
   ]
 }

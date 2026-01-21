@@ -1,11 +1,7 @@
 {
-  "id": 4069,
-  "name": "Decorative armour (red platebody)",
+  "id"          : 4069,
+  "name"        : "Decorative armour (red platebody)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Defence", "level": 5}
   ]
 }

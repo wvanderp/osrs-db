@@ -1,11 +1,7 @@
 {
-  "id": 10458,
-  "name": "Saradomin robe top",
+  "id"          : 10458,
+  "name"        : "Saradomin robe top",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Prayer", "level": 20}
   ]
 }

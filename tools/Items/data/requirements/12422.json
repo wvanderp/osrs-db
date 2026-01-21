@@ -1,11 +1,7 @@
 {
-  "id": 12422,
-  "name": "3rd age wand",
+  "id"          : 12422,
+  "name"        : "3rd age wand",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Magic", "level": 65}
   ]
 }

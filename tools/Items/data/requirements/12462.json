@@ -1,11 +1,7 @@
 {
-  "id": 12462,
-  "name": "Ancient platelegs",
+  "id"          : 12462,
+  "name"        : "Ancient platelegs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

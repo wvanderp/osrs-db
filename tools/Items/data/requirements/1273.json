@@ -1,11 +1,7 @@
 {
-  "id": 1273,
-  "name": "Mithril pickaxe",
+  "id"          : 1273,
+  "name"        : "Mithril pickaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

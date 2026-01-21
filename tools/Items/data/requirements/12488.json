@@ -1,11 +1,7 @@
 {
-  "id": 12488,
-  "name": "Bandos kiteshield",
+  "id"          : 12488,
+  "name"        : "Bandos kiteshield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

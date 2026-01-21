@@ -1,11 +1,7 @@
 {
-  "id": 7053,
-  "name": "Bug lantern#Lit",
+  "id"          : 7053,
+  "name"        : "Bug lantern#Lit",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 33
-    }
+    {"type": "skill", "skill": "Slayer", "level": 33}
   ]
 }

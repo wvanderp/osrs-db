@@ -1,11 +1,7 @@
 {
-  "id": 9750,
-  "name": "Strength cape",
+  "id"          : 9750,
+  "name"        : "Strength cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Strength", "level": 99}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 20368,
-  "name": "Armadyl godsword (or)",
+  "id"          : 20368,
+  "name"        : "Armadyl godsword (or)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 75
-    }
+    {"type": "skill", "skill": "Attack", "level": 75}
   ]
 }

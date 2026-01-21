@@ -1,347 +1,120 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
+  "type"   : "array",
+  "items"  : {
+    "type"                : "object",
+    "properties"          : {
       "id": {
         "description": "The item's ID",
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
+        "type"       : "integer",
+        "minimum"    : -9007199254740991,
+        "maximum"    : 9007199254740991
       },
-      "name": {
-        "description": "The item's name",
-        "type": "string"
-      },
-      "examine": {
-        "description": "The text that appears when you examine the item",
-        "type": "string"
-      },
-      "resizeX": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "resizeY": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "resizeZ": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "xan2d": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "yan2d": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "zan2d": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "cost": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "isTradeable": {
-        "description": "Whether or not the item is tradeable",
-        "type": "boolean"
-      },
+      "name": {"description": "The item's name", "type": "string"},
+      "examine": {"description": "The text that appears when you examine the item", "type": "string"},
+      "resizeX": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "resizeY": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "resizeZ": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "xan2d": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "yan2d": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "zan2d": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "cost": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "isTradeable": {"description": "Whether or not the item is tradeable", "type": "boolean"},
       "stackable": {
         "description": "Whether or not the item is stackable",
-        "anyOf": [
-          {
-            "type": "number",
-            "const": 0
-          },
-          {
-            "type": "number",
-            "const": 1
-          }
+        "anyOf"      : [
+          {"type": "number", "const": 0},
+          {"type": "number", "const": 1}
         ]
       },
-      "inventoryModel": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "wearPos1": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "wearPos2": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "wearPos3": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "members": {
-        "description": "Whether or not the item is members only",
-        "type": "boolean"
-      },
+      "inventoryModel": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "wearPos1": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "wearPos2": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "wearPos3": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "members": {"description": "Whether or not the item is members only", "type": "boolean"},
       "textureFind": {
-        "type": "array",
-        "items": {
-          "type": "integer",
-          "minimum": -9007199254740991,
-          "maximum": 9007199254740991
-        }
+        "type" : "array",
+        "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
       },
       "textureReplace": {
-        "type": "array",
-        "items": {
-          "type": "integer",
-          "minimum": -9007199254740991,
-          "maximum": 9007199254740991
-        }
+        "type" : "array",
+        "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
       },
       "colorFind": {
-        "type": "array",
-        "items": {
-          "type": "integer",
-          "minimum": -9007199254740991,
-          "maximum": 9007199254740991
-        }
+        "type" : "array",
+        "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
       },
       "colorReplace": {
-        "type": "array",
-        "items": {
-          "type": "integer",
-          "minimum": -9007199254740991,
-          "maximum": 9007199254740991
-        }
+        "type" : "array",
+        "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
       },
-      "zoom2d": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "xOffset2d": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "yOffset2d": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "ambient": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "contrast": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
+      "zoom2d": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "xOffset2d": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "yOffset2d": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "ambient": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "contrast": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
       "countCo": {
-        "type": "array",
-        "items": {
-          "type": "integer",
-          "minimum": -9007199254740991,
-          "maximum": 9007199254740991
-        }
+        "type" : "array",
+        "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
       },
       "countObj": {
-        "type": "array",
-        "items": {
-          "type": "integer",
-          "minimum": -9007199254740991,
-          "maximum": 9007199254740991
-        }
+        "type" : "array",
+        "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
       },
       "options": {
-        "type": "array",
+        "type" : "array",
         "items": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
+          "anyOf": [ {"type": "string"}, {"type": "null"} ]
         }
       },
       "interfaceOptions": {
         "description": "Options for the item in the interface, such as 'Wear', 'Rub' or 'Drop', etc.",
-        "type": "array",
-        "items": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
+        "type"       : "array",
+        "items"      : {
+          "anyOf": [ {"type": "string"}, {"type": "null"} ]
         }
       },
       "subops": {
         "description": "Sub-options for each of the interface options",
-        "type": "array",
-        "items": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {}
-            },
-            {
-              "type": "null"
-            }
-          ]
+        "type"       : "array",
+        "items"      : {
+          "anyOf": [ {"type": "array", "items": {}}, {"type": "null"} ]
         }
       },
-      "maleModel0": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "maleModel1": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "maleModel2": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "maleOffset": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "maleHeadModel": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "maleHeadModel2": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "femaleModel0": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "femaleModel1": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "femaleModel2": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "femaleOffset": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "femaleHeadModel": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "femaleHeadModel2": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "category": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "notedID": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "notedTemplate": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "team": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "weight": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "shiftClickDropIndex": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "boughtId": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "boughtTemplateId": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "placeholderId": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "placeholderTemplateId": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
+      "maleModel0": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "maleModel1": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "maleModel2": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "maleOffset": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "maleHeadModel": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "maleHeadModel2": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "femaleModel0": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "femaleModel1": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "femaleModel2": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "femaleOffset": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "femaleHeadModel": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "femaleHeadModel2": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "category": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "notedID": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "notedTemplate": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "team": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "weight": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "shiftClickDropIndex": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "boughtId": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "boughtTemplateId": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "placeholderId": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "placeholderTemplateId": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
       "params": {
-        "type": "object",
-        "propertyNames": {
-          "type": "string"
-        },
+        "type"                : "object",
+        "propertyNames"       : {"type": "string"},
         "additionalProperties": {
           "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "integer",
-              "minimum": -9007199254740991,
-              "maximum": 9007199254740991
-            }
+            {"type": "string"                                                            },
+            {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
           ]
         }
       }
     },
-    "required": [
-      "id",
-      "name"
-    ],
+    "required"            : ["id", "name"],
     "additionalProperties": false
   }
 }

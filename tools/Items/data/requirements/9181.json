@@ -1,11 +1,7 @@
 {
-  "id": 9181,
-  "name": "Mithril crossbow",
+  "id"          : 9181,
+  "name"        : "Mithril crossbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 36
-    }
+    {"type": "skill", "skill": "Ranged", "level": 36}
   ]
 }

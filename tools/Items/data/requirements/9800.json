@@ -1,11 +1,7 @@
 {
-  "id": 9800,
-  "name": "Fishing hood",
+  "id"          : 9800,
+  "name"        : "Fishing hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Fishing",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Fishing", "level": 99}
   ]
 }

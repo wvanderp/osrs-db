@@ -1,11 +1,7 @@
 {
-  "id": 2675,
-  "name": "Guthix kiteshield",
+  "id"          : 2675,
+  "name"        : "Guthix kiteshield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

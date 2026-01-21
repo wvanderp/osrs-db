@@ -1,16 +1,8 @@
 {
-  "id": 3200,
-  "name": "Adamant halberd",
+  "id"          : 3200,
+  "name"        : "Adamant halberd",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 15
-    }
+    {"type": "skill", "skill": "Attack",   "level": 30},
+    {"type": "skill", "skill": "Strength", "level": 15}
   ]
 }

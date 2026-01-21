@@ -1,10 +1,7 @@
 {
-  "id": 4611,
-  "name": "Desert disguise",
+  "id"          : 4611,
+  "name"        : "Desert disguise",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "THE_FEUD"
-    }
+    {"type": "quest", "quest": "THE_FEUD"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 2579,
-  "name": "Wizard boots",
+  "id"          : 2579,
+  "name"        : "Wizard boots",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Magic", "level": 20}
   ]
 }

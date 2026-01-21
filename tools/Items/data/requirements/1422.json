@@ -1,11 +1,7 @@
 {
-  "id": 1422,
-  "name": "Bronze mace",
+  "id"          : 1422,
+  "name"        : "Bronze mace",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Attack", "level": 1}
   ]
 }

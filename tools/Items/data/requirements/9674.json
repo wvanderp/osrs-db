@@ -1,20 +1,9 @@
 {
-  "id": 9674,
-  "name": "Proselyte hauberk",
+  "id"          : 9674,
+  "name"        : "Proselyte hauberk",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 20
-    },
-    {
-      "type": "quest",
-      "quest": "THE_SLUG_MENACE"
-    }
+    {"type": "skill", "skill": "Defence", "level": 30                            },
+    {"type": "skill", "skill": "Prayer",  "level": 20                            },
+    {"type": "quest",                                  "quest": "THE_SLUG_MENACE"}
   ]
 }

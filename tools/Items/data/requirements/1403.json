@@ -1,16 +1,8 @@
 {
-  "id": 1403,
-  "name": "Mystic water staff",
+  "id"          : 1403,
+  "name"        : "Mystic water staff",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40},
+    {"type": "skill", "skill": "Magic",  "level": 40}
   ]
 }

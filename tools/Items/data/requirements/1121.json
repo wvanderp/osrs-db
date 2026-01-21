@@ -1,11 +1,7 @@
 {
-  "id": 1121,
-  "name": "Mithril platebody",
+  "id"          : 1121,
+  "name"        : "Mithril platebody",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

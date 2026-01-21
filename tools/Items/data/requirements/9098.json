@@ -1,20 +1,9 @@
 {
-  "id": 9098,
-  "name": "Lunar legs",
+  "id"          : 9098,
+  "name"        : "Lunar legs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 65
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "LUNAR_DIPLOMACY"
-    }
+    {"type": "skill", "skill": "Magic",   "level": 65                            },
+    {"type": "skill", "skill": "Defence", "level": 40                            },
+    {"type": "quest",                                  "quest": "LUNAR_DIPLOMACY"}
   ]
 }

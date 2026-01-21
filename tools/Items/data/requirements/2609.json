@@ -1,11 +1,7 @@
 {
-  "id": 2609,
-  "name": "Adamant platelegs (g)",
+  "id"          : 2609,
+  "name"        : "Adamant platelegs (g)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Defence", "level": 30}
   ]
 }

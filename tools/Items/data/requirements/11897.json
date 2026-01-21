@@ -1,11 +1,7 @@
 {
-  "id": 11897,
-  "name": "Decorative armour (magic legs)",
+  "id"          : 11897,
+  "name"        : "Decorative armour (magic legs)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Magic", "level": 20}
   ]
 }

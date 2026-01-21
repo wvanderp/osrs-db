@@ -1,11 +1,7 @@
 {
-  "id": 839,
-  "name": "Longbow",
+  "id"          : 839,
+  "name"        : "Longbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Ranged", "level": 1}
   ]
 }

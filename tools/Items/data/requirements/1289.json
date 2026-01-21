@@ -1,11 +1,7 @@
 {
-  "id": 1289,
-  "name": "Rune sword",
+  "id"          : 1289,
+  "name"        : "Rune sword",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

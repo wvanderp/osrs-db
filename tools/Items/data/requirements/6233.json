@@ -1,17 +1,9 @@
 {
-  "id": 6233,
-  "name": "Broodoo shield (poison)#(1)",
+  "id"          : 6233,
+  "name"        : "Broodoo shield (poison)#(1)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 25
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 25
-    }
+    {"type": "skill", "skill": "Defence", "level": 25},
+    {"type": "skill", "skill": "Magic",   "level": 25}
   ],
-  "note": "This item is members only"
+  "note"        : "This item is members only"
 }

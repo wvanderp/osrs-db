@@ -1,11 +1,7 @@
 {
-  "id": 2663,
-  "name": "Saradomin platelegs",
+  "id"          : 2663,
+  "name"        : "Saradomin platelegs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

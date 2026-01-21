@@ -1,16 +1,8 @@
 {
-  "id": 4109,
-  "name": "Mystic hat (light)",
+  "id"          : 4109,
+  "name"        : "Mystic hat (light)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Magic",   "level": 40},
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

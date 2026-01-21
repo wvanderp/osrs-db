@@ -1,12 +1,12 @@
 {
-  "id": 1343,
-  "name": "Mithril warhammer",
+  "id"          : 1343,
+  "name"        : "Mithril warhammer",
   "requirements": [
     {
-      "type": "skill",
+      "type" : "skill",
       "skill": "Strength",
       "level": 20,
-      "note": "Unlike other mithril weapons, it requires level 20 in Strength to wield."
+      "note" : "Unlike other mithril weapons, it requires level 20 in Strength to wield."
     }
   ]
 }

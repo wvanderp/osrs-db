@@ -1,12 +1,8 @@
 {
-  "id": 10828,
-  "name": "Helm of neitiznot",
+  "id"          : 10828,
+  "name"        : "Helm of neitiznot",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 55
-    },
+    {"type": "skill", "skill": "Defence", "level": 55},
     {
       "type": "quest",
       "quest": "THE_FREMENNIK_ISLES",

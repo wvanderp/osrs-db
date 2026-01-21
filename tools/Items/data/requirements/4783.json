@@ -1,13 +1,7 @@
 {
-  "id": 4783,
-  "name": "Steel brutal",
+  "id"          : 4783,
+  "name"        : "Steel brutal",
   "requirements": [
-    {
-      "type": "equipment",
-      "equipment": [
-        2883,
-        4827
-      ]
-    }
+    { "type": "equipment", "equipment": [2883, 4827] }
   ]
 }

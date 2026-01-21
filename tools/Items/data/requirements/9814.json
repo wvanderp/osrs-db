@@ -1,850 +1,217 @@
 {
-  "id": 9814,
-  "name": "Quest point hood",
+  "id"          : 9814,
+  "name"        : "Quest point hood",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "ANIMAL_MAGNETISM"
-    },
-    {
-      "type": "quest",
-      "quest": "ANOTHER_SLICE_OF_HAM"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_ASCENT_OF_ARCEUUS"
-    },
-    {
-      "type": "quest",
-      "quest": "ALFRED_GRIMHANDS_BARCRAWL"
-    },
-    {
-      "type": "quest",
-      "quest": "BEAR_YOUR_SOUL"
-    },
-    {
-      "type": "quest",
-      "quest": "BELOW_ICE_MOUNTAIN"
-    },
-    {
-      "type": "quest",
-      "quest": "BETWEEN_A_ROCK"
-    },
-    {
-      "type": "quest",
-      "quest": "BIG_CHOMPY_BIRD_HUNTING"
-    },
-    {
-      "type": "quest",
-      "quest": "BIOHAZARD"
-    },
-    {
-      "type": "quest",
-      "quest": "BLACK_KNIGHTS_FORTRESS"
-    },
-    {
-      "type": "quest",
-      "quest": "BONE_VOYAGE"
-    },
-    {
-      "type": "quest",
-      "quest": "CABIN_FEVER"
-    },
-    {
-      "type": "quest",
-      "quest": "CLIENT_OF_KOUREND"
-    },
-    {
-      "type": "quest",
-      "quest": "CLOCK_TOWER"
-    },
-    {
-      "type": "quest",
-      "quest": "COLD_WAR"
-    },
-    {
-      "type": "quest",
-      "quest": "CONTACT"
-    },
-    {
-      "type": "quest",
-      "quest": "COOKS_ASSISTANT"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_CORSAIR_CURSE"
-    },
-    {
-      "type": "quest",
-      "quest": "CREATURE_OF_FENKENSTRAIN"
-    },
-    {
-      "type": "quest",
-      "quest": "CURSE_OF_THE_EMPTY_LORD"
-    },
-    {
-      "type": "quest",
-      "quest": "DADDYS_HOME"
-    },
-    {
-      "type": "quest",
-      "quest": "DARKNESS_OF_HALLOWVALE"
-    },
-    {
-      "type": "quest",
-      "quest": "DEATH_PLATEAU"
-    },
-    {
-      "type": "quest",
-      "quest": "DEATH_TO_THE_DORGESHUUN"
-    },
-    {
-      "type": "quest",
-      "quest": "DEMON_SLAYER"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_DEPTHS_OF_DESPAIR"
-    },
-    {
-      "type": "quest",
-      "quest": "DESERT_TREASURE_I"
-    },
-    {
-      "type": "quest",
-      "quest": "DEVIOUS_MINDS"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_DIG_SITE"
-    },
-    {
-      "type": "quest",
-      "quest": "DORICS_QUEST"
-    },
-    {
-      "type": "quest",
-      "quest": "DRAGON_SLAYER_I"
-    },
-    {
-      "type": "quest",
-      "quest": "DRAGON_SLAYER_II"
-    },
-    {
-      "type": "quest",
-      "quest": "DREAM_MENTOR"
-    },
-    {
-      "type": "quest",
-      "quest": "DRUIDIC_RITUAL"
-    },
-    {
-      "type": "quest",
-      "quest": "DWARF_CANNON"
-    },
-    {
-      "type": "quest",
-      "quest": "EADGARS_RUSE"
-    },
-    {
-      "type": "quest",
-      "quest": "EAGLES_PEAK"
-    },
-    {
-      "type": "quest",
-      "quest": "ELEMENTAL_WORKSHOP_I"
-    },
-    {
-      "type": "quest",
-      "quest": "ELEMENTAL_WORKSHOP_II"
-    },
-    {
-      "type": "quest",
-      "quest": "ENAKHRAS_LAMENT"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_ENCHANTED_KEY"
-    },
-    {
-      "type": "quest",
-      "quest": "ENLIGHTENED_JOURNEY"
-    },
-    {
-      "type": "quest",
-      "quest": "ENTER_THE_ABYSS"
-    },
-    {
-      "type": "quest",
-      "quest": "ERNEST_THE_CHICKEN"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_EYES_OF_GLOUPHRIE"
-    },
-    {
-      "type": "quest",
-      "quest": "FAIRYTALE_I__GROWING_PAINS"
-    },
-    {
-      "type": "quest",
-      "quest": "FAIRYTALE_II__CURE_A_QUEEN"
-    },
-    {
-      "type": "quest",
-      "quest": "FAMILY_CREST"
-    },
-    {
-      "type": "quest",
-      "quest": "FAMILY_PEST"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FEUD"
-    },
-    {
-      "type": "quest",
-      "quest": "FIGHT_ARENA"
-    },
-    {
-      "type": "quest",
-      "quest": "FISHING_CONTEST"
-    },
-    {
-      "type": "quest",
-      "quest": "FORGETTABLE_TALE"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FORSAKEN_TOWER"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FREMENNIK_EXILES"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FREMENNIK_ISLES"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FREMENNIK_TRIALS"
-    },
-    {
-      "type": "quest",
-      "quest": "GARDEN_OF_TRANQUILLITY"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_GENERALS_SHADOW"
-    },
-    {
-      "type": "quest",
-      "quest": "GERTRUDES_CAT"
-    },
-    {
-      "type": "quest",
-      "quest": "GETTING_AHEAD"
-    },
-    {
-      "type": "quest",
-      "quest": "GHOSTS_AHOY"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_GIANT_DWARF"
-    },
-    {
-      "type": "quest",
-      "quest": "GOBLIN_DIPLOMACY"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_GOLEM"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_GRAND_TREE"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_GREAT_BRAIN_ROBBERY"
-    },
-    {
-      "type": "quest",
-      "quest": "GRIM_TALES"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_HAND_IN_THE_SAND"
-    },
-    {
-      "type": "quest",
-      "quest": "HAUNTED_MINE"
-    },
-    {
-      "type": "quest",
-      "quest": "HAZEEL_CULT"
-    },
-    {
-      "type": "quest",
-      "quest": "HEROES_QUEST"
-    },
-    {
-      "type": "quest",
-      "quest": "HOLY_GRAIL"
-    },
-    {
-      "type": "quest",
-      "quest": "HORROR_FROM_THE_DEEP"
-    },
-    {
-      "type": "quest",
-      "quest": "ICTHLARINS_LITTLE_HELPER"
-    },
-    {
-      "type": "quest",
-      "quest": "IMP_CATCHER"
-    },
-    {
-      "type": "quest",
-      "quest": "IN_AID_OF_THE_MYREQUE"
-    },
-    {
-      "type": "quest",
-      "quest": "IN_SEARCH_OF_KNOWLEDGE"
-    },
-    {
-      "type": "quest",
-      "quest": "IN_SEARCH_OF_THE_MYREQUE"
-    },
-    {
-      "type": "quest",
-      "quest": "JUNGLE_POTION"
-    },
-    {
-      "type": "quest",
-      "quest": "A_KINGDOM_DIVIDED"
-    },
-    {
-      "type": "quest",
-      "quest": "KINGS_RANSOM"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_KNIGHTS_SWORD"
-    },
-    {
-      "type": "quest",
-      "quest": "LAIR_OF_TARN_RAZORLOR"
-    },
-    {
-      "type": "quest",
-      "quest": "LEGENDS_QUEST"
-    },
-    {
-      "type": "quest",
-      "quest": "LOST_CITY"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_LOST_TRIBE"
-    },
-    {
-      "type": "quest",
-      "quest": "LUNAR_DIPLOMACY"
-    },
-    {
-      "type": "quest",
-      "quest": "MAGE_ARENA_I"
-    },
-    {
-      "type": "quest",
-      "quest": "MAGE_ARENA_II"
-    },
-    {
-      "type": "quest",
-      "quest": "MAKING_FRIENDS_WITH_MY_ARM"
-    },
-    {
-      "type": "quest",
-      "quest": "MAKING_HISTORY"
-    },
-    {
-      "type": "quest",
-      "quest": "MERLINS_CRYSTAL"
-    },
-    {
-      "type": "quest",
-      "quest": "MISTHALIN_MYSTERY"
-    },
-    {
-      "type": "quest",
-      "quest": "MONKEY_MADNESS_I"
-    },
-    {
-      "type": "quest",
-      "quest": "MONKEY_MADNESS_II"
-    },
-    {
-      "type": "quest",
-      "quest": "MONKS_FRIEND"
-    },
-    {
-      "type": "quest",
-      "quest": "MOUNTAIN_DAUGHTER"
-    },
-    {
-      "type": "quest",
-      "quest": "MOURNINGS_END_PART_I"
-    },
-    {
-      "type": "quest",
-      "quest": "MOURNINGS_END_PART_II"
-    },
-    {
-      "type": "quest",
-      "quest": "MURDER_MYSTERY"
-    },
-    {
-      "type": "quest",
-      "quest": "MY_ARMS_BIG_ADVENTURE"
-    },
-    {
-      "type": "quest",
-      "quest": "NATURE_SPIRIT"
-    },
-    {
-      "type": "quest",
-      "quest": "A_NIGHT_AT_THE_THEATRE"
-    },
-    {
-      "type": "quest",
-      "quest": "OBSERVATORY_QUEST"
-    },
-    {
-      "type": "quest",
-      "quest": "OLAFS_QUEST"
-    },
-    {
-      "type": "quest",
-      "quest": "ONE_SMALL_FAVOUR"
-    },
-    {
-      "type": "quest",
-      "quest": "PIRATES_TREASURE"
-    },
-    {
-      "type": "quest",
-      "quest": "PLAGUE_CITY"
-    },
-    {
-      "type": "quest",
-      "quest": "A_PORCINE_OF_INTEREST"
-    },
-    {
-      "type": "quest",
-      "quest": "PRIEST_IN_PERIL"
-    },
-    {
-      "type": "quest",
-      "quest": "PRINCE_ALI_RESCUE"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_QUEEN_OF_THIEVES"
-    },
-    {
-      "type": "quest",
-      "quest": "RAG_AND_BONE_MAN_I"
-    },
-    {
-      "type": "quest",
-      "quest": "RAG_AND_BONE_MAN_II"
-    },
-    {
-      "type": "quest",
-      "quest": "RATCATCHERS"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER"
-    },
-    {
-      "type": "quest",
-      "quest": "RECRUITMENT_DRIVE"
-    },
-    {
-      "type": "quest",
-      "quest": "REGICIDE"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_RESTLESS_GHOST"
-    },
-    {
-      "type": "quest",
-      "quest": "ROMEO__JULIET"
-    },
-    {
-      "type": "quest",
-      "quest": "ROVING_ELVES"
-    },
-    {
-      "type": "quest",
-      "quest": "ROYAL_TROUBLE"
-    },
-    {
-      "type": "quest",
-      "quest": "RUM_DEAL"
-    },
-    {
-      "type": "quest",
-      "quest": "RUNE_MYSTERIES"
-    },
-    {
-      "type": "quest",
-      "quest": "SCORPION_CATCHER"
-    },
-    {
-      "type": "quest",
-      "quest": "SEA_SLUG"
-    },
-    {
-      "type": "quest",
-      "quest": "SHADES_OF_MORTTON"
-    },
-    {
-      "type": "quest",
-      "quest": "SHADOW_OF_THE_STORM"
-    },
-    {
-      "type": "quest",
-      "quest": "SHEEP_HERDER"
-    },
-    {
-      "type": "quest",
-      "quest": "SHEEP_SHEARER"
-    },
-    {
-      "type": "quest",
-      "quest": "SHIELD_OF_ARRAV"
-    },
-    {
-      "type": "quest",
-      "quest": "SHILO_VILLAGE"
-    },
-    {
-      "type": "quest",
-      "quest": "SINS_OF_THE_FATHER"
-    },
-    {
-      "type": "quest",
-      "quest": "SKIPPY_AND_THE_MOGRES"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_SLUG_MENACE"
-    },
-    {
-      "type": "quest",
-      "quest": "SONG_OF_THE_ELVES"
-    },
-    {
-      "type": "quest",
-      "quest": "A_SOULS_BANE"
-    },
-    {
-      "type": "quest",
-      "quest": "SPIRITS_OF_THE_ELID"
-    },
-    {
-      "type": "quest",
-      "quest": "SWAN_SONG"
-    },
-    {
-      "type": "quest",
-      "quest": "TAI_BWO_WANNAI_TRIO"
-    },
-    {
-      "type": "quest",
-      "quest": "A_TAIL_OF_TWO_CATS"
-    },
-    {
-      "type": "quest",
-      "quest": "TALE_OF_THE_RIGHTEOUS"
-    },
-    {
-      "type": "quest",
-      "quest": "A_TASTE_OF_HOPE"
-    },
-    {
-      "type": "quest",
-      "quest": "TEARS_OF_GUTHIX"
-    },
-    {
-      "type": "quest",
-      "quest": "TEMPLE_OF_IKOV"
-    },
-    {
-      "type": "quest",
-      "quest": "THRONE_OF_MISCELLANIA"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_TOURIST_TRAP"
-    },
-    {
-      "type": "quest",
-      "quest": "TOWER_OF_LIFE"
-    },
-    {
-      "type": "quest",
-      "quest": "TREE_GNOME_VILLAGE"
-    },
-    {
-      "type": "quest",
-      "quest": "TRIBAL_TOTEM"
-    },
-    {
-      "type": "quest",
-      "quest": "TROLL_ROMANCE"
-    },
-    {
-      "type": "quest",
-      "quest": "TROLL_STRONGHOLD"
-    },
-    {
-      "type": "quest",
-      "quest": "UNDERGROUND_PASS"
-    },
-    {
-      "type": "quest",
-      "quest": "VAMPYRE_SLAYER"
-    },
-    {
-      "type": "quest",
-      "quest": "WANTED"
-    },
-    {
-      "type": "quest",
-      "quest": "WATCHTOWER"
-    },
-    {
-      "type": "quest",
-      "quest": "WATERFALL_QUEST"
-    },
-    {
-      "type": "quest",
-      "quest": "WHAT_LIES_BELOW"
-    },
-    {
-      "type": "quest",
-      "quest": "WITCHS_HOUSE"
-    },
-    {
-      "type": "quest",
-      "quest": "WITCHS_POTION"
-    },
-    {
-      "type": "quest",
-      "quest": "X_MARKS_THE_SPOT"
-    },
-    {
-      "type": "quest",
-      "quest": "ZOGRE_FLESH_EATERS"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FROZEN_DOOR"
-    },
-    {
-      "type": "quest",
-      "quest": "LAND_OF_THE_GOBLINS"
-    },
-    {
-      "type": "quest",
-      "quest": "HOPESPEARS_WILL"
-    },
-    {
-      "type": "quest",
-      "quest": "TEMPLE_OF_THE_EYE"
-    },
-    {
-      "type": "quest",
-      "quest": "BENEATH_CURSED_SANDS"
-    },
-    {
-      "type": "quest",
-      "quest": "SLEEPING_GIANTS"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_GARDEN_OF_DEATH"
-    },
-    {
-      "type": "quest",
-      "quest": "INTO_THE_TOMBS"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__ANOTHER_COOKS_QUEST"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__LUMBRIDGE_GUIDE"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__EVIL_DAVE"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__SKRACH_UGLOGWEE"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__KING_AWOWOGEI"
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER__CULINAROMANCER"
-    },
-    {
-      "type": "quest",
-      "quest": "SECRETS_OF_THE_NORTH"
-    },
-    {
-      "type": "quest",
-      "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE"
-    },
-    {
-      "type": "quest",
-      "quest": "HIS_FAITHFUL_SERVANTS"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_PATH_OF_GLOUPHRIE"
-    },
-    {
-      "type": "quest",
-      "quest": "CHILDREN_OF_THE_SUN"
-    },
-    {
-      "type": "quest",
-      "quest": "BARBARIAN_TRAINING"
-    },
-    {
-      "type": "quest",
-      "quest": "DEFENDER_OF_VARROCK"
-    },
-    {
-      "type": "quest",
-      "quest": "WHILE_GUTHIX_SLEEPS"
-    },
-    {
-      "type": "quest",
-      "quest": "TWILIGHTS_PROMISE"
-    },
-    {
-      "type": "quest",
-      "quest": "AT_FIRST_LIGHT"
-    },
-    {
-      "type": "quest",
-      "quest": "PERILOUS_MOONS"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_HEART_OF_DARKNESS"
-    },
-    {
-      "type": "quest",
-      "quest": "DEATH_ON_THE_ISLE"
-    },
-    {
-      "type": "quest",
-      "quest": "MEAT_AND_GREET"
-    },
-    {
-      "type": "quest",
-      "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_CURSE_OF_ARRAV"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FINAL_DAWN"
-    },
-    {
-      "type": "quest",
-      "quest": "SHADOWS_OF_CUSTODIA"
-    },
-    {
-      "type": "quest",
-      "quest": "SCRAMBLED"
-    },
-    {
-      "type": "quest",
-      "quest": "AN_EXISTENTIAL_CRISIS"
-    },
-    {
-      "type": "quest",
-      "quest": "IMPENDING_CHAOS"
-    },
-    {
-      "type": "quest",
-      "quest": "VALE_TOTEMS"
-    },
-    {
-      "type": "quest",
-      "quest": "TUTORIAL_ISLAND"
-    },
-    {
-      "type": "quest",
-      "quest": "PANDEMONIUM"
-    },
-    {
-      "type": "quest",
-      "quest": "PRYING_TIMES"
-    },
-    {
-      "type": "quest",
-      "quest": "CURRENT_AFFAIRS"
-    },
-    {
-      "type": "quest",
-      "quest": "TROUBLED_TORTUGANS"
-    },
-    {
-      "type": "quest",
-      "quest": "THE_RED_REEF"
-    },
-    {
-      "type": "quest",
-      "quest": "BURIAL_AT_SEA"
-    }
+    {"type": "quest", "quest": "ANIMAL_MAGNETISM"                               },
+    {"type": "quest", "quest": "ANOTHER_SLICE_OF_HAM"                           },
+    {"type": "quest", "quest": "THE_ASCENT_OF_ARCEUUS"                          },
+    {"type": "quest", "quest": "ALFRED_GRIMHANDS_BARCRAWL"                      },
+    {"type": "quest", "quest": "BEAR_YOUR_SOUL"                                 },
+    {"type": "quest", "quest": "BELOW_ICE_MOUNTAIN"                             },
+    {"type": "quest", "quest": "BETWEEN_A_ROCK"                                 },
+    {"type": "quest", "quest": "BIG_CHOMPY_BIRD_HUNTING"                        },
+    {"type": "quest", "quest": "BIOHAZARD"                                      },
+    {"type": "quest", "quest": "BLACK_KNIGHTS_FORTRESS"                         },
+    {"type": "quest", "quest": "BONE_VOYAGE"                                    },
+    {"type": "quest", "quest": "CABIN_FEVER"                                    },
+    {"type": "quest", "quest": "CLIENT_OF_KOUREND"                              },
+    {"type": "quest", "quest": "CLOCK_TOWER"                                    },
+    {"type": "quest", "quest": "COLD_WAR"                                       },
+    {"type": "quest", "quest": "CONTACT"                                        },
+    {"type": "quest", "quest": "COOKS_ASSISTANT"                                },
+    {"type": "quest", "quest": "THE_CORSAIR_CURSE"                              },
+    {"type": "quest", "quest": "CREATURE_OF_FENKENSTRAIN"                       },
+    {"type": "quest", "quest": "CURSE_OF_THE_EMPTY_LORD"                        },
+    {"type": "quest", "quest": "DADDYS_HOME"                                    },
+    {"type": "quest", "quest": "DARKNESS_OF_HALLOWVALE"                         },
+    {"type": "quest", "quest": "DEATH_PLATEAU"                                  },
+    {"type": "quest", "quest": "DEATH_TO_THE_DORGESHUUN"                        },
+    {"type": "quest", "quest": "DEMON_SLAYER"                                   },
+    {"type": "quest", "quest": "THE_DEPTHS_OF_DESPAIR"                          },
+    {"type": "quest", "quest": "DESERT_TREASURE_I"                              },
+    {"type": "quest", "quest": "DEVIOUS_MINDS"                                  },
+    {"type": "quest", "quest": "THE_DIG_SITE"                                   },
+    {"type": "quest", "quest": "DORICS_QUEST"                                   },
+    {"type": "quest", "quest": "DRAGON_SLAYER_I"                                },
+    {"type": "quest", "quest": "DRAGON_SLAYER_II"                               },
+    {"type": "quest", "quest": "DREAM_MENTOR"                                   },
+    {"type": "quest", "quest": "DRUIDIC_RITUAL"                                 },
+    {"type": "quest", "quest": "DWARF_CANNON"                                   },
+    {"type": "quest", "quest": "EADGARS_RUSE"                                   },
+    {"type": "quest", "quest": "EAGLES_PEAK"                                    },
+    {"type": "quest", "quest": "ELEMENTAL_WORKSHOP_I"                           },
+    {"type": "quest", "quest": "ELEMENTAL_WORKSHOP_II"                          },
+    {"type": "quest", "quest": "ENAKHRAS_LAMENT"                                },
+    {"type": "quest", "quest": "THE_ENCHANTED_KEY"                              },
+    {"type": "quest", "quest": "ENLIGHTENED_JOURNEY"                            },
+    {"type": "quest", "quest": "ENTER_THE_ABYSS"                                },
+    {"type": "quest", "quest": "ERNEST_THE_CHICKEN"                             },
+    {"type": "quest", "quest": "THE_EYES_OF_GLOUPHRIE"                          },
+    {"type": "quest", "quest": "FAIRYTALE_I__GROWING_PAINS"                     },
+    {"type": "quest", "quest": "FAIRYTALE_II__CURE_A_QUEEN"                     },
+    {"type": "quest", "quest": "FAMILY_CREST"                                   },
+    {"type": "quest", "quest": "FAMILY_PEST"                                    },
+    {"type": "quest", "quest": "THE_FEUD"                                       },
+    {"type": "quest", "quest": "FIGHT_ARENA"                                    },
+    {"type": "quest", "quest": "FISHING_CONTEST"                                },
+    {"type": "quest", "quest": "FORGETTABLE_TALE"                               },
+    {"type": "quest", "quest": "THE_FORSAKEN_TOWER"                             },
+    {"type": "quest", "quest": "THE_FREMENNIK_EXILES"                           },
+    {"type": "quest", "quest": "THE_FREMENNIK_ISLES"                            },
+    {"type": "quest", "quest": "THE_FREMENNIK_TRIALS"                           },
+    {"type": "quest", "quest": "GARDEN_OF_TRANQUILLITY"                         },
+    {"type": "quest", "quest": "THE_GENERALS_SHADOW"                            },
+    {"type": "quest", "quest": "GERTRUDES_CAT"                                  },
+    {"type": "quest", "quest": "GETTING_AHEAD"                                  },
+    {"type": "quest", "quest": "GHOSTS_AHOY"                                    },
+    {"type": "quest", "quest": "THE_GIANT_DWARF"                                },
+    {"type": "quest", "quest": "GOBLIN_DIPLOMACY"                               },
+    {"type": "quest", "quest": "THE_GOLEM"                                      },
+    {"type": "quest", "quest": "THE_GRAND_TREE"                                 },
+    {"type": "quest", "quest": "THE_GREAT_BRAIN_ROBBERY"                        },
+    {"type": "quest", "quest": "GRIM_TALES"                                     },
+    {"type": "quest", "quest": "THE_HAND_IN_THE_SAND"                           },
+    {"type": "quest", "quest": "HAUNTED_MINE"                                   },
+    {"type": "quest", "quest": "HAZEEL_CULT"                                    },
+    {"type": "quest", "quest": "HEROES_QUEST"                                   },
+    {"type": "quest", "quest": "HOLY_GRAIL"                                     },
+    {"type": "quest", "quest": "HORROR_FROM_THE_DEEP"                           },
+    {"type": "quest", "quest": "ICTHLARINS_LITTLE_HELPER"                       },
+    {"type": "quest", "quest": "IMP_CATCHER"                                    },
+    {"type": "quest", "quest": "IN_AID_OF_THE_MYREQUE"                          },
+    {"type": "quest", "quest": "IN_SEARCH_OF_KNOWLEDGE"                         },
+    {"type": "quest", "quest": "IN_SEARCH_OF_THE_MYREQUE"                       },
+    {"type": "quest", "quest": "JUNGLE_POTION"                                  },
+    {"type": "quest", "quest": "A_KINGDOM_DIVIDED"                              },
+    {"type": "quest", "quest": "KINGS_RANSOM"                                   },
+    {"type": "quest", "quest": "THE_KNIGHTS_SWORD"                              },
+    {"type": "quest", "quest": "LAIR_OF_TARN_RAZORLOR"                          },
+    {"type": "quest", "quest": "LEGENDS_QUEST"                                  },
+    {"type": "quest", "quest": "LOST_CITY"                                      },
+    {"type": "quest", "quest": "THE_LOST_TRIBE"                                 },
+    {"type": "quest", "quest": "LUNAR_DIPLOMACY"                                },
+    {"type": "quest", "quest": "MAGE_ARENA_I"                                   },
+    {"type": "quest", "quest": "MAGE_ARENA_II"                                  },
+    {"type": "quest", "quest": "MAKING_FRIENDS_WITH_MY_ARM"                     },
+    {"type": "quest", "quest": "MAKING_HISTORY"                                 },
+    {"type": "quest", "quest": "MERLINS_CRYSTAL"                                },
+    {"type": "quest", "quest": "MISTHALIN_MYSTERY"                              },
+    {"type": "quest", "quest": "MONKEY_MADNESS_I"                               },
+    {"type": "quest", "quest": "MONKEY_MADNESS_II"                              },
+    {"type": "quest", "quest": "MONKS_FRIEND"                                   },
+    {"type": "quest", "quest": "MOUNTAIN_DAUGHTER"                              },
+    {"type": "quest", "quest": "MOURNINGS_END_PART_I"                           },
+    {"type": "quest", "quest": "MOURNINGS_END_PART_II"                          },
+    {"type": "quest", "quest": "MURDER_MYSTERY"                                 },
+    {"type": "quest", "quest": "MY_ARMS_BIG_ADVENTURE"                          },
+    {"type": "quest", "quest": "NATURE_SPIRIT"                                  },
+    {"type": "quest", "quest": "A_NIGHT_AT_THE_THEATRE"                         },
+    {"type": "quest", "quest": "OBSERVATORY_QUEST"                              },
+    {"type": "quest", "quest": "OLAFS_QUEST"                                    },
+    {"type": "quest", "quest": "ONE_SMALL_FAVOUR"                               },
+    {"type": "quest", "quest": "PIRATES_TREASURE"                               },
+    {"type": "quest", "quest": "PLAGUE_CITY"                                    },
+    {"type": "quest", "quest": "A_PORCINE_OF_INTEREST"                          },
+    {"type": "quest", "quest": "PRIEST_IN_PERIL"                                },
+    {"type": "quest", "quest": "PRINCE_ALI_RESCUE"                              },
+    {"type": "quest", "quest": "THE_QUEEN_OF_THIEVES"                           },
+    {"type": "quest", "quest": "RAG_AND_BONE_MAN_I"                             },
+    {"type": "quest", "quest": "RAG_AND_BONE_MAN_II"                            },
+    {"type": "quest", "quest": "RATCATCHERS"                                    },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER"                            },
+    {"type": "quest", "quest": "RECRUITMENT_DRIVE"                              },
+    {"type": "quest", "quest": "REGICIDE"                                       },
+    {"type": "quest", "quest": "THE_RESTLESS_GHOST"                             },
+    {"type": "quest", "quest": "ROMEO__JULIET"                                  },
+    {"type": "quest", "quest": "ROVING_ELVES"                                   },
+    {"type": "quest", "quest": "ROYAL_TROUBLE"                                  },
+    {"type": "quest", "quest": "RUM_DEAL"                                       },
+    {"type": "quest", "quest": "RUNE_MYSTERIES"                                 },
+    {"type": "quest", "quest": "SCORPION_CATCHER"                               },
+    {"type": "quest", "quest": "SEA_SLUG"                                       },
+    {"type": "quest", "quest": "SHADES_OF_MORTTON"                              },
+    {"type": "quest", "quest": "SHADOW_OF_THE_STORM"                            },
+    {"type": "quest", "quest": "SHEEP_HERDER"                                   },
+    {"type": "quest", "quest": "SHEEP_SHEARER"                                  },
+    {"type": "quest", "quest": "SHIELD_OF_ARRAV"                                },
+    {"type": "quest", "quest": "SHILO_VILLAGE"                                  },
+    {"type": "quest", "quest": "SINS_OF_THE_FATHER"                             },
+    {"type": "quest", "quest": "SKIPPY_AND_THE_MOGRES"                          },
+    {"type": "quest", "quest": "THE_SLUG_MENACE"                                },
+    {"type": "quest", "quest": "SONG_OF_THE_ELVES"                              },
+    {"type": "quest", "quest": "A_SOULS_BANE"                                   },
+    {"type": "quest", "quest": "SPIRITS_OF_THE_ELID"                            },
+    {"type": "quest", "quest": "SWAN_SONG"                                      },
+    {"type": "quest", "quest": "TAI_BWO_WANNAI_TRIO"                            },
+    {"type": "quest", "quest": "A_TAIL_OF_TWO_CATS"                             },
+    {"type": "quest", "quest": "TALE_OF_THE_RIGHTEOUS"                          },
+    {"type": "quest", "quest": "A_TASTE_OF_HOPE"                                },
+    {"type": "quest", "quest": "TEARS_OF_GUTHIX"                                },
+    {"type": "quest", "quest": "TEMPLE_OF_IKOV"                                 },
+    {"type": "quest", "quest": "THRONE_OF_MISCELLANIA"                          },
+    {"type": "quest", "quest": "THE_TOURIST_TRAP"                               },
+    {"type": "quest", "quest": "TOWER_OF_LIFE"                                  },
+    {"type": "quest", "quest": "TREE_GNOME_VILLAGE"                             },
+    {"type": "quest", "quest": "TRIBAL_TOTEM"                                   },
+    {"type": "quest", "quest": "TROLL_ROMANCE"                                  },
+    {"type": "quest", "quest": "TROLL_STRONGHOLD"                               },
+    {"type": "quest", "quest": "UNDERGROUND_PASS"                               },
+    {"type": "quest", "quest": "VAMPYRE_SLAYER"                                 },
+    {"type": "quest", "quest": "WANTED"                                         },
+    {"type": "quest", "quest": "WATCHTOWER"                                     },
+    {"type": "quest", "quest": "WATERFALL_QUEST"                                },
+    {"type": "quest", "quest": "WHAT_LIES_BELOW"                                },
+    {"type": "quest", "quest": "WITCHS_HOUSE"                                   },
+    {"type": "quest", "quest": "WITCHS_POTION"                                  },
+    {"type": "quest", "quest": "X_MARKS_THE_SPOT"                               },
+    {"type": "quest", "quest": "ZOGRE_FLESH_EATERS"                             },
+    {"type": "quest", "quest": "THE_FROZEN_DOOR"                                },
+    {"type": "quest", "quest": "LAND_OF_THE_GOBLINS"                            },
+    {"type": "quest", "quest": "HOPESPEARS_WILL"                                },
+    {"type": "quest", "quest": "TEMPLE_OF_THE_EYE"                              },
+    {"type": "quest", "quest": "BENEATH_CURSED_SANDS"                           },
+    {"type": "quest", "quest": "SLEEPING_GIANTS"                                },
+    {"type": "quest", "quest": "THE_GARDEN_OF_DEATH"                            },
+    {"type": "quest", "quest": "INTO_THE_TOMBS"                                 },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__ANOTHER_COOKS_QUEST"       },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__MOUNTAIN_DWARF"            },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__WARTFACE__BENTNOZE"        },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__PIRATE_PETE"               },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__LUMBRIDGE_GUIDE"           },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__EVIL_DAVE"                 },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__SKRACH_UGLOGWEE"           },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__SIR_AMIK_VARZE"            },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__KING_AWOWOGEI"             },
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER__CULINAROMANCER"            },
+    {"type": "quest", "quest": "SECRETS_OF_THE_NORTH"                           },
+    {"type": "quest", "quest": "DESERT_TREASURE_II__THE_FALLEN_EMPIRE"          },
+    {"type": "quest", "quest": "HIS_FAITHFUL_SERVANTS"                          },
+    {"type": "quest", "quest": "THE_PATH_OF_GLOUPHRIE"                          },
+    {"type": "quest", "quest": "CHILDREN_OF_THE_SUN"                            },
+    {"type": "quest", "quest": "BARBARIAN_TRAINING"                             },
+    {"type": "quest", "quest": "DEFENDER_OF_VARROCK"                            },
+    {"type": "quest", "quest": "WHILE_GUTHIX_SLEEPS"                            },
+    {"type": "quest", "quest": "TWILIGHTS_PROMISE"                              },
+    {"type": "quest", "quest": "AT_FIRST_LIGHT"                                 },
+    {"type": "quest", "quest": "PERILOUS_MOONS"                                 },
+    {"type": "quest", "quest": "THE_RIBBITING_TALE_OF_A_LILY_PAD_LABOUR_DISPUTE"},
+    {"type": "quest", "quest": "THE_HEART_OF_DARKNESS"                          },
+    {"type": "quest", "quest": "DEATH_ON_THE_ISLE"                              },
+    {"type": "quest", "quest": "MEAT_AND_GREET"                                 },
+    {"type": "quest", "quest": "ETHICALLY_ACQUIRED_ANTIQUITIES"                 },
+    {"type": "quest", "quest": "THE_CURSE_OF_ARRAV"                             },
+    {"type": "quest", "quest": "THE_FINAL_DAWN"                                 },
+    {"type": "quest", "quest": "SHADOWS_OF_CUSTODIA"                            },
+    {"type": "quest", "quest": "SCRAMBLED"                                      },
+    {"type": "quest", "quest": "AN_EXISTENTIAL_CRISIS"                          },
+    {"type": "quest", "quest": "IMPENDING_CHAOS"                                },
+    {"type": "quest", "quest": "VALE_TOTEMS"                                    },
+    {"type": "quest", "quest": "TUTORIAL_ISLAND"                                },
+    {"type": "quest", "quest": "PANDEMONIUM"                                    },
+    {"type": "quest", "quest": "PRYING_TIMES"                                   },
+    {"type": "quest", "quest": "CURRENT_AFFAIRS"                                },
+    {"type": "quest", "quest": "TROUBLED_TORTUGANS"                             },
+    {"type": "quest", "quest": "THE_RED_REEF"                                   },
+    {"type": "quest", "quest": "BURIAL_AT_SEA"                                  }
   ]
 }

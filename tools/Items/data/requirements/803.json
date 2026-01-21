@@ -1,11 +1,7 @@
 {
-  "id": 803,
-  "name": "Mithril thrownaxe",
+  "id"          : 803,
+  "name"        : "Mithril thrownaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Ranged", "level": 20}
   ]
 }

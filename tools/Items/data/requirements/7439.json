@@ -1,16 +1,8 @@
 {
-  "id": 7439,
-  "name": "Spatula",
+  "id"          : 7439,
+  "name"        : "Spatula",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 10
-    },
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER",
-      "note": "Complete three Recipe for Disaster subquests."
-    }
+    {"type": "skill", "skill": "Attack", "level": 10},
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER", "note": "Complete three Recipe for Disaster subquests."}
   ]
 }

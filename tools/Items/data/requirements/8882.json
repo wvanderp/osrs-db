@@ -1,17 +1,8 @@
 {
-  "id": 8882,
-  "name": "Bone bolts",
+  "id"          : 8882,
+  "name"        : "Bone bolts",
   "requirements": [
-    {
-      "type": "equipment",
-      "equipment": [
-        8880
-      ]
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 28
-    }
+    { "type": "equipment", "equipment": [8880]                                 },
+    { "type": "skill",                          "skill": "Ranged", "level": 28 }
   ]
 }

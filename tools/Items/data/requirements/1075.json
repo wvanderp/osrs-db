@@ -1,11 +1,7 @@
 {
-  "id": 1075,
-  "name": "Bronze platelegs",
+  "id"          : 1075,
+  "name"        : "Bronze platelegs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

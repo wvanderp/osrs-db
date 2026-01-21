@@ -1,10 +1,7 @@
 {
-  "id": 4677,
-  "name": "Catspeak amulet",
+  "id"          : 4677,
+  "name"        : "Catspeak amulet",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "ICTHLARINS_LITTLE_HELPER"
-    }
+    {"type": "quest", "quest": "ICTHLARINS_LITTLE_HELPER"}
   ]
 }

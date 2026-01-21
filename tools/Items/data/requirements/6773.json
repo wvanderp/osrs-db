@@ -1,10 +1,7 @@
 {
-  "id": 6773,
-  "name": "Rat pole",
+  "id"          : 6773,
+  "name"        : "Rat pole",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RATCATCHERS"
-    }
+    {"type": "quest", "quest": "RATCATCHERS"}
   ]
 }

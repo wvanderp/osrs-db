@@ -1,11 +1,7 @@
 {
-  "id": 10822,
-  "name": "Yak-hide armour (top)",
+  "id"          : 10822,
+  "name"        : "Yak-hide armour (top)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

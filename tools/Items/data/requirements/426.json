@@ -1,10 +1,7 @@
 {
-  "id": 426,
-  "name": "Priest gown (top)",
+  "id"          : 426,
+  "name"        : "Priest gown (top)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "BIOHAZARD"
-    }
+    {"type": "quest", "quest": "BIOHAZARD"}
   ]
 }

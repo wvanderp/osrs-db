@@ -1,11 +1,7 @@
 {
-  "id": 867,
-  "name": "Adamant knife#(unp)",
+  "id"          : 867,
+  "name"        : "Adamant knife#(unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Ranged", "level": 30}
   ]
 }

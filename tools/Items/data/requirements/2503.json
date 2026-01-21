@@ -1,16 +1,8 @@
 {
-  "id": 2503,
-  "name": "Black d'hide body",
+  "id"          : 2503,
+  "name"        : "Black d'hide body",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged",  "level": 70},
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

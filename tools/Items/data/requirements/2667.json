@@ -1,11 +1,7 @@
 {
-  "id": 2667,
-  "name": "Saradomin kiteshield",
+  "id"          : 2667,
+  "name"        : "Saradomin kiteshield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

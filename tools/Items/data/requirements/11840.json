@@ -1,11 +1,7 @@
 {
-  "id": 11840,
-  "name": "Dragon boots",
+  "id"          : 11840,
+  "name"        : "Dragon boots",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Defence", "level": 60}
   ]
 }

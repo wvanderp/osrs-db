@@ -1,11 +1,7 @@
 {
-  "id": 9183,
-  "name": "Adamant crossbow",
+  "id"          : 9183,
+  "name"        : "Adamant crossbow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 46
-    }
+    {"type": "skill", "skill": "Ranged", "level": 46}
   ]
 }

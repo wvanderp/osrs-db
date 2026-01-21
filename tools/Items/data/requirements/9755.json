@@ -1,11 +1,7 @@
 {
-  "id": 9755,
-  "name": "Defence hood",
+  "id"          : 9755,
+  "name"        : "Defence hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Defence", "level": 99}
   ]
 }

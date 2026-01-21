@@ -1,10 +1,7 @@
 {
-  "id": 31043,
-  "name": "Fletching knife",
+  "id"          : 31043,
+  "name"        : "Fletching knife",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "VALE_TOTEMS"
-    }
+    {"type": "quest", "quest": "VALE_TOTEMS"}
   ]
 }

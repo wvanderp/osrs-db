@@ -1,11 +1,7 @@
 {
-  "id": 4072,
-  "name": "Decorative shield (red)",
+  "id"          : 4072,
+  "name"        : "Decorative shield (red)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Defence", "level": 5}
   ]
 }

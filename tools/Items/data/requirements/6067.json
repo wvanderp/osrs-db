@@ -1,10 +1,7 @@
 {
-  "id": 6067,
-  "name": "Mourner trousers",
+  "id"          : 6067,
+  "name"        : "Mourner trousers",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MOURNINGS_END_PART_I"
-    }
+    {"type": "quest", "quest": "MOURNINGS_END_PART_I"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 1141,
-  "name": "Steel med helm",
+  "id"          : 1141,
+  "name"        : "Steel med helm",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Defence", "level": 5}
   ]
 }

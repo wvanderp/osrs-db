@@ -1,11 +1,7 @@
 {
-  "id": 1197,
-  "name": "Mithril kiteshield",
+  "id"          : 1197,
+  "name"        : "Mithril kiteshield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Defence", "level": 20}
   ]
 }

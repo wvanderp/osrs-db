@@ -1,11 +1,7 @@
 {
-  "id": 3095,
-  "name": "Bronze claws",
+  "id"          : 3095,
+  "name"        : "Bronze claws",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Attack", "level": 1}
   ]
 }

@@ -2,16 +2,8 @@
   "id": 8847,
   "name": "Black defender",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 10
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Attack",  "level": 10},
+    {"type": "skill", "skill": "Defence", "level": 10}
   ],
   "note": "All defenders need to be bought from the Warriors' Guild. requiring a combined Attack and Strength level of at least 130 (or level 99 in either skill)."
 }

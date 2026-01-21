@@ -1,16 +1,8 @@
 {
-  "id": 25739,
-  "name": "Sanguine scythe of vitur (charged)",
+  "id"          : 25739,
+  "name"        : "Sanguine scythe of vitur (charged)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 80
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 80
-    }
+    {"type": "skill", "skill": "Attack",   "level": 80},
+    {"type": "skill", "skill": "Strength", "level": 80}
   ]
 }

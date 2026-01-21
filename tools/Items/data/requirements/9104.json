@@ -1,10 +1,7 @@
 {
-  "id": 9104,
-  "name": "Lunar ring",
+  "id"          : 9104,
+  "name"        : "Lunar ring",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "LUNAR_DIPLOMACY"
-    }
+    {"type": "quest", "quest": "LUNAR_DIPLOMACY"}
   ]
 }

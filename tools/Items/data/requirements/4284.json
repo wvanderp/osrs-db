@@ -1,10 +1,7 @@
 {
-  "id": 4284,
-  "name": "Bedsheet",
+  "id"          : 4284,
+  "name"        : "Bedsheet",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "GHOSTS_AHOY"
-    }
+    {"type": "quest", "quest": "GHOSTS_AHOY"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 9747,
-  "name": "Attack cape",
+  "id"          : 9747,
+  "name"        : "Attack cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Attack", "level": 99}
   ]
 }

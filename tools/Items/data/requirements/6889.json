@@ -1,11 +1,7 @@
 {
-  "id": 6889,
-  "name": "Mage's book",
+  "id"          : 6889,
+  "name"        : "Mage's book",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Magic", "level": 60}
   ]
 }

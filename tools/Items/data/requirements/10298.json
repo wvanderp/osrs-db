@@ -1,11 +1,7 @@
 {
-  "id": 10298,
-  "name": "Adamant helm (h2)",
+  "id"          : 10298,
+  "name"        : "Adamant helm (h2)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Defence", "level": 30}
   ]
 }

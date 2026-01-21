@@ -1,11 +1,7 @@
 {
-  "id": 811,
-  "name": "Rune dart#(unp)",
+  "id"          : 811,
+  "name"        : "Rune dart#(unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

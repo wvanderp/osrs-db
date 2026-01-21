@@ -1,11 +1,7 @@
 {
-  "id": 1095,
-  "name": "Leather chaps",
+  "id"          : 1095,
+  "name"        : "Leather chaps",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

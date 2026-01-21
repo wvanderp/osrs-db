@@ -1,10 +1,7 @@
 {
-  "id": 10881,
-  "name": "Gold satchel",
+  "id"          : 10881,
+  "name"        : "Gold satchel",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "TOWER_OF_LIFE"
-    }
+    {"type": "quest", "quest": "TOWER_OF_LIFE"}
   ]
 }

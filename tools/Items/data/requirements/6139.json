@@ -1,20 +1,9 @@
 {
-  "id": 6139,
-  "name": "Skeletal top",
+  "id"          : 6139,
+  "name"        : "Skeletal top",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FREMENNIK_TRIALS"
-    }
+    {"type": "skill", "skill": "Defence", "level": 40                                 },
+    {"type": "skill", "skill": "Magic",   "level": 40                                 },
+    {"type": "quest",                                  "quest": "THE_FREMENNIK_TRIALS"}
   ]
 }

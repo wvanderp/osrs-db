@@ -1,16 +1,8 @@
 {
-  "id": 5557,
-  "name": "Rogue boots",
+  "id"          : 5557,
+  "name"        : "Rogue boots",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Agility",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Thieving",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Agility",  "level": 50},
+    {"type": "skill", "skill": "Thieving", "level": 50}
   ]
 }

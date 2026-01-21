@@ -1,121 +1,29 @@
 {
-  "id": 21776,
-  "name": "Imbued saradomin max cape",
+  "id"          : 21776,
+  "name"        : "Imbued saradomin max cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Runecrafting",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Construction",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Hitpoints",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Agility",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Herblore",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Thieving",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Fletching",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Hunter",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Mining",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Smithing",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Fishing",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Cooking",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Firemaking",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Woodcutting",
-      "level": 99
-    },
-    {
-      "type": "skill",
-      "skill": "Farming",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Attack",       "level": 99},
+    {"type": "skill", "skill": "Strength",     "level": 99},
+    {"type": "skill", "skill": "Defence",      "level": 99},
+    {"type": "skill", "skill": "Ranged",       "level": 99},
+    {"type": "skill", "skill": "Prayer",       "level": 99},
+    {"type": "skill", "skill": "Magic",        "level": 99},
+    {"type": "skill", "skill": "Runecrafting", "level": 99},
+    {"type": "skill", "skill": "Construction", "level": 99},
+    {"type": "skill", "skill": "Hitpoints",    "level": 99},
+    {"type": "skill", "skill": "Agility",      "level": 99},
+    {"type": "skill", "skill": "Herblore",     "level": 99},
+    {"type": "skill", "skill": "Thieving",     "level": 99},
+    {"type": "skill", "skill": "Crafting",     "level": 99},
+    {"type": "skill", "skill": "Fletching",    "level": 99},
+    {"type": "skill", "skill": "Slayer",       "level": 99},
+    {"type": "skill", "skill": "Hunter",       "level": 99},
+    {"type": "skill", "skill": "Mining",       "level": 99},
+    {"type": "skill", "skill": "Smithing",     "level": 99},
+    {"type": "skill", "skill": "Fishing",      "level": 99},
+    {"type": "skill", "skill": "Cooking",      "level": 99},
+    {"type": "skill", "skill": "Firemaking",   "level": 99},
+    {"type": "skill", "skill": "Woodcutting",  "level": 99},
+    {"type": "skill", "skill": "Farming",      "level": 99}
   ]
 }

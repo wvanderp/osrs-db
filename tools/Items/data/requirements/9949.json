@@ -1,12 +1,8 @@
 {
-  "id": 9949,
-  "name": "Hunter cape(t)",
+  "id"          : 9949,
+  "name"        : "Hunter cape(t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Hunter",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Hunter", "level": 99}
   ],
-  "note": "Requires a 99 in another skill to wear."
+  "note"        : "Requires a 99 in another skill to wear."
 }

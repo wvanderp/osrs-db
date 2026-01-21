@@ -1,55 +1,20 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "id": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "name": {
-        "type": "string"
-      },
-      "type": {
-        "type": "string"
-      },
-      "x": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "y": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
-      "plane": {
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
-      },
+  "type"   : "array",
+  "items"  : {
+    "type"                : "object",
+    "properties"          : {
+      "id"            : {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "name"          : {"type": "string"},
+      "type"          : {"type": "string"},
+      "x"             : {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "y"             : {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+      "plane"         : {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
       "sourceObjectId": {
-        "anyOf": [
-          {
-            "type": "integer",
-            "minimum": -9007199254740991,
-            "maximum": 9007199254740991
-          },
-          {
-            "type": "null"
-          }
-        ]
+        "anyOf": [ {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}, {"type": "null"} ]
       }
     },
-    "required": [
-      "name",
-      "type",
-      "x",
-      "y",
-      "plane"
-    ],
+    "required"            : ["name", "type", "x", "y", "plane"],
     "additionalProperties": false
   }
 }

@@ -1,25 +1,10 @@
 {
-  "id": 25888,
-  "name": "Bow of faerdhinen (c) (Trahaearn)",
+  "id"          : 25888,
+  "name"        : "Bow of faerdhinen (c) (Trahaearn)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 80
-    },
-    {
-      "type": "skill",
-      "skill": "Agility",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Fletching",
-      "level": 70
-    },
-    {
-      "type": "quest",
-      "quest": "SONG_OF_THE_ELVES"
-    }
+    {"type": "skill", "skill": "Ranged",    "level": 80                              },
+    {"type": "skill", "skill": "Agility",   "level": 70                              },
+    {"type": "skill", "skill": "Fletching", "level": 70                              },
+    {"type": "quest",                                    "quest": "SONG_OF_THE_ELVES"}
   ]
 }

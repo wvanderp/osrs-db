@@ -1,11 +1,7 @@
 {
-  "id": 32879,
-  "name": "Aquanite hopper",
+  "id"          : 32879,
+  "name"        : "Aquanite hopper",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Ranged", "level": 60}
   ]
 }

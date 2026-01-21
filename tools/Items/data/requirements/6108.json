@@ -1,10 +1,7 @@
 {
-  "id": 6108,
-  "name": "Ghostly robe (bottom)",
+  "id"          : 6108,
+  "name"        : "Ghostly robe (bottom)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CURSE_OF_THE_EMPTY_LORD"
-    }
+    {"type": "quest", "quest": "CURSE_OF_THE_EMPTY_LORD"}
   ]
 }

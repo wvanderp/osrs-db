@@ -1,12 +1,8 @@
 {
-  "id": 2603,
-  "name": "Adamant kiteshield (t)",
+  "id"          : 2603,
+  "name"        : "Adamant kiteshield (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Defence", "level": 30}
   ],
-  "note": "The item cannot be made via the Smithing skill."
+  "note"        : "The item cannot be made via the Smithing skill."
 }

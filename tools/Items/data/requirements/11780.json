@@ -1,21 +1,9 @@
 {
-  "id": 11780,
-  "name": "Black mask (4) (i)",
+  "id"          : 11780,
+  "name"        : "Black mask (4) (i)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 20
-    },
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    },
-    {
-      "type": "skill",
-      "skill": "Combat",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Strength", "level": 20},
+    {"type": "skill", "skill": "Defence",  "level": 10},
+    {"type": "skill", "skill": "Combat",   "level": 40}
   ]
 }

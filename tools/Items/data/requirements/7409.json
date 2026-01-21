@@ -1,10 +1,7 @@
 {
-  "id": 7409,
-  "name": "Magic secateurs",
+  "id"          : 7409,
+  "name"        : "Magic secateurs",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "FAIRYTALE_I__GROWING_PAINS"
-    }
+    {"type": "quest", "quest": "FAIRYTALE_I__GROWING_PAINS"}
   ]
 }

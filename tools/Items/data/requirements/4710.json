@@ -1,16 +1,8 @@
 {
-  "id": 4710,
-  "name": "Ahrim's staff#Undamaged",
+  "id"          : 4710,
+  "name"        : "Ahrim's staff#Undamaged",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Magic",  "level": 70},
+    {"type": "skill", "skill": "Attack", "level": 70}
   ]
 }

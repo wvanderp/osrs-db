@@ -1,11 +1,7 @@
 {
-  "id": 1347,
-  "name": "Rune warhammer",
+  "id"          : 1347,
+  "name"        : "Rune warhammer",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

@@ -1,16 +1,8 @@
 {
-  "id": 11373,
-  "name": "Mithril hasta",
+  "id"          : 11373,
+  "name"        : "Mithril hasta",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    },
-    {
-      "type": "quest",
-      "quest": "BARBARIAN_TRAINING",
-      "note": "Smithing section"
-    }
+    {"type": "skill", "skill": "Attack", "level": 20                                                           },
+    {"type": "quest",                                 "quest": "BARBARIAN_TRAINING", "note": "Smithing section"}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 12468,
-  "name": "Ancient kiteshield",
+  "id"          : 12468,
+  "name"        : "Ancient kiteshield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

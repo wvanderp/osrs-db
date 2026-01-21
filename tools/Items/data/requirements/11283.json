@@ -1,16 +1,8 @@
 {
-  "id": 11283,
-  "name": "Dragonfire shield",
+  "id"          : 11283,
+  "name"        : "Dragonfire shield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 75
-    },
-    {
-      "type": "quest",
-      "quest": "DRAGON_SLAYER_I",
-      "note": "Required to wear and to access anti-fire protection"
-    }
+    {"type": "skill", "skill": "Defence", "level": 75},
+    {"type": "quest", "quest": "DRAGON_SLAYER_I", "note": "Required to wear and to access anti-fire protection"}
   ]
 }

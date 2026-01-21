@@ -1,10 +1,7 @@
 {
-  "id": 12607,
-  "name": "Damaged book (Bandos)",
+  "id"          : 12607,
+  "name"        : "Damaged book (Bandos)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "HORROR_FROM_THE_DEEP"
-    }
+    {"type": "quest", "quest": "HORROR_FROM_THE_DEEP"}
   ]
 }

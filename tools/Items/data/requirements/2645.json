@@ -1,6 +1,6 @@
 {
-  "id": 2645,
-  "name": "Red headband",
+  "id"          : 2645,
+  "name"        : "Red headband",
   "requirements": [],
-  "note": "Members only item. There are no other requirements to wear it."
+  "note"        : "Members only item. There are no other requirements to wear it."
 }

@@ -1,11 +1,7 @@
 {
-  "id": 868,
-  "name": "Rune knife",
+  "id"          : 868,
+  "name"        : "Rune knife",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

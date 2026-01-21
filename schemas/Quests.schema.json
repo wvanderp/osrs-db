@@ -1,29 +1,19 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type": "array",
-  "items": {
-    "type": "object",
-    "properties": {
-      "id": {
+  "type"   : "array",
+  "items"  : {
+    "type"                : "object",
+    "properties"          : {
+      "id"  : {
         "description": "RuneLite quest ID used by script engine",
-        "type": "integer",
-        "minimum": -9007199254740991,
-        "maximum": 9007199254740991
+        "type"       : "integer",
+        "minimum"    : -9007199254740991,
+        "maximum"    : 9007199254740991
       },
-      "enum": {
-        "description": "Enum constant name in RuneLite's Quest.java",
-        "type": "string"
-      },
-      "name": {
-        "description": "Display name of the quest",
-        "type": "string"
-      }
+      "enum": {"description": "Enum constant name in RuneLite's Quest.java", "type": "string"},
+      "name": {"description": "Display name of the quest", "type": "string"}
     },
-    "required": [
-      "id",
-      "enum",
-      "name"
-    ],
+    "required"            : ["id", "enum", "name"],
     "additionalProperties": false
   }
 }

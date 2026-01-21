@@ -1,10 +1,7 @@
 {
-  "id": 7454,
-  "name": "Bronze gloves",
+  "id"          : 7454,
+  "name"        : "Bronze gloves",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "RECIPE_FOR_DISASTER"
-    }
+    {"type": "quest", "quest": "RECIPE_FOR_DISASTER"}
   ]
 }

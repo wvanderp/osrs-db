@@ -1,11 +1,7 @@
 {
-  "id": 11235,
-  "name": "Dark bow",
+  "id"          : 11235,
+  "name"        : "Dark bow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Ranged", "level": 60}
   ]
 }

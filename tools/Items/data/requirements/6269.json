@@ -1,17 +1,9 @@
 {
-  "id": 6269,
-  "name": "Broodoo shield (combat)",
+  "id"          : 6269,
+  "name"        : "Broodoo shield (combat)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 25
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 25
-    }
+    {"type": "skill", "skill": "Defence", "level": 25},
+    {"type": "skill", "skill": "Magic",   "level": 25}
   ],
-  "note": "When created, the shield comes with 10 charges."
+  "note"        : "When created, the shield comes with 10 charges."
 }

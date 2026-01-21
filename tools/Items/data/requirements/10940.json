@@ -1,12 +1,12 @@
 {
-  "id": 10940,
-  "name": "Lumberjack legs",
+  "id"          : 10940,
+  "name"        : "Lumberjack legs",
   "requirements": [
     {
-      "type": "skill",
+      "type" : "skill",
       "skill": "Woodcutting",
       "level": 44,
-      "note": "Required to wear any piece of the lumberjack outfit"
+      "note" : "Required to wear any piece of the lumberjack outfit"
     }
   ]
 }

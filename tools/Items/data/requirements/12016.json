@@ -1,6 +1,6 @@
 {
-  "id": 12016,
-  "name": "Prospector boots",
+  "id"          : 12016,
+  "name"        : "Prospector boots",
   "requirements": [
     {
       "type": "skill",

@@ -1,12 +1,8 @@
 {
-  "id": 9754,
-  "name": "Defence cape(t)",
+  "id"          : 9754,
+  "name"        : "Defence cape(t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Defence", "level": 99}
   ],
-  "note": "Requires a 99 in another skill to wear."
+  "note"        : "Requires a 99 in another skill to wear."
 }

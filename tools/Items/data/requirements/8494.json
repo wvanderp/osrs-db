@@ -1,11 +1,7 @@
 {
-  "id": 8494,
-  "name": "Rune heraldic helm (Zamorak)",
+  "id"          : 8494,
+  "name"        : "Rune heraldic helm (Zamorak)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "id": 10023,
-  "name": "Falconer's glove",
+  "id"          : 10023,
+  "name"        : "Falconer's glove",
   "requirements": [],
-  "note": "While wearing the glove, players cannot wear any other gloves, bracelets, weapons or shields."
+  "note"        : "While wearing the glove, players cannot wear any other gloves, bracelets, weapons or shields."
 }

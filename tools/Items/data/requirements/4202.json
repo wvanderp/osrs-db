@@ -1,10 +1,7 @@
 {
-  "id": 4202,
-  "name": "Ring of charos",
+  "id"          : 4202,
+  "name"        : "Ring of charos",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CREATURE_OF_FENKENSTRAIN"
-    }
+    {"type": "quest", "quest": "CREATURE_OF_FENKENSTRAIN"}
   ]
 }

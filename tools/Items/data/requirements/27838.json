@@ -1,11 +1,7 @@
 {
-  "id": 27838,
-  "name": "Morrigan's leather chaps (bh)",
+  "id"          : 27838,
+  "name"        : "Morrigan's leather chaps (bh)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 78
-    }
+    {"type": "skill", "skill": "Defence", "level": 78}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 12219,
-  "name": "Bronze plateskirt (t)",
+  "id"          : 12219,
+  "name"        : "Bronze plateskirt (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Defence", "level": 1}
   ]
 }

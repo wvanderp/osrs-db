@@ -1,11 +1,7 @@
 {
-  "id": 3096,
-  "name": "Iron claws",
+  "id"          : 3096,
+  "name"        : "Iron claws",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Attack", "level": 1}
   ]
 }

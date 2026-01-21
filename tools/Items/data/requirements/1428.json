@@ -1,11 +1,7 @@
 {
-  "id": 1428,
-  "name": "Mithril mace",
+  "id"          : 1428,
+  "name"        : "Mithril mace",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 20
-    }
+    {"type": "skill", "skill": "Attack", "level": 20}
   ]
 }

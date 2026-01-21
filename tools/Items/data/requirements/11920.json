@@ -1,11 +1,7 @@
 {
-  "id": 11920,
-  "name": "Dragon pickaxe",
+  "id"          : 11920,
+  "name"        : "Dragon pickaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Attack", "level": 60}
   ]
 }

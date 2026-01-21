@@ -1,20 +1,9 @@
 {
-  "id": 6137,
-  "name": "Skeletal helm",
+  "id"          : 6137,
+  "name"        : "Skeletal helm",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "THE_FREMENNIK_TRIALS"
-    }
+    {"type": "skill", "skill": "Defence", "level": 40                                 },
+    {"type": "skill", "skill": "Magic",   "level": 40                                 },
+    {"type": "quest",                                  "quest": "THE_FREMENNIK_TRIALS"}
   ]
 }

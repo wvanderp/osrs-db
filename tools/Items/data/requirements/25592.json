@@ -1,11 +1,7 @@
 {
-  "id": 25592,
-  "name": "Spirit angler headband",
+  "id"          : 25592,
+  "name"        : "Spirit angler headband",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Fishing",
-      "level": 35
-    }
+    {"type": "skill", "skill": "Fishing", "level": 35}
   ]
 }

@@ -2,11 +2,7 @@
   "id": 9796,
   "name": "Smithing cape#Trimmed",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Smithing",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Smithing", "level": 99}
   ],
   "note": "Requires one level 99 skill to wear, and another level 99 skill to be trimmed. The Smithing skill must be one of them."
 }

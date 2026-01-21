@@ -1,16 +1,8 @@
 {
-  "id": 4944,
-  "name": "Karil's leathertop 0",
+  "id"          : 4944,
+  "name"        : "Karil's leathertop 0",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70},
+    {"type": "skill", "skill": "Ranged",  "level": 70}
   ]
 }

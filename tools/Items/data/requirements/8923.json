@@ -1,11 +1,7 @@
 {
-  "id": 8923,
-  "name": "Witchwood icon",
+  "id"          : 8923,
+  "name"        : "Witchwood icon",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 35
-    }
+    {"type": "skill", "skill": "Slayer", "level": 35}
   ]
 }

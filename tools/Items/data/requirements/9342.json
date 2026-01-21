@@ -1,11 +1,7 @@
 {
-  "id": 9342,
-  "name": "Onyx bolts",
+  "id"          : 9342,
+  "name"        : "Onyx bolts",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 61
-    }
+    {"type": "skill", "skill": "Ranged", "level": 61}
   ]
 }

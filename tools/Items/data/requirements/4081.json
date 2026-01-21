@@ -1,10 +1,7 @@
 {
-  "id": 4081,
-  "name": "Salve amulet",
+  "id"          : 4081,
+  "name"        : "Salve amulet",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "HAUNTED_MINE"
-    }
+    {"type": "quest", "quest": "HAUNTED_MINE"}
   ]
 }

@@ -1,30 +1,15 @@
 {
-  "id": 8744,
-  "name": "Rune kiteshield (Zamorak)",
+  "id"          : 8744,
+  "name"        : "Rune kiteshield (Zamorak)",
   "requirements": [
+    {"type": "skill", "skill": "Defence", "level": 40, "note": "To wear the shield"},
+    {"type": "skill", "skill": "Crafting", "level": 43, "note": "To craft the shield"},
+    {"type": "skill", "skill": "Construction", "level": 41, "note": "To build Shield easel in POH"},
     {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40,
-      "note": "To wear the shield"
-    },
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 43,
-      "note": "To craft the shield"
-    },
-    {
-      "type": "skill",
-      "skill": "Construction",
-      "level": 41,
-      "note": "To build Shield easel in POH"
-    },
-    {
-      "type": "skill",
+      "type" : "skill",
       "skill": "Prayer",
       "level": 70,
-      "note": "Required to paint the kiteshield if untradeable and only obtainable this way"
+      "note" : "Required to paint the kiteshield if untradeable and only obtainable this way"
     }
   ]
 }

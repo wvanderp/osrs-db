@@ -1,21 +1,8 @@
 {
-  "id": 9341,
-  "name": "Dragonstone bolts",
+  "id"          : 9341,
+  "name"        : "Dragonstone bolts",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 61
-    },
-    {
-      "type": "equipment",
-      "equipment": [
-        9185,
-        21902,
-        21012,
-        11785,
-        26374
-      ]
-    }
+    { "type": "skill",     "skill": "Ranged", "level": 61                                                  },
+    { "type": "equipment",                                 "equipment": [9185, 21902, 21012, 11785, 26374] }
   ]
 }

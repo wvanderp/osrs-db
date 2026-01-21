@@ -1,11 +1,7 @@
 {
-  "id": 11804,
-  "name": "Bandos godsword",
+  "id"          : 11804,
+  "name"        : "Bandos godsword",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 75
-    }
+    {"type": "skill", "skill": "Attack", "level": 75}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 775,
-  "name": "Cooking gauntlets",
+  "id"          : 775,
+  "name"        : "Cooking gauntlets",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "FAMILY_CREST"
-    }
+    {"type": "quest", "quest": "FAMILY_CREST"}
   ]
 }

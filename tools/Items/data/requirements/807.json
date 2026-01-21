@@ -1,11 +1,7 @@
 {
-  "id": 807,
-  "name": "Iron dart",
+  "id"          : 807,
+  "name"        : "Iron dart",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 1
-    }
+    {"type": "skill", "skill": "Ranged", "level": 1}
   ]
 }

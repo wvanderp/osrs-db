@@ -1,11 +1,7 @@
 {
-  "id": 28945,
-  "name": "Echo boots",
+  "id"          : 28945,
+  "name"        : "Echo boots",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 75
-    }
+    {"type": "skill", "skill": "Defence", "level": 75}
   ]
 }

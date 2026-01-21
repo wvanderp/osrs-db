@@ -1,15 +1,8 @@
 {
-  "id": 28955,
-  "name": "Blessed dizana's quiver",
+  "id"          : 28955,
+  "name"        : "Blessed dizana's quiver",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "CHILDREN_OF_THE_SUN"
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 75
-    }
+    {"type": "quest", "quest": "CHILDREN_OF_THE_SUN"                                },
+    {"type": "skill",                                 "skill": "Ranged", "level": 75}
   ]
 }

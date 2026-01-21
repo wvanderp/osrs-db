@@ -1,11 +1,7 @@
 {
-  "id": 1183,
-  "name": "Adamant sq shield",
+  "id"          : 1183,
+  "name"        : "Adamant sq shield",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Defence", "level": 30}
   ]
 }

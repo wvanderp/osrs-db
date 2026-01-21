@@ -1,11 +1,7 @@
 {
-  "id": 1149,
-  "name": "Dragon med helm",
+  "id"          : 1149,
+  "name"        : "Dragon med helm",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Defence", "level": 60}
   ]
 }

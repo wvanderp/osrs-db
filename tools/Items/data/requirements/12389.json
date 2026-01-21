@@ -1,11 +1,7 @@
 {
-  "id": 12389,
-  "name": "Gilded scimitar",
+  "id"          : 12389,
+  "name"        : "Gilded scimitar",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Attack", "level": 40}
   ]
 }

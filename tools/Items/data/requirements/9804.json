@@ -1,11 +1,7 @@
 {
-  "id": 9804,
-  "name": "Firemaking cape",
+  "id"          : 9804,
+  "name"        : "Firemaking cape",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Firemaking",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Firemaking", "level": 99}
   ]
 }

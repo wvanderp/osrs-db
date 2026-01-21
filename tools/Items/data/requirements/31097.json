@@ -1,26 +1,10 @@
 {
-  "id": 31097,
-  "name": "Avernic treads (max)",
+  "id"          : 31097,
+  "name"        : "Avernic treads (max)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 80
-    },
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 80
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 80
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 80
-    }
+    {"type": "skill", "skill": "Defence",  "level": 80},
+    {"type": "skill", "skill": "Strength", "level": 80},
+    {"type": "skill", "skill": "Ranged",   "level": 80},
+    {"type": "skill", "skill": "Magic",    "level": 80}
   ]
 }

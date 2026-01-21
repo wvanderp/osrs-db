@@ -1,28 +1,10 @@
 {
-  "id": 10148,
-  "name": "Black salamander",
+  "id"          : 10148,
+  "name"        : "Black salamander",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    },
-    {
-      "type": "equipment",
-      "equipment": [
-        10145
-      ],
-      "note": "Only shoots Harralander tar"
-    }
+    {"type": "skill", "skill": "Attack", "level": 70},
+    {"type": "skill", "skill": "Magic", "level": 70},
+    {"type": "skill", "skill": "Ranged", "level": 70},
+    { "type": "equipment", "equipment": [10145], "note": "Only shoots Harralander tar" }
   ]
 }

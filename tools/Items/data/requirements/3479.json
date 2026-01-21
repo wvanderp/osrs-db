@@ -1,11 +1,7 @@
 {
-  "id": 3479,
-  "name": "Saradomin plateskirt",
+  "id"          : 3479,
+  "name"        : "Saradomin plateskirt",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

@@ -1,16 +1,8 @@
 {
-  "id": 2989,
-  "name": "Chompy bird hat (bowmaster)",
+  "id"          : 2989,
+  "name"        : "Chompy bird hat (bowmaster)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Fletching",
-      "level": 5
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Fletching", "level":  5},
+    {"type": "skill", "skill": "Ranged",    "level": 30}
   ]
 }

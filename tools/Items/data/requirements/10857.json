@@ -1,10 +1,7 @@
 {
-  "id": 10857,
-  "name": "Severed leg",
+  "id"          : 10857,
+  "name"        : "Severed leg",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "SINS_OF_THE_FATHER"
-    }
+    {"type": "quest", "quest": "SINS_OF_THE_FATHER"}
   ]
 }

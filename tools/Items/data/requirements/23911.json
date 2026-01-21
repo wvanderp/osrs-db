@@ -1,10 +1,7 @@
 {
-  "id": 23911,
-  "name": "Crystal crown (Ithell)",
+  "id"          : 23911,
+  "name"        : "Crystal crown (Ithell)",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "SONG_OF_THE_ELVES"
-    }
+    {"type": "quest", "quest": "SONG_OF_THE_ELVES"}
   ]
 }

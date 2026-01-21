@@ -1,6 +1,6 @@
 {
-  "id": 6764,
-  "name": "Zamorak mjolnir",
+  "id"          : 6764,
+  "name"        : "Zamorak mjolnir",
   "requirements": [],
-  "note": "There are no level requirements to wield this item."
+  "note"        : "There are no level requirements to wield this item."
 }

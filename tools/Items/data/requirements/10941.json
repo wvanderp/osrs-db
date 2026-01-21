@@ -1,12 +1,12 @@
 {
-  "id": 10941,
-  "name": "Lumberjack hat",
+  "id"          : 10941,
+  "name"        : "Lumberjack hat",
   "requirements": [
     {
-      "type": "skill",
+      "type" : "skill",
       "skill": "Woodcutting",
       "level": 44,
-      "note": "Required to wear any piece of the Lumberjack outfit"
+      "note" : "Required to wear any piece of the Lumberjack outfit"
     }
   ]
 }

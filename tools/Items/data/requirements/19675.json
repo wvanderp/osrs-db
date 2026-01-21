@@ -1,15 +1,8 @@
 {
-  "id": 19675,
-  "name": "Arclight#Charged",
+  "id"          : 19675,
+  "name"        : "Arclight#Charged",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 75
-    },
-    {
-      "type": "quest",
-      "quest": "SHADOW_OF_THE_STORM"
-    }
+    {"type": "skill", "skill": "Attack", "level": 75                                },
+    {"type": "quest",                                 "quest": "SHADOW_OF_THE_STORM"}
   ]
 }

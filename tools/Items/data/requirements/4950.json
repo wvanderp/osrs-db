@@ -1,17 +1,9 @@
 {
-  "id": 4950,
-  "name": "Karil's leatherskirt (broken)",
-  "note": "To wear Karil's leatherskirt, a player must have 70 Defence and 70 Ranged.",
+  "id"          : 4950,
+  "name"        : "Karil's leatherskirt (broken)",
+  "note"        : "To wear Karil's leatherskirt, a player must have 70 Defence and 70 Ranged.",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70},
+    {"type": "skill", "skill": "Ranged",  "level": 70}
   ]
 }

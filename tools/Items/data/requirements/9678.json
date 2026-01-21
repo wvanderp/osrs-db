@@ -1,20 +1,9 @@
 {
-  "id": 9678,
-  "name": "Proselyte tasset",
+  "id"          : 9678,
+  "name"        : "Proselyte tasset",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    },
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 20
-    },
-    {
-      "type": "quest",
-      "quest": "THE_SLUG_MENACE"
-    }
+    {"type": "skill", "skill": "Defence", "level": 30                            },
+    {"type": "skill", "skill": "Prayer",  "level": 20                            },
+    {"type": "quest",                                  "quest": "THE_SLUG_MENACE"}
   ]
 }

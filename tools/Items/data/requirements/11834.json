@@ -1,11 +1,7 @@
 {
-  "id": 11834,
-  "name": "Bandos tassets",
+  "id"          : 11834,
+  "name"        : "Bandos tassets",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Defence", "level": 65}
   ]
 }

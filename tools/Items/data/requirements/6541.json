@@ -1,10 +1,7 @@
 {
-  "id": 6541,
-  "name": "Mouse toy",
+  "id"          : 6541,
+  "name"        : "Mouse toy",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "A_TAIL_OF_TWO_CATS"
-    }
+    {"type": "quest", "quest": "A_TAIL_OF_TWO_CATS"}
   ]
 }

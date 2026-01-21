@@ -1,11 +1,7 @@
 {
-  "id": 6527,
-  "name": "Tzhaar-ket-em",
+  "id"          : 6527,
+  "name"        : "Tzhaar-ket-em",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Attack", "level": 60}
   ]
 }

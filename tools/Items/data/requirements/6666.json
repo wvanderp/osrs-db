@@ -1,15 +1,8 @@
 {
-  "id": 6666,
-  "name": "Flippers",
+  "id"          : 6666,
+  "name"        : "Flippers",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Slayer",
-      "level": 32
-    },
-    {
-      "type": "quest",
-      "quest": "SKIPPY_AND_THE_MOGRES"
-    }
+    {"type": "skill", "skill": "Slayer", "level": 32                                  },
+    {"type": "quest",                                 "quest": "SKIPPY_AND_THE_MOGRES"}
   ]
 }

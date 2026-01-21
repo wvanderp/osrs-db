@@ -1,11 +1,7 @@
 {
-  "id": 2671,
-  "name": "Guthix platelegs",
+  "id"          : 2671,
+  "name"        : "Guthix platelegs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Defence", "level": 40}
   ]
 }

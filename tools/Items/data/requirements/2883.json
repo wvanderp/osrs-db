@@ -1,15 +1,8 @@
 {
-  "id": 2883,
-  "name": "Ogre bow",
+  "id"          : 2883,
+  "name"        : "Ogre bow",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    },
-    {
-      "type": "quest",
-      "quest": "BIG_CHOMPY_BIRD_HUNTING"
-    }
+    {"type": "skill", "skill": "Ranged", "level": 30                                    },
+    {"type": "quest",                                 "quest": "BIG_CHOMPY_BIRD_HUNTING"}
   ]
 }

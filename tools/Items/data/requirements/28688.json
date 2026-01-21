@@ -1,11 +1,7 @@
 {
-  "id": 28688,
-  "name": "Blazing blowpipe",
+  "id"          : 28688,
+  "name"        : "Blazing blowpipe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 75
-    }
+    {"type": "skill", "skill": "Ranged", "level": 75}
   ]
 }

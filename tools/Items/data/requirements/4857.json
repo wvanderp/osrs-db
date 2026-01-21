@@ -1,16 +1,8 @@
 {
-  "id": 4857,
-  "name": "Ahrim's hood",
+  "id"          : 4857,
+  "name"        : "Ahrim's hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70},
+    {"type": "skill", "skill": "Magic",   "level": 70}
   ]
 }

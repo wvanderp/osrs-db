@@ -1,11 +1,7 @@
 {
-  "id": 1345,
-  "name": "Adamant warhammer",
+  "id"          : 1345,
+  "name"        : "Adamant warhammer",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Strength",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Strength", "level": 30}
   ]
 }

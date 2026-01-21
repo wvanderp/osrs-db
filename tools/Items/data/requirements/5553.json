@@ -1,16 +1,8 @@
 {
-  "id": 5553,
-  "name": "Rogue top",
+  "id"          : 5553,
+  "name"        : "Rogue top",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Agility",
-      "level": 50
-    },
-    {
-      "type": "skill",
-      "skill": "Thieving",
-      "level": 50
-    }
+    {"type": "skill", "skill": "Agility",  "level": 50},
+    {"type": "skill", "skill": "Thieving", "level": 50}
   ]
 }

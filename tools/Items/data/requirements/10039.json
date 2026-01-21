@@ -1,11 +1,7 @@
 {
-  "id": 10039,
-  "name": "Kyatt hat",
+  "id"          : 10039,
+  "name"        : "Kyatt hat",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Hunter",
-      "level": 52
-    }
+    {"type": "skill", "skill": "Hunter", "level": 52}
   ]
 }

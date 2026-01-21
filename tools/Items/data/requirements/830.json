@@ -1,11 +1,7 @@
 {
-  "id": 830,
-  "name": "Rune javelin#Unpoisoned",
+  "id"          : 830,
+  "name"        : "Rune javelin#Unpoisoned",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Ranged", "level": 65}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 1069,
-  "name": "Steel platelegs",
+  "id"          : 1069,
+  "name"        : "Steel platelegs",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Defence", "level": 5}
   ]
 }

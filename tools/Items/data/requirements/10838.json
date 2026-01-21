@@ -1,10 +1,7 @@
 {
-  "id": 10838,
-  "name": "Silly jester tights",
+  "id"          : 10838,
+  "name"        : "Silly jester tights",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "THE_FREMENNIK_ISLES"
-    }
+    {"type": "quest", "quest": "THE_FREMENNIK_ISLES"}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 74,
-  "name": "Khazard helmet",
+  "id"          : 74,
+  "name"        : "Khazard helmet",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "FIGHT_ARENA"
-    }
+    {"type": "quest", "quest": "FIGHT_ARENA"}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 2406,
-  "name": "Hazeel's mark",
+  "id"          : 2406,
+  "name"        : "Hazeel's mark",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "HAZEEL_CULT"
-    }
+    {"type": "quest", "quest": "HAZEEL_CULT"}
   ]
 }

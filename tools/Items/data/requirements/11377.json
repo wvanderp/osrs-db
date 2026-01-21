@@ -1,16 +1,8 @@
 {
-  "id": 11377,
-  "name": "Rune hasta",
+  "id"          : 11377,
+  "name"        : "Rune hasta",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 40
-    },
-    {
-      "type": "quest",
-      "quest": "BARBARIAN_TRAINING",
-      "note": "Smithing section"
-    }
+    {"type": "skill", "skill": "Attack", "level": 40                                                           },
+    {"type": "quest",                                 "quest": "BARBARIAN_TRAINING", "note": "Smithing section"}
   ]
 }

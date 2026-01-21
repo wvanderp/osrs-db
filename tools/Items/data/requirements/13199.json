@@ -1,12 +1,8 @@
 {
-  "id": 13199,
-  "name": "Magma helm#Charged",
+  "id"          : 13199,
+  "name"        : "Magma helm#Charged",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Crafting",
-      "level": 52
-    }
+    {"type": "skill", "skill": "Crafting", "level": 52}
   ],
-  "note": "Cannot be equipped if uncharged, except when it fully degrades while equipped."
+  "note"        : "Cannot be equipped if uncharged, except when it fully degrades while equipped."
 }

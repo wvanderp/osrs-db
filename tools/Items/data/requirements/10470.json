@@ -1,11 +1,7 @@
 {
-  "id": 10470,
-  "name": "Saradomin stole",
+  "id"          : 10470,
+  "name"        : "Saradomin stole",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Prayer", "level": 60}
   ]
 }

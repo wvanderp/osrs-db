@@ -1,14 +1,8 @@
 {
-  "id": 6065,
-  "name": "Mourner top",
+  "id"          : 6065,
+  "name"        : "Mourner top",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "MOURNINGS_END_PART_I"
-    },
-    {
-      "type": "quest",
-      "quest": "MOURNINGS_END_PART_II"
-    }
+    {"type": "quest", "quest": "MOURNINGS_END_PART_I" },
+    {"type": "quest", "quest": "MOURNINGS_END_PART_II"}
   ]
 }

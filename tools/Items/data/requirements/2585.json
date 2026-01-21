@@ -1,11 +1,7 @@
 {
-  "id": 2585,
-  "name": "Black platelegs (t)",
+  "id"          : 2585,
+  "name"        : "Black platelegs (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Defence", "level": 10}
   ]
 }

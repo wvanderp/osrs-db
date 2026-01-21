@@ -1,10 +1,7 @@
 {
-  "id": 772,
-  "name": "Dramen staff",
+  "id"          : 772,
+  "name"        : "Dramen staff",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "LOST_CITY"
-    }
+    {"type": "quest", "quest": "LOST_CITY"}
   ]
 }

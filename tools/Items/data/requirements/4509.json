@@ -1,11 +1,7 @@
 {
-  "id": 4509,
-  "name": "Decorative armour (gold platebody)",
+  "id"          : 4509,
+  "name"        : "Decorative armour (gold platebody)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Defence", "level": 30}
   ]
 }

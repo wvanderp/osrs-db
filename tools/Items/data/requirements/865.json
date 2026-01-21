@@ -1,11 +1,7 @@
 {
-  "id": 865,
-  "name": "Steel knife",
+  "id"          : 865,
+  "name"        : "Steel knife",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 5
-    }
+    {"type": "skill", "skill": "Ranged", "level": 5}
   ]
 }

@@ -1,11 +1,7 @@
 {
-  "id": 12201,
-  "name": "Ancient stole",
+  "id"          : 12201,
+  "name"        : "Ancient stole",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Prayer", "level": 60}
   ]
 }

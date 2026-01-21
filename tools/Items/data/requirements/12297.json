@@ -1,11 +1,7 @@
 {
-  "id": 12297,
-  "name": "Black pickaxe",
+  "id"          : 12297,
+  "name"        : "Black pickaxe",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Attack", "level": 10}
   ]
 }

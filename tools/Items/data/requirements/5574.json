@@ -1,20 +1,9 @@
 {
-  "id": 5574,
-  "name": "Initiate sallet",
+  "id"          : 5574,
+  "name"        : "Initiate sallet",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 20
-    },
-    {
-      "type": "skill",
-      "skill": "Prayer",
-      "level": 10
-    },
-    {
-      "type": "quest",
-      "quest": "RECRUITMENT_DRIVE"
-    }
+    {"type": "skill", "skill": "Defence", "level": 20                              },
+    {"type": "skill", "skill": "Prayer",  "level": 10                              },
+    {"type": "quest",                                  "quest": "RECRUITMENT_DRIVE"}
   ]
 }

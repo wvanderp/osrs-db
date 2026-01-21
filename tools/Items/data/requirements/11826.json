@@ -1,16 +1,8 @@
 {
-  "id": 11826,
-  "name": "Armadyl helmet",
+  "id"          : 11826,
+  "name"        : "Armadyl helmet",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70},
+    {"type": "skill", "skill": "Ranged",  "level": 70}
   ]
 }

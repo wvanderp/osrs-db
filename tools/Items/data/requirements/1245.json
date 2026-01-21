@@ -1,11 +1,7 @@
 {
-  "id": 1245,
-  "name": "Adamant spear#(unp)",
+  "id"          : 1245,
+  "name"        : "Adamant spear#(unp)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Attack", "level": 30}
   ]
 }

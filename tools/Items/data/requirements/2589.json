@@ -1,11 +1,7 @@
 {
-  "id": 2589,
-  "name": "Black kiteshield (t)",
+  "id"          : 2589,
+  "name"        : "Black kiteshield (t)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 10
-    }
+    {"type": "skill", "skill": "Defence", "level": 10}
   ]
 }

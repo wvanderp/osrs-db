@@ -1,11 +1,7 @@
 {
-  "id": 825,
-  "name": "Bronze javelin#Unpoisoned",
+  "id"          : 825,
+  "name"        : "Bronze javelin#Unpoisoned",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 65
-    }
+    {"type": "skill", "skill": "Ranged", "level": 65}
   ]
 }

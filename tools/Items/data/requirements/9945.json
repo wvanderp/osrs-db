@@ -1,10 +1,7 @@
 {
-  "id": 9945,
-  "name": "Bomber cap",
+  "id"          : 9945,
+  "name"        : "Bomber cap",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "ENLIGHTENED_JOURNEY"
-    }
+    {"type": "quest", "quest": "ENLIGHTENED_JOURNEY"}
   ]
 }

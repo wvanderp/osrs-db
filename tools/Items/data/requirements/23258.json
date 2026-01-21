@@ -1,11 +1,7 @@
 {
-  "id": 23258,
-  "name": "Gilded coif",
+  "id"          : 23258,
+  "name"        : "Gilded coif",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 40
-    }
+    {"type": "skill", "skill": "Ranged", "level": 40}
   ]
 }

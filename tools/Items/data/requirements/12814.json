@@ -1,10 +1,7 @@
 {
-  "id": 12814,
-  "name": "Ultimate ironman platebody",
+  "id"          : 12814,
+  "name"        : "Ultimate ironman platebody",
   "requirements": [
-    {
-      "type": "ironman",
-      "mode": "Ultimate Ironman"
-    }
+    {"type": "ironman", "mode": "Ultimate Ironman"}
   ]
 }

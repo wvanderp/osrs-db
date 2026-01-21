@@ -1,11 +1,7 @@
 {
-  "id": 9776,
-  "name": "Herblore hood",
+  "id"          : 9776,
+  "name"        : "Herblore hood",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Herblore",
-      "level": 99
-    }
+    {"type": "skill", "skill": "Herblore", "level": 99}
   ]
 }

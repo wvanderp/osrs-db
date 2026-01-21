@@ -1,11 +1,7 @@
 {
-  "id": 6522,
-  "name": "Toktz-xil-ul",
+  "id"          : 6522,
+  "name"        : "Toktz-xil-ul",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 60
-    }
+    {"type": "skill", "skill": "Ranged", "level": 60}
   ]
 }

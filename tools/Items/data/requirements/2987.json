@@ -1,16 +1,8 @@
 {
-  "id": 2987,
-  "name": "Chompy bird hat (forester)",
+  "id"          : 2987,
+  "name"        : "Chompy bird hat (forester)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Fletching",
-      "level": 5
-    },
-    {
-      "type": "skill",
-      "skill": "Ranged",
-      "level": 30
-    }
+    {"type": "skill", "skill": "Fletching", "level":  5},
+    {"type": "skill", "skill": "Ranged",    "level": 30}
   ]
 }

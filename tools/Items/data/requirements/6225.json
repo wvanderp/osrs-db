@@ -1,16 +1,8 @@
 {
-  "id": 6225,
-  "name": "Broodoo shield (poison)#(5)",
+  "id"          : 6225,
+  "name"        : "Broodoo shield (poison)#(5)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 25
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 25
-    }
+    {"type": "skill", "skill": "Defence", "level": 25},
+    {"type": "skill", "skill": "Magic",   "level": 25}
   ]
 }

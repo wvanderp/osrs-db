@@ -1,11 +1,7 @@
 {
-  "id": 32808,
-  "name": "Crate of looty",
+  "id"          : 32808,
+  "name"        : "Crate of looty",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "PRYING_TIMES",
-      "note": "Required to progress in the quest."
-    }
+    {"type": "quest", "quest": "PRYING_TIMES", "note": "Required to progress in the quest."}
   ]
 }

@@ -1,15 +1,8 @@
 {
-  "id": 1434,
-  "name": "Dragon mace",
+  "id"          : 1434,
+  "name"        : "Dragon mace",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Attack",
-      "level": 60
-    },
-    {
-      "type": "quest",
-      "quest": "HEROES_QUEST"
-    }
+    {"type": "skill", "skill": "Attack", "level": 60                         },
+    {"type": "quest",                                 "quest": "HEROES_QUEST"}
   ]
 }

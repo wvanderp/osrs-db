@@ -1,11 +1,7 @@
 {
-  "id": 22323,
-  "name": "Sanguinesti staff (charged)",
+  "id"          : 22323,
+  "name"        : "Sanguinesti staff (charged)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 82
-    }
+    {"type": "skill", "skill": "Magic", "level": 82}
   ]
 }

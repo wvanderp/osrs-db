@@ -1,16 +1,8 @@
 {
-  "id": 4872,
-  "name": "Ahrim's robetop (broken)",
+  "id"          : 4872,
+  "name"        : "Ahrim's robetop (broken)",
   "requirements": [
-    {
-      "type": "skill",
-      "skill": "Defence",
-      "level": 70
-    },
-    {
-      "type": "skill",
-      "skill": "Magic",
-      "level": 70
-    }
+    {"type": "skill", "skill": "Defence", "level": 70},
+    {"type": "skill", "skill": "Magic",   "level": 70}
   ]
 }

@@ -1,10 +1,7 @@
 {
-  "id": 773,
-  "name": "'perfect' ring",
+  "id"          : 773,
+  "name"        : "'perfect' ring",
   "requirements": [
-    {
-      "type": "quest",
-      "quest": "FAMILY_CREST"
-    }
+    {"type": "quest", "quest": "FAMILY_CREST"}
   ]
 }
