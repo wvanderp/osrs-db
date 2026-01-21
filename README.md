@@ -14,12 +14,12 @@ This package provides machine-readable JSON data for Old School RuneScape. You c
 
 ```javascript
 // Import specific data files using the file names from the data directory
-import items from 'osrs-db/items.g.json';
-import npcs from 'osrs-db/npcs.g.json';
-import objects from 'osrs-db/objects.g.json';
-import quests from 'osrs-db/quests.g.json';
-import slotStats from 'osrs-db/slotStats.g.json';
-import cacheNumber from 'osrs-db/cache-number.json';
+import items from "osrs-db/items.g.json";
+import npcs from "osrs-db/npcs.g.json";
+import objects from "osrs-db/objects.g.json";
+import quests from "osrs-db/quests.g.json";
+import slotStats from "osrs-db/slotStats.g.json";
+import cacheNumber from "osrs-db/cache-number.json";
 
 // Now you can use the data
 console.log(`Items count: ${items.length}`);
@@ -56,18 +56,18 @@ This package includes comprehensive TypeScript support with automatic type infer
 
 ```typescript
 // Import data files - types are automatically inferred
-import items from 'osrs-db/data/items.g.json';
-import npcs from 'osrs-db/data/npcs.g.json';
-import quests from 'osrs-db/data/quests.g.json';
+import items from "osrs-db/data/items.g.json";
+import npcs from "osrs-db/data/npcs.g.json";
+import quests from "osrs-db/data/quests.g.json";
 
 // TypeScript knows the structure automatically!
 const firstItem = items[0];
 // firstItem.id, firstItem.name, etc. are all typed
 
 // You can also import the type definitions explicitly if needed
-import type { Items } from 'osrs-db/data/items.g.json';
-import type { Npcs } from 'osrs-db/data/npcs.g.json';
-import type { Quests } from 'osrs-db/data/quests.g.json';
+import type { Items } from "osrs-db/data/items.g.json";
+import type { Npcs } from "osrs-db/data/npcs.g.json";
+import type { Quests } from "osrs-db/data/quests.g.json";
 
 // Use the types for your own data structures
 function processItem(item: Items): void {
@@ -89,10 +89,10 @@ JSON Schema files are also included in the package for runtime validation:
 
 ```javascript
 // Import a JSON schema for validation
-import itemsSchema from 'osrs-db/schemas/Items/items.schema.json';
+import itemsSchema from "osrs-db/schemas/Items/items.schema.json";
 
 // Use with a validator like Ajv
-import Ajv from 'ajv';
+import Ajv from "ajv";
 const ajv = new Ajv();
 const validate = ajv.compile(itemsSchema);
 const isValid = validate(items);
@@ -105,7 +105,6 @@ Available schemas and types:
 - Objects: `osrs-db/schemas/Objects/objects.schema.json` & `osrs-db/types/Objects/objects.schema`
 - Quests: `osrs-db/schemas/Quests/quests.schema.json` & `osrs-db/types/Quests/quests.schema`
 - Object Locations: `osrs-db/schemas/ObjectLocations/object-locations.schema.json` & `osrs-db/types/ObjectLocations/object-locations.schema`
-- Transports: `osrs-db/schemas/Transports/transports.schema.json` & `osrs-db/types/Transports/transports.schema`
 - Cache Number: `osrs-db/schemas/CacheNumber/cache-number.schema.json` & `osrs-db/types/CacheNumber/cache-number.schema`
 
 ## Versioning

@@ -56,9 +56,9 @@ tsx scripts/test-types.ts
 Import types in TypeScript projects:
 
 ```typescript
-import type { Items } from 'osrs-db/types/Items/items.schema';
-import type { NPCs } from 'osrs-db/types/Npcs/npcs.schema';
-import items from 'osrs-db/items.g.json';
+import type { Items } from "osrs-db/types/Items/items.schema";
+import type { NPCs } from "osrs-db/types/Npcs/npcs.schema";
+import items from "osrs-db/items.g.json";
 
 const firstItem: Items[0] = items[0];
 ```
@@ -66,8 +66,8 @@ const firstItem: Items[0] = items[0];
 Import schemas for runtime validation:
 
 ```javascript
-import itemsSchema from 'osrs-db/schemas/Items/items.schema.json';
-import Ajv from 'ajv';
+import itemsSchema from "osrs-db/schemas/Items/items.schema.json";
+import Ajv from "ajv";
 
 const ajv = new Ajv();
 const validate = ajv.compile(itemsSchema);
@@ -83,7 +83,6 @@ The script successfully generates types for:
 - ✅ `objects.schema.json` → `objects.schema.d.ts`
 - ✅ `object-locations.schema.json` → `object-locations.schema.d.ts`
 - ✅ `quests.schema.json` → `quests.schema.d.ts`
-- ✅ `transports.schema.json` → `transports.schema.d.ts`
 - ⚠️ `wearRequirements.schema.json` - Skipped (contains unresolvable `$ref` to `./parts/questlist.schema.json`)
 
 ## Known Issues
