@@ -4,6 +4,10 @@ All notable changes to this tool will be documented in this file.
 
 ## Unreleased
 
+### 2026-03-27 — @copilot — Changed: add groundOps to the item schema. (#0)
+
+- Added Zod validation for generated `groundOps` data, including op text entries and conditional variants.
+
 ### 2026-01-21 — @copilot — Changed: Requirements schema extracted to shared module
 
 - Moved `AnyRequirementSchema` and related requirement type schemas to `common/Requirements.schema.ts`

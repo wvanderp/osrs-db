@@ -1,5 +1,16 @@
 import { z } from "zod";
 
+const MenuTextSchema = z.object({
+    text: z.string(),
+}).strict();
+
+const GroundOpsSchema = z.object({
+    ops: z.array(MenuTextSchema.nullable()),
+    subOps: z.array(z.array(z.unknown()).nullable()),
+    conditionalOps: z.array(MenuTextSchema.nullable()),
+    conditionalSubOps: z.array(z.array(z.unknown()).nullable()),
+}).strict();
+
 /**
  * Schema for a single item entry from the RuneLite cache extractor
  */
@@ -58,6 +69,7 @@ export const ItemSchema = z.object({
     placeholderId: z.number().int().optional(),
     placeholderTemplateId: z.number().int().optional(),
     params: z.record(z.string(), z.union([z.string(), z.number().int()])).optional(),
+    groundOps: GroundOpsSchema.optional().describe("Ground interaction options and their conditional variants."),
 }).strict();
 
 export type Item = z.infer<typeof ItemSchema>;

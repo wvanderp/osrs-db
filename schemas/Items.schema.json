@@ -112,6 +112,58 @@
             {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
           ]
         }
+      },
+      "groundOps": {
+        "description"         : "Ground interaction options and their conditional variants.",
+        "type"                : "object",
+        "properties"          : {
+          "ops"              : {
+            "type" : "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type"                : "object",
+                  "properties"          : {
+                    "text": {"type": "string"}
+                  },
+                  "required"            : ["text"],
+                  "additionalProperties": false
+                },
+                {"type": "null"}
+              ]
+            }
+          },
+          "subOps"           : {
+            "type" : "array",
+            "items": {
+              "anyOf": [ {"type": "array", "items": {}}, {"type": "null"} ]
+            }
+          },
+          "conditionalOps"   : {
+            "type" : "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type"                : "object",
+                  "properties"          : {
+                    "text": {"type": "string"}
+                  },
+                  "required"            : ["text"],
+                  "additionalProperties": false
+                },
+                {"type": "null"}
+              ]
+            }
+          },
+          "conditionalSubOps": {
+            "type" : "array",
+            "items": {
+              "anyOf": [ {"type": "array", "items": {}}, {"type": "null"} ]
+            }
+          }
+        },
+        "required"            : ["ops", "subOps", "conditionalOps", "conditionalSubOps"],
+        "additionalProperties": false
       }
     },
     "required"            : ["id", "name"],
