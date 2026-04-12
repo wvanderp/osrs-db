@@ -4,6 +4,10 @@ All notable changes to this tool will be documented in this file.
 
 ## Unreleased
 
+### 2026-04-12 — @copilot — Changed: add safer title-to-ID fallback rewrites for slot stat extraction. (#0)
+
+- `ExtractSlotStats` now preserves explicit `titleToID.json` overrides and applies suffix fallback candidates for `(Last Man Standing)`, `(beta)`, and Deadman variants, plus an uncharged fallback.
+
 ### 2026-03-27 — @copilot — Changed: add groundOps to the item schema. (#0)
 
 - Added Zod validation for generated `groundOps` data, including op text entries and conditional variants.

@@ -80,18 +80,30 @@ function findID(name: string): number | null {
     fs.readFileSync(titleToIDFilePath, "utf-8"),
   ) as Record<string, number | null>;
 
-  const rewrittenName = rewriteName(name);
+  let idFromTitle = titleToID[name];
 
-  // the normal lookup
-  const lookupID = items.find((item) => {
-    return item.name.toLowerCase() === rewrittenName.toLowerCase();
-  })?.id;
+  // Manual entries in titleToID are explicit overrides and should win over inferred lookups.
+  if (typeof idFromTitle === "number") {
+    return idFromTitle;
+  }
+
+  // String entries are metadata markers (beta/history) and intentionally resolve to null.
+  if (typeof idFromTitle === "string") {
+    return null;
+  }
+
+  const rewrittenNames = rewriteNameCandidates(name);
+
+  const lookupID = rewrittenNames
+    .map((candidate) =>
+      items.find((item) => item.name.toLowerCase() === candidate.toLowerCase())?.id,
+    )
+    .find((id) => typeof id === "number");
 
   // the lookup the ID with a decorative kit
-  const decorativeID = findIDDecorative(rewrittenName);
-
-  // find the id from the titleToID.json
-  let idFromTitle = titleToID[name];
+  const decorativeID = rewrittenNames
+    .map((candidate) => findIDDecorative(candidate))
+    .find((id) => typeof id === "number") ?? null;
 
   let id = lookupID ?? decorativeID;
 
@@ -100,8 +112,8 @@ function findID(name: string): number | null {
     id = null;
   }
 
-  // If the id is already found but stored in the titleToID.json then remove it
-  if (id && idFromTitle !== undefined) {
+  // If we resolved an item and this key was a temporary null placeholder, clean it up.
+  if (id && idFromTitle === null) {
     delete titleToID[name];
   }
 
@@ -112,8 +124,6 @@ function findID(name: string): number | null {
 
   writeTitleToID(titleToID);
 
-  // we needed the actual value before but now we can only use a number
-  idFromTitle = typeof idFromTitle === "number" ? idFromTitle : null;
   return id ?? decorativeID ?? idFromTitle ?? null;
 }
 
@@ -348,6 +358,35 @@ function rewriteName(name: string): string {
   name = name.replace("Greenman mask (default)", "Greenman mask");
 
   return name;
+}
+
+function rewriteNameCandidates(name: string): string[] {
+  const rewritten = rewriteName(name);
+  const candidates = new Set<string>([rewritten]);
+
+  // A few wiki contexts annotate the same physical item. Strip these tags as fallback lookups.
+  const suffixRules = [
+    / \(Last Man Standing\)$/,
+    / \(beta\)$/,
+    / \(Deadman Mode\)$/,
+    / \(deadman\)$/,
+  ];
+
+  for (const candidate of [...candidates]) {
+    for (const suffixRule of suffixRules) {
+      if (suffixRule.test(candidate)) {
+        candidates.add(candidate.replace(suffixRule, ""));
+      }
+    }
+  }
+
+  for (const candidate of [...candidates]) {
+    if (candidate.endsWith(" (uncharged)")) {
+      candidates.add(candidate.replace(" (uncharged)", ""));
+    }
+  }
+
+  return [...candidates];
 }
 
 export default async function extractSlotStats() {
