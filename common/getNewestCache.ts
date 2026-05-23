@@ -12,11 +12,11 @@ export interface OsrsCache {
   environment: string;
   language: string;
   builds?:
-    | ({
-        major: number;
-        minor?: number | null;
-      } | null)[]
-    | null;
+  | ({
+    major: number;
+    minor?: number | null;
+  } | null)[]
+  | null;
   timestamp?: string | null;
   sources?: (string | null)[] | null;
   valid_indexes: number;
@@ -126,6 +126,6 @@ async function main() {
 }
 
 // if this file gets called directly then execute main
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (require.main === module) {
   main();
 }

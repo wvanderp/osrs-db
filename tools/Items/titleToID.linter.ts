@@ -18,6 +18,34 @@ function findDuplicates<T>(arr: T[]): T[] {
     return Array.from(duplicates);
 }
 
+const allowedDuplicateKeysById = new Map<number, Set<string>>([
+    [33093, new Set(["Cow slippers", "Cow slippers#1"])],
+    [33103, new Set(["Cow bell amulet", "Cowbell amulet", "Cowbell amulet#Empty"])],
+]);
+
+function findUnexpectedDuplicateNumericValues(entries: [string, number | string | null][]) {
+    const numericKeysByValue = new Map<number, string[]>();
+
+    for (const [key, value] of entries) {
+        if (typeof value !== "number") {
+            continue;
+        }
+
+        const keys = numericKeysByValue.get(value) ?? [];
+        keys.push(key);
+        numericKeysByValue.set(value, keys);
+    }
+
+    return Array.from(numericKeysByValue.entries()).filter(([value, keys]) => {
+        if (keys.length < 2) {
+            return false;
+        }
+
+        const allowedKeys = allowedDuplicateKeysById.get(value);
+        return !allowedKeys || keys.some(key => !allowedKeys.has(key));
+    });
+}
+
 
 
 // load the file
@@ -49,11 +77,16 @@ export default function LintTitleToID() {
     }
 
     // Check for duplicate numeric values (ignoring nulls and strings)
-    const values = Object.values(file);
-    const numericValues = values.filter(v => typeof v === "number") as number[];
-    const duplicates = findDuplicates(numericValues);
-    if (duplicates.length > 0) {
-        console.error(cyan("[titleToID.linter]"), red("Duplicate numeric values found:"), duplicates);
+    const duplicateEntries = findUnexpectedDuplicateNumericValues(Object.entries(file));
+    if (duplicateEntries.length > 0) {
+        console.error(
+            cyan("[titleToID.linter]"),
+            red("Duplicate numeric values found:"),
+            duplicateEntries.map(([value]) => value),
+        );
+        for (const [value, keys] of duplicateEntries) {
+            console.error(cyan("[titleToID.linter]"), red(`  ${value}: ${keys.join(", ")}`));
+        }
         process.exitCode = 1;
     }
 

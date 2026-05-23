@@ -51,6 +51,10 @@ and this project adheres to a versioning scheme of `1.X.cacheNumber`.
 
 ### Changed
 
+2026-05-23 — @copilot — Changed: Replaced the CommonJS-incompatible `import.meta` entrypoint check in `common/getNewestCache.ts`. (#TBD)
+
+- `common/getNewestCache.ts` now uses `require.main === module` so `tsc --noEmit -p tsconfig.json` succeeds with the repository's `module: commonjs` setting.
+
 2025-10-12 — @copilot — Changed: Build process now copies only schema files from tools folder instead of entire tools directory. (#TBD)
 
 - Added `copySchemaFiles` function to selectively copy `*.schema.json` files

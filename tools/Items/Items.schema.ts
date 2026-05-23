@@ -26,6 +26,8 @@ export const ItemSchema = z.object({
     zan2d: z.number().int().optional(),
     cost: z.number().int().optional(),
     isTradeable: z.boolean().optional().describe("Whether or not the item is tradeable"),
+    tradeable: z.boolean().optional().describe("Whether or not the item is tradeable between players"),
+    geTradeable: z.boolean().optional().describe("Whether or not the item is tradeable on the Grand Exchange"),
     stackable: z.union([z.literal(0), z.literal(1)]).optional().describe("Whether or not the item is stackable"),
     inventoryModel: z.number().int().optional(),
     wearPos1: z.number().int().optional(),
@@ -70,6 +72,7 @@ export const ItemSchema = z.object({
     placeholderTemplateId: z.number().int().optional(),
     params: z.record(z.string(), z.union([z.string(), z.number().int()])).optional(),
     groundOps: GroundOpsSchema.optional().describe("Ground interaction options and their conditional variants."),
+
 }).strict();
 
 export type Item = z.infer<typeof ItemSchema>;
