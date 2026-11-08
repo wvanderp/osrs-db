@@ -254,7 +254,6 @@
     ],
     "cSpell.language": "en-gb",
     "editor.formatOnSave": true,
-    "github.copilot.chat.codeGeneration.useInstructionFiles": true,
     "json.schemas": [
         {
             "fileMatch": [
@@ -262,5 +261,8 @@
             ],
             "url": "/schemas/wearRequirements.schema.json"
         }
-    ]
+    ],
+    "diffEditor.diffAlgorithm": "legacy",
+    "diffEditor.maxComputationTime": 5000,
+    "diffEditor.hideUnchangedRegions.enabled": false
 }

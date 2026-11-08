@@ -80,7 +80,12 @@ function findID(name: string): number | null {
     fs.readFileSync(titleToIDFilePath, "utf-8"),
   ) as Record<string, number | null>;
 
-  let idFromTitle = titleToID[name];
+  const normalizedName = name.toLowerCase();
+  const titleKey =
+    Object.keys(titleToID).find(
+      (title) => title.toLowerCase() === normalizedName,
+    ) ?? name;
+  const idFromTitle = titleToID[titleKey];
 
   // Manual entries in titleToID are explicit overrides and should win over inferred lookups.
   if (typeof idFromTitle === "number") {
@@ -108,18 +113,20 @@ function findID(name: string): number | null {
   let id = lookupID ?? decorativeID;
 
   // if the item is in the manualItemsSubstring then remove the id
-  if (manualItemsSubstring.some((item) => name.includes(item))) {
+  if (
+    manualItemsSubstring.some((item) => normalizedName.includes(item.toLowerCase()))
+  ) {
     id = null;
   }
 
   // If we resolved an item and this key was a temporary null placeholder, clean it up.
   if (id && idFromTitle === null) {
-    delete titleToID[name];
+    delete titleToID[titleKey];
   }
 
   // write a null if the id is not found
   if (!id && !idFromTitle) {
-    titleToID[name] = null;
+    titleToID[titleKey] = null;
   }
 
   writeTitleToID(titleToID);
@@ -211,79 +218,82 @@ function findIDDecorative(name: string): number | null {
  * @returns the rewritten name
  */
 function rewriteName(name: string): string {
+  // Normalize before applying any wiki title or variant matching rules.
+  name = name.toLowerCase();
+
   // if it ends with #(p) or #(p+) or #(p++) then remove the #
   name = name.replace(/#(\(p\+?\+?\))/, "$1");
-  name = name.replace(/#Poison(\+?\+?)/, " (p$1)");
+  name = name.replace(/#poison(\+?\+?)/, " (p$1)");
   name = name.replace("#(kp)", "(kp)");
 
   // if it ends with #(unp) then remove the #(unp)
   name = name.replace(/#\(unp\)/, "");
-  name = name.replace(/#Unpoisoned/, "");
+  name = name.replace(/#unpoisoned/, "");
 
   // if it ends on a number remove the #
-  name = name.replace("#Undamaged", "");
+  name = name.replace("#undamaged", "");
 
   // if it has #Normal then remove the #normal
-  name = name.replace("#Normal", "");
+  name = name.replace("#normal", "");
 
   // if it has #locked then replace it with (l)
-  name = name.replace("(or)#Locked", "(l)(or)");
-  name = name.replace("#Locked", " (l)");
+  name = name.replace("(or)#locked", "(l)(or)");
+  name = name.replace("#locked", " (l)");
 
   // if it has #Charged then remove the #Charged
-  name = name.replace("#Charged", "");
+  name = name.replace("#charged", "");
 
   // if it has #uncharged then replace it with (uncharged)
-  name = name.replace("#Uncharged", " (uncharged)");
+  name = name.replace("#uncharged", " (uncharged)");
 
   // if it has ##Active then remove it
-  name = name.replace("#Active", "");
-  name = name.replace("#Activated", "");
+  name = name.replace("#active", "");
+  name = name.replace("#activated", "");
 
   // if it has #Lit then replace it with (lit)
-  name = name.replace("#Lit", " (lit)");
+  name = name.replace("#lit", " (lit)");
   // if it has #Unlit then remove it
-  name = name.replace("#Unlit", "");
+  name = name.replace("#unlit", "");
 
   // if it has #Broken then replace it with (broken)
-  name = name.replace("#Broken", " (broken)");
+  name = name.replace("#broken", " (broken)");
 
   // if a cape is trimmed then add (t) to the name
-  name = name.replace("#Trimmed", "(t)");
-  name = name.replace("#Untrimmed", "");
+  name = name.replace("#trimmed", "(t)");
+  name = name.replace("#untrimmed", "");
 
   // specific item classes
 
   name = name.replace(
-    /Amulet of glory \(t\)#\(t(\d)\)/,
-    "Amulet of glory (t$1)",
+    /amulet of glory \(t\)#\(t(\d)\)/,
+    "amulet of glory (t$1)",
   );
-  // (uncharged) is a artifact from some rewrite above, should be "Amulet of glory (t)#Uncharged"
-  name = name.replace("Amulet of glory (t) (uncharged)", "Amulet of glory (t)");
+  // (uncharged) is a artifact from some rewrite above, should be "amulet of glory (t)#uncharged"
+  name = name.replace("amulet of glory (t) (uncharged)", "amulet of glory (t)");
 
-  name = name.replace(/Ring of wealth \(i\)#\(i(\d)\)/, "Ring of wealth (i$1)");
-  // (uncharged) is a artifact from some rewrite above, should be "Amulet of glory (t)#Uncharged"
-  name = name.replace("Ring of wealth (i) (uncharged)", "Ring of wealth (i)");
+  name = name.replace(/ring of wealth \(i\)#\(i(\d)\)/, "ring of wealth (i$1)");
+  // (uncharged) is a artifact from some rewrite above, should be "amulet of glory (t)#uncharged"
+  name = name.replace("ring of wealth (i) (uncharged)", "ring of wealth (i)");
 
   // if the name shows the charges with name#1 or name#(1) then transform it to name(1)
   const digitReplaces = [
-    ["Games necklace", ""],
-    ["Ring of dueling", ""],
-    ["Amulet of glory", ""],
-    ["Ring of returning", ""],
-    ["Ring of wealth", " "],
-    ["Slayer ring", " "],
-    ["Enchanted lyre", ""],
-    ["Abyssal bracelet", ""],
-    ["Castle wars bracelet", ""],
-    ["Combat bracelet", ""],
-    ["Burning amulet", ""],
-    ["Digsite pendant", " "],
-    ["Necklace of passage", ""],
-    ["Skills necklace", ""],
-    ["Void seal", ""],
-    ["Rod of ivandis", " "],
-    ["Black mask", " "],
+    ["games necklace", ""],
+    ["ring of dueling", ""],
+    ["amulet of glory", ""],
+    ["ring of returning", ""],
+    ["ring of wealth", " "],
+    ["slayer ring", " "],
+    ["enchanted lyre", ""],
+    ["abyssal bracelet", ""],
+    ["castle wars bracelet", ""],
+    ["combat bracelet", ""],
+    ["burning amulet", ""],
+    ["digsite pendant", " "],
+    ["necklace of passage", ""],
+    ["skills necklace", ""],
+    ["void seal", ""],
+    ["rod of ivandis", " "],
+    ["black mask", " "],
   ];
 
   for (const replace of digitReplaces) {
@@ -295,13 +305,13 @@ function rewriteName(name: string): string {
 
   // the barrows items have a different naming scheme
   const barrowsBrothers = [
-    "Ahrim's",
-    "Dharok's",
-    "Guthan's",
-    "Karil's",
-    "Torag's",
-    "Verac's",
-    "Echo ahrim's",
+    "ahrim's",
+    "dharok's",
+    "guthan's",
+    "karil's",
+    "torag's",
+    "verac's",
+    "echo ahrim's",
   ];
 
   for (const brother of barrowsBrothers) {
@@ -314,8 +324,8 @@ function rewriteName(name: string): string {
     }
   }
 
-  if (name.includes("Abyssal lantern")) {
-    name = name.replace(/Abyssal lantern#(.+)/, "Abyssal lantern ($1 logs)");
+  if (name.includes("abyssal lantern")) {
+    name = name.replace(/abyssal lantern#(.+)/, "abyssal lantern ($1 logs)");
   }
 
   if (name.includes("javelin (")) {
@@ -323,7 +333,7 @@ function rewriteName(name: string): string {
   }
 
   // Things that just need a little space between the name and the ()
-  const spaceNeeders = ["Abyssal dagger", "Bone dagger", "Viggora's chainmace"];
+  const spaceNeeders = ["abyssal dagger", "bone dagger", "viggora's chainmace"];
 
   for (const spaceNeeder of spaceNeeders) {
     name = name.replace(`${spaceNeeder}(`, `${spaceNeeder} (`);
@@ -331,15 +341,15 @@ function rewriteName(name: string): string {
 
   // A special case for pumpkins with emotions
   const emotions = [
-    "Angry",
-    "Depressed",
-    "Disgusted",
-    "Evil",
-    "Happy",
-    "Laughing",
-    "Sad",
-    "Shocked",
-    "Silly",
+    "angry",
+    "depressed",
+    "disgusted",
+    "evil",
+    "happy",
+    "laughing",
+    "sad",
+    "shocked",
+    "silly",
   ];
 
   for (const emotion of emotions) {
@@ -350,12 +360,12 @@ function rewriteName(name: string): string {
 
   // Black mask (i)#7 -> Black mask (7)(i)
   // watch out it has been partially rewritten before (Black mask (i) (5))
-  name = name.replace(/Black mask \(i\) \((\d+)\)/, "Black mask ($1) (i)");
+  name = name.replace(/black mask \(i\) \((\d+)\)/, "black mask ($1) (i)");
 
   // for the greenman mask we need to put the wood type in brackets in lower case
   // so `Greenman mask#Magic` -> `Greenman mask (magic)`
-  name = name.replace(/Greenman mask#(\w+)/, "Greenman mask ($1)");
-  name = name.replace("Greenman mask (default)", "Greenman mask");
+  name = name.replace(/greenman mask#(\w+)/, "greenman mask ($1)");
+  name = name.replace("greenman mask (default)", "greenman mask");
 
   return name;
 }
@@ -366,9 +376,9 @@ function rewriteNameCandidates(name: string): string[] {
 
   // A few wiki contexts annotate the same physical item. Strip these tags as fallback lookups.
   const suffixRules = [
-    / \(Last Man Standing\)$/,
+    / \(last man standing\)$/,
     / \(beta\)$/,
-    / \(Deadman Mode\)$/,
+    / \(deadman mode\)$/,
     / \(deadman\)$/,
   ];
 

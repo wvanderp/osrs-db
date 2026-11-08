@@ -5,12 +5,12 @@
     "type"                : "object",
     "properties"          : {
       "id": {
-        "description": "The item's ID",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "The item's ID"
       },
-      "name": {"description": "The item's name", "type": "string"},
+      "name": {"type": "string", "description": "The item's name"},
       "examine": {"description": "The text that appears when you examine the item", "type": "string"},
       "resizeX": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
       "resizeY": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
@@ -20,6 +20,12 @@
       "zan2d": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
       "cost": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
       "isTradeable": {"description": "Whether or not the item is tradeable", "type": "boolean"},
+      "tradeable": {"description": "Whether or not the item is tradeable between players", "type": "boolean"},
+      "geTradeable": {"description": "Whether or not the item is tradeable on the Grand Exchange", "type": "boolean"},
+      "bronzeman": {
+        "description": "The item's Bronzeman cache flag (opcode 251); defaults to false in RuneLite",
+        "type"       : "boolean"
+      },
       "stackable": {
         "description": "Whether or not the item is stackable",
         "anyOf"      : [
@@ -32,6 +38,12 @@
       "wearPos2": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
       "wearPos3": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
       "members": {"description": "Whether or not the item is members only", "type": "boolean"},
+      "fullRecolor": {
+        "description": "Full-model recolor HSL value (opcode 99), exported as a signed 16-bit integer; -1 means no override",
+        "type": "integer",
+        "minimum": -32768,
+        "maximum": 32767
+      },
       "textureFind": {
         "type" : "array",
         "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
