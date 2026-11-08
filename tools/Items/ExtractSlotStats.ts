@@ -82,6 +82,7 @@ function findID(name: string): number | null {
 
   const normalizedName = name.toLowerCase();
   const titleKey =
+    (Object.prototype.hasOwnProperty.call(titleToID, name) ? name : undefined) ??
     Object.keys(titleToID).find(
       (title) => title.toLowerCase() === normalizedName,
     ) ?? name;

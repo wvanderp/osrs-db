@@ -19,6 +19,8 @@ function findDuplicates<T>(arr: T[]): T[] {
 }
 
 const allowedDuplicateKeysById = new Map<number, Set<string>>([
+    // The wiki lists different combat stats inside and outside ToA for the same item.
+    [30891, new Set(["Keris partisan of amascut#Inside ToA", "Keris partisan of amascut#Outside ToA"])],
     [33093, new Set(["Cow slippers", "Cow slippers#1"])],
     [33103, new Set(["Cow bell amulet", "Cowbell amulet", "Cowbell amulet#Empty"])],
 ]);

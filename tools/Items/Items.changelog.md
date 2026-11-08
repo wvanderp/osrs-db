@@ -4,6 +4,10 @@ All notable changes to this tool will be documented in this file.
 
 ## Unreleased
 
+- Accept RuneLite's stackability mode `2` and holding whitelist, and regenerate the item JSON schema.
+- Resolve missing title IDs and casing duplicates, preserve exact title overrides, and regenerate equipment slot stats from the wiki tables.
+- Recognize the verified Keris partisan of amascut combat-context aliases and make slot-stat validation failures set a failing exit status.
+
 ### 2026-04-12 — @copilot — Changed: add safer title-to-ID fallback rewrites for slot stat extraction. (#0)
 
 - `ExtractSlotStats` now preserves explicit `titleToID.json` overrides and applies suffix fallback candidates for `(Last Man Standing)`, `(beta)`, and Deadman variants, plus an uncharged fallback.
