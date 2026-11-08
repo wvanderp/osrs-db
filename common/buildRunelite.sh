@@ -34,7 +34,7 @@ cd ..
 # Preserve RuneLite's distribution and matching checksum. Both Gradle hosts can
 # redirect to a failing GitHub release page; the asset API bypasses that page.
 PROPERTIES=gradle/wrapper/gradle-wrapper.properties
-DIST_URL=$(sed -n 's/^distributionUrl=//p' "$PROPERTIES" | tr -d '\r' | sed 's/\\\\:/:/g')
+DIST_URL=$(git show HEAD:gradle/wrapper/gradle-wrapper.properties | node -e 'let s="";process.stdin.on("data",d=>s+=d);process.stdin.on("end",()=>console.log(s.match(/^distributionUrl=(.*)$/m)[1].trim().replaceAll(String.fromCharCode(92),"")))')
 DIST_NAME=${DIST_URL##*/}
 DIST_VERSION=${DIST_NAME#gradle-}
 DIST_VERSION=${DIST_VERSION%-*}
