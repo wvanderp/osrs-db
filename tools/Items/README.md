@@ -42,6 +42,15 @@ Items/
 - All scripts and tools should be run from the project root unless otherwise specified.
 - For more information on the tool's implementation, see `ItemsTool.ts`.
 
+## Cache fields
+
+- `stackable` is a cache mode with values `0`, `1` (opcode `11`), or `2` (opcode `160`). Preserve the exported mode rather than treating it as a boolean.
+- `holdingWhitelist` is an optional integer array decoded from opcode `161`.
+- `bronzeman` is an optional boolean. RuneLite sets it to `true` when item cache opcode `251` is present and otherwise exports `false`. It is a static item-definition flag, not a player's unlock status. The decoder names it for Bronzeman mode but does not establish the exact gameplay rule it controls.
+- `fullRecolor` is an optional integer for a full-model recolor, decoded from opcode `99`. It is a packed HSL color, exported by RuneLite as a signed Java `short` (`-32768` through `32767`); `-1` is the default meaning no override. Full-model recoloring is inferred from the field name and HSL type; RuneLite's item sprite renderer currently does not apply this field.
+
+Sources: [RuneLite item definitions](https://github.com/runelite/runelite/blob/master/cache/src/main/java/net/runelite/cache/definitions/ItemDefinition.java), [RuneLite item decoder](https://github.com/runelite/runelite/blob/master/cache/src/main/java/net/runelite/cache/definitions/loaders/ItemLoader.java), [cache2 HSL typing](https://github.com/abextm/cache2/blob/master/cache2-ts/src/loaders/Item.ts), and [RuneLite item sprite renderer](https://github.com/runelite/runelite/blob/master/cache/src/main/java/net/runelite/cache/item/ItemSpriteFactory.java).
+
 ## Changelog
 
 See `Items/Items.changelog.md` for a history of changes and updates to this tool.

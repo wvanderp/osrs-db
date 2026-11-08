@@ -8,11 +8,13 @@ const filePath = path.join(__dirname, "../../data/slotStats.g.json");
 const file = JSON.parse(fs.readFileSync(filePath, "utf8")) as { [key: string]: number | string | null }[];
 
 export default function lintSlotStats() {
+    let hasError = false;
     console.log(cyan("Linting slotStats.g.json"));
     // #region schema
     const result = SlotStatsSchema.safeParse(file);
 
     if (!result.success) {
+        hasError = true;
         console.error(cyan("[slotStats.linter]"), red("slotStats schema validation errors:"), result.error.issues);
     }
     // #endregion
@@ -22,10 +24,15 @@ export default function lintSlotStats() {
     const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
 
     if (duplicates.length > 0) {
+        hasError = true;
         console.error(cyan("[slotStats.linter]"), red("Duplicate values found:"), duplicates);
     }
     // #endregion
 
 
+    if (hasError) {
+        process.exitCode = 1;
+        return;
+    }
     console.log(cyan("[slotStats.linter]"), green("slotStats.g.json is valid"));
 }
