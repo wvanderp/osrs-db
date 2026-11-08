@@ -63,7 +63,16 @@ async function runToolsInOrder() {
   lintToolNeeds(tools);
   const sortedTools = sortToolsByNeeds(tools);
   const errors: { name: string; error: any }[] = [];
+  const failed = new Set<string>();
   for (const tool of sortedTools) {
+    const failedNeeds = getNeeds(tool).filter((need) => failed.has(need));
+    if (failedNeeds.length > 0) {
+      const error = new Error(`Dependencies failed: ${failedNeeds.join(", ")}`);
+      console.error(`Skipping tool: ${tool.name}: ${error.message}`);
+      failed.add(tool.name);
+      errors.push({ name: tool.name, error });
+      continue;
+    }
     if (typeof tool.run === "function") {
       // eslint-disable-next-line no-console
       console.log(`Running tool: ${tool.name}`);
@@ -73,6 +82,7 @@ async function runToolsInOrder() {
         // eslint-disable-next-line no-console
         console.error(`Tool failed: ${tool.name}`);
         console.error(e);
+        failed.add(tool.name);
         errors.push({ name: tool.name, error: e });
       }
     }

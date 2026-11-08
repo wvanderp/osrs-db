@@ -74,7 +74,9 @@ function checkTool(toolDirName: string, toolsRoot: string): ToolCheckResult {
         .filter(e => e.isFile())
         .map(e => e.name)
         .filter(name => /\.schema\.ts$/i.test(name));
-    if (schemaFiles.length === 0) {
+    // These placeholders do not produce structured data yet.
+    const placeholderTools = new Set(['CollisionMap', 'WorldMap']);
+    if (schemaFiles.length === 0 && !placeholderTools.has(toolDirName)) {
         errors.push(`No schema files found (*.schema.ts) in ${path.relative(process.cwd(), toolPath)}`);
     }
 
