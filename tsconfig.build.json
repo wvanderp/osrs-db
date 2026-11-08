@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "ES2021",
         "module": "esnext",
-        "moduleResolution": "node",
+        "moduleResolution": "bundler",
         "lib": [
             "ES2021"
         ],
