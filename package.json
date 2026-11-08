@@ -50,20 +50,20 @@
     "build": "tsx scripts/build.ts"
   },
   "devDependencies": {
-    "@types/jsdom": "^28.0.3",
+    "@types/jsdom": "^30.0.0",
     "@types/jsoneditor": "^9.9.6",
-    "@types/node": "^26.1.1",
+    "@types/node": "^26.6.6",
     "@types/yauzl": "^3.4.0",
-    "axios": "^1.18.1",
-    "glob": "^13.0.6",
-    "jsdom": "^29.1.1",
-    "json-schema-to-typescript": "^15.0.4",
-    "tsx": "^4.23.1",
+    "axios": "^1.21.0",
+    "glob": "^14.0.4",
+    "jsdom": "^31.0.0",
+    "json-schema-to-typescript": "^16.0.0",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "yauzl": "^3.4.0",
-    "zod": "^4.4.3"
+    "zod": "^4.6.7"
   },
   "dependencies": {
-    "fracturedjsonjs": "^5.0.1"
+    "fracturedjsonjs": "^5.1.0"
   }
 }
