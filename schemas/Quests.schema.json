@@ -5,13 +5,13 @@
     "type"                : "object",
     "properties"          : {
       "id"  : {
-        "description": "RuneLite quest ID used by script engine",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "RuneLite quest ID used by script engine"
       },
-      "enum": {"description": "Enum constant name in RuneLite's Quest.java", "type": "string"},
-      "name": {"description": "Display name of the quest", "type": "string"}
+      "enum": {"type": "string", "description": "Enum constant name in RuneLite's Quest.java"},
+      "name": {"type": "string", "description": "Display name of the quest"}
     },
     "required"            : ["id", "enum", "name"],
     "additionalProperties": false

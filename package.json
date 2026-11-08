@@ -44,6 +44,7 @@
     "collect": "tsx collect/main.ts",
     "lint:data": "tsx collect/linters.ts",
     "lint": "tsc --noEmit -p tsconfig.json",
+    "test:object-locations": "tsx --test tools/ObjectLocations/ObjectLocationsTool.test.ts",
     "lint:dev": "tsx common/lintDev.ts",
     "update-version": "tsx scripts/update-version.ts",
     "generate-types": "tsx scripts/generate-types.ts",

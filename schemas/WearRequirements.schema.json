@@ -3,24 +3,22 @@
   "type"                : "object",
   "properties"          : {
     "id"          : {
-      "description": "The unique identifier of the item",
       "type"       : "integer",
       "minimum"    : 0,
-      "maximum"    : 9007199254740991
+      "maximum"    : 9007199254740991,
+      "description": "The unique identifier of the item"
     },
-    "name"        : {"description": "The name of the item", "type": "string"},
+    "name"        : {"type": "string", "description": "The name of the item"},
     "note"        : {"description": "An optional note about the item's requirements", "type": "string"},
     "requirements": {
-      "description": "Array of requirements for wearing this item",
       "type"       : "array",
       "items"      : {
         "anyOf": [
           {
             "type"                : "object",
             "properties"          : {
-              "type" : {"description": "Skill requirement type", "type": "string", "const": "skill"},
+              "type" : {"type": "string", "const": "skill", "description": "Skill requirement type"},
               "skill": {
-                "description": "The skill required",
                 "type"       : "string",
                 "enum"       : [
                   "Agility",      "Attack",       "Construction", "Cooking",      "Crafting",     "Defence",
@@ -28,13 +26,14 @@
                   "Hunter",       "Magic",        "Mining",       "Prayer",       "Ranged",       "Runecrafting",
                   "Sailing",      "Slayer",       "Smithing",     "Strength",     "Thieving",     "Woodcutting",
                   "Combat"
-                ]
+                ],
+                "description": "The skill required"
               },
               "level": {
-                "description": "The required level in the specified skill",
                 "type"       : "integer",
                 "minimum"    : 1,
-                "maximum"    : 99
+                "maximum"    : 99,
+                "description": "The required level in the specified skill"
               },
               "note" : {"description": "An optional note about the requirement", "type": "string"}
             },
@@ -44,9 +43,8 @@
           {
             "type"                : "object",
             "properties"          : {
-              "type" : {"description": "Quest requirement type", "type": "string", "const": "quest"},
+              "type" : {"type": "string", "const": "quest", "description": "Quest requirement type"},
               "quest": {
-                "description": "The quest required",
                 "type"       : "string",
                 "enum"       : [
                   "ANIMAL_MAGNETISM",
@@ -260,7 +258,8 @@
                   "TROUBLED_TORTUGANS",
                   "THE_RED_REEF",
                   "BURIAL_AT_SEA"
-                ]
+                ],
+                "description": "The quest required"
               },
               "note" : {"description": "An optional note about the requirement", "type": "string"}
             },
@@ -270,11 +269,11 @@
           {
             "type"                : "object",
             "properties"          : {
-              "type"    : {"description": "Game mode requirement type", "type": "string", "const": "gameMode"},
+              "type"    : {"type": "string", "const": "gameMode", "description": "Game mode requirement type"},
               "gameMode": {
-                "description": "The game mode required",
                 "type"       : "string",
-                "enum"       : ["Raging Echoes League", "Grid Master"]
+                "enum"       : ["Raging Echoes League", "Grid Master"],
+                "description": "The game mode required"
               },
               "note"    : {"description": "An optional note about the requirement", "type": "string"}
             },
@@ -284,11 +283,11 @@
           {
             "type"                : "object",
             "properties"          : {
-              "type"     : {"description": "Equipment requirement type", "type": "string", "const": "equipment"},
+              "type"     : {"type": "string", "const": "equipment", "description": "Equipment requirement type"},
               "equipment": {
-                "description": "Array of equipment item IDs required. When multiple items are listed, any one of them can satisfy the requirement.",
                 "type": "array",
-                "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}
+                "items": {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
+                "description": "Array of equipment item IDs required. When multiple items are listed, any one of them can satisfy the requirement."
               },
               "note"     : {"description": "An optional note about the requirement", "type": "string"}
             },
@@ -298,9 +297,8 @@
           {
             "type"                : "object",
             "properties"          : {
-              "type" : {"description": "Achievement diary requirement type", "type": "string", "const": "diary"},
+              "type" : {"type": "string", "const": "diary", "description": "Achievement diary requirement type"},
               "diary": {
-                "description": "The achievement diary required",
                 "type"       : "string",
                 "enum"       : [
                   "ARDOUGNE_EASY",                "ARDOUGNE_MEDIUM",              "ARDOUGNE_HARD",
@@ -319,7 +317,8 @@
                   "VARROCK_ELITE",                "WESTERN_PROVINCES_EASY",       "WESTERN_PROVINCES_MEDIUM",
                   "WESTERN_PROVINCES_HARD",       "WESTERN_PROVINCES_ELITE",      "WILDERNESS_EASY",
                   "WILDERNESS_MEDIUM",            "WILDERNESS_HARD",              "WILDERNESS_ELITE"
-                ]
+                ],
+                "description": "The achievement diary required"
               },
               "note" : {"description": "An optional note about the requirement", "type": "string"}
             },
@@ -329,11 +328,11 @@
           {
             "type"                : "object",
             "properties"          : {
-              "type": {"description": "Ironman mode restriction type", "type": "string", "const": "ironman"},
+              "type": {"type": "string", "const": "ironman", "description": "Ironman mode restriction type"},
               "mode": {
-                "description": "The type of Ironman mode",
                 "type"       : "string",
-                "enum"       : ["Ironman", "Hardcore Ironman", "Ultimate Ironman"]
+                "enum"       : ["Ironman", "Hardcore Ironman", "Ultimate Ironman"],
+                "description": "The type of Ironman mode"
               },
               "note": {"description": "An optional note about the restriction", "type": "string"}
             },
@@ -341,7 +340,8 @@
             "additionalProperties": false
           }
         ]
-      }
+      },
+      "description": "Array of requirements for wearing this item"
     }
   },
   "required"            : ["id", "name", "requirements"],

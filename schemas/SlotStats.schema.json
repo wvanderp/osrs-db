@@ -5,112 +5,109 @@
     "type"                : "object",
     "properties"          : {
       "id"            : {
-        "description": "The item's ID",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "The item's ID"
       },
-      "name"          : {"description": "The item's name", "type": "string"},
-      "members"       : {"description": "Whether the item is members-only", "type": "boolean"},
+      "name"          : {"type": "string", "description": "The item's name"},
+      "members"       : {"type": "boolean", "description": "Whether the item is members-only"},
       "stabAttack"    : {
-        "description": "Stab attack bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Stab attack bonus"
       },
       "slashAttack"   : {
-        "description": "Slash attack bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Slash attack bonus"
       },
       "crushAttack"   : {
-        "description": "Crush attack bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Crush attack bonus"
       },
       "magicAttack"   : {
-        "description": "Magic attack bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Magic attack bonus"
       },
       "rangedAttack"  : {
-        "description": "Ranged attack bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Ranged attack bonus"
       },
       "stabDefence"   : {
-        "description": "Stab defence bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Stab defence bonus"
       },
       "slashDefence"  : {
-        "description": "Slash defence bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Slash defence bonus"
       },
       "crushDefence"  : {
-        "description": "Crush defence bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Crush defence bonus"
       },
       "magicDefence"  : {
-        "description": "Magic defence bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Magic defence bonus"
       },
       "rangedDefence" : {
-        "description": "Ranged defence bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Ranged defence bonus"
       },
       "strengthBonus" : {
-        "description": "Strength bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Strength bonus"
       },
       "rangedStrength": {
-        "description": "Ranged strength bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Ranged strength bonus"
       },
       "magicDamage"   : {
-        "description": "Magic damage bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Magic damage bonus"
       },
       "prayerBonus"   : {
-        "description": "Prayer bonus",
         "type"       : "integer",
         "minimum"    : -9007199254740991,
-        "maximum"    : 9007199254740991
+        "maximum"    : 9007199254740991,
+        "description": "Prayer bonus"
       },
-      "weight"        : {"description": "Item weight in kg", "type": "number"},
+      "weight"        : {"type": "number", "description": "Item weight in kg"},
       "speed"         : {
         "description": "Attack speed (for weapons)",
-        "anyOf"      : [
-          {"type": "number"},
-          {"type": "null"  }
-        ]
+        "type"       : ["number", "null"]
       },
       "slot"          : {
-        "description": "Equipment slot",
         "type"       : "string",
         "enum"       : [
           "Ammunition", "Body",       "Cape",       "Feet",       "Hands",      "Head",       "Legs",
           "Neck",       "Ring",       "Shield",     "Weapon",     "Two-handed"
-        ]
+        ],
+        "description": "Equipment slot"
       }
     },
     "required"            : [

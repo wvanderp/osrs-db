@@ -80,14 +80,14 @@
       "options": {
         "type" : "array",
         "items": {
-          "anyOf": [ {"type": "string"}, {"type": "null"} ]
+          "type": ["string", "null"]
         }
       },
       "interfaceOptions": {
         "description": "Options for the item in the interface, such as 'Wear', 'Rub' or 'Drop', etc.",
         "type"       : "array",
         "items"      : {
-          "anyOf": [ {"type": "string"}, {"type": "null"} ]
+          "type": ["string", "null"]
         }
       },
       "subops": {

@@ -1,9 +1,11 @@
 # ObjectLocations
 
-Tool to generate location points (banks, anvils, trees, etc.) from the exported `objects.g.json` file.
+Tool to generate location points (banks, anvils, trees, etc.) by joining cache map placements to the exported object definitions.
 
-This tool reads `tools/Objects/data/objects.g.json` and produces `tools/ObjectLocations/data/object-locations.g.json`.
+This tool reads `data/objects.g.json`, the downloaded `cache`, and `keys.json`. It produces `tools/ObjectLocations/data/object-locations.g.json`.
 
-It is intentionally minimal: it scans objects by name and interaction options to infer common locations (bank, anvil, tree, altar, etc.).
+Object types are inferred from their names and actions. Coordinates come from the cache's region location archives.
+
+The collector must run the `Objects` tool first. That tool downloads the cache and XTEA keys when they are not already present.
 
 Logs are prefixed with `[ObjectLocations]`.

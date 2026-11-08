@@ -33,10 +33,15 @@ fi
 cd ..
 # Use Gradle's distribution host directly to avoid the services redirect.
 sed -i 's/services.gradle.org/downloads.gradle.org/g' gradle/wrapper/gradle-wrapper.properties
+# Cache compilation does not need Gradle's bundled sources and documentation.
+sed -i 's/-all\.zip/-bin.zip/g' gradle/wrapper/gradle-wrapper.properties
+# The wrapper reads this property from its file, not a Gradle JVM system property.
+sed -i '/^networkTimeout=/d' gradle/wrapper/gradle-wrapper.properties
+printf '\nnetworkTimeout=120000\n' >> gradle/wrapper/gradle-wrapper.properties
 
 # Allow slow distribution downloads and retry transient download/build failures.
 for attempt in 1 2 3; do
-  if ./gradlew -Dorg.gradle.wrapper.networkTimeout=120000 :cache:shadowJar -x test --dependency-verification=off; then
+  if ./gradlew :cache:shadowJar -x test --dependency-verification=off; then
     break
   fi
   if [ "$attempt" -eq 3 ]; then

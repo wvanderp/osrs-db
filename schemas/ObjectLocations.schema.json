@@ -1,7 +1,8 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "type"   : "array",
-  "items"  : {
+  "$schema" : "https://json-schema.org/draft/2020-12/schema",
+  "minItems": 1,
+  "type"    : "array",
+  "items"   : {
     "type"                : "object",
     "properties"          : {
       "id"            : {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},

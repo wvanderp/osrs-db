@@ -7,7 +7,7 @@
       "id"            : {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991},
       "name"          : {"type": "string"},
       "examine"       : {
-        "anyOf": [ {"type": "string"}, {"type": "null"} ]
+        "type": ["string", "null"]
       },
       "size"          : {
         "anyOf": [ {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}, {"type": "null"} ]
@@ -19,23 +19,23 @@
         "anyOf": [ {"type": "integer", "minimum": -9007199254740991, "maximum": 9007199254740991}, {"type": "null"} ]
       },
       "aggressive"    : {
-        "anyOf": [ {"type": "boolean"}, {"type": "null"} ]
+        "type": ["boolean", "null"]
       },
       "poisonous"     : {
-        "anyOf": [ {"type": "boolean"}, {"type": "null"} ]
+        "type": ["boolean", "null"]
       },
       "immuneToPoison": {
-        "anyOf": [ {"type": "boolean"}, {"type": "null"} ]
+        "type": ["boolean", "null"]
       },
       "immuneToVenom" : {
-        "anyOf": [ {"type": "boolean"}, {"type": "null"} ]
+        "type": ["boolean", "null"]
       },
       "options"       : {
         "anyOf": [
           {
             "type" : "array",
             "items": {
-              "anyOf": [ {"type": "string"}, {"type": "null"} ]
+              "type": ["string", "null"]
             }
           },
           {"type": "null"}

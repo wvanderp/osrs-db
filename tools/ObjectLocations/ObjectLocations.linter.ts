@@ -8,7 +8,10 @@ export default function lintObjectLocations() {
   const filePath = path.join(__dirname, "./data/object-locations.g.json");
 
   console.log(`${prefix} Linting object-locations.g.json`);
-  lintWithZod(filePath, ObjectLocationsSchema, { prefix });
+  const valid = lintWithZod(filePath, ObjectLocationsSchema, { prefix });
+  if (!valid) {
+    throw new Error("Object locations schema lint failed");
+  }
 
   console.log(green(`${prefix} object-locations.g.json is valid`));
 }

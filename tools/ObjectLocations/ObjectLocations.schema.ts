@@ -18,7 +18,9 @@ export type ObjectLocation = z.infer<typeof ObjectLocationSchema>;
 /**
  * Schema for object-locations.g.json: an array of object location entries
  */
-export const ObjectLocationsSchema = z.array(ObjectLocationSchema);
+export const ObjectLocationsSchema = z
+    .array(ObjectLocationSchema)
+    .min(1, "At least one object location must be generated");
 
 export type ObjectLocations = z.infer<typeof ObjectLocationsSchema>;
 
