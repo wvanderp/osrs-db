@@ -31,6 +31,9 @@ fi
 
 # Build with Gradle
 cd ..
+# Use Gradle's distribution host directly to avoid the services redirect.
+sed -i 's/services.gradle.org/downloads.gradle.org/g' gradle/wrapper/gradle-wrapper.properties
+
 # Allow slow distribution downloads and retry transient download/build failures.
 for attempt in 1 2 3; do
   if ./gradlew -Dorg.gradle.wrapper.networkTimeout=120000 :cache:shadowJar -x test --dependency-verification=off; then
